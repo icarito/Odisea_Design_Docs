@@ -1,21 +1,15 @@
-# Pilares de Diseño: Odisea
+# Pilares de Diseño
 
-Estos son los conceptos fundamentales que guían cada decisión de desarrollo.
+Estos son los pilares fundamentales que definen la experiencia de "Odisea: El Arca Silenciosa".
 
-## 1. Hard Sci-Fi Emocional
-* La tecnología es creíble y pesada (no hay magia espacial).
-* El conflicto es humano vs. lógica, no bien vs. mal.
-* Referencia: [[Personaje_IA_Odisea]] y su lógica de preservación.
+*   **Género**: Plataformas 3D, Aventura, Puzzles.
 
-## 2. Plataformas de Precisión 3D
-* El núcleo del juego ("Core Loop") es el movimiento.
-* Estilo de control: Mario 64 / Zelda. Saltos legibles, inercia controlada.
-* Evolución: De [[Locacion_Criogenia]] (1G) a [[Locacion_Modulos_Rotatorios]] (Gravedad Variable) a [[Locacion_Nucleo_0G]] (6DOF).
+*   **Estética**: Low-Poly Sci-Fi, Tron, N64/Clásicos de Consola, Iluminación de Neón/Niebla.
 
-## 3. Antagonismo Ambiental
-* No hay enemigos "mobs" tradicionales.
-* El enemigo es la nave misma: fugas de radiación, puertas bloqueadas, gravedad inversa.
-* La única "entidad" hostil son los Drones de Diagnóstico, que requieren sigilo, no combate directo.
+*   **Tono**: Suspenso, Claustrofobia, Melancolía, Dilema Moral.
 
-## 4. Soledad Acompañada
-* [[Personaje_Elias]] está solo físicamente, pero acompañado constantemente por la voz de la IA y su herramienta [[Entidad_Cargol]].
+*   **Núcleo de Jugabilidad**:
+    *   Plataformas de precisión en gravedad variable.
+    *   Exploración a gran escala mediante vehículos.
+    *   Resolución de puzzles de sistemas.
+    *   Combate/sigilo contra drones saboteados por la IA.

@@ -1,17 +1,9 @@
-# Dirección de Arte: Estilo Visual
+# Dirección de Arte y Estilo Visual
 
-**Concepto:** Retro-Futurismo Low-Poly (Era PS1/N64 modernizada).
+La estética del juego busca un estilo retro-futurista de ciencia ficción dura, con las siguientes influencias clave:
 
-## Claves Estéticas
-1. **Polígonos Visibles:** No suavizar los modelos. Las aristas duras definen la tecnología.
-2. **Sin Texturas Fotorrealistas:** Uso de colores planos (Flat shading) o degradados simples.
-3. **Iluminación Volumétrica:** Haces de luz visibles en la niebla para dar atmósfera (God rays).
-4. **Interfaz Diegética:** El HUD es parte del casco de [[Personaje_Elias]], no una capa pegada en la pantalla.
-
-## Paleta de Colores
-* **Jugador:** Naranja Quemado (#CC5500) + Cian (Luces).
-* **IA/Nave (Segura):** Azul Hielo (#A5F2F3) + Blanco Clínico.
-* **Peligro/Sabotaje:** Rojo Alerta (#FF0000) + Amarillo Precaución.
-* **Espacio:** Negro Absoluto (No usar gris oscuro para el vacío).
-
-Ver ejemplos en: [[Arte_Prompts_Generativos]].
+*   **Modelo de Poligonización**: Low-Poly, evocando la era de N64 y los clásicos de consola de esa generación.
+*   **Iluminación y Atmósfera**: Fuerte presencia de iluminación de neón, niebla volumétrica y alto contraste para crear una atmósfera de claustrofobia y misterio.
+*   **Influencia Estética**: Elementos visuales inspirados en *Tron*, con espacios limpios y geométricos, especialmente en las áreas cercanas al núcleo de la IA.
+*   **Paleta de Colores**: Tonos fríos (azules, cianes) contrastados con luces de advertencia (rojos, naranjas) y la vegetación de neón de las bio-granjas.
+*   **Diseño de Personajes y Props**: Funcional y utilitario. El traje de Elías es de mantenimiento, no de combate. Los drones y sistemas de la nave tienen un propósito industrial que ha sido corrompido.

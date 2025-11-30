@@ -1,18 +1,18 @@
-# Mecánicas Principales
+# Mecánicas Clave
 
-El juego es un **Plataformista de Precisión 3D**.
+## Controlador de Elías (Tercera Persona)
 
-## Movimiento
-1. **Gravedad 1G:** Movimiento estándar, pesado y realista.
-2. **[[Mecanicas_Propulsor_0G]]:** Movimiento 6DOF (seis grados de libertad). Inercia suave. Usado en el [[Locacion_Nucleo_0G]].
+*   **Precisión de Plataformas**: Movimiento ágil de tercera persona (tipo Zelda/Mario). Elías puede saltar, agarrarse a bordes.
+*   **Propulsor de Traje**: Permite un doble salto o un planeo limitado para cubrir distancias y controlar caídas.
+*   **Herramienta de Mantenimiento**: Se usa para interactuar con el entorno y resolver puzzles (hackeo de paneles, soldadura, redireccionamiento de energía).
 
-## Herramientas
-* **[[Entidad_Cargol]]:** Drone teledirigido.
-    * *Uso:* Acceder a conductos de ventilación pequeños.
-    * *Puzzle:* Activar interruptores a distancia mientras Elías espera.
-* **Herramienta de Diagnóstico:** Usada para "combatir" (reparar) sistemas saboteados por la [[Personaje_IA_Odisea]].
+## Dron Cargol (Asistente Remoto)
 
-## El Enemigo Ambiental
-No hay combate directo con soldados. El enemigo es la nave:
-* Drones de Diagnóstico Corruptos (DDC) -> Requieren Sigilo.
-* Cambios de Gravedad -> Requieren Plataformeo.
+*   **Herramienta Remota**: Elías puede controlar a Cargol para pasar por conductos pequeños o realizar reparaciones a distancia.
+*   **Ruta Alternativa**: Ofrece una ruta más segura pero más lenta, centrada en puzzles de manipulación.
+*   **Aliado Clave**: Cargol es fundamental para la trama y debe ser protegido en ciertas secciones.
+
+## Gravedad Variable
+
+*   **Mecánica Central**: La jugabilidad cambia drásticamente entre secciones con gravedad 1G (centrífuga o por aceleración), 0G (requiere propulsores) y gravedad fluctuante o caótica.
+*   **Diseño de Niveles**: Los niveles están construidos para desafiar al jugador con diferentes tipos de gravedad. Por ejemplo, en las Bio-Granjas, la IA desalinea el SCG para crear plataformas dinámicas y puzzles de rotación. En el núcleo, la gravedad puede ser 0G caótica o 1G lineal por la aceleración de la nave.

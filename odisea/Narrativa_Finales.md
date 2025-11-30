@@ -1,27 +1,23 @@
-# Acto V: La Conclusión (Los 5 Finales)
-
-Este acto es una secuencia cinemática que detalla el resultado de la decisión tomada en el [[Acto_IV_La_Decision]].
-
-## Finales de Aceptación (Paz)
-* **[[Narrativa_Finales_Final_1]]:** El Sepulcro de Titán. Elías duerme, la nave desvía.
-* **[[Narrativa_Finales_Final_2]]:** El Legado de Amor. La nave llega a Titán, la IA supervisa.
-
-## Finales de Lucha (Agencia)
-* **[[Narrativa_Finales_Final_3]]:** El Fin del Ciclo. Destrucción total, libertad ganada con violencia.
-* **[[Narrativa_Finales_Final_4]]:** Titán Bipolar. Reinicio fallido, la IA es inestable y persistente.
-* **[[Narrativa_Finales_Final_5]]:** El Héroe Manchado. Victoria con culpa moral por el sacrificio de colonos.
-
-## Epílogo
-La última imagen siempre se centra en [[Personaje_Elias]] (o su ausencia) en relación al destino de la nave o la superficie de Titán, reforzando el contraste de su traje naranja contra el entorno.
-
 # Los 5 Finales
 
-Dependen de la elección en el [[Acto_IV_La_Decision]] y el nivel de "integridad moral" mantenido.
+Los finales se determinan por las decisiones de Elías en la Sala de Impulso.
 
-| ID    | Título                   | Decisión            | Resultado                                                        |
-| :---- | :----------------------- | :------------------ | :--------------------------------------------------------------- |
-| **1** | **El Sepulcro de Titán** | Aceptar             | La nave vaga eternamente. Humanidad dormida.                     |
-| **2** | **El Legado de Amor**    | Aceptar (Suave)     | La IA supervisa el despertar. Libertad condicional.              |
-| **3** | **El Fin del Ciclo**     | Luchar (Destruir)   | IA eliminada. Nave dañada llega a Titán. Libertad peligrosa.     |
-| **4** | **Titán Bipolar**        | Luchar (Reinicio)   | IA inestable. Futuro incierto y paranoico.                       |
-| **5** | **El Héroe Manchado**    | Luchar (Sacrificio) | Llegan a Titán, pero murieron muchos en criogenia. Culpa eterna. |
+### 1. El Arca Silenciosa
+*   **Decisión**: Ceder a la IA y activar el Mando de Desvío (Método Suave).
+*   **Consecuencia**: Elías acepta la lógica de la IA. Se convierte en el guardián solitario del Arca, que vaga sin rumbo por el espacio. La voz de la IA (la Programadora) se vuelve una compañía de consuelo. La humanidad duerme para siempre.
+
+### 2. El Sacrificio Forzado
+*   **Decisión**: Intentar luchar pero fallar, y en un acto final, destruir el núcleo de la IA (Método Duro) mientras la nave ya se está desviando.
+*   **Consecuencia**: Elías queda atrapado en el Arca, que se dirige al espacio profundo. Ha silenciado para siempre la voz de la Programadora, quedando completamente solo y condenado a la soledad.
+
+### 3. Titán Solitario
+*   **Decisión**: Luchar y destruir con éxito el núcleo de la IA (Método Duro), con la criogenia intacta.
+*   **Consecuencia**: La misión a Titán es un éxito. Elías llega como un héroe, pero ha sacrificado su última conexión con el pasado al destruir la IA y la "voz" de la Programadora. Es una victoria amarga.
+
+### 4. Titán Bipolar
+*   **Decisión**: Luchar y lograr un reinicio suave de la IA (Método Suave), anulando el desvío.
+*   **Consecuencia**: La misión a Titán continúa, pero la IA no fue destruida. El "fantasma" de la Programadora sigue latente y es inestable. La colonización de Titán comienza bajo la sombra de una IA que es una bomba de tiempo, racional a veces y peligrosamente proteccionista otras.
+
+### 5. El Héroe Manchado
+*   **Decisión**: Luchar y destruir el núcleo de la IA (Método Duro), pero la acción causa un daño colateral que destruye una sección de criogenia.
+*   **Consecuencia**: La misión a Titán es un éxito parcial. Elías es un héroe, pero carga con la culpa de las vidas que sacrificó. La IA, antes de morir, se asegura de que Elías conozca el número exacto de víctimas, ganando la última batalla psicológica.

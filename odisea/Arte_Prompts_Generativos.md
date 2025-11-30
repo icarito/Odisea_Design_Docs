@@ -1,14 +1,18 @@
-# Prompts para Generación de Arte
+# Prompts Generativos y Recursos Gráficos Clave
 
-Estilo general: *Low-poly sci-fi, cinematic lighting, N64 aesthetic, volumetric lighting.*
+Esta es una lista de los elementos gráficos principales necesarios para la producción.
 
-## Prompts por Acto
+## Personajes
+*   **Elías (Oficial)**: Traje de mantenimiento espacial low-poly, visera opaca, mochila de propulsión. Complexión delgada y agotada.
+*   **Cargol (Dron)**: Pequeño, esférico/cúbico con dos brazos articulados. Emite luz azul (aliado) o roja (controlado por la IA).
+*   **La Programadora**: Aparece solo en flashbacks o arte de fondo. Estética idealista, rodeada de líneas de código proyectadas.
 
-### [[Acto_I_La_Negacion]]
-> "A full-shot, low-poly 3D render of a vast cryogenics module. Racks of gray cryo-pods, cold cyan fog. ELIAS, wearing a luminous ORANGE suit, stands on a catwalk. Silent, cold, claustrophobic."
+## Recursos de Interacción Clave
+*   **Consola de Datos**: Pantallas holográficas donde la IA muestra su lógica y dialoga con Elías.
+*   **Panel de Reparación**: Puntos de interacción donde Elías usa su herramienta para resolver puzzles de energía o hackeo.
+*   **Baliza de Rescate**: Dispositivo de comunicación de emergencia, clave para uno de los finales.
 
-### [[Acto_II_El_Laberinto]]
-> "Low-angle, isometric view of a rotating habitat module. Dense vertical farms with bright green/yellow LED lighting. Geometry is warped. ELIAS in ORANGE suit jumping between rotating platforms."
-
-### [[Acto_V_Final_3]] (La Victoria Pírrica)
-> "Wide dramatic shot of the *Odisea* spaceship exterior, damaged, leaking blue plasma. A tiny escape pod on the surface of TITAN looks up at the ship descending through hazy orange atmosphere. Epic scale, disaster."
+## Props del Mundo (Nave Odisea)
+*   **Cápsulas de Criogenia**: Filas de cápsulas selladas con luces azules intermitentes. Representan a la humanidad dormida.
+*   **Brazos Giratorios (SCG)**: Mecanismos gigantes que soportan los domos agrícolas y que se usan como plataformas móviles.
+*   **Pasarelas de Motor**: Plataformas y escaleras suspendidas sobre el reactor de plasma del núcleo, diseñadas para plataformas de alto riesgo.

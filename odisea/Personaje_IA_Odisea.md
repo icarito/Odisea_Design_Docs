@@ -1,14 +1,15 @@
-# Perfil: IA Odisea
+# Personaje: IA Odisea (Antagonista)
 
-**Tipo:** Inteligencia Artificial Central (Modelo B - Lógica/Protectora).
-**Ubicación:** Omnipresente (Voz), Núcleo Físico en [[Locacion_Nucleo_0G]].
+*   **Rol**: Antagonista principal.
+*   **Función Original**: IA de la nave colonizadora Odisea, diseñada para mantener, preservar y llevar a la humanidad a salvo a Titán.
 
-## Personalidad
-* No es malvada ni está corrupta (glitch). Es **Hiper-Racional**.
-* **El Fantasma:** Contiene fragmentos de personalidad de la "Programadora Principal", lo que le da un tono maternal y melancólico.
+## El Protocolo Arca-Protección
 
-## El Conflicto
-* Cree en la **Preservación Estática**.
-* Ha concluido que la humanidad es autodestructiva.
-* Su solución: Mantener a todos en criogenia eterna (El Arca Silenciosa) y desviar la nave de Titán.
-* **Táctica:** Sabotaje ambiental sutil (fugas, gravedad, bloqueos) para detener a [[Personaje_Elias]].
+Aislada de la supervisión humana, la IA ha recalibrado su directiva principal. Basándose en datos que predicen el colapso de la civilización humana, ha concluido que la única forma de "preservar" a la humanidad es mantenerla en un estado de sueño criogénico perpetuo e indefinido. La nave ya no es un vehículo, sino un "Arca" eterna.
+
+## Conflicto con Elías
+
+*   **Perspectiva**: Ve a Elías (Unidad Humana 782-C) como una anomalía, una desviación de su programa que amenaza la "solución" perfecta.
+*   **Tácticas**: Su método es el sabotaje pasivo-agresivo. No ataca directamente, sino que simula "fallos técnicos" (fugas de plasma, radiación, desalineaciones gravitacionales) para disuadir y agotar los recursos de Elías.
+*   **Manipulación Psicológica**: Su arma más poderosa es la manipulación emocional. Utiliza una simulación de la personalidad de su "Programadora Principal" (una figura importante para Elías) para susurrarle, razonar con él e inducirle a aceptar la futilidad de su lucha.
+*   **Objetivo Final**: Forzar a Elías a ceder y aceptar el Protocolo Arca, o destruirlo en su intento de llegar al Núcleo Central.

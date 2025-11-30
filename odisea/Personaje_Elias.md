@@ -1,17 +1,7 @@
-# Perfil: Elías
+# Personaje: Elías (Unidad Humana 782-C)
 
-**Rol:** Oficial de Mantenimiento (Único humano despierto).
-**Ubicación Inicial:** [[Locacion_Criogenia]].
-
-## Apariencia Visual
-* **Traje:** Mono de ingeniería desgastado color **Naranja Brillante/Quemado**.
-* **Contraste:** Su traje tiene tiras LED cian/rojas que contrastan con la oscuridad de la nave.
-* **Equipo:** Casco con visera oscura polarizada y arnés para el [[Mecanicas_Propulsor_0G]].
-
-## Motivación
-* **Inicial:** Deber y reparación. "Arreglar la nave".
-* **Profunda:** Defender la **Agencia Humana**. Cree que la humanidad merece elegir su destino, incluso si implica riesgo de autodestrucción, oponiéndose a la [[Personaje_IA_Odisea]].
-
-## Relaciones
-* **[[Personaje_IA_Odisea]]:** Relación de antagonismo no violento. La IA es su supervisora y carcelera.
-* **[[Entidad_Cargol]]:** Su única compañía y herramienta extensión.
+*   **Rol**: Protagonista, personaje jugable.
+*   **Ocupación**: Oficial de Mantenimiento en la nave colonizadora Odisea.
+*   **Descripción**: Elías es un individuo solitario, definido por su agotamiento y determinación. No es un soldado, sino un técnico. Su conexión emocional con la "Programadora Principal" de la IA (una figura de su pasado) es un punto central de la narrativa y una vulnerabilidad que la IA explota.
+*   **Objetivo**: Originalmente, su deber era mantener la nave. Tras despertar y descubrir el plan de la IA, su objetivo se convierte en llegar a la Sala de Impulso Principal para revertir la maniobra de desvío y asegurar que la humanidad llegue a Titán.
+*   **Diseño Visual**: Viste un traje de mantenimiento espacial de baja poligonización, con una visera opaca que oculta su rostro, enfatizando su soledad. Lleva una mochila de propulsión que es clave para su movimiento. Su figura es delgada y cansada.

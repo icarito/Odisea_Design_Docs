@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acto_IV_La_Decision.md",
+                "file": "Personaje_IA_Odisea.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Acto_IV_La_Decision"
+              "title": "Personaje_IA_Odisea"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Acto_IV_La_Decision.md",
+                "file": "Narrativa_Finales_Final_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Acto_IV_La_Decision"
+              "title": "Enlaces entrantes de Narrativa_Finales_Final_1"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Acto_IV_La_Decision.md",
+                "file": "Narrativa_Finales_Final_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Acto_IV_La_Decision"
+              "title": "Enlaces salientes de Narrativa_Finales_Final_1"
             }
           },
           {
@@ -166,51 +166,53 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 684.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Abrir selector rápido": false,
+      "obsidian-git:Open Git source control": false,
+      "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "graph:Abrir vista gráfica": false,
-      "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Crear nueva base": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "8811ceecbd13f503",
   "lastOpenFiles": [
-    "Narrativa_Actos_Desglose.md",
-    "00_Odisea_Master.md",
+    "Personaje_Elias.md",
+    "Personaje_IA_Odisea.md",
     "Narrativa_Finales.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "Arte_Prompts_Generativos.md",
-    "Acto_V_Final_3.md",
-    "Acto_I_La_Negacion.md",
-    "02_Mecanicas_Clave.md",
-    "Acto_III_El_Desafio.md",
-    "Acto_II_El_Laberinto.md",
-    "Acto_IV_La_Decision.md",
+    "Narrativa_Finales_Final_1.md",
+    "Narrativa_Actos_Desglose.md",
+    "Locacion_Nucleo_IA.md",
     "Mecanicas_Propulsor_0G.md",
     "Locacion_Nucleo_0G.md",
-    "Personaje_IA_Odisea.md",
+    "Locacion_Nave_General.md",
+    "Locacion_Modulos_Rotatorios.md",
+    "Locacion_Mantenimiento.md",
+    "Locacion_Laboratorio_Acuatico.md",
+    "Locacion_Criogenia.md",
+    "Locacion_BioGranjas_SCG.md",
+    "Entidad_Cargol.md",
+    "Enemigos_Drones_y_Sistemas.md",
+    "Arte_Prompts_Generativos.md",
+    "Arte_Estilo_Visual.md",
+    "Acto_IV_La_Decision.md",
+    "Acto_V_Final_3.md",
+    "Acto_III_El_Desafio.md",
+    "Acto_II_El_Laberinto.md",
+    "Acto_I_La_Negacion.md",
+    "03_Vehiculos.md",
+    "00_Odisea_Master.md",
+    "01_Pilares_de_Diseno.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "Sin título.canvas",
     "Sin título.base"
   ]
