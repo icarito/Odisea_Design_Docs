@@ -1,5 +1,5 @@
 # Odisea: El Arca Silenciosa - Master Index
-
+![[odisea_master_portada.png]]
 ## Resumen Ejecutivo
 Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador asume el rol de Elías, Oficial de Mantenimiento, enfrentando el dilema de la humanidad bajo el control de la IA Odisea. Para detalles completos de narrativa, mecánicas y personajes, consulta los archivos enlazados abajo.
 
@@ -39,3 +39,6 @@ Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador 
 
 ### 📖 Narrativa y Estructura
 * [[Desglose_Estilos]]
+
+### 🗂️ Plan de Producción
+* [[Plan_Implementacion_MVP]]

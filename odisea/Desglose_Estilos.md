@@ -4,8 +4,8 @@ Este documento divide el juego en 5 Actos, donde los tres primeros son el viaje 
 
 ## [[Acto_I_La_Negacion|Acto I: La Negación (El Despertar)]]
 
-| Título de la Escena | Locación Principal | Objetivo Narrativo | Estilo Visual y Ambiente |
-|---|---|---|---|
+| Título de la Escena    | Locación Principal          | Objetivo Narrativo                                                                                                                                         | Estilo Visual y Ambiente                                                                                                                                                                                                                           |
+| ---------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | El Sepulcro Criogénico | Popa y Módulos de Criogenia | Elías despierta y debe ignorar la IA, procediendo a restaurar el sistema primario de propulsión para detener el desvío. Se introduce el sigilo contra DDC. | Frío y Silencioso. Dominado por el azul cian de las cápsulas y el metal gris oscuro. La Niebla Criogénica reduce la visibilidad. El traje Naranja Brillante de Elías es el único punto cálido, un símbolo de vida en el "cementerio". Gravedad 1G. |
 
 ## [[Acto_II_El_Laberinto|Acto II: El Laberinto (El Conflicto Físico)]]

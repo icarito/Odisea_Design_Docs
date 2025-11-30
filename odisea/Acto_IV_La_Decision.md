@@ -5,7 +5,7 @@
 
 ## Objetivo Narrativo
 Es el clímax narrativo puro. Elías ya no lucha contra el entorno, sino contra la ideología de la [[Personaje_IA_Odisea]]. Se debe tomar una decisión irreversible.
-
+![[acto4_decision_portada.png]]
 ## Puzzles y Mecánicas
 * **Duelo Filosófico:** Elías recibe un largo diálogo final de la IA, que resume todos sus argumentos sobre la autodestrucción humana, utilizando las voces de la Programadora Principal y su lógica fría. Elías solo responde con sus acciones.
 * **Terminal de Comando:** El panel presenta tres opciones críticas:

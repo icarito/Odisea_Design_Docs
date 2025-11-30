@@ -1,3 +1,4 @@
+![[acto1_negacion_portada.png]]
 # Acto I: La Negación
 
 **Título de la Escena:** El Sepulcro Criogénico

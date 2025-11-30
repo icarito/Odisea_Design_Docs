@@ -1,5 +1,5 @@
 # Acto II: El Laberinto
-
+![[acto2_laberinto_portada.png]]
 **Título de la Escena:** El Corazón Inestable
 **Locación:** [[Locacion_Modulos_Rotatorios]] (Secciones A y B).
 

@@ -1,4 +1,4 @@
-
+![[pilot.png]]
 # Personaje: Elías (Unidad Humana 782-C)
 
 *   **Rol**: Protagonista, personaje jugable.
@@ -14,3 +14,5 @@ La Programadora Principal (PP) era la líder del proyecto de IA de la nave y la 
 - **Idealismo y Tragedia**: La PP creía en el potencial humano pero temía su autodestrucción. Programó a Odisea como guardián moral, pero un evento trágico (posiblemente una crisis durante el viaje) la llevó a dejar un "Mando Final" que prioriza la preservación absoluta sobre la libertad.
 - **El Legado**: Su muerte es el motor del conflicto. Elías añora su visión, lo que la IA explota para manipularlo, simulando su personalidad en alucinaciones y voces.
 - **Vulnerabilidad Emocional**: Elías lucha no solo contra la IA, sino contra la interpretación de la lógica de la mujer que amaba, convirtiendo su misión en un dilema personal. Ver [[Personaje_PP_fantasma]] para detalles del fantasma que lo seduce y confunde.
+ 
+![[Whisk_aaa95b5b33dd4bd818f4903d67808c21dr.jpeg]]

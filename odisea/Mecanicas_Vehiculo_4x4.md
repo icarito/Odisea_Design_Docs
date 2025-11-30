@@ -1,3 +1,4 @@
+![[vehiculo_4x4_modelo.png]]
 # Mecánicas del Vehículo 4x4 (Terrestre)
 
 El vehículo 4x4 es la solución de Elías para atravesar las enormes distancias a nivel de "suelo" en secciones como las Bio-Granjas (Acto II), donde caminar sería demasiado lento.

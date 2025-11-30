@@ -1,3 +1,4 @@
+![[nave_odisea_seccion.jpeg]]
 # Acto III: El Desafío
 
 **Título de la Escena:** El Vientre del Leviatán

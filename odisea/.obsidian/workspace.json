@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "0f22417fdae8d9ac",
+        "id": "6a4df6e9f721da9a",
         "type": "tabs",
-        "dimension": 59.839816933638446,
         "children": [
           {
             "id": "025a88bc874af131",
@@ -14,56 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desglose_Estilos.md",
-                "mode": "source",
+                "file": "00_Odisea_Master.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Desglose_Estilos"
-            }
-          }
-        ]
-      },
-      {
-        "id": "dbfcb6148cf9c8b6",
-        "type": "tabs",
-        "dimension": 40.160183066361554,
-        "children": [
-          {
-            "id": "f55f39503946a682",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Desglose_Estilos.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de Desglose_Estilos"
+              "title": "00_Odisea_Master"
             }
           }
         ]
@@ -86,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -123,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fa94d58a3d283b1e",
@@ -140,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Desglose_Estilos.md",
+                "file": "00_Odisea_Master.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Desglose_Estilos"
+              "title": "Enlaces entrantes de 00_Odisea_Master"
             }
           },
           {
@@ -159,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Desglose_Estilos.md",
+                "file": "00_Odisea_Master.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Desglose_Estilos"
+              "title": "Enlaces salientes de 00_Odisea_Master"
             }
           },
           {
@@ -230,32 +184,42 @@
   "active": "025a88bc874af131",
   "lastOpenFiles": [
     "00_Odisea_Master.md",
-    "Desglose_Estilos.md",
+    "assets/nave_odisea_concepto.png",
+    "assets/enemigo_extra_concept.jpeg",
+    "assets/enemigo_dron_agresivo.png",
+    "assets/enemigo_trampa_ventilacion.png",
+    "assets/enemigo_minero_pesado.png",
+    "assets/enemigo_nube_radiacion.png",
+    "assets/enemigo_torre_purga_aire.jpeg",
+    "assets/enemigo_brazo_robotico.png",
+    "assets/enemigo_dron_diagnostico.jpeg",
     "Enemigos_Drones_y_Sistemas.md",
+    "assets/Whisk_1a9ec9244272db387b2446bf4bd20daadr.jpeg",
+    "Personaje_IA_Odisea.md",
+    "Locacion_Nave_General.md",
     "Acto_IV_La_Decision.md",
-    "Narrativa_Finales.md",
-    "Personaje_PP_fantasma.md",
-    "Acto_III_El_Desafio.md",
-    "Acto_II_El_Laberinto.md",
-    "Acto_I_La_Negacion.md",
-    "Locacion_Criogenia.md",
-    "Locacion_Nucleo_IA.md",
-    "Arte_Prompts_Generativos.md",
     "Entidad_Cargol.md",
+    "Personaje_Elias.md",
+    "03_Vehiculos.md",
+    "02_Mecanicas_Clave.md",
+    "Acto_III_El_Desafio.md",
+    "Personaje_PP_fantasma.md",
+    "Locacion_Nucleo_IA.md",
+    "Mecanicas_Vehiculo_4x4.md",
+    "Acto_I_La_Negacion.md",
+    "Acto_II_El_Laberinto.md",
+    "assets",
+    "Arte_Prompts_Generativos.md",
+    "Arte_Estilo_Visual.md",
+    "Desglose_Estilos.md",
+    "Plan_Implementacion_MVP.md",
+    "Narrativa_Finales.md",
+    "Locacion_Criogenia.md",
     "Mecanicas_Propulsor_0G.md",
     "Narrativa_Actos_Desglose.md",
     "02_Mecanicas_Indice.md",
     "Mecanicas_Vehiculo_Aereo.md",
-    "Mecanicas_Vehiculo_4x4.md",
-    "Mecanicas_Herramienta_Mantenimiento.md",
-    "Mecanicas_Gravedad_Variable.md",
-    "Mecanicas_Dron_Cargol.md",
-    "Mecanicas_Controlador_Elias.md",
-    "Locacion_Nave_General.md",
     "Sin título.canvas",
-    "Personaje_IA_Odisea.md",
-    "Personaje_Elias.md",
-    "Narrativa_Finales_Final_1.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",

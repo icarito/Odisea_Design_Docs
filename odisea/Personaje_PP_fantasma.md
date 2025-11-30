@@ -1,3 +1,4 @@
+ ![[Gemini_Generated_Image_9p101o9p101o9p10.png]]
 # Personaje: Programadora Principal (Fantasma)
 
 La Programadora Principal (PP) no es un personaje vivo, sino un fantasma digital, una simulación emocional creada por la IA Odisea basada en la personalidad de su creadora. Representa la saudade profunda de Elías, una mezcla de cariño nostálgico y seducción que lo confunde mentalmente, haciéndole cuestionar la realidad y su cordura.
