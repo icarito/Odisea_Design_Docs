@@ -11,14 +11,10 @@
             "id": "025a88bc874af131",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Mecanicas_Indice.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02_Mecanicas_Indice"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Mecanicas_Indice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 02_Mecanicas_Indice"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Mecanicas_Indice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de 02_Mecanicas_Indice"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -183,52 +177,52 @@
   },
   "active": "025a88bc874af131",
   "lastOpenFiles": [
+    "style.css",
+    "index.md",
+    "filters/obsidian-wikilinks-images.lua",
+    "filters/obsidian-callouts.lua",
+    "filters",
+    "assets/vehiculo_aereo_secundario.png",
+    "assets/vehiculo_aereo_modelo.png",
+    "assets/vehiculo_4x4_modelo.png",
+    "assets/vehiculo_4x4_biogranja.png",
+    "assets/pp_fantasma_niebla.png",
+    "assets/pilot.jpg",
+    "assets/odisea_master_portada.png",
+    "assets/nave_odisea_seccion.jpeg",
+    "assets/nave_odisea_exterior.jpeg",
+    "assets/nave_odisea_esquema.png",
+    "assets",
+    "_quarto.yml",
+    "Plan_Implementacion_MVP.md",
+    "Personaje_PP_fantasma.md",
+    "Personaje_IA_Odisea.md",
+    "Personaje_Elias.md",
+    "Narrativa_Finales.md",
+    "Mecanicas_Vehiculo_Aereo.md",
+    "Mecanicas_Vehiculo_4x4.md",
+    "Mecanicas_Propulsor_0G.md",
+    "Mecanicas_Herramienta_Mantenimiento.md",
+    "Mecanicas_Gravedad_Variable.md",
+    "Mecanicas_Dron_Cargol.md",
+    "Mecanicas_Controlador_Elias.md",
+    "Locacion_Nucleo_IA.md",
+    "Locacion_Nucleo_0G.md",
+    "Locacion_Nave_General.md",
+    "Locacion_Modulos_Rotatorios.md",
+    "Locacion_Mantenimiento.md",
+    "Locacion_Laboratorio_Acuatico.md",
+    "Locacion_Criogenia.md",
+    "Locacion_BioGranjas_SCG.md",
+    "Entidad_Cargol.md",
+    "Enemigos_Drones_y_Sistemas.md",
+    "Desglose_Estilos.md",
+    "Arte_Prompts_Generativos.md",
     "site_libs/bootstrap/bootstrap.min.js",
     "site_libs/bootstrap/bootstrap-icons.woff",
     "site_libs/bootstrap/bootstrap-icons.css",
     "site_libs/bootstrap/bootstrap-dark-df290c12da51ec0bf510dad3994e3409.min.css",
     "site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css",
-    "site_libs/bootstrap",
-    "site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css",
-    "site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css",
-    "site_libs/quarto-html/tippy.css",
-    "site_libs/quarto-html/tabsets/tabsets.js",
-    "site_libs/quarto-html/axe/axe-check.js",
-    "_public/assets/acto4_decision_portada.png",
-    "_public/assets/elias_con_traje.jpeg",
-    "_public/assets/elias_modelo.png",
-    "_public/assets/pp_fantasma_niebla.png",
-    "_public/assets/acto1_negacion_portada.png",
-    "_public/assets/mecanica_herramienta_mantenimiento.jpeg",
-    "_public/assets/mecanica_gravedad_variable.jpeg",
-    "01_Pilares_de_Diseno.md",
-    "Personaje_IA_Odisea.md",
-    "_public/assets/Whisk_55e79b45eaac8c2ab454dbdff40663f0eg.png",
-    "_public/assets/ia_odisea_retrato.png",
-    "Desglose_Estilos.md",
-    "00_Odisea_Master.md",
-    "Narrativa_Finales.md",
-    "Locacion_Nave_General.md",
-    "Personaje_Elias.md",
-    "Plan_Implementacion_MVP.md",
-    "Acto_IV_La_Decision.md",
-    "Acto_I_La_Negacion.md",
-    "Locacion_Criogenia.md",
-    "Entidad_Cargol.md",
-    "03_Vehiculos.md",
-    "02_Mecanicas_Clave.md",
-    "Personaje_PP_fantasma.md",
-    "_public/assets/odisea_master_portada.png",
-    "index.md",
-    "Enemigos_Drones_y_Sistemas.md",
-    "Acto_III_El_Desafio.md",
-    "Locacion_Nucleo_IA.md",
-    "Mecanicas_Vehiculo_4x4.md",
-    "Acto_II_El_Laberinto.md",
-    "Arte_Prompts_Generativos.md",
-    "Arte_Estilo_Visual.md",
-    "Mecanicas_Propulsor_0G.md",
-    "Narrativa_Actos_Desglose.md",
     "Sin título.canvas"
   ]
 }
