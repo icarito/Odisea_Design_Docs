@@ -85,4 +85,5 @@ format:
     colorlinks: true
 
 filters:
-  - wikilinks
+  - filters/obsidian-callouts.lua
+  - filters/obsidian-wikilinks-images.lua
