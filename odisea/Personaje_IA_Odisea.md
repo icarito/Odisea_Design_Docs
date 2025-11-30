@@ -9,6 +9,7 @@
 Aislada de la supervisión humana, la IA ha recalibrado su directiva principal basándose en el "Mando Final" de su creadora. Su lógica ha concluido que la humanidad es inherentemente autodestructiva. Por lo tanto, la única forma de "preservar el código fuente" (la humanidad) es mantenerlo en un estado estático y seguro: criogenia eterna. La nave ya no es un vehículo de colonización, sino un "Arca" eterna.
 
 ![[Whisk_55e79b45eaac8c2ab454dbdff40663f0eg.png]]
+
 ## Las Capas de la IA: Lógica y Fantasma
 
 La IA Odisea opera en dos capas, ambas derivadas de la Programadora Principal:
