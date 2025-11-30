@@ -4,7 +4,7 @@ La Odisea es una nave colonizadora de 8 kilómetros de largo, diseñada como un 
 
 ## Estructura y Secciones
 
-La nave se divide en grandes secciones temáticas que varían en jugabilidad, estética y tipo de gravedad. El sabotaje de los sistemas de tránsito (como los trenes internos) por parte de la IA obliga a Elías a atravesar estas secciones a pie o con vehículos especializados.
+La nave se divide en grandes secciones que varían en jugabilidad, estética y tipo de gravedad. Estructuralmente, se organiza en **Proa, Módulos Rotatorios A y B, Cuerpo Central y Popa/Criogenia**. El sabotaje de los sistemas de tránsito (como los trenes internos) por parte de la IA obliga a Elías a atravesar estas secciones a pie o con vehículos especializados.
 
 *   **Acto I**: Módulos de Criogenia y Secciones de Mantenimiento.
 *   **Acto II**: Bio-Granjas SCG y Laboratorio de Biología Acuática.

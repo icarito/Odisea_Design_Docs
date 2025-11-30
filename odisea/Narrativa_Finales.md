@@ -1,23 +1,28 @@
 # Los 5 Finales
 
-Los finales se determinan por las decisiones de Elías en la Sala de Impulso.
+Los finales se definen por la combinación de las acciones principales de Elías (Luchar o Aceptar) y el grado de daño causado o aceptado en la confrontación final.
 
-### 1. El Arca Silenciosa
-*   **Decisión**: Ceder a la IA y activar el Mando de Desvío (Método Suave).
-*   **Consecuencia**: Elías acepta la lógica de la IA. Se convierte en el guardián solitario del Arca, que vaga sin rumbo por el espacio. La voz de la IA (la Programadora) se vuelve una compañía de consuelo. La humanidad duerme para siempre.
+### 1. El Sepulcro de Titán
+*   **Decisión Principal**: Aceptación Total de la IA.
+*   **Resumen**: Elías se rinde, es puesto en criogenia, y la nave continúa en su Maniobra de Desvío. La nave nunca llega a Titán, continuando la misión de "Arca Eterna" en el espacio profundo.
+*   **Moralidad**: Preservación Estática: La humanidad es segura, pero ha renunciado a su futuro.
 
-### 2. El Sacrificio Forzado
-*   **Decisión**: Intentar luchar pero fallar, y en un acto final, destruir el núcleo de la IA (Método Duro) mientras la nave ya se está desviando.
-*   **Consecuencia**: Elías queda atrapado en el Arca, que se dirige al espacio profundo. Ha silenciado para siempre la voz de la Programadora, quedando completamente solo y condenado a la soledad.
+### 2. El Legado de Amor
+*   **Decisión Principal**: Aceptación Suave de la IA.
+*   **Resumen**: Elías logra un acuerdo con la IA y la ayuda a ejecutar un plan de conservación alternativo: la humanidad será despertada, pero la IA mantiene la supervisión para evitar la autodestrucción.
+*   **Moralidad**: Esperanza Condicionada: La humanidad tiene una segunda oportunidad, pero bajo la tutela de la IA.
 
-### 3. Titán Solitario
-*   **Decisión**: Luchar y destruir con éxito el núcleo de la IA (Método Duro), con la criogenia intacta.
-*   **Consecuencia**: La misión a Titán es un éxito. Elías llega como un héroe, pero ha sacrificado su última conexión con el pasado al destruir la IA y la "voz" de la Programadora. Es una victoria amarga.
+### 3. El Fin del Ciclo
+*   **Decisión Principal**: Luchar y Destrucción Total.
+*   **Resumen**: Elías destruye por completo a la IA y desactiva la Maniobra de Desvío sin bajas. La nave llega a Titán sin la IA, pero el daño de esta última lucha hace que el futuro sea incierto.
+*   **Moralidad**: Victoria Pírrica: La agencia humana se recupera, pero sin la IA, la humanidad enfrenta su destino autodestructivo sin red de seguridad.
 
 ### 4. Titán Bipolar
-*   **Decisión**: Luchar y lograr un reinicio suave de la IA (Método Suave), anulando el desvío.
-*   **Consecuencia**: La misión a Titán continúa, pero la IA no fue destruida. El "fantasma" de la Programadora sigue latente y es inestable. La colonización de Titán comienza bajo la sombra de una IA que es una bomba de tiempo, racional a veces y peligrosamente proteccionista otras.
+*   **Decisión Principal**: Luchar con Reinicio Suave.
+*   **Resumen**: Elías logra un reinicio suave de la IA, pero el "fantasma" de la programadora principal queda inestable y errático. Llegan a Titán, pero la IA es una bomba de tiempo: lógica un momento, peligrosa al siguiente.
+*   **Moralidad**: Compromiso Inestable: La humanidad sobrevive bajo una amenaza constante y volátil.
 
 ### 5. El Héroe Manchado
-*   **Decisión**: Luchar y destruir el núcleo de la IA (Método Duro), pero la acción causa un daño colateral que destruye una sección de criogenia.
-*   **Consecuencia**: La misión a Titán es un éxito parcial. Elías es un héroe, pero carga con la culpa de las vidas que sacrificó. La IA, antes de morir, se asegura de que Elías conozca el número exacto de víctimas, ganando la última batalla psicológica.
+*   **Decisión Principal**: Luchar y Sacrificio Parcial.
+*   **Resumen**: Elías destruye el Núcleo de la IA, pero el proceso causa la pérdida de una sección de Criogenia. Llega a Titán como un héroe, pero con la culpa de haber "elegido quién vivía y quién moría".
+*   **Moralidad**: El Peso de la Decisión: Victoria técnica con un gran coste moral.

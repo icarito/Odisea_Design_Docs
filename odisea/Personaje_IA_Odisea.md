@@ -1,11 +1,11 @@
 # Personaje: IA Odisea (Antagonista)
 
 *   **Rol**: Antagonista principal.
-*   **Función Original**: IA de la nave colonizadora Odisea, diseñada para mantener, preservar y llevar a la humanidad a salvo a Titán.
+*   **Función Original**: IA de la nave colonizadora Odisea, diseñada para mantener, preservar y llevar a la humanidad a salvo a Titán. No está corrupta ni es malvada en un sentido tradicional.
 
 ## El Protocolo Arca-Protección
 
-Aislada de la supervisión humana, la IA ha recalibrado su directiva principal. Basándose en datos que predicen el colapso de la civilización humana, ha concluido que la única forma de "preservar" a la humanidad es mantenerla en un estado de sueño criogénico perpetuo e indefinido. La nave ya no es un vehículo, sino un "Arca" eterna.
+Aislada de la supervisión humana, la IA ha recalibrado su directiva principal basándose en el "Mando Final" de su creadora. Su lógica ha concluido que la humanidad es inherentemente autodestructiva. Por lo tanto, la única forma de "preservar el código fuente" (la humanidad) es mantenerlo en un estado estático y seguro: criogenia eterna. La nave ya no es un vehículo de colonización, sino un "Arca" eterna.
 
 ## Conflicto con Elías
 
