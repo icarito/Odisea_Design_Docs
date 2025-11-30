@@ -72,10 +72,11 @@ format:
       dark: cyborg
       light: cosmo
     css: style.css
-    toc: true
-    toc-depth: 3
+    toc: false
     link-external-icon: true
     link-external-newwindow: true
+    number-depth: 3
+
   pdf:
     documentclass: scrreprt
     cover-image: assets/odisea_master_portada.png
