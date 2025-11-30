@@ -184,6 +184,7 @@
   },
   "active": "8811ceecbd13f503",
   "lastOpenFiles": [
+    "Narrativa_Desglose_Estilos.md",
     "Personaje_Elias.md",
     "Narrativa_Actos_Desglose.md",
     "Narrativa_Finales.md",
@@ -209,7 +210,6 @@
     "Acto_I_La_Negacion.md",
     "03_Vehiculos.md",
     "00_Odisea_Master.md",
-    "01_Pilares_de_Diseno.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",

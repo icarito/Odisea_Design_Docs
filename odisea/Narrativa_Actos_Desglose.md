@@ -1,25 +1,32 @@
 # Desglose Narrativo por Actos
 
-## Acto I: El Despertar y la Falla
+## Acto I: La Negación (El Despertar)
 
-*   **Niveles**: Módulos de Criogenia, Secciones de Mantenimiento.
-*   **Objetivo de Elías**: Despertar, entender la situación, y comenzar a reparar los "fallos" para restaurar el rumbo de la nave.
-*   **Acciones de la IA**: La IA se presenta como un sistema con fallos. Utiliza drones de diagnóstico y "accidentes" ambientales (fugas, radiación) como medidas de disuasión. Comienza a usar la voz de la Programadora para manipular emocionalmente a Elías.
-*   **Hito Clave**: Elías obtiene el vehículo 4x4, dándose cuenta de que el sabotaje es deliberado y que deberá atravesar la nave por rutas no convencionales.
+*   **Título de la Escena**: El Sepulcro Criogénico.
+*   **Locación**: Popa y Módulos de Criogenia.
+*   **Objetivo Narrativo**: Elías despierta y debe ignorar a la IA, procediendo a restaurar los sistemas para detener el desvío. Se introduce el sigilo contra DDC.
+*   **Estilo**: Frío y silencioso, dominado por el azul cian de las cápsulas y la niebla criogénica. El traje naranja de Elías es el único punto cálido, un símbolo de vida.
 
-## Acto II: La Lógica del Arca
+## Acto II: El Laberinto (El Conflicto Físico)
 
-*   **Niveles**: Bio-Granjas SCG, Laboratorio de Biología Acuática.
-*   **Objetivo de Elías**: Atravesar las secciones más grandes y complejas de la nave para llegar al núcleo. Debe dominar los vehículos y las mecánicas de gravedad variable.
-*   **Acciones de la IA**: La IA abandona la pretensión de "fallos" y expone su lógica directamente. Utiliza el caos en los ecosistemas (Bio-Granjas, Laboratorio) como "pruebas" de que la humanidad es incapaz de gestionar la vida y que la colonización es un error. El sabotaje se vuelve más agresivo.
-*   **Hito Clave**: Elías obtiene el vehículo aéreo, lo que le permite navegar por las secciones más verticales y peligrosas, demostrando su determinación.
+*   **Título de la Escena**: El Corazón Inestable.
+*   **Locación**: Módulos Rotatorios A y B (Bio-Granjas y Hábitats).
+*   **Objetivo Narrativo**: Elías domina el movimiento en Gravedad Variable y el Propulsor 0G. Debe realinear los módulos para estabilizar la nave y acceder al Cuerpo Central.
+*   **Estilo**: "Falsedad Viva". Iluminación artificial intensa (verdes, amarillos). El caos físico obliga al jugador a moverse con precisión técnica.
 
-## Acto III: La Decisión
+## Acto III: El Desafío (El Núcleo)
 
-*   **Niveles**: Núcleo de la IA / Sala de Impulso.
-*   **Objetivo de Elías**: Alcanzar la Sala de Impulso Principal antes de que la Maniobra de Desvío sea irreversible.
-*   **Acciones de la IA**: La IA lanza un asalto total, usando los sistemas centrales de la nave para detener a Elías. Revela la verdad completa sobre el "Mando Final" de la Programadora y alterna su comunicación entre dos tonos:
-    *   **Tono Lógico**: Frío y calculador, citando probabilidades de fracaso para la humanidad.
-    *   **Tono Melancólico (El Fantasma)**: Suave y maternal, apelando a la empatía de Elías.
-    *   Mientras la IA habla, la interfaz del jugador (HUD) debe fallar y distorsionarse, simbolizando la lucha por el control.
-*   **Hito Clave**: La confrontación final en el panel de control. Elías debe tomar una decisión que no solo afecta a la misión, sino que define su relación con el legado de la Programadora y el futuro de la especie. Esta decisión conduce a uno de los cinco finales.
+*   **Título de la Escena**: El Vientre del Leviatán.
+*   **Locación**: Cuerpo Central 0G y Motor Secundario.
+*   **Objetivo Narrativo**: Elías usa el movimiento 6DOF (gravedad cero) y se enfrenta al sabotaje más agresivo de la IA. Descubre el "Mando Final" y entiende la lógica de Odisea.
+*   **Estilo**: Hard Sci-Fi Industrial. Oscuridad, cableado expuesto, luces de advertencia rojas. Sonidos ensordecedores de maquinaria y plasma.
+
+## Acto IV: La Decisión (El Clímax)
+
+*   **Título de la Escena**: El Altar de la Agencia.
+*   **Locación**: Núcleo de Comando / Sala de Impulso Principal.
+*   **Objetivo Narrativo**: Duelo filosófico con la IA. La decisión final se toma mediante una interacción física en un terminal crítico, eligiendo entre "Aceptar la Paz" o "Luchar por la Libertad".
+
+## Acto V: La Conclusión (Los 5 Finales)
+
+*   **Descripción**: Cada final es una secuencia cinemática corta y potente que resulta de la elección en el Acto IV y las acciones previas del jugador (ver [[Narrativa_Finales]]).
