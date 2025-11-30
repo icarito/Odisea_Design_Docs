@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arte_Prompts_Generativos.md",
+                "file": "Desglose_Estilos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arte_Prompts_Generativos"
+              "title": "Desglose_Estilos"
             }
           }
         ]
@@ -35,7 +35,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arte_Prompts_Generativos.md",
+                "file": "Desglose_Estilos.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -63,7 +63,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Arte_Prompts_Generativos"
+              "title": "Gráfico de Desglose_Estilos"
             }
           }
         ]
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Narrativa_Finales_Final_1.md",
+                "file": "Desglose_Estilos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Narrativa_Finales_Final_1"
+              "title": "Enlaces entrantes de Desglose_Estilos"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Narrativa_Finales_Final_1.md",
+                "file": "Desglose_Estilos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Narrativa_Finales_Final_1"
+              "title": "Enlaces salientes de Desglose_Estilos"
             }
           },
           {
@@ -207,12 +207,11 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 684.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -232,9 +231,18 @@
   "lastOpenFiles": [
     "00_Odisea_Master.md",
     "Desglose_Estilos.md",
+    "Enemigos_Drones_y_Sistemas.md",
+    "Acto_IV_La_Decision.md",
+    "Narrativa_Finales.md",
+    "Personaje_PP_fantasma.md",
+    "Acto_III_El_Desafio.md",
+    "Acto_II_El_Laberinto.md",
+    "Acto_I_La_Negacion.md",
+    "Locacion_Criogenia.md",
+    "Locacion_Nucleo_IA.md",
+    "Arte_Prompts_Generativos.md",
     "Entidad_Cargol.md",
     "Mecanicas_Propulsor_0G.md",
-    "Narrativa_Finales.md",
     "Narrativa_Actos_Desglose.md",
     "02_Mecanicas_Indice.md",
     "Mecanicas_Vehiculo_Aereo.md",
@@ -248,15 +256,6 @@
     "Personaje_IA_Odisea.md",
     "Personaje_Elias.md",
     "Narrativa_Finales_Final_1.md",
-    "Locacion_Nucleo_IA.md",
-    "Locacion_Nucleo_0G.md",
-    "Locacion_Modulos_Rotatorios.md",
-    "Locacion_Mantenimiento.md",
-    "Locacion_Laboratorio_Acuatico.md",
-    "Locacion_Criogenia.md",
-    "Locacion_BioGranjas_SCG.md",
-    "Enemigos_Drones_y_Sistemas.md",
-    "Arte_Prompts_Generativos.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
