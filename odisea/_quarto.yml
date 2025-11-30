@@ -6,6 +6,8 @@ project:
     - "!00_Odisea_Master.md"
     - "!01_Pilares_de_Diseno.md"
     - "!02_Mecanicas_Indice.md"
+  resources:
+    - data/odisea_wiki.json
 
 book:
   title: "Odisea"
@@ -77,13 +79,13 @@ format:
     link-external-newwindow: true
     number-depth: 3
 
-  pdf:
-    documentclass: scrreprt
-    cover-image: assets/odisea_master_portada.png
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    colorlinks: true
+#  pdf:
+#    documentclass: scrreprt
+#    cover-image: assets/odisea_master_portada.png
+#    toc: true
+#    toc-depth: 3
+#    number-sections: true
+#    colorlinks: true
 
 filters:
   - filters/obsidian-callouts.lua

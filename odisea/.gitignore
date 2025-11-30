@@ -1,11 +1,10 @@
 # Quarto y artefactos generados
 /.quarto/
 **/*.quarto_ipynb
-_public/
 site_libs/
 
 # Archivos de salida y artefactos
-*.json
+_public/
 *.ipynb
 *.pyc
 __pycache__/
