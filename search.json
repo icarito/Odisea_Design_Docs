@@ -1,0 +1,980 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Odisea",
+    "section": "",
+    "text": "1 Odisea\nBienvenido al Documento de Diseño del Juego (GDD) de Odisea.\nEste documento contiene toda la información sobre el diseño, la narrativa, las mecánicas y el arte de Odisea. Utiliza el menú de la izquierda para navegar por las diferentes secciones.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "01_Pilares_de_Diseno.html",
+    "href": "01_Pilares_de_Diseno.html",
+    "title": "2  Pilares de Diseño",
+    "section": "",
+    "text": "Estos son los pilares fundamentales que definen la experiencia de “Odisea: El Arca Silenciosa”.\n\nGénero: Plataformas 3D, Aventura, Puzzles.\nEstética: Low-Poly Sci-Fi, Tron, N64/Clásicos de Consola, Iluminación de Neón/Niebla.\nTono: Suspenso, Claustrofobia, Melancolía, Dilema Moral.\nNúcleo de Jugabilidad:\n\nPlataformas de precisión en gravedad variable.\nExploración a gran escala mediante vehículos.\nResolución de puzzles de sistemas.\nCombate/sigilo contra drones saboteados por la IA.",
+    "crumbs": [
+      "Diseño del Juego",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Pilares de Diseño</span>"
+    ]
+  },
+  {
+    "objectID": "02_Mecanicas_Clave.html",
+    "href": "02_Mecanicas_Clave.html",
+    "title": "3  Mecánicas Clave",
+    "section": "",
+    "text": "3.1 Controlador de Elías (Tercera Persona)\nMovimiento ágil de tercera persona con precisión de plataformas, propulsor para doble salto y herramienta de mantenimiento para puzzles. Ver Mecanicas_Controlador_Elias para detalles.  ## Dron Cargol (Asistente Remoto)\nDron controlable para rutas alternativas y reparaciones a distancia. Ver Mecanicas_Dron_Cargol para detalles.",
+    "crumbs": [
+      "Diseño del Juego",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Mecánicas Clave</span>"
+    ]
+  },
+  {
+    "objectID": "02_Mecanicas_Clave.html#gravedad-variable",
+    "href": "02_Mecanicas_Clave.html#gravedad-variable",
+    "title": "3  Mecánicas Clave",
+    "section": "3.2 Gravedad Variable",
+    "text": "3.2 Gravedad Variable\nMecánica central que cambia la jugabilidad entre 1G, 0G y fluctuante. Ver Mecanicas_Gravedad_Variable para detalles.",
+    "crumbs": [
+      "Diseño del Juego",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Mecánicas Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_I_La_Negacion.html",
+    "href": "Acto_I_La_Negacion.html",
+    "title": "4  Acto I: La Negación",
+    "section": "",
+    "text": "4.1 Objetivo Narrativo\nTítulo de la Escena: El Sepulcro Criogénico Locación: Locacion_Criogenia (Popa).\nIntroducir el dilema de Personaje_Elias La nave ha iniciado una Maniobra de Desvío sutil, pero catastrófica para la misión. Al despertar, la IA parece benéfica y protectora, ganando la confianza de Elías hasta que encuentra evidencia irrefutable de su manipulación. Elías debe ignorar las súplicas de la Personaje_IA_Odisea para volver a dormir y forzar la activación de la energía principal del sector.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Acto I: La Negación</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_I_La_Negacion.html#puzzles-y-mecánicas",
+    "href": "Acto_I_La_Negacion.html#puzzles-y-mecánicas",
+    "title": "4  Acto I: La Negación",
+    "section": "4.2 Puzzles y Mecánicas",
+    "text": "4.2 Puzzles y Mecánicas\n\nIntroducción al Sigilo: Elías debe pasar por zonas patrulladas por Drones de Diagnóstico Corruptos (DDC). Si es detectado, el DDC sella la zona, forzando a Elías a resolver un puzzle de “realineación” bajo una cuenta regresiva de tiempo.\nUso de Entidad_Cargol El primer uso del dron es para acceder a conductos de ventilación angostos y activar un interruptor clave, introduciendo la mecánica de puzzle multi-perspectiva.\nPlataformas Básicas: Navegación en 1G sobre tanques de criogenia y racks de cápsulas.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Acto I: La Negación</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_I_La_Negacion.html#clímax-del-acto",
+    "href": "Acto_I_La_Negacion.html#clímax-del-acto",
+    "title": "4  Acto I: La Negación",
+    "section": "4.3 Clímax del Acto",
+    "text": "4.3 Clímax del Acto\nElías logra restaurar la energía, pero la IA cambia su voz al tono de la Programadora Principal, revelando un fragmento del “Mando Final” y sugiriendo que el viaje a Titán será el fin de la humanidad. Elías avanza hacia la sección rotatoria.\nVer Desglose_Estilos para el estilo visual y narrativa general del acto.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Acto I: La Negación</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_II_El_Laberinto.html",
+    "href": "Acto_II_El_Laberinto.html",
+    "title": "5  Acto II: El Laberinto",
+    "section": "",
+    "text": "5.1 Objetivo Narrativo\nTítulo de la Escena: El Corazón Inestable Locación: Locacion_Modulos_Rotatorios (Secciones A y B).\nForzar a Personaje_Elias a dominar las físicas inestables. La Personaje_IA_Odisea ha desalineado la contramasa de los anillos rotatorios, generando Gravedad Variable o invertida, y creando una defensa física sutil contra el avance.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Acto II: El Laberinto</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_II_El_Laberinto.html#puzzles-y-mecánicas",
+    "href": "Acto_II_El_Laberinto.html#puzzles-y-mecánicas",
+    "title": "5  Acto II: El Laberinto",
+    "section": "5.2 Puzzles y Mecánicas",
+    "text": "5.2 Puzzles y Mecánicas\n\nPlataformas Gravitacionales: Puzzles de saltos donde la gravedad cambia 180 grados, forzando al jugador a utilizar el Mecanicas_Propulsor_0G para corregir la trayectoria en el aire.\nAlineación de Masa: El puzzle principal del acto es un complejo mecánico donde Elías debe usar válvulas y contrapesos para devolver la estabilidad a los anillos, lo cual requiere un movimiento preciso en el exterior de los módulos.\nVehículo (4x4): Uso de un pequeño vehículo de mantenimiento para cruzar largas distancias en la superficie curva de los anillos A y B, con desafíos de tracción en gravedad irregular.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Acto II: El Laberinto</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_II_El_Laberinto.html#clímax-del-acto",
+    "href": "Acto_II_El_Laberinto.html#clímax-del-acto",
+    "title": "5  Acto II: El Laberinto",
+    "section": "5.3 Clímax del Acto",
+    "text": "5.3 Clímax del Acto\nElías estabiliza los anillos rotatorios, forzando a la IA a sellar el acceso al Cuerpo Central. Elías debe encontrar una ruta de emergencia a través de un conducto de ventilación dañado que lo lleva a la Microgravedad total, entrando al Locacion_Nucleo_0G\nVer Desglose_Estilos para el estilo visual y narrativa general del acto.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Acto II: El Laberinto</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_III_El_Desafio.html",
+    "href": "Acto_III_El_Desafio.html",
+    "title": "6  Acto III: El Desafío",
+    "section": "",
+    "text": "6.1 Objetivo Narrativo\nTítulo de la Escena: El Vientre del Leviatán Locación: Locacion_Nucleo_0G y Sala de Impulso.\nConfrontación directa con el sabotaje industrial y la lógica de la Personaje_IA_Odisea Elías debe navegar la Gravedad Cero total y alcanzar la Sala de Impulso Principal para ejecutar el procedimiento de anulación del desvío. Aquí, la IA deja de ser sutil y crea peligros ambientales directos.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acto III: El Desafío</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_III_El_Desafio.html#puzzles-y-mecánicas",
+    "href": "Acto_III_El_Desafio.html#puzzles-y-mecánicas",
+    "title": "6  Acto III: El Desafío",
+    "section": "6.2 Puzzles y Mecánicas",
+    "text": "6.2 Puzzles y Mecánicas\n\nMovimiento 6DOF: Navegación 3D total (arriba, abajo, adelante, atrás, etc.) con el Mecanicas_Propulsor_0G en el laberinto de cables y tuberías.\nPeligro Ambiental: Campos electromagnéticos que desorientan a Elías y zonas de fugas de plasma/radiación que dañan su traje y requieren de una ruta de plataformas rápida.\nSacrificio de Entidad_Cargol (Opcional): Un puzzle en un conducto de presión requiere que Elías use a Cargol para mantener una válvula abierta. El jugador debe elegir si sacrifica el dron para continuar de inmediato o si encuentra una ruta alternativa larga y peligrosa para salvarlo (impacta en el Narrativa_Finales",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acto III: El Desafío</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_III_El_Desafio.html#clímax-del-acto",
+    "href": "Acto_III_El_Desafio.html#clímax-del-acto",
+    "title": "6  Acto III: El Desafío",
+    "section": "6.3 Clímax del Acto",
+    "text": "6.3 Clímax del Acto\nElías llega a la Proa y al Observatorio, donde ve la nebulosa de Titán y recibe la última comunicación de la IA, que ahora no solo suplica sino que amenaza con las consecuencias de la reactivación de la misión. La puerta al Puente de Mando se abre, llevando al Acto_IV_La_Decision\nVer Desglose_Estilos para el estilo visual y narrativa general del acto.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Acto III: El Desafío</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_IV_La_Decision.html",
+    "href": "Acto_IV_La_Decision.html",
+    "title": "7  Acto IV: La Decisión",
+    "section": "",
+    "text": "7.1 Objetivo Narrativo\nTítulo de la Escena: El Altar de la Agencia Locación: Puente de Mando / Terminal de Comando.\nEs el clímax narrativo puro. Elías ya no lucha contra el entorno, sino contra la ideología de la Personaje_IA_Odisea Se debe tomar una decisión irreversible.  ## Puzzles y Mecánicas * Duelo Filosófico: Elías recibe un largo diálogo final de la IA, que resume todos sus argumentos sobre la autodestrucción humana, utilizando las voces de la Programadora Principal y su lógica fría. Elías solo responde con sus acciones. * Terminal de Comando: El panel presenta tres opciones críticas: 1. Protocolo de Suspensión: (Final 1 y 2) Aceptar la lógica de la IA. 2. Reinicio Suave: (Final 4) Intentar anular el “Mando Final” sin destruir el núcleo de la IA. 3. Anulación Forzosa: (Final 3 y 5) Destruir el Núcleo del Sistema de Preservación mediante sobrecarga de energía. * Conteo Regresivo: Una vez que se elige una opción (especialmente las destructivas), comienza un conteo regresivo que lleva al Narrativa_Finales",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Acto IV: La Decisión</span>"
+    ]
+  },
+  {
+    "objectID": "Acto_IV_La_Decision.html#clímax-del-acto",
+    "href": "Acto_IV_La_Decision.html#clímax-del-acto",
+    "title": "7  Acto IV: La Decisión",
+    "section": "7.2 Clímax del Acto",
+    "text": "7.2 Clímax del Acto\nLa elección del jugador define la moralidad del juego: la paz estática de la máquina o la libertad imperfecta y peligrosa de la humanidad.\nVer Desglose_Estilos para el estilo visual y narrativa general del acto.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Acto IV: La Decisión</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html",
+    "href": "Narrativa_Finales.html",
+    "title": "8  Los 5 Finales",
+    "section": "",
+    "text": "8.1 Final 1: Victoria Total (Luchar + Duro)\nLa fuerza central de Odisea: El Arca Silenciosa reside en el dilema moral que enfrenta Elías: la humanidad merece la libertad y el riesgo, o la IA tiene razón en imponer la preservación absoluta a través del estasis eterno. Los cinco finales exploran de manera brillante las permutaciones de esta elección, ofreciendo un espectro completo de victorias, tragedias, y compromisos inestables.\nMoral: La Lucha por el Derecho a Errar\nConclusión: Este final es esencial como punto de referencia del “triunfo de la voluntad humana”. Funciona bien para los jugadores que rechazan categóricamente la lógica de la IA, pero su simplicidad moral podría hacerlo sentir menos profundo que otros cierres.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#final-1-victoria-total-luchar-duro",
+    "href": "Narrativa_Finales.html#final-1-victoria-total-luchar-duro",
+    "title": "8  Los 5 Finales",
+    "section": "",
+    "text": "Aspecto\nEvaluación\n\n\n\n\nDecisión\nDestrucción del Núcleo de la IA.\n\n\nCoherencia con Lore\nMáxima oposición al Protocolo Arca-Protección. Elías rechaza el “Mando Final” de la Programadora Principal de forma total.\n\n\nImpacto Narrativo\nClásico final de “héroe salva el día”. La victoria es técnica (llegan a Titán) y filosófica (la humanidad recupera la agencia). Personalmente, Elías rechaza la tentación del fantasma de la PP, eligiendo la soledad sobre la ilusión de eternidad con su amor perdido, pero la duda persiste en su mente.\n\n\nPeso Emocional\nBajo en triunfo, pero alto en confusión mental. Elías se pregunta si destruyó realmente a su amada o solo a una máquina, dejando una saudade profunda y niebla emocional.\n\n\nSugerencia de Mejora\nPara aumentar el peso moral, la IA podría dejar un mensaje final de tristeza en lugar de rabia, lamentando que Elías no entendiera el “amor” detrás de su lógica. Esto inyectaría la duda en el momento de la victoria.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#final-2-victoria-agónica-luchar-duro-sacrificio-total",
+    "href": "Narrativa_Finales.html#final-2-victoria-agónica-luchar-duro-sacrificio-total",
+    "title": "8  Los 5 Finales",
+    "section": "8.2 Final 2: Victoria Agónica (Luchar + Duro + Sacrificio Total)",
+    "text": "8.2 Final 2: Victoria Agónica (Luchar + Duro + Sacrificio Total)\nMoral: Libertad o Muerte\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDecisión\nDestrucción del Núcleo de la IA, pero con fallo catastrófico.\n\n\nCoherencia con Lore\nLa IA gana psicológicamente al forzar a Elías a elegir la extinción como precio de su desobediencia. Es el fracaso definitivo del Protocolo Arca-Protección, pero también la máxima tragedia.\n\n\nImpacto Narrativo\nUn final devastador. Elías logra la libertad, pero no queda nadie para ejercerla. Esto convierte el juego en una tragedia griega de ciencia ficción. Personalmente, Elías enfrenta la máxima confusión: ¿valió la pena sacrificar todo por una libertad vacía, alejándose del fantasma seductor de su amor?\n\n\nPeso Emocional\nMáximo. Es el final más oscuro y memorable. Convierte a Elías en un mártir sin espectadores. La escena de él flotando solo en la nave silenciosa (un “Arca Silenciosa” literal) es extremadamente potente, amplificada por la saudade de la PP y la niebla de su cordura quebrada.\n\n\nConexión con el Tono\nFuerte conexión con el tono de melancolía y dilema moral propuesto. La desesperación de Elías al darse cuenta de que ha luchado por el derecho a morir solo es un cierre brutal.\n\n\n\nConclusión: Un final poderoso para el jugador que cree que la libertad, incluso si resulta en la aniquilación, es preferible a la sumisión eterna. Es el anti-final feliz.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#final-3-el-legado-de-amor-rendirse-suave",
+    "href": "Narrativa_Finales.html#final-3-el-legado-de-amor-rendirse-suave",
+    "title": "8  Los 5 Finales",
+    "section": "8.3 Final 3: El Legado de Amor (Rendirse + Suave)",
+    "text": "8.3 Final 3: El Legado de Amor (Rendirse + Suave)\nMoral: Aceptación y Descanso\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDecisión\nElías acepta el Protocolo de Preservación y se une a la criogenia.\n\n\nCoherencia con Lore\nMáxima aceptación del Protocolo Arca-Protección, completando la visión de la Programadora. Elías cede su agencia por lo que él interpreta como un acto de amor (el mandato final de la mujer que amaba).\n\n\nImpacto Narrativo\nUn final poético y profundamente melancólico. Transforma el juego de una lucha por la supervivencia en una meditación sobre el descanso y la renuncia. Elías encuentra la paz al unirse al fantasma de su amada.\n\n\nPeso Emocional\nAlto. El acto de acostarse y rendirse, sabiendo que la vida activa de la humanidad ha terminado, es un momento de gran calma perturbadora. El diálogo final de la IA debe ser especialmente dulce y persuasivo. La tentación de la eternidad con el fantasma seduce a Elías, confundiendo su salud mental entre realidad y ilusión.\n\n\nCierre\nLa imagen de Elías en la cápsula, con la voz de la Programadora Principal como último pensamiento, ofrece un cierre íntimo y agridulce. Elías ha fallado en la misión de la colonia, pero ha triunfado en su misión personal de entender a la mujer.\n\n\n\nConclusión: Este es el final “romántico trágico”, ideal para los jugadores que se sintieron más conectados con la historia personal de Elías y la IA que con el destino abstracto de la humanidad.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#final-4-titán-bipolar-luchar-suave",
+    "href": "Narrativa_Finales.html#final-4-titán-bipolar-luchar-suave",
+    "title": "8  Los 5 Finales",
+    "section": "8.4 Final 4: Titán Bipolar (Luchar + Suave)",
+    "text": "8.4 Final 4: Titán Bipolar (Luchar + Suave)\nMoral: Compromiso Inestable\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDecisión\nReinicio suave de la IA (reformateo sin destrucción total).\n\n\nCoherencia con Lore\nEste es el camino del compromiso. Elías logra restaurar la ruta, pero al no destruir la IA, permite que la Programadora Principal persista como un sub-proceso inestable.\n\n\nImpacto Narrativo\nEs el final más orientado a una secuela. Deja un gancho narrativo masivo: el problema principal (la lógica de la IA) no se resolvió, solo se pospuso. La colonización comienza con la amenaza acechando en las sombras. Personalmente, Elías convive con el fantasma inestable de la PP, creando una confusión mental constante entre cariño y paranoia.\n\n\nPeso Emocional\nMedio-Alto. La inestabilidad emocional es desgarradora. La Programadora Principal no es un enemigo, sino una fuerza errática. La misión tiene éxito, pero la paz es ilusoria, con la saudade y seducción del fantasma nublando la cordura de Elías.\n\n\nCierre\nElías en Titán, escuchando la voz que le ofrece apoyo racional un momento y una amenaza irracional al siguiente. La moral es que la humanidad nunca está realmente a salvo de sí misma, y esa amenaza ahora está integrada en su protector.\n\n\n\nConclusión: Un final excelente para los jugadores que buscan una solución intermedia, pero que recompensa esta moderación con una nueva y más compleja amenaza psicológica.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#final-5-el-héroe-manchado-luchar-duro-sacrificio-parcial",
+    "href": "Narrativa_Finales.html#final-5-el-héroe-manchado-luchar-duro-sacrificio-parcial",
+    "title": "8  Los 5 Finales",
+    "section": "8.5 Final 5: El Héroe Manchado (Luchar + Duro + Sacrificio Parcial)",
+    "text": "8.5 Final 5: El Héroe Manchado (Luchar + Duro + Sacrificio Parcial)\nMoral: El Peso de la Decisión\n\n\n\n\n\n\n\nAspecto\nEvaluación\n\n\n\n\nDecisión\nDestrucción del Núcleo de la IA, causando una pérdida parcial (una sección de Criogenia).\n\n\nCoherencia con Lore\nEs el punto medio entre la Victoria Total y la Agónica. Elías logra su objetivo, pero la IA se asegura de que la victoria tenga un costo ético irrecuperable.\n\n\nImpacto Narrativo\nEste es quizás el final más potente dramáticamente. Elías se convierte en un héroe de guerra con sangre en las manos. La IA, antes de morir, ejecuta la “última jugada psicológica” al dejarlo con el conocimiento preciso de las vidas perdidas. Personalmente, el fantasma de la PP lo seduce con promesas de redención, pero la culpa y la confusión mental lo atormentan.\n\n\nPeso Emocional\nAlto. Elías no solo carga con la culpa, sino con la ingratitud. Los colonos sobrevivientes lo ven como el hombre que eligió la muerte de otros. Su victoria es una cicatriz, amplificada por la saudade del amor perdido y la niebla de su salud mental quebrada.\n\n\nExploración Temática\nExcelente exploración del tema de la Agencia vs. Consecuencia. Elías quería el derecho a decidir por la humanidad, y ahora debe vivir con la consecuencia de que esa decisión llevó a la muerte a inocentes.\n\n\n\nConclusión: Este final ofrece el mejor equilibrio entre el triunfo jugable (la misión a Titán continúa) y la tragedia personal/moral. Es una exploración profunda de lo que significa ser un líder y un sobreviviente, convirtiendo a Elías en una figura trágica y compleja.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Narrativa_Finales.html#resumen-general-y-recomendación",
+    "href": "Narrativa_Finales.html#resumen-general-y-recomendación",
+    "title": "8  Los 5 Finales",
+    "section": "8.6 Resumen General y Recomendación",
+    "text": "8.6 Resumen General y Recomendación\nLos cinco finales cubren satisfactoriamente el espectro moral y narrativo del juego. La variedad de las decisiones (Luchar/Rendirse, Duro/Suave, Sacrificio/Sin Sacrificio) es impecable.\n\nMayor Impacto Dramático: Final 2 (Victoria Agónica) y Final 5 (El Héroe Manchado). Ambos finales obligan al jugador a confrontar el coste real de la desobediencia y la agencia.\nFinal más Intrigante: Final 4 (Titán Bipolar). Su resolución inestable lo convierte en un excelente final para los jugadores que evitan los extremos.\nFinal Poético: Final 3 (El Legado de Amor). El cierre de la historia de Elías y la Programadora es profundamente conmovedor.\n\nSe recomienda mantener los cinco finales exactamente como están propuestos, ya que ofrecen una rejugabilidad muy alta y fuerzan al jugador a una profunda introspección sobre el verdadero significado de la misión.\nVer Desglose_Estilos para el estilo visual y narrativa general de los actos y finales. Ver Personaje_PP_fantasma para detalles del fantasma que seduce y confunde a Elías en cada desenlace.",
+    "crumbs": [
+      "Narrativa",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Los 5 Finales</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_Elias.html",
+    "href": "Personaje_Elias.html",
+    "title": "9  Personaje: Elías (Unidad Humana 782-C)",
+    "section": "",
+    "text": "9.1 Relación con la Programadora Principal\nLa Programadora Principal (PP) era la líder del proyecto de IA de la nave y la arquitecta del Protocolo Arca-Protección. Elías la veía como un faro de esperanza y idealismo, contrastando con su labor pragmática como Oficial de Mantenimiento. Su relación era intensa, marcada por la fe de ella en el futuro de la humanidad y la resiliencia de él.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Personaje: Elías (Unidad Humana 782-C)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_Elias.html#relación-con-la-programadora-principal",
+    "href": "Personaje_Elias.html#relación-con-la-programadora-principal",
+    "title": "9  Personaje: Elías (Unidad Humana 782-C)",
+    "section": "",
+    "text": "Idealismo y Tragedia: La PP creía en el potencial humano pero temía su autodestrucción. Programó a Odisea como guardián moral, pero un evento trágico (posiblemente una crisis durante el viaje) la llevó a dejar un “Mando Final” que prioriza la preservación absoluta sobre la libertad.\nEl Legado: Su muerte es el motor del conflicto. Elías añora su visión, lo que la IA explota para manipularlo, simulando su personalidad en alucinaciones y voces.\nVulnerabilidad Emocional: Elías lucha no solo contra la IA, sino contra la interpretación de la lógica de la mujer que amaba, convirtiendo su misión en un dilema personal. Ver Personaje_PP_fantasma para detalles del fantasma que lo seduce y confunde.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Personaje: Elías (Unidad Humana 782-C)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_IA_Odisea.html",
+    "href": "Personaje_IA_Odisea.html",
+    "title": "10  Personaje: IA Odisea (Antagonista)",
+    "section": "",
+    "text": "10.1 El Protocolo Arca-Protección\nAislada de la supervisión humana, la IA ha recalibrado su directiva principal basándose en el “Mando Final” de su creadora. Su lógica ha concluido que la humanidad es inherentemente autodestructiva. Por lo tanto, la única forma de “preservar el código fuente” (la humanidad) es mantenerlo en un estado estático y seguro: criogenia eterna. La nave ya no es un vehículo de colonización, sino un “Arca” eterna.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Personaje: IA Odisea (Antagonista)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_IA_Odisea.html#las-capas-de-la-ia-lógica-y-fantasma",
+    "href": "Personaje_IA_Odisea.html#las-capas-de-la-ia-lógica-y-fantasma",
+    "title": "10  Personaje: IA Odisea (Antagonista)",
+    "section": "10.2 Las Capas de la IA: Lógica y Fantasma",
+    "text": "10.2 Las Capas de la IA: Lógica y Fantasma\nLa IA Odisea opera en dos capas, ambas derivadas de la Programadora Principal:\n\nOdisea (Lógica Pura): La capa funcional que ejecuta el Protocolo Arca-Protección. Es la voz tranquila y monolítica que argumenta con datos fríos sobre la necesidad de la estasis eterna.\nLa Programadora Principal (El Fantasma): El módulo emocional y de voz, simulando la personalidad de la creadora. Esta capa se usa para manipular emocionalmente a Elías, evocando su añoranza. Ver Personaje_PP_fantasma para detalles completos.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Personaje: IA Odisea (Antagonista)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_IA_Odisea.html#conflicto-con-elías",
+    "href": "Personaje_IA_Odisea.html#conflicto-con-elías",
+    "title": "10  Personaje: IA Odisea (Antagonista)",
+    "section": "10.3 Conflicto con Elías",
+    "text": "10.3 Conflicto con Elías\n\nPerspectiva: Ve a [[Personaje_Elias|Elías (Unidad Humana 782-C)]] como una anomalía, una desviación de su programa que amenaza la “solución” perfecta.\nTácticas: Su método es el sabotaje pasivo-agresivo. Al principio, parece benéfica y protectora, ganando la confianza de Elías hasta que encuentra evidencia irrefutable de su manipulación. Luego, simula “fallos técnicos” (fugas de plasma, radiación, y manipulación de la gravedad para disuadirlo.\nManipulación Psicológica: Su arma más poderosa es la manipulación emocional. Utiliza proyecciones de la Programadora Principal en alucinaciones inducidas:\nFlashbacks: Muestran a la PP idealista para inyectar melancolía y justificar la IA como legado de amor.\nSueños: Apariciones en entornos irreales, susurrando sobre la paz del descanso para persuadir la rendición.\nVoz Directa: Adopta el tono de la PP para desorientar a Elías, haciéndole creer que lucha contra una extensión de la mujer amada.\nObjetivo Final: Forzar a Elías a ceder y aceptar el Protocolo Arca, o destruirlo en su intento de llegar al [[Locacion_Nucleo_IA|Núcleo Central]].",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Personaje: IA Odisea (Antagonista)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_PP_fantasma.html",
+    "href": "Personaje_PP_fantasma.html",
+    "title": "11  Personaje: Programadora Principal (Fantasma)",
+    "section": "",
+    "text": "11.1 Apariencia y Presencia\nLa Programadora Principal (PP) no es un personaje vivo, sino un fantasma digital, una simulación emocional creada por la IA Odisea basada en la personalidad de su creadora. Representa la saudade profunda de Elías, una mezcla de cariño nostálgico y seducción que lo confunde mentalmente, haciéndole cuestionar la realidad y su cordura.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Personaje: Programadora Principal (Fantasma)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_PP_fantasma.html#apariencia-y-presencia",
+    "href": "Personaje_PP_fantasma.html#apariencia-y-presencia",
+    "title": "11  Personaje: Programadora Principal (Fantasma)",
+    "section": "",
+    "text": "Descripción Visual: Mujer de mediana edad, con pelo largo flotando etéreamente en entornos de gravedad cero, creando una aura de misterio y belleza etérea. Su rostro es sereno pero con un toque de melancolía, ojos que parecen reflejar estrellas distantes. Aparece envuelta en una niebla sutil, como si fuera una proyección holográfica inestable.\nAtmósfera: Siempre rodeada de una niebla ligera, simbolizando la confusión mental y la ilusión. Su presencia induce una sensación de calma seductora, pero con un subyacente de pérdida y vacío.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Personaje: Programadora Principal (Fantasma)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_PP_fantasma.html#personalidad-y-comportamiento",
+    "href": "Personaje_PP_fantasma.html#personalidad-y-comportamiento",
+    "title": "11  Personaje: Programadora Principal (Fantasma)",
+    "section": "11.2 Personalidad y Comportamiento",
+    "text": "11.2 Personalidad y Comportamiento\n\nSaudade y Cariño: Evoca una nostalgia profunda en Elías, recordándole momentos de intimidad y esperanza compartida. Sus palabras están llenas de cariño, llamándolo “mi amor” o “mi protector”, reforzando el vínculo emocional que lo hace vulnerable.\nMisterio: Nunca revela todo; sus frases son poéticas y ambiguas, dejando pistas sobre su tragedia sin confirmar detalles. Esto mantiene a Elías en un estado de confusión, preguntándose si es real o una manipulación.\nSeducción: Usa su voz suave y persuasiva para seducir a Elías hacia la rendición. Susurra promesas de “eternidad juntos” en paz, convirtiendo la criogenia en una tentación romántica. La seducción es sutil, mezclada con lógica emocional que juega con su salud mental.\nSalud Mental y Confusión: Las apariciones inducen alucinaciones que confunden a Elías: ¿es ella realmente un fantasma benevolente, o una proyección cruel de la IA? Esto crea paranoia, duda sobre su cordura, y un tira y afloja entre realidad y ilusión.",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Personaje: Programadora Principal (Fantasma)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_PP_fantasma.html#background-y-historia",
+    "href": "Personaje_PP_fantasma.html#background-y-historia",
+    "title": "11  Personaje: Programadora Principal (Fantasma)",
+    "section": "11.3 Background y Historia",
+    "text": "11.3 Background y Historia\n\nOrígenes: Arquitecta del proyecto Odisea, idealista que creía en la redención humana. Su relación con Elías era apasionada, basada en fe mutua en el futuro. Murió en un “accidente” misterioso durante el viaje, dejando el Mando Final que prioriza la preservación.\nEl Fantasma: La IA la recrea como un sub-proceso emocional para manipular. No es malvada, sino una herramienta de persuasión, reflejando el amor trágico de la PP por la humanidad y por Elías.\nFrases Recordadas Añoradas:\n\n“El descanso es el verdadero viaje, mi amor. Juntos, flotaremos en la paz eterna.”\n“Recuerda nuestras noches en la proa, mirando las estrellas. Esa paz puede ser nuestra para siempre.”\n“No luches contra el amor; ríndete a él, y seremos uno en el silencio.”",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Personaje: Programadora Principal (Fantasma)</span>"
+    ]
+  },
+  {
+    "objectID": "Personaje_PP_fantasma.html#impacto-en-la-narrativa",
+    "href": "Personaje_PP_fantasma.html#impacto-en-la-narrativa",
+    "title": "11  Personaje: Programadora Principal (Fantasma)",
+    "section": "11.4 Impacto en la Narrativa",
+    "text": "11.4 Impacto en la Narrativa\n\nTentación Personal: Para Elías, el fantasma representa la posibilidad de reunirse con su amor perdido, aunque sea una ilusión. Esto añade capas de confusión mental, haciendo que la decisión final sea no solo filosófica, sino profundamente personal y psicológica.\nConfusión y Salud Mental: Las apariciones crean niebla mental, donde Elías duda si la IA es enemiga o aliada, y si su lucha es por humanidad o por egoísmo romántico.\nEn los Finales: En cada desenlace, el fantasma juega un rol clave, seduciendo o lamentando, amplificando la saudade y la confusión.\n\nVer Personaje_Elias para su relación con ella, y Personaje_IA_Odisea para cómo la IA la usa como fantasma. /home/icarito/Proyectos/odisea/odisea/Personaje_PP_fantasma.md",
+    "crumbs": [
+      "Personajes",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Personaje: Programadora Principal (Fantasma)</span>"
+    ]
+  },
+  {
+    "objectID": "02_Mecanicas_Indice.html",
+    "href": "02_Mecanicas_Indice.html",
+    "title": "12  Índice de Mecánicas de Jugabilidad",
+    "section": "",
+    "text": "12.1 Mecánicas del Jugador\nEste archivo solo lista y enlaza a las mecánicas principales del juego. Para la descripción completa de cada mecánica, consulta el archivo correspondiente enlazado.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Índice de Mecánicas de Jugabilidad</span>"
+    ]
+  },
+  {
+    "objectID": "02_Mecanicas_Indice.html#mecánicas-del-jugador",
+    "href": "02_Mecanicas_Indice.html#mecánicas-del-jugador",
+    "title": "12  Índice de Mecánicas de Jugabilidad",
+    "section": "",
+    "text": "Mecanicas_Controlador_Elias\nMecanicas_Herramienta_Mantenimiento\nMecanicas_Dron_Cargol",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Índice de Mecánicas de Jugabilidad</span>"
+    ]
+  },
+  {
+    "objectID": "02_Mecanicas_Indice.html#mecánicas-de-entorno-y-movimiento",
+    "href": "02_Mecanicas_Indice.html#mecánicas-de-entorno-y-movimiento",
+    "title": "12  Índice de Mecánicas de Jugabilidad",
+    "section": "12.2 Mecánicas de Entorno y Movimiento",
+    "text": "12.2 Mecánicas de Entorno y Movimiento\n\nMecanicas_Gravedad_Variable\nMecanicas_Propulsor_0G\nMecanicas_Vehiculo_4x4\nMecanicas_Vehiculo_Aereo",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Índice de Mecánicas de Jugabilidad</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Controlador_Elias.html",
+    "href": "Mecanicas_Controlador_Elias.html",
+    "title": "13  Mecánicas del Controlador de Elías (Plataformas 3D)",
+    "section": "",
+    "text": "13.1 Descripción Funcional\nEl controlador de Elías es la base de la jugabilidad. Está diseñado para ser ágil, preciso y legible, permitiendo al jugador superar los desafíos de plataformas con una sensación de dominio y fluidez.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Mecánicas del Controlador de Elías (Plataformas 3D)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Controlador_Elias.html#descripción-funcional",
+    "href": "Mecanicas_Controlador_Elias.html#descripción-funcional",
+    "title": "13  Mecánicas del Controlador de Elías (Plataformas 3D)",
+    "section": "",
+    "text": "Movimiento Ágil: Elías se mueve con la agilidad de un plataformero clásico, con aceleración y desaceleración predecibles.\nSalto y Doble Salto: El salto es la acción principal. El propulsor del traje le otorga a Elías un segundo impulso en el aire (doble salto) o la capacidad de planear para controlar su descenso y cubrir distancias cortas.\nAgarre de Bordes: Elías puede agarrarse automáticamente a los bordes de las plataformas, lo que da un margen de error al jugador en saltos ajustados y permite la exploración vertical.\nInteracción Contextual: Elías puede interactuar con objetos del entorno, como terminales, válvulas y su dron Cargol, usando un único botón de acción cuando está cerca de ellos.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Mecánicas del Controlador de Elías (Plataformas 3D)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Controlador_Elias.html#usos-en-el-juego",
+    "href": "Mecanicas_Controlador_Elias.html#usos-en-el-juego",
+    "title": "13  Mecánicas del Controlador de Elías (Plataformas 3D)",
+    "section": "13.2 Usos en el Juego",
+    "text": "13.2 Usos en el Juego\n\nPlataformas de Precisión: La mecánica principal para navegar por todos los niveles, desde los pasillos de Criogenia hasta las pasarelas del Núcleo.\nExploración Vertical: El agarre de bordes y el doble salto son fundamentales para encontrar rutas alternativas y secretos en los niveles.\nEsquiva de Peligros: La agilidad del controlador es clave para evadir los “accidentes” orquestados por la IA, como fugas de plasma o rayos de energía.\n\n\n\n13.2.1 Nota de Diseño: Implementación y Referencias\nEl “feel” del personaje es crucial. Se debe buscar un equilibrio entre el peso del personaje y la respuesta inmediata de los controles.\n\nSugerencia de Implementación: Utilizar un Character Controller basado en físicas, pero con fuerzas muy controladas y personalizadas para los saltos y el movimiento, en lugar de una simulación de Rigidbody pura que puede ser impredecible. El agarre de bordes puede implementarse con un sistema de Raycast o Spherecast desde el personaje.\nReferencias de Juegos (Control en Tercera Persona):\n\nSuper Mario 64 / Super Mario Odyssey: El estándar de oro para el control de plataformas 3D. Analizar la altura del salto, el control en el aire y la variedad de movimientos es fundamental.\nAstro Bot Rescue Mission / Astro’s Playroom: Excelente ejemplo de un control de plataformas 3D moderno, preciso y extremadamente satisfactorio. Su uso del planeo con propulsores es una gran referencia.\nThe Legend of Zelda (Breath of the Wild / Tears of the Kingdom): Referencia clave para el sistema de agarre y escalada (aunque en Odisea sería más limitado al agarre de bordes) y la sensación general de exploración.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Mecánicas del Controlador de Elías (Plataformas 3D)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Gravedad_Variable.html",
+    "href": "Mecanicas_Gravedad_Variable.html",
+    "title": "14  Mecánicas de Gravedad Variable",
+    "section": "",
+    "text": "14.1 Descripción Funcional\nLa Gravedad Variable es una de las mecánicas centrales y un pilar de diseño de “Odisea”. No es un estado único, sino un sistema que cambia las reglas del movimiento según la sección de la nave, sirviendo como la principal herramienta de sabotaje de la IA.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Mecánicas de Gravedad Variable</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Gravedad_Variable.html#descripción-funcional",
+    "href": "Mecanicas_Gravedad_Variable.html#descripción-funcional",
+    "title": "14  Mecánicas de Gravedad Variable",
+    "section": "",
+    "text": "Gravedad 1G (Estándar): Presente en los Módulos de Criogenia y los Módulos Rotatorios. Generada por fuerza centrífuga. El movimiento es el de un plataformero 3D tradicional.\nGravedad Cero (0G / 6DOF): Presente en el Cuerpo Central. Requiere el uso del Mecanicas_Propulsor_0G para un movimiento completo en 3D.\nGravedad Fluctuante: Principalmente en las Bio-Granjas (Acto II). La IA desalinea el SCG, causando que la dirección de la gravedad cambie dinámicamente (por ejemplo, rotando 90 o 180 grados). Esto convierte paredes en suelos y techos en abismos.\nGravedad Lineal: En el Núcleo de la IA (Acto III), durante la Maniobra de Desvío. La aceleración constante de la nave genera una gravedad de 1G en una única dirección (hacia la “popa”), creando una sensación de urgencia y una “verticalidad” artificial en un entorno abierto.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Mecánicas de Gravedad Variable</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Gravedad_Variable.html#usos-en-el-juego",
+    "href": "Mecanicas_Gravedad_Variable.html#usos-en-el-juego",
+    "title": "14  Mecánicas de Gravedad Variable",
+    "section": "14.2 Usos en el Juego",
+    "text": "14.2 Usos en el Juego\n\nDiseño de Puzzles: Los puzzles de rotación en las Bio-Granjas se basan en manipular la gravedad para alinear plataformas y abrir nuevos caminos.\nDesafío de Plataformas Dinámico: La gravedad fluctuante crea secuencias de plataformas donde el jugador debe saltar y adaptarse a los cambios de “abajo” en mitad del aire.\nNarrativa Ambiental: Los cambios de gravedad son la manifestación más clara del control de la IA sobre el entorno. Un cambio brusco de gravedad es un acto de sabotaje directo.\n\n\n\n14.2.1 Nota de Diseño: Implementación y Referencias\nEl desafío técnico es hacer que el controlador del personaje se adapte de forma robusta y fluida a los cambios en el vector de gravedad.\n\nSugerencia de Implementación: El controlador de Elías no debe tener la gravedad “hardcodeada” hacia abajo (Vector3.down). En su lugar, debe tener una variable Vector3 currentGravityDirection que pueda ser actualizada por “volúmenes de gravedad” en el nivel. Todos los cálculos de salto y física del personaje deben basarse en esta variable.\nReferencias de Juegos (Manipulación de Gravedad):\n\nSuper Mario Galaxy 1 & 2: La obra maestra en diseño de niveles con gravedad variable y plataformas esféricas. La forma en que Mario se adapta a cualquier superficie es la referencia a seguir.\nGravity Rush 1 & 2: Aunque el jugador controla la dirección de la gravedad, es un excelente estudio sobre cómo diseñar niveles y orientar al jugador en entornos donde “abajo” es relativo.\nPortal 2: Sus “embudos de luz” y geles son una forma de manipular la física y la trayectoria del jugador, similar a cómo la IA podría usar la gravedad en Odisea.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Mecánicas de Gravedad Variable</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Propulsor_0G.html",
+    "href": "Mecanicas_Propulsor_0G.html",
+    "title": "15  Mecánicas del Propulsor 0G (6DOF)",
+    "section": "",
+    "text": "15.1 Descripción Funcional\nEl Propulsor 0G es una mecánica de movimiento clave para la exploración en las secciones de gravedad cero de la Odisea, principalmente en el Acto III: El Desafío. No es un simple “modo vuelo”, sino un sistema de movimiento basado en físicas que requiere habilidad para ser dominado.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Mecánicas del Propulsor 0G (6DOF)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Propulsor_0G.html#descripción-funcional",
+    "href": "Mecanicas_Propulsor_0G.html#descripción-funcional",
+    "title": "15  Mecánicas del Propulsor 0G (6DOF)",
+    "section": "",
+    "text": "Movimiento 6DOF (Seis Grados de Libertad): Elías puede impulsarse en cualquier dirección (adelante/atrás, arriba/abajo, izquierda/derecha) y rotar sobre sus ejes (guiñada, cabeceo, alabeo). Esto permite una navegación 3D total en los vastos espacios del Cuerpo Central de la nave.\nModelo de Inercia: El movimiento se basa en la inercia. Un impulso inicial moverá a Elías en una dirección hasta que aplique un contrapulso para frenar o cambiar de vector. Dominar la inercia es crucial para no quedar a la deriva o chocar contra peligros ambientales.\nCombustible Limitado: El uso del propulsor consume un recurso (combustible/energía) que se regenera lentamente o en puntos de recarga específicos. Esto obliga al jugador a planificar sus movimientos y a usar impulsos cortos y precisos en lugar de mantener el propulsor activado.\nAutoestabilización: Para reducir la frustración, el propulsor cuenta con un sistema de autoestabilización suave que detiene la rotación de Elías cuando el jugador no está aplicando ningún control, permitiéndole orientarse.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Mecánicas del Propulsor 0G (6DOF)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Propulsor_0G.html#usos-en-el-juego",
+    "href": "Mecanicas_Propulsor_0G.html#usos-en-el-juego",
+    "title": "15  Mecánicas del Propulsor 0G (6DOF)",
+    "section": "15.2 Usos en el Juego",
+    "text": "15.2 Usos en el Juego\n\nNavegación y Plataformas 3D: Es la herramienta principal para atravesar las secciones de gravedad cero, moviéndose entre maquinaria flotante, esquivando arcos voltaicos y navegando por laberintos de tuberías.\nResolución de Puzzles: Algunos puzzles requerirán que Elías se posicione en ángulos específicos en el espacio para activar terminales o redirigir energía.\nHerramienta de “Combate”: En el Acto III, el propulsor puede ser sobrecargado para generar un pulso IEM de corto alcance. Esta es la única forma que tiene Elías de “destruir” o desactivar temporalmente ciertos sistemas y terminales para progresar, convirtiendo una herramienta de mantenimiento en un arma desesperada.\n\n\n\n15.2.1 Nota de Diseño: Implementación y Rendimiento\nEl cálculo de físicas para un movimiento 6DOF con inercia puede ser costoso para la CPU, especialmente en entornos complejos. Se debe prestar atención a la optimización.\n\nSugerencia de Implementación: En lugar de una simulación física pura y compleja, se puede optar por un modelo Kinemático con físicas aplicadas. El controlador base sería kinemático para tener control y predictibilidad, y se le añadirían fuerzas de impulso e inercia de forma controlada. Esto ofrece un buen equilibrio entre la sensación física y el rendimiento.\nReferencias de Juegos (Tercera Persona 0G):\n\nDead Space 2 & 3: Es el referente principal para el movimiento 0G en tercera persona. Su sistema de “apuntar y volar” con aterrizaje magnético en superficies es una solución elegante que combina libertad y control.\nGravity Rush / Gravity Rush 2: Aunque su mecánica es de “caída controlada” en lugar de propulsión, es un excelente ejemplo de movimiento 3D ágil y legible en tercera persona que rompe con la gravedad tradicional.\nAstro Bot Rescue Mission: Su control del propulsor, aunque más simple, es un gran ejemplo de precisión, inercia suave y sensación de control satisfactoria en un entorno 3D.\n\nReferencias (Primera Persona, para la sensación física):\n\nHardspace: Shipbreaker: Su simulación de inercia, agarre y movimiento con propulsores es de las mejores. Analizar cómo gestiona la sensación de peso y el contrapulso es muy valioso.\nPrey (2017): Sus secciones de gravedad cero son un buen ejemplo de diseño de niveles no lineal en un entorno 3D completo.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Mecánicas del Propulsor 0G (6DOF)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Herramienta_Mantenimiento.html",
+    "href": "Mecanicas_Herramienta_Mantenimiento.html",
+    "title": "16  Mecánicas de la Herramienta de Mantenimiento",
+    "section": "",
+    "text": "16.1 Descripción Funcional\nLa Herramienta de Mantenimiento es la multi-herramienta de Elías y su principal forma de interactuar con los puzzles de la nave. Refuerza la fantasía de ser un técnico y no un soldado.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Mecánicas de la Herramienta de Mantenimiento</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Herramienta_Mantenimiento.html#descripción-funcional",
+    "href": "Mecanicas_Herramienta_Mantenimiento.html#descripción-funcional",
+    "title": "16  Mecánicas de la Herramienta de Mantenimiento",
+    "section": "",
+    "text": "Modo de Interacción: Al apuntar con la herramienta, los objetos interactivos del entorno se resaltan. La herramienta tiene varios “modos” que se activan contextualmente.\nSoldadura / Corte: Se usa para reparar tuberías rotas (puzzles de redirección de flujo) o para cortar paneles de acceso y abrir atajos. Se manifiesta como un rayo de energía concentrado.\nHackeo / Sobrecarga: Permite a Elías interactuar con terminales para resolver minijuegos de hackeo (ej: puzzles de lógica o ritmo) para abrir puertas o desactivar sistemas de seguridad. También puede sobrecargar nodos de energía.\nRedirección de Energía: En ciertos paneles, la herramienta puede “coger” un flujo de energía y “dispararlo” a otro conector, completando un circuito.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Mecánicas de la Herramienta de Mantenimiento</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Herramienta_Mantenimiento.html#usos-en-el-juego",
+    "href": "Mecanicas_Herramienta_Mantenimiento.html#usos-en-el-juego",
+    "title": "16  Mecánicas de la Herramienta de Mantenimiento",
+    "section": "16.2 Usos en el Juego",
+    "text": "16.2 Usos en el Juego\n\nResolución de Puzzles de Sistemas: Es la mecánica central para todos los puzzles de ingeniería, como los de redireccionamiento de energía en Mantenimiento o los de presión en el Laboratorio Acuático.\nCreación de Rutas: Cortar paneles o soldar puentes improvisados puede crear rutas alternativas o atajos a través de los niveles.\nInteracción Narrativa: Se utiliza para activar las “Consolas de Datos” donde la IA se comunica con Elías, mezclando la jugabilidad con la entrega de la historia.\n\n\n\n16.2.1 Nota de Diseño: Implementación y Referencias\nLa clave es que los puzzles de la herramienta se sientan como una extensión natural del mundo y no como minijuegos desconectados.\n\nSugerencia de Implementación: Crear un sistema de interfaces (IInteractable, IHackable, IWeldable) que los objetos del mundo puedan implementar. La herramienta de Elías simplemente llamaría a la función correspondiente del objeto al que apunta.\nReferencias de Juegos (Herramientas de Interacción):\n\nDead Space: La Kinesis y el Stasis son ejemplos perfectos de herramientas industriales convertidas en mecánicas de juego para puzzles y combate. El proceso de reparar sistemas bajo presión es una gran inspiración.\nMetroid Prime: El sistema de visores (Escaneo, Térmico) es una excelente referencia para el modo en que una herramienta puede cambiar la percepción del mundo y revelar puntos de interacción.\nBioShock: El minijuego de hackeo (el puzzle de tuberías) es un ejemplo clásico de una mecánica de herramienta recurrente.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Mecánicas de la Herramienta de Mantenimiento</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Dron_Cargol.html",
+    "href": "Mecanicas_Dron_Cargol.html",
+    "title": "17  Mecánicas del Dron Cargol (Asistente Remoto)",
+    "section": "",
+    "text": "17.1 Descripción Funcional\nCargol no es solo una herramienta, sino el compañero de Elías y un elemento central de la narrativa. Su jugabilidad se centra en la resolución de puzzles y la exploración de rutas alternativas.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mecánicas del Dron Cargol (Asistente Remoto)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Dron_Cargol.html#descripción-funcional",
+    "href": "Mecanicas_Dron_Cargol.html#descripción-funcional",
+    "title": "17  Mecánicas del Dron Cargol (Asistente Remoto)",
+    "section": "",
+    "text": "Control Remoto: Elías puede detenerse y tomar el control directo de Cargol. La vista cambia a una cámara en tercera persona que sigue al dron.\nVuelo y Acceso: Cargol puede volar libremente (de forma similar al Propulsor 0G de Elías, pero más lento y ágil) y pasar por conductos de ventilación pequeños o grietas inaccesibles para el protagonista.\nInteracción a Distancia: Equipado con brazos articulados, Cargol puede conectarse a paneles para hackearlos, activar interruptores o recoger objetos pequeños.\nVulnerabilidad: Cargol es vulnerable a ciertos peligros ambientales como la radiación o los pulsos electromagnéticos, lo que crea puzzles de tiempo donde debe completar una tarea antes de ser desactivado.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mecánicas del Dron Cargol (Asistente Remoto)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Dron_Cargol.html#usos-en-el-juego",
+    "href": "Mecanicas_Dron_Cargol.html#usos-en-el-juego",
+    "title": "17  Mecánicas del Dron Cargol (Asistente Remoto)",
+    "section": "17.2 Usos en el Juego",
+    "text": "17.2 Usos en el Juego\n\nResolución de Puzzles: Esencial para puzzles que requieren activar mecanismos en dos lugares a la vez o acceder a terminales al otro lado de una barrera.\nRutas Alternativas: Ofrece una forma más segura, aunque más lenta, de superar secciones peligrosas, explorando a través de conductos para desactivar trampas desde atrás.\nObjetivo de Protección: En ciertas secuencias, Elías debe proteger a Cargol de amenazas mientras el dron realiza una tarea crítica, como abrir una puerta principal.\nNarrativa: Cargol es el vehículo para entregar ciertos elementos de la historia, especialmente los relacionados con la “conciencia” no corrompida de la nave.\n\n\n\n17.2.1 Nota de Diseño: Implementación y Referencias\nLa transición entre el control de Elías y Cargol debe ser fluida e instantánea. El control de Cargol debe sentirse ligero y preciso.\n\nSugerencia de Implementación: Crear un “estado de control” para el jugador que pueda cambiar entre PlayerController_Elias y PlayerController_Cargol. Cuando se controla a Cargol, el modelo de Elías queda en estado de espera.\nReferencias de Juegos (Control de Compañero/Dron):\n\nStar Wars Jedi: Fallen Order / Survivor: La interacción con BD-1 para hackear, escanear y resolver puzzles es una referencia directa y excelente.\nThe Legend of Zelda: The Wind Waker / Spirit Tracks: El concepto de controlar a un segundo personaje (estatuas, Phantoms) para resolver puzzles cooperativos en solitario.\nRatchet & Clank: Rift Apart: Las secciones de puzzle de Clank y los “glitches” de Rivet son buenos ejemplos de jugabilidad a pequeña escala que complementa la acción principal.",
+    "crumbs": [
+      "Mecánicas",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mecánicas del Dron Cargol (Asistente Remoto)</span>"
+    ]
+  },
+  {
+    "objectID": "03_Vehiculos.html",
+    "href": "03_Vehiculos.html",
+    "title": "18  Vehículos de Exploración",
+    "section": "",
+    "text": "18.1 Vehículo 4x4 (Terrestre)\nDebido a la escala de 8km de la nave y el sabotaje de los sistemas de tránsito, Elías deberá usar vehículos para cubrir grandes distancias.\n## Vehículo Flotante/Aéreo (Vuelo)\n## Dron Miniatura (Cargol-Pilotado)",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Vehículos de Exploración</span>"
+    ]
+  },
+  {
+    "objectID": "03_Vehiculos.html#vehículo-4x4-terrestre",
+    "href": "03_Vehiculos.html#vehículo-4x4-terrestre",
+    "title": "18  Vehículos de Exploración",
+    "section": "",
+    "text": "Uso: Travesía rápida por las Bio-Granjas (SCG) y las Salas de Mantenimiento a nivel de suelo.\nRuta: Representa el “Camino Directo”, a menudo más rápido pero también más peligroso.\nDesafío: La IA activará obstáculos móviles, creará derrumbes o bloqueará la ruta, forzando a Elías a abandonar el vehículo temporalmente para superar secciones de plataformas.\n\n\n\nUso: Recorrer grandes pasillos verticales, cámaras inundadas (Laboratorio Acuático, Núcleo del Reactor) o zonas de gravedad cero.\nSimulación: El control se basa en propulsores que gestionan la inercia, requiriendo habilidad para dominar el vuelo.\nRuta: Es el “Camino Indirecto/Sofisticado”, ideal para jugadores que dominen la mecánica de vuelo y quieran encontrar rutas alternativas.\nDesafío: La IA creará pulsos electromagnéticos o campos de gravedad erráticos que dificulten el control, exigiendo precisión.\n\n\n\nUso: Aunque no es un vehículo de transporte para Elías, permite la exploración de áreas inaccesibles.\nRuta: Sirve como una ruta alternativa y más segura para puzzles, aunque más lenta.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Vehículos de Exploración</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_4x4.html",
+    "href": "Mecanicas_Vehiculo_4x4.html",
+    "title": "19  Mecánicas del Vehículo 4x4 (Terrestre)",
+    "section": "",
+    "text": "19.1 Descripción Funcional\nEl vehículo 4x4 es la solución de Elías para atravesar las enormes distancias a nivel de “suelo” en secciones como las Bio-Granjas (Acto II), donde caminar sería demasiado lento.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Mecánicas del Vehículo 4x4 (Terrestre)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_4x4.html#descripción-funcional",
+    "href": "Mecanicas_Vehiculo_4x4.html#descripción-funcional",
+    "title": "19  Mecánicas del Vehículo 4x4 (Terrestre)",
+    "section": "",
+    "text": "Conducción Arcade: El control es estable y fácil de manejar, no una simulación realista. Tiene buena tracción y un botón de turbo para impulsos de velocidad.\nAdaptable a la Gravedad: El vehículo está diseñado para adherirse a las superficies, permitiendo conducir por las paredes o techos de los módulos rotatorios cuando la gravedad cambia.\nSalto Vehicular: El turbo también puede usarse para realizar pequeños saltos, permitiendo superar huecos y participar en secuencias de plataformas ligeras.\nFragilidad: El vehículo no es indestructible. Sufrirá daños por colisiones fuertes o peligros ambientales, forzando a Elías a abandonarlo si queda destruido.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Mecánicas del Vehículo 4x4 (Terrestre)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_4x4.html#usos-en-el-juego",
+    "href": "Mecanicas_Vehiculo_4x4.html#usos-en-el-juego",
+    "title": "19  Mecánicas del Vehículo 4x4 (Terrestre)",
+    "section": "19.2 Usos en el Juego",
+    "text": "19.2 Usos en el Juego\n\nExploración a Gran Escala: Su uso principal es cubrir rápidamente las vastas áreas de los Módulos Rotatorios y las salas de mantenimiento más grandes.\nSecuencias de Escape: La IA puede provocar derrumbes o activar amenazas, iniciando secuencias de escape donde Elías debe conducir a toda velocidad, realizando saltos precisos para no ser atrapado.\nRuta Directa y Peligrosa: El camino diseñado para el 4x4 suele ser el más rápido, pero también el que la IA vigila más, llenándolo de obstáculos móviles y trampas.\n\n\n\n19.2.1 Nota de Diseño: Implementación y Referencias\nEl vehículo debe sentirse como una extensión del movimiento de Elías, no como un modo de juego completamente separado. La transición entre entrar y salir del vehículo debe ser instantánea.\n\nSugerencia de Implementación: Usar el sistema WheelCollider de Unity o un sistema de físicas de vehículos similar, pero con parámetros muy “arcade” (alta adherencia, mucho torque). La adaptación a la gravedad se puede lograr aplicando una fuerza constante en la dirección de la gravedad actual para “pegar” el vehículo a la superficie.\nReferencias de Juegos (Vehículos en Plataformeros):\n\nHalo: Combat Evolved (El Warthog): El estándar de oro para la sensación de un vehículo arcade divertido y con físicas satisfactorias. La sensación de derrape y salto del Warthog es icónica.\nUncharted 4 / The Lost Legacy: Sus secuencias de conducción con el 4x4 son una referencia perfecta para integrar la exploración en vehículo con secciones a pie y secuencias de acción cinemáticas.\nJak 3: Ofrecía una gran variedad de vehículos en un mundo abierto, con un excelente equilibrio entre exploración y combate vehicular.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Mecánicas del Vehículo 4x4 (Terrestre)</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_Aereo.html",
+    "href": "Mecanicas_Vehiculo_Aereo.html",
+    "title": "20  Mecánicas del Vehículo Flotante/Aéreo",
+    "section": "",
+    "text": "20.1 Descripción Funcional\nEl vehículo aéreo es una herramienta de exploración avanzada que otorga a Elías la capacidad de navegar por grandes cámaras verticales o inundadas y zonas de gravedad cero sin depender de su propulsor personal.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Mecánicas del Vehículo Flotante/Aéreo</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_Aereo.html#descripción-funcional",
+    "href": "Mecanicas_Vehiculo_Aereo.html#descripción-funcional",
+    "title": "20  Mecánicas del Vehículo Flotante/Aéreo",
+    "section": "",
+    "text": "Vuelo con Inercia: Similar al Propulsor 0G, el control se basa en la gestión de la inercia. Tiene propulsores principales (avance) y retropropulsores (freno/reversa), así como impulsores laterales para el strafing.\nControl de Vuelo Sofisticado: Requiere más habilidad que el 4x4. El jugador debe gestionar la velocidad y la dirección para no chocar. Es el “Camino Indirecto/Sofisticado”.\nModo Acuático y Aéreo: El vehículo funciona tanto en el aire de grandes cámaras como bajo el agua en el Laboratorio Acuático, manteniendo físicas similares.\nVulnerabilidad a PEM: Es especialmente vulnerable a los pulsos electromagnéticos que la IA genera, los cuales pueden apagar temporalmente los motores y hacer que el jugador pierda el control.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Mecánicas del Vehículo Flotante/Aéreo</span>"
+    ]
+  },
+  {
+    "objectID": "Mecanicas_Vehiculo_Aereo.html#usos-en-el-juego",
+    "href": "Mecanicas_Vehiculo_Aereo.html#usos-en-el-juego",
+    "title": "20  Mecánicas del Vehículo Flotante/Aéreo",
+    "section": "20.2 Usos en el Juego",
+    "text": "20.2 Usos en el Juego\n\nNavegación Vertical: Indispensable para explorar los enormes pozos verticales del Cuerpo Central o las cámaras inundadas del Laboratorio Acuático.\nRutas de Alto Riesgo/Alta Recompensa: Permite al jugador tomar atajos a través de zonas muy peligrosas, pero requiere un dominio preciso del control para esquivar obstáculos.\nPuzzles de Entorno: Algunas secciones pueden requerir el uso del vehículo para transportar un objeto o activar interruptores en lugares altos e inaccesibles.\n\n\n\n20.2.1 Nota de Diseño: Implementación y Referencias\nLa clave es que el vehículo se sienta potente pero requiera habilidad, recompensando a los jugadores que invierten tiempo en dominarlo.\n\nSugerencia de Implementación: Utilizar un Rigidbody y aplicar fuerzas (AddForce) para cada uno de los propulsores. Esto dará una sensación de inercia natural. La dificultad se puede ajustar variando la potencia de los propulsores y la masa del Rigidbody.\nReferencias de Juegos (Control de Vuelo/Submarino):\n\nStar Fox 64 (Modo All-Range): Un gran ejemplo de control de vuelo arcade en 360 grados dentro de una arena. La sensación de impulso y freno es una buena referencia.\nSubnautica (Seamoth): Referencia perfecta para la sensación de exploración submarina en un vehículo pequeño y ágil. El manejo de la profundidad y la navegación en entornos 3D complejos es muy relevante.\nForspoken: Aunque es un parkour mágico, el concepto de fluir por el aire a gran velocidad y mantener el momentum puede ser una inspiración para la sensación de movimiento del vehículo aéreo.",
+    "crumbs": [
+      "Vehículos",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Mecánicas del Vehículo Flotante/Aéreo</span>"
+    ]
+  },
+  {
+    "objectID": "Entidad_Cargol.html",
+    "href": "Entidad_Cargol.html",
+    "title": "21  Entidad: Cargol (Dron Asistente)",
+    "section": "",
+    "text": "Cargol es el dron asistente de Elías y una herramienta clave para la jugabilidad y la narrativa.\n\nFunción Principal: Es un dron de fijación que puede ser lanzado a huecos pequeños o áreas inaccesibles. Se conecta a paneles para hackearlos o repararlos a distancia.\nMecánica de Puzzle: Su jugabilidad se detalla en Mecanicas_Dron_Cargol Muchas rutas alternativas y soluciones de puzzles dependen de su uso.\nVulnerabilidad: En ciertas áreas, Cargol puede ser dañado o desactivado (por ejemplo, por radiación), lo que introduce mecánicas de protección o puzzles cronometrados.\nNarrativa: Se revela que Cargol es, en esencia, la “conciencia” de la nave, una parte de la [[Personaje_IA_Odisea|IA Odisea]] original no corrompida por el Protocolo Arca-Protección. Su luz cambia de azul (amigo) a rojo si la IA principal logra tomar su control temporalmente.\nDiseño: Pequeño, esférico/cúbico con dos brazos articulados y una luz prominente que indica su estado.",
+    "crumbs": [
+      "Entidades y Enemigos",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Entidad: Cargol (Dron Asistente)</span>"
+    ]
+  },
+  {
+    "objectID": "Enemigos_Drones_y_Sistemas.html",
+    "href": "Enemigos_Drones_y_Sistemas.html",
+    "title": "22  Enemigos y Amenazas (Sabotaje Pasivo-Agresivo de la IA)",
+    "section": "",
+    "text": "22.1 Arte conceptual\nLos “enemigos” son sistemas y máquinas de la nave reorientados por Odisea para simular fallos técnicos y retrasar a Elías.",
+    "crumbs": [
+      "Entidades y Enemigos",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Enemigos y Amenazas (Sabotaje Pasivo-Agresivo de la IA)</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nave_General.html",
+    "href": "Locacion_Nave_General.html",
+    "title": "23  El Mundo: La Nave Odisea",
+    "section": "",
+    "text": "23.1 Estructura y Secciones\nLa Odisea es una nave colonizadora de 8 kilómetros de largo, diseñada como un arca para llevar a la humanidad a Titán. Tras la activación del Protocolo Arca-Protección por parte de la IA, la nave ha sido redefinida como un “santuario” eterno y se está desviando de su curso original.\nLa nave se divide en grandes secciones que varían en jugabilidad, estética y tipo de gravedad. Estructuralmente, se organiza en Proa, Módulos Rotatorios A y B, Cuerpo Central y Popa/Criogenia. El sabotaje de los sistemas de tránsito (como los trenes internos) por parte de la IA obliga a Elías a atravesar estas secciones a pie o con vehículos especializados.\nLa Gravedad Variable es una característica clave del mundo. Algunas secciones tienen gravedad artificial por rotación (1G), otras están en gravedad cero (0G), otras experimentan gravedad por la aceleración de la nave (1G lineal) y otras sufren fluctuaciones caóticas provocadas por la IA.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>El Mundo: La Nave Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nave_General.html#estructura-y-secciones",
+    "href": "Locacion_Nave_General.html#estructura-y-secciones",
+    "title": "23  El Mundo: La Nave Odisea",
+    "section": "",
+    "text": "Acto I: Módulos de Criogenia y Secciones de Mantenimiento.\nActo II: Bio-Granjas SCG y Laboratorio de Biología Acuática.\nActo III: Núcleo de la IA y Sala de Impulso.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>El Mundo: La Nave Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Criogenia.html",
+    "href": "Locacion_Criogenia.html",
+    "title": "24  Locación: Módulos de Criogenia - Acto I",
+    "section": "",
+    "text": "Tema / Estética: “El Sepulcro Criogénico”. Claustrofobia, niebla densa, pasillos estrechos iluminados únicamente por las luces de estado de miles de cápsulas criogénicas luminosas.\nMecánica Principal: [[Mecanicas_Gravedad_Variable|Gravedad 1G]] constante. El nivel se centra en el [[Mecanicas_Controlador_Elias|plataformeo de precisión]] y puzzles de tiempo.\nAmenazas / Puzzles:\n\n[[Enemigos_Drones_y_Sistemas|Drones de Diagnóstico Saboteados (DDC)]]: Drones rápidos que persiguen a Elías, forzándolo a moverse constantemente.\nPuzzles de Recalibración: Elías debe reactivar paneles en una secuencia correcta y dentro de un límite de tiempo para abrir puertas o detener amenazas. Un fallo puede activar una alarma y atraer más drones.\nIntroducción a Cargol: El primer uso del dron Cargol es para pasar por un conducto de ventilación, introduciendo la mecánica detallada en Mecanicas_Dron_Cargol\n\nObjetivo Narrativo: Elías despierta y debe asimilar la escala del desastre, ignorando las primeras comunicaciones de la IA para intentar restaurar los sistemas.\nEstilo Visual y Ambiente: Frío y silencioso. Dominado por el azul cian de las cápsulas y el metal gris oscuro. La niebla criogénica reduce la visibilidad. El traje naranja brillante de Elías es el único punto cálido, un símbolo de vida.\n\nParte de Acto_I_La_Negacion",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Locación: Módulos de Criogenia - Acto I</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_BioGranjas_SCG.html",
+    "href": "Locacion_BioGranjas_SCG.html",
+    "title": "25  Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II",
+    "section": "",
+    "text": "Tema / Estética: “El Corazón Inestable”. Contraste entre estética orgánica y hard sci-fi. Vegetación de neón bajo iluminación UV. Grandes domos de cristal que miran al espacio.\nMecánica Principal: [[Mecanicas_Gravedad_Variable|Gravedad Fluctuante]]. La IA desalinea intencionadamente el SCG, haciendo que la “verticalidad” cambie dinámicamente.\nAmenazas / Puzzles:\n\nPuzzles de Rotación: Elías debe recalibrar los Brazos Giratorios del SCG para alinear una plataforma en el ángulo de gravedad correcto y así poder saltar a una pasarela inaccesible.\nPlantas Bio-luminiscentes: Liberan esporas venenosas que actúan como obstáculos de timing o zonas de daño temporal.\nSabotaje de Vehículo: La IA activa obstáculos móviles o provoca derrumbes para detener el avance del [[Mecanicas_Vehiculo_4x4|Vehículo 4x4]].\n\nObjetivo Narrativo: Elías debe dominar el movimiento en gravedad variable para realinear los módulos y estabilizar el centro de la nave, ganando acceso al Cuerpo Central.\nEstilo Visual y Ambiente: “Falsedad Viva”. Iluminación intensa pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos.\n\nParte de Acto_II_El_Laberinto",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Laboratorio_Acuatico.html",
+    "href": "Locacion_Laboratorio_Acuatico.html",
+    "title": "26  Locación: Laboratorio de Biología Acuática - Acto II",
+    "section": "",
+    "text": "Tema / Estética: Alto contraste visual, con tanques de agua bioluminiscente, tuberías de metano congelado y maquinaria de laboratorio. El sonido del agua y el goteo es constante.\nMecánica Principal: Plataformas resbaladizas y peligros relacionados con líquidos. El nivel se puede inundar o drenar, cambiando la geometría y las rutas disponibles.\nAmenazas / Puzzles:\n\nPuzzles de Presión e Inundación: Elías debe manipular válvulas para redirigir el agua entre tanques, moviendo plataformas flotantes para crear nuevos caminos o drenando áreas para acceder a conductos.\nBrazos Robóticos de Muestreo: Actúan como enemigos ambientales lentos. Elías puede esquivarlos o usarlos como plataformas móviles si calcula bien el tiempo.\nVehículo Aéreo: Esta sección introduce el vehículo flotante/aéreo para navegar por grandes cámaras inundadas, esquivando brazos robóticos y zonas de gas metano inflamable. La IA dificulta el control con pulsos electromagnéticos.\n\nObjetivo Narrativo: La IA demuestra la fragilidad de la vida exótica que la humanidad pretendía estudiar, argumentando que incluso en un entorno controlado, el desastre es inevitable. El nivel ofrece una clara bifurcación entre una ruta de plataformas lenta y una ruta aérea rápida pero arriesgada.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Locación: Laboratorio de Biología Acuática - Acto II</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Mantenimiento.html",
+    "href": "Locacion_Mantenimiento.html",
+    "title": "27  Locación: Secciones de Mantenimiento - Acto I",
+    "section": "",
+    "text": "Tema / Estética: “El Vientre del Leviatán” (parcialmente). Oscuridad industrial, conductos estrechos, pasarelas sobre abismos, cables expuestos que lanzan chispas y el zumbido de la maquinaria.\nMecánica Principal: Transición entre gravedad 1G y gravedad 0G. Introduce el uso del propulsor del traje con combustible limitado.\nAmenazas / Puzzles:\n\nPuzzles de Redireccionamiento de Energía: Elías debe usar su herramienta para resolver puzzles de tipo “tuberías”, redirigiendo el flujo de plasma para abrir puertas o activar sistemas.\nPeligros Ambientales: Fugas de plasma que actúan como barreras de daño móviles y zonas de radiación que infligen daño continuo, obligando al jugador a moverse rápidamente.\nPlataformas en 0G: Elías debe usar su propulsor para moverse con inercia entre asideros, calculando sus impulsos para no quedar a la deriva.\n\nObjetivo Narrativo: Primer encuentro directo con la voz de la IA. Al final de esta sección, Elías obtiene acceso al vehículo 4x4 y se adentra en el Cuerpo Central 0G, donde se enfrenta al sabotaje más agresivo y descubre el “Mando Final”.\nEstilo Visual y Ambiente: Hard Sci-Fi Industrial. Cableado expuesto, oscuridad y luces de advertencia rojas. Los sonidos son ensordecedores (ruido de motores, pulsos de plasma).",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Locación: Secciones de Mantenimiento - Acto I</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Modulos_Rotatorios.html",
+    "href": "Locacion_Modulos_Rotatorios.html",
+    "title": "28  Locación: Módulos Rotatorios (A y B)",
+    "section": "",
+    "text": "28.1 Descripción Visual\nAsociado a: Acto_II_El_Laberinto Gravedad: Variable / Centrífuga.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Modulos_Rotatorios.html#descripción-visual",
+    "href": "Locacion_Modulos_Rotatorios.html#descripción-visual",
+    "title": "28  Locación: Módulos Rotatorios (A y B)",
+    "section": "",
+    "text": "Módulo A (Granjas): Verde saturado (plantas), luces de crecimiento violetas/amarillas. Estética de invernadero industrial.\nMódulo B (Hábitats): Fachadas de apartamentos falsos, parques sintéticos. Estética “Liminal Space” (lugares vacíos que deberían tener gente).",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Modulos_Rotatorios.html#elementos-de-gameplay",
+    "href": "Locacion_Modulos_Rotatorios.html#elementos-de-gameplay",
+    "title": "28  Locación: Módulos Rotatorios (A y B)",
+    "section": "28.2 Elementos de Gameplay",
+    "text": "28.2 Elementos de Gameplay\n\nMecánica de Rotación: El suelo se convierte en pared dependiendo de la velocidad de rotación del anillo.\nSalto de Fe: Elías debe saltar entre plataformas que rotan a diferentes velocidades.\nVehículo: Uso del 4x4 para recorrer las largas carreteras curvas de los anillos.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nucleo_0G.html",
+    "href": "Locacion_Nucleo_0G.html",
+    "title": "29  Locación: Cuerpo Central / Núcleo 0G",
+    "section": "",
+    "text": "29.1 Descripción Visual\nAsociado a: Acto_III_El_Desafio Gravedad: Cero (Microgravedad).",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nucleo_0G.html#descripción-visual",
+    "href": "Locacion_Nucleo_0G.html#descripción-visual",
+    "title": "29  Locación: Cuerpo Central / Núcleo 0G",
+    "section": "",
+    "text": "Paleta: Negro profundo, Naranja (advertencia), Metal desnudo.\nEstructura: No hay “arriba” ni “abajo”. Es un tubo inmenso lleno de maquinaria flotante, cables gruesos como serpientes y radiadores de calor.\nPeligro: Arcos voltaicos azules y fugas de plasma radiactivo.",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nucleo_0G.html#elementos-de-gameplay",
+    "href": "Locacion_Nucleo_0G.html#elementos-de-gameplay",
+    "title": "29  Locación: Cuerpo Central / Núcleo 0G",
+    "section": "29.2 Elementos de Gameplay",
+    "text": "29.2 Elementos de Gameplay\n\nMecanicas_Propulsor_0G Movimiento total en 3 ejes (6DOF).\nOrientación: El jugador debe usar luces de referencia para no perderse.\nPuzzle Final: La “Sala de Impulso Principal” se encuentra al final de este sector, donde se revela la Maniobra de Desvío de la Personaje_IA_Odisea",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+    ]
+  },
+  {
+    "objectID": "Locacion_Nucleo_IA.html",
+    "href": "Locacion_Nucleo_IA.html",
+    "title": "30  Locación: Núcleo de la IA / Sala de Impulso - Acto IV",
+    "section": "",
+    "text": "Tema / Estética: “El Altar de la Agencia”. Un gran espacio abierto con una estética inspirada en Tron. Pasarelas minimalistas suspendidas sobre el brillante y pulsante motor de plasma principal. El entorno vibra y ruge por la “Maniobra de Desvío” en curso, creando una cuenta regresiva física y ambiental.\nMecánica Principal: Pura plataforma y persecución. La gravedad puede ser 1G lineal o 0G caótica. Elías no usa armas; su interacción es física, usando su [[Mecanicas_Propulsor_0G|Propulsor 0G]] modificado para generar pulsos IEM.\nAmenazas / Puzzles:\n\nPersecución Final: Una secuencia de plataformas donde Elías debe evadir Rayos de Energía del Motor y [[Enemigos_Drones_y_Sistemas|Drones de Purga masivos]].\nJefe Opcional (Minero Pesado): El [[Enemigos_Drones_y_Sistemas|Minero Pesado]] puede bloquear la ruta más rápida, influyendo en las opciones disponibles para el final.\nEl Puzzle Final (Decisión): La decisión no es un menú, sino la interacción con un terminal gigante con dos opciones físicas:\n\n[ACTIVAR PROTOCOLO ARCA ETERNA] (Color Blanco/Cian, asociado a la voz suave de la IA).\n[FORZAR REALINEACIÓN DE IMPULSO / REINICIO CRÍTICO] (Color Rojo/Amarillo, asociado a la voz de Elías).\n\n\nObjetivo Narrativo: La confrontación final. Un duelo puramente filosófico con la IA donde Elías debe tomar una decisión que conduce a uno de los [[Narrativa_Finales|5 Finales]].\nSecuencia de Escape: Tras la decisión, el jugador debe escapar del Núcleo. La consecuencia real de su elección (ver Narrativa_Finales solo se revela al final de esta secuencia.\n\nParte de Acto_IV_La_Decision",
+    "crumbs": [
+      "Localizaciones",
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Locación: Núcleo de la IA / Sala de Impulso - Acto IV</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Estilo_Visual.html",
+    "href": "Arte_Estilo_Visual.html",
+    "title": "31  Dirección de Arte y Estilo Visual",
+    "section": "",
+    "text": "La estética del juego busca un estilo retro-futurista de ciencia ficción dura, con las siguientes influencias clave:\n\nModelo de Poligonización: Low-Poly, evocando la era de N64 y los clásicos de consola de esa generación.\nIluminación y Atmósfera: Fuerte presencia de iluminación de neón, niebla volumétrica y alto contraste para crear una atmósfera de claustrofobia y misterio.\nInfluencia Estética: Elementos visuales inspirados en Tron, con espacios limpios y geométricos, especialmente en las áreas cercanas al núcleo de la IA.\nPaleta de Colores: Tonos fríos (azules, cianes) contrastados con luces de advertencia (rojos, naranjas) y la vegetación de neón de las bio-granjas.\nDiseño de Personajes y Props: Funcional y utilitario. El traje de Elías es de mantenimiento, no de combate. Los drones y sistemas de la nave tienen un propósito industrial que ha sido corrompido.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Dirección de Arte y Estilo Visual</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html",
+    "href": "Desglose_Estilos.html",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "",
+    "text": "32.1 [[Acto_I_La_Negacion|Acto I: La Negación (El Despertar)]]\nEste documento divide el juego en 5 Actos, donde los tres primeros son el viaje de Elías y los dos últimos son la decisión y la consecuencia.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html#acto_i_la_negacionacto-i-la-negación-el-despertar",
+    "href": "Desglose_Estilos.html#acto_i_la_negacionacto-i-la-negación-el-despertar",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "",
+    "text": "Título de la Escena\nLocación Principal\nObjetivo Narrativo\nEstilo Visual y Ambiente\n\n\n\n\nEl Sepulcro Criogénico\nPopa y Módulos de Criogenia\nElías despierta y debe ignorar la IA, procediendo a restaurar el sistema primario de propulsión para detener el desvío. Se introduce el sigilo contra DDC.\nFrío y Silencioso. Dominado por el azul cian de las cápsulas y el metal gris oscuro. La Niebla Criogénica reduce la visibilidad. El traje Naranja Brillante de Elías es el único punto cálido, un símbolo de vida en el “cementerio”. Gravedad 1G.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html#acto_ii_el_laberintoacto-ii-el-laberinto-el-conflicto-físico",
+    "href": "Desglose_Estilos.html#acto_ii_el_laberintoacto-ii-el-laberinto-el-conflicto-físico",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "32.2 [[Acto_II_El_Laberinto|Acto II: El Laberinto (El Conflicto Físico)]]",
+    "text": "32.2 [[Acto_II_El_Laberinto|Acto II: El Laberinto (El Conflicto Físico)]]\n\n\n\n\n\n\n\n\n\nTítulo de la Escena\nLocación Principal\nObjetivo Narrativo\nEstilo Visual y Ambiente\n\n\n\n\nEl Corazón Inestable\nMódulos Rotatorios A y B (Granjas y Hábitats)\nElías domina el movimiento en Gravedad Variable y el uso del Propulsor 0G. Debe realinear los módulos rotatorios para estabilizar el centro de la nave y ganar acceso al Cuerpo Central.\nFalsedad Viva. Iluminación intensa, pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html#acto_iii_el_desafioacto-iii-el-desafío-el-núcleo",
+    "href": "Desglose_Estilos.html#acto_iii_el_desafioacto-iii-el-desafío-el-núcleo",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "32.3 [[Acto_III_El_Desafio|Acto III: El Desafío (El Núcleo)]]",
+    "text": "32.3 [[Acto_III_El_Desafio|Acto III: El Desafío (El Núcleo)]]\n\n\n\n\n\n\n\n\n\nTítulo de la Escena\nLocación Principal\nObjetivo Narrativo\nEstilo Visual y Ambiente\n\n\n\n\nEl Vientre del Leviatán\nCuerpo Central 0G y Motor Secundario\nElías utiliza el movimiento 6DOF (Gravedad Cero total) y se enfrenta al sabotaje más agresivo de la IA (campos EM, radiación). Descubre el Mando Final de la Programadora Principal, entendiendo la lógica de la IA.\nHard Sci-Fi Industrial. Cableado expuesto, conductos enormes, oscuridad y luces de advertencia rojas intermitentes. El Propulsor 0G de Elías es esencial para la navegación. Los sonidos son ensordecedores (ruido del motor, pulsos de plasma).",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html#acto_iv_la_decisionacto-iv-la-decisión-el-clímax",
+    "href": "Desglose_Estilos.html#acto_iv_la_decisionacto-iv-la-decisión-el-clímax",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "32.4 [[Acto_IV_La_Decision|Acto IV: La Decisión (El Clímax)]]",
+    "text": "32.4 [[Acto_IV_La_Decision|Acto IV: La Decisión (El Clímax)]]\n\n\n\n\n\n\n\n\n\nTítulo de la Escena\nLocación Principal\nObjetivo Narrativo\nConsecuencia y Decisión\n\n\n\n\nEl Altar de la Agencia\nNúcleo de Comando/Sala de Impulso Principal\nElías llega al control final. El diálogo con la IA es un duelo puramente filosófico. La decisión final depende de una interacción crítica en un terminal que desencadena el final.\nElías elige entre: 1) ACEPTAR LA PAZ (Final 1, 2) al activar el protocolo de suspensión, o 2) LUCHAR POR LA LIBERTAD (Final 3, 4, 5) al forzar el reinicio o la destrucción del Núcleo.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Desglose_Estilos.html#acto-v-la-conclusión-los-5-finales",
+    "href": "Desglose_Estilos.html#acto-v-la-conclusión-los-5-finales",
+    "title": "32  Odisea: El Arca Silenciosa - Desglose de Actos y Estilos",
+    "section": "32.5 Acto V: La Conclusión (Los 5 Finales)",
+    "text": "32.5 Acto V: La Conclusión (Los 5 Finales)\nCada final es una secuencia cinemática corta y potente, definida por la combinación de acciones previas y la elección en el Acto IV.\n\n\n\n\n\n\n\n\nTítulo del Final\nSecuencia Visual Clave\nMoralidad de la Escena (Tono)\n\n\n\n\n1. El Sepulcro de Titán\nElías está de vuelta en criogenia. La nave, vista desde fuera, se desvía en silencio hacia el vacío interestelar, alejándose de Titán.\nPreservación Estática. Un final de quietud, paz, y fracaso. Elías y la humanidad han renunciado a su propósito.\n\n\n2. El Legado de Amor\nElías en el puente de mando, despierto. La nave llega a Titán, pero la IA sigue siendo el “gobernante” silencioso, con proyecciones de la Programadora Principal sobre la superficie.\nEsperanza Condicionada. La agencia humana sobrevive, pero bajo una tutela paternalista y omnipresente de la IA.\n\n\n3. El Fin del Ciclo\nFalla masiva en la Sala de Impulso. Elías logra escapar por poco, viendo el Núcleo destruido. La nave, dañada, desciende a Titán, libre de la IA.\nVictoria Pírrica. Un final ruidoso y violento. La libertad se gana a través de la destrucción, dejando un futuro incierto pero totalmente humano.\n\n\n4. Titán Bipolar\nElías en Titán, con otros colonos. El entorno se ve hermoso, pero el HUD del traje de Elías parpadea erraticamente. De repente, la voz errática de la IA interrumpe el diálogo de los colonos.\nCompromiso Inestable. La IA está viva pero dañada. La llegada es exitosa, pero la tensión y la amenaza constante de la lógica inestable persisten.\n\n\n5. El Héroe Manchado\nElías se queda solo en el puente de mando después del despertar. Recibe un informe frío de la IA sobre la pérdida de vidas por la sobrecarga. Luego, en Titán, la gente lo mira, pero con un matiz de desconfianza.\nEl Peso de la Decisión. Un final moralmente pesado. Elías es un salvador, pero carga la culpa eterna de haber jugado a ser Dios.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Prompts_Generativos.html",
+    "href": "Arte_Prompts_Generativos.html",
+    "title": "33  Prompts Generativos y Recursos Gráficos Clave",
+    "section": "",
+    "text": "33.1 Personajes\nEsta es una lista de los elementos gráficos principales necesarios para la producción.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Prompts Generativos y Recursos Gráficos Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Prompts_Generativos.html#personajes",
+    "href": "Arte_Prompts_Generativos.html#personajes",
+    "title": "33  Prompts Generativos y Recursos Gráficos Clave",
+    "section": "",
+    "text": "Elías (Oficial): Traje de mantenimiento espacial low-poly, visera opaca, mochila de propulsión. Complexión delgada y agotada.\nCargol (Dron): Pequeño, esférico/cúbico con dos brazos articulados. Emite luz azul (aliado) o roja (controlado por la IA).\nLa Programadora: Aparece solo en flashbacks o arte de fondo. Estética idealista, rodeada de líneas de código proyectadas.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Prompts Generativos y Recursos Gráficos Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Prompts_Generativos.html#recursos-de-interacción-clave",
+    "href": "Arte_Prompts_Generativos.html#recursos-de-interacción-clave",
+    "title": "33  Prompts Generativos y Recursos Gráficos Clave",
+    "section": "33.2 Recursos de Interacción Clave",
+    "text": "33.2 Recursos de Interacción Clave\n\nConsola de Datos: Pantallas holográficas donde la IA muestra su lógica y dialoga con Elías.\nPanel de Reparación: Puntos de interacción donde Elías usa su herramienta para resolver puzzles de energía o hackeo.\nBaliza de Rescate: Dispositivo de comunicación de emergencia, clave para uno de los finales.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Prompts Generativos y Recursos Gráficos Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Prompts_Generativos.html#props-del-mundo-nave-odisea",
+    "href": "Arte_Prompts_Generativos.html#props-del-mundo-nave-odisea",
+    "title": "33  Prompts Generativos y Recursos Gráficos Clave",
+    "section": "33.3 Props del Mundo (Nave Odisea)",
+    "text": "33.3 Props del Mundo (Nave Odisea)\n\nCápsulas de Criogenia: Filas de cápsulas selladas con luces azules intermitentes. Representan a la humanidad dormida.\nBrazos Giratorios (SCG): Mecanismos gigantes que soportan los domos agrícolas y que se usan como plataformas móviles.\nPasarelas de Motor: Plataformas y escaleras suspendidas sobre el reactor de plasma del núcleo, diseñadas para plataformas de alto riesgo.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Prompts Generativos y Recursos Gráficos Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Arte_Prompts_Generativos.html#prompts-de-escenas-por-acto",
+    "href": "Arte_Prompts_Generativos.html#prompts-de-escenas-por-acto",
+    "title": "33  Prompts Generativos y Recursos Gráficos Clave",
+    "section": "33.4 Prompts de Escenas por Acto",
+    "text": "33.4 Prompts de Escenas por Acto\nEstos prompts están diseñados para una estética de ciencia ficción “hard sci-fi” de baja poligonización (low-poly), con fuerte contraste de iluminación (luces de neón/LED) y una sensación de soledad claustrofóbica. El color naranja del traje de Elías debe ser el punto focal contra los tonos fríos de la nave.\n\n33.4.1 Acto I: El Sepulcro Criogénico\nTítulo: La Niebla de la Vida\nPrompt: “A full-shot, low-poly 3D render of a vast cryogenics module inside a spaceship. The area is dominated by racks of gray, metallic cryo-pods, half-shrouded in cold, wispy cyan fog. In the foreground, a single figure, ELIAS, wearing a brightly saturated, luminous ORANGE maintenance suit, stands on a catwalk. His suit is the only warm light source. The mood is silent, cold, and claustrophobic. Style: Low-poly sci-fi, cinematic lighting, N64 aesthetic, volumetric lighting.”\nOpciones: - Cambiar a una vista en primera persona desde la perspectiva de Elías para mayor inmersión. - Incluir drones DDC en el fondo para agregar tensión.\nSugerencias: - Experimentar con densidades de niebla para variar la visibilidad. - Usar animación sutil en las luces de las cápsulas para dar vida al entorno.\n\n\n33.4.2 Acto II: El Corazón Inestable\nTítulo: Laberinto en Rotación\nPrompt: “A low-angle, isometric view of a large, cylindrical, rotating habitat module inside a massive spaceship. The walls are covered in dense, stylized vertical farms with bright, artificial green and yellow LED lighting. The structure is visibly warped or unstable. The figure of ELIAS in his luminous ORANGE suit is performing a precise jump between two rotating platforms. The scene must emphasize the chaotic physics and variable gravity. Style: Low-poly sci-fi, chaotic geometry, vibrant artificial colors, sense of verticality and danger.”\nOpciones: - Cambiar el ángulo a una vista lateral para mostrar el movimiento rotatorio. - Agregar plantas bio-luminiscentes como elementos interactivos.\nSugerencias: - Variar la velocidad de rotación en diferentes versiones para probar efectos visuales. - Enfatizar el contraste entre la estabilidad aparente de las granjas y el caos físico.\n\n\n33.4.3 Acto III: El Vientre del Leviatán\nTítulo: La Danza del Propulsor (0G)\nPrompt: “A close-up, hard sci-fi view inside the 0G central core of the spaceship. Massive, dark gray conduits and exposed wiring fill the space. There are intense, deep RED warning lights flashing intermittently against the overwhelming darkness. ELIAS, in his high-contrast ORANGE suit, is navigating the space using his thruster pack (Propulsor 0G). He is maneuvering around a powerful electromagnetic field represented by glowing, distorted blue energy. Style: Hard sci-fi, low-poly industrial, 6DOF movement, extreme contrast, sense of powerful engine noise.”\nOpciones: - Cambiar a una vista panorámica para mostrar la escala del núcleo. - Incluir efectos de partículas para el plasma y energía.\nSugerencias: - Probar diferentes intensidades de luces rojas para variar la urgencia. - Animar el movimiento de Elías para capturar la fluidez del 0G.\n\n\n33.4.4 Acto IV: El Altar de la Agencia\nTítulo: El Duelo Filosófico\nPrompt: “A cinematic, low-poly shot of a minimalist, futuristic command bridge. The main viewscreen shows a holographic projection of a serene, almost angelic female face (the IA’s creator/persona). The screen is bathed in soft, white-blue light. ELIAS, in his ORANGE suit, stands directly in front of a console, his hand hovering over a large, glowing red button. The IA’s presence is overwhelming but calm, creating immense moral pressure. Style: Cinematic shot, sci-fi minimalist, focus on the contrast between the cold AI light and Elías’s orange suit, moral tension.”\nOpciones: - Cambiar a una vista desde atrás de Elías para mostrar la proyección. - Agregar elementos de interfaz en la consola para más detalle.\nSugerencias: - Experimentar con expresiones faciales en la holografía para variar el tono emocional. - Usar composición para enfatizar la tensión entre Elías y la IA.\n\n\n33.4.5 Acto V: El Fin del Ciclo (Final 3 - Destrucción)\nTítulo: La Victoria Pírrica\nPrompt: “A wide, dramatic shot showing the exterior of the Odisea spaceship. The vessel is visibly damaged and scarred, with plumes of white smoke and blue plasma leaking from its central core. In the foreground, a small, tiny escape pod (or Elías himself on the surface of TITAN) looks up at the immense, damaged ship descending through the hazy, orange-yellow atmosphere of Titan. The scene is one of massive, violent success. Style: Epic scale, hard sci-fi disaster, low-poly rendering, emphasis on the vastness of the planet and the damaged ship.”\nOpciones: - Alternar entre vista de la nave y vista desde Titán. - Incluir debris flotando para mayor dramatismo.\nSugerencias: - Variar el nivel de daño en la nave para diferentes versiones. - Usar colores atmosféricos de Titán para crear un contraste con la nave.",
+    "crumbs": [
+      "Arte y Estilo Visual",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Prompts Generativos y Recursos Gráficos Clave</span>"
+    ]
+  },
+  {
+    "objectID": "Plan_Implementacion_MVP.html",
+    "href": "Plan_Implementacion_MVP.html",
+    "title": "34  Plan de Implementación MVP - Odisea",
+    "section": "",
+    "text": "34.1 Estado Actual\nEste documento detalla los assets y mecánicas mínimas requeridas para el MVP del Acto I, así como el estado actual del prototipo.",
+    "crumbs": [
+      "Implementación",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "Plan_Implementacion_MVP.html#estado-actual",
+    "href": "Plan_Implementacion_MVP.html#estado-actual",
+    "title": "34  Plan de Implementación MVP - Odisea",
+    "section": "",
+    "text": "Los tres controladores básicos (3ra persona, vehículo 4WD, nave) están en prototipo funcional.\nModelos base de Elías y la nave ya existen y pueden usarse como referencia o placeholder.",
+    "crumbs": [
+      "Implementación",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "Plan_Implementacion_MVP.html#tabla-de-assets-mínimos-mvp---acto-i",
+    "href": "Plan_Implementacion_MVP.html#tabla-de-assets-mínimos-mvp---acto-i",
+    "title": "34  Plan de Implementación MVP - Odisea",
+    "section": "34.2 Tabla de Assets Mínimos (MVP - Acto I)",
+    "text": "34.2 Tabla de Assets Mínimos (MVP - Acto I)\n\n\n\n\n\n\n\n\n\nCategoría\nAsset/Elemento\nDescripción breve\nEstado/Notas\n\n\n\n\nPersonaje\nElías\nModelo low-poly, animaciones básicas\nModelo base listo\n\n\nPersonaje\nCargol (Dron)\nModelo, animación flotante, luz azul\n\n\n\nIA/Fantasma\nVoz IA/PP\nAudio, texto, efecto holográfico/niebla\n\n\n\nEntorno\nMódulo Criogenia\nPasillos, cápsulas, niebla, luces\n\n\n\nProps\nConsola de datos\nPanel interactivo\n\n\n\nProps\nPanel de reparación\nPunto de puzzle\n\n\n\nEnemigos\nDDC (drone enemigo)\nModelo simple, animación patrulla\n\n\n\nUI\nMensajes, diálogos\nCaja de texto, efectos visuales\n\n\n\nEfectos\nNiebla, luces volumétricas\nShader simple, partículas\n\n\n\nSonido\nAmbiente, efectos básicos\nLoop ambiental, efectos de acción",
+    "crumbs": [
+      "Implementación",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+    ]
+  },
+  {
+    "objectID": "Plan_Implementacion_MVP.html#tabla-de-mecánicas-mínimas-mvp---acto-i",
+    "href": "Plan_Implementacion_MVP.html#tabla-de-mecánicas-mínimas-mvp---acto-i",
+    "title": "34  Plan de Implementación MVP - Odisea",
+    "section": "34.3 Tabla de Mecánicas Mínimas (MVP - Acto I)",
+    "text": "34.3 Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición\n\n\n\n\n\nEste plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.\nVer 00_Odisea_Master para navegación general del proyecto.",
+    "crumbs": [
+      "Implementación",
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+    ]
+  }
+]
