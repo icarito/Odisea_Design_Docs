@@ -1,0 +1,59 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sixtyfour&display=swap');
+
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: 'Lato', sans-serif; /* Fuente legible para el cuerpo */
+    --bs-primary: #ff6600;
+    --bs-primary-rgb: 255, 102, 0;
+    --bs-link-color: #ff6600;
+    --bs-link-hover-color: #ff9933;
+}
+
+/* Títulos con la fuente Sixtyfour, más grandes y con efecto de resplandor */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sixtyfour', 'Orbitron', sans-serif; /* Fallback a Orbitron */
+    font-weight: normal;
+    color: #ff8c00; /* Naranja más brillante para el texto */
+    text-shadow: 
+        0 0 5px rgba(255, 102, 0, 0.8), 
+        0 0 10px rgba(255, 102, 0, 0.6), 
+        0 0 15px rgba(255, 102, 0, 0.4); /* Efecto de resplandor naranja */
+}
+
+/* Tamaños de fuente más grandes para los títulos */
+h1 { font-size: 3.5em; }
+h2 { font-size: 2.8em; }
+h3 { font-size: 2.2em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.5em; }
+h6 { font-size: 1.2em; }
+
+/* Estilo para la portada en HTML */
+.quarto-cover-block .quarto-cover-title {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 
+        0 0 8px rgba(255, 102, 0, 1), 
+        0 0 12px rgba(255, 102, 0, 0.8),
+        0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.quarto-cover-block .quarto-cover-author,
+.quarto-cover-block .quarto-cover-date {
+    font-family: 'Lato', sans-serif;
+    color: #cccccc;
+    text-shadow: 1px 1px 4px #000;
+}
+
+/* Mejoras en el estilo de las tablas */
+.table {
+    border-color: #555;
+}
+
+.table th {
+    font-family: 'Orbitron', sans-serif; /* Usar Orbitron para las cabeceras de tabla */
+    background-color: #222;
+    color: #ff6600;
+}
