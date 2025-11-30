@@ -16,3 +16,5 @@ Es el clímax narrativo puro. Elías ya no lucha contra el entorno, sino contra 
 
 ## Clímax del Acto
 La elección del jugador define la moralidad del juego: la paz estática de la máquina o la libertad imperfecta y peligrosa de la humanidad.
+
+Ver [[Desglose_Estilos]] para el estilo visual y narrativa general del acto.

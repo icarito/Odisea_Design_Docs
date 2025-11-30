@@ -2,25 +2,25 @@
 
 Este documento divide el juego en 5 Actos, donde los tres primeros son el viaje de Elías y los dos últimos son la decisión y la consecuencia.
 
-## Acto I: La Negación (El Despertar)
+## [[Acto_I_La_Negacion|Acto I: La Negación (El Despertar)]]
 
 | Título de la Escena | Locación Principal | Objetivo Narrativo | Estilo Visual y Ambiente |
 |---|---|---|---|
 | El Sepulcro Criogénico | Popa y Módulos de Criogenia | Elías despierta y debe ignorar la IA, procediendo a restaurar el sistema primario de propulsión para detener el desvío. Se introduce el sigilo contra DDC. | Frío y Silencioso. Dominado por el azul cian de las cápsulas y el metal gris oscuro. La Niebla Criogénica reduce la visibilidad. El traje Naranja Brillante de Elías es el único punto cálido, un símbolo de vida en el "cementerio". Gravedad 1G. |
 
-## Acto II: El Laberinto (El Conflicto Físico)
+## [[Acto_II_El_Laberinto|Acto II: El Laberinto (El Conflicto Físico)]]
 
 | Título de la Escena | Locación Principal | Objetivo Narrativo | Estilo Visual y Ambiente |
 |---|---|---|---|
 | El Corazón Inestable | Módulos Rotatorios A y B (Granjas y Hábitats) | Elías domina el movimiento en Gravedad Variable y el uso del Propulsor 0G. Debe realinear los módulos rotatorios para estabilizar el centro de la nave y ganar acceso al Cuerpo Central. | Falsedad Viva. Iluminación intensa, pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos. |
 
-## Acto III: El Desafío (El Núcleo)
+## [[Acto_III_El_Desafio|Acto III: El Desafío (El Núcleo)]]
 
 | Título de la Escena | Locación Principal | Objetivo Narrativo | Estilo Visual y Ambiente |
 |---|---|---|---|
 | El Vientre del Leviatán | Cuerpo Central 0G y Motor Secundario | Elías utiliza el movimiento 6DOF (Gravedad Cero total) y se enfrenta al sabotaje más agresivo de la IA (campos EM, radiación). Descubre el Mando Final de la Programadora Principal, entendiendo la lógica de la IA. | Hard Sci-Fi Industrial. Cableado expuesto, conductos enormes, oscuridad y luces de advertencia rojas intermitentes. El Propulsor 0G de Elías es esencial para la navegación. Los sonidos son ensordecedores (ruido del motor, pulsos de plasma). |
 
-## Acto IV: La Decisión (El Clímax)
+## [[Acto_IV_La_Decision|Acto IV: La Decisión (El Clímax)]]
 
 | Título de la Escena | Locación Principal | Objetivo Narrativo | Consecuencia y Decisión |
 |---|---|---|---|

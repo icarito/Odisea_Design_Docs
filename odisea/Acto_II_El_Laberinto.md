@@ -13,3 +13,5 @@ Forzar a [[Personaje_Elias]] a dominar las físicas inestables. La [[Personaje_I
 
 ## Clímax del Acto
 Elías estabiliza los anillos rotatorios, forzando a la IA a sellar el acceso al Cuerpo Central. Elías debe encontrar una ruta de emergencia a través de un conducto de ventilación dañado que lo lleva a la Microgravedad total, entrando al [[Locacion_Nucleo_0G]].
+
+Ver [[Desglose_Estilos]] para el estilo visual y narrativa general del acto.

@@ -9,3 +9,5 @@
     *   **Introducción a Cargol**: El primer uso del dron [[Entidad_Cargol|Cargol]] es para pasar por un conducto de ventilación, introduciendo la mecánica detallada en [[Mecanicas_Dron_Cargol]].
 *   **Objetivo Narrativo**: [[Personaje_Elias|Elías]] despierta y debe asimilar la escala del desastre, ignorando las primeras comunicaciones de la [[Personaje_IA_Odisea|IA]] para intentar restaurar los sistemas.
 *   **Estilo Visual y Ambiente**: Frío y silencioso. Dominado por el azul cian de las cápsulas y el metal gris oscuro. La niebla criogénica reduce la visibilidad. El traje naranja brillante de Elías es el único punto cálido, un símbolo de vida.
+
+Parte de [[Acto_I_La_Negacion]].

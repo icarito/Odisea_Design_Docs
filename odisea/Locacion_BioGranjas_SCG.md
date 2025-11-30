@@ -9,3 +9,5 @@
     *   **Sabotaje de Vehículo**: La IA activa obstáculos móviles o provoca derrumbes para detener el avance del [[Mecanicas_Vehiculo_4x4|Vehículo 4x4]].
 *   **Objetivo Narrativo**: [[Personaje_Elias|Elías]] debe dominar el movimiento en gravedad variable para realinear los módulos y estabilizar el centro de la nave, ganando acceso al Cuerpo Central.
 *   **Estilo Visual y Ambiente**: "Falsedad Viva". Iluminación intensa pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos.
+
+Parte de [[Acto_II_El_Laberinto]].

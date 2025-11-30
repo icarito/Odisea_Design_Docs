@@ -15,6 +15,12 @@ Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador 
 * [[Personaje_IA_Odisea]]
 * [[Entidad_Cargol]]
 
+### 🎭 Actos
+* [[Acto_I_La_Negacion]]
+* [[Acto_II_El_Laberinto]]
+* [[Acto_III_El_Desafio]]
+* [[Acto_IV_La_Decision]]
+
 ### 🤖 Enemigos y Amenazas
 * [[Enemigos_Drones_y_Sistemas]]
 
@@ -26,10 +32,9 @@ Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador 
 * [[Locacion_Laboratorio_Acuatico]]
 * [[Locacion_Nucleo_IA]]
 
-### 📖 Narrativa y Estructura
-* [[Narrativa_Desglose_Estilos]] (Fuente principal de narrativa y finales)
-* [[Narrativa_Finales]] (Ver solo para referencia, fuente principal arriba)
-
 ### 🎨 Dirección de Arte
 * [[Arte_Estilo_Visual]]
 * [[Arte_Prompts_Generativos]]
+
+### 📖 Narrativa y Estructura
+* [[Desglose_Estilos]] (Fuente principal de narrativa y finales)

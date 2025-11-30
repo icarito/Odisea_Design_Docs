@@ -4,21 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "29a98176fd219268",
+        "id": "0f22417fdae8d9ac",
         "type": "tabs",
+        "dimension": 59.839816933638446,
         "children": [
           {
-            "id": "8811ceecbd13f503",
+            "id": "025a88bc874af131",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mecanicas_Propulsor_0G.md",
+                "file": "Arte_Prompts_Generativos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mecanicas_Propulsor_0G"
+              "title": "Arte_Prompts_Generativos"
+            }
+          }
+        ]
+      },
+      {
+        "id": "dbfcb6148cf9c8b6",
+        "type": "tabs",
+        "dimension": 40.160183066361554,
+        "children": [
+          {
+            "id": "f55f39503946a682",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Arte_Prompts_Generativos.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de Arte_Prompts_Generativos"
             }
           }
         ]
@@ -78,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fa94d58a3d283b1e",
@@ -182,8 +228,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8811ceecbd13f503",
+  "active": "025a88bc874af131",
   "lastOpenFiles": [
+    "00_Odisea_Master.md",
+    "Desglose_Estilos.md",
+    "Entidad_Cargol.md",
+    "Mecanicas_Propulsor_0G.md",
     "Narrativa_Finales.md",
     "Narrativa_Actos_Desglose.md",
     "02_Mecanicas_Indice.md",
@@ -194,10 +244,8 @@
     "Mecanicas_Dron_Cargol.md",
     "Mecanicas_Controlador_Elias.md",
     "Locacion_Nave_General.md",
-    "Mecanicas_Propulsor_0G.md",
     "Sin título.canvas",
     "Personaje_IA_Odisea.md",
-    "Narrativa_Desglose_Estilos.md",
     "Personaje_Elias.md",
     "Narrativa_Finales_Final_1.md",
     "Locacion_Nucleo_IA.md",
@@ -207,10 +255,8 @@
     "Locacion_Laboratorio_Acuatico.md",
     "Locacion_Criogenia.md",
     "Locacion_BioGranjas_SCG.md",
-    "Entidad_Cargol.md",
     "Enemigos_Drones_y_Sistemas.md",
     "Arte_Prompts_Generativos.md",
-    "Arte_Estilo_Visual.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",

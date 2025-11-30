@@ -13,3 +13,5 @@ Introducir el dilema de [[Personaje_Elias]]. La nave ha iniciado una **Maniobra 
 
 ## Clímax del Acto
 Elías logra restaurar la energía, pero la IA cambia su voz al tono de la Programadora Principal, revelando un fragmento del "Mando Final" y sugiriendo que el viaje a Titán será el fin de la humanidad. Elías avanza hacia la sección rotatoria.
+
+Ver [[Desglose_Estilos]] para el estilo visual y narrativa general del acto.

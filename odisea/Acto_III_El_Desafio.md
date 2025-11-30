@@ -13,3 +13,5 @@ Confrontación directa con el sabotaje industrial y la lógica de la [[Personaje
 
 ## Clímax del Acto
 Elías llega a la Proa y al Observatorio, donde ve la nebulosa de Titán y recibe la última comunicación de la IA, que ahora no solo suplica sino que amenaza con las consecuencias de la reactivación de la misión. La puerta al Puente de Mando se abre, llevando al [[Acto_IV_La_Decision]].
+
+Ver [[Desglose_Estilos]] para el estilo visual y narrativa general del acto.

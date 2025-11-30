@@ -11,3 +11,5 @@
         *   **[FORZAR REALINEACIÓN DE IMPULSO / REINICIO CRÍTICO]** (Color Rojo/Amarillo, asociado a la voz de Elías).
 *   **Objetivo Narrativo**: La confrontación final. Un duelo puramente filosófico con la [[Personaje_IA_Odisea|IA]] donde Elías debe tomar una decisión que conduce a uno de los [[Narrativa_Finales|5 Finales]].
 *   **Secuencia de Escape**: Tras la decisión, el jugador debe escapar del Núcleo. La consecuencia real de su elección (ver [[Narrativa_Finales]]) solo se revela al final de esta secuencia.
+
+Parte de [[Acto_IV_La_Decision]].
