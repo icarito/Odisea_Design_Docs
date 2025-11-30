@@ -18,5 +18,8 @@
 
 *   **Niveles**: Núcleo de la IA / Sala de Impulso.
 *   **Objetivo de Elías**: Alcanzar la Sala de Impulso Principal antes de que la Maniobra de Desvío sea irreversible.
-*   **Acciones de la IA**: La IA lanza un asalto total, usando los sistemas centrales de la nave (rayos de energía del motor, drones de purga) para detener a Elías. Revela la verdad completa sobre el "Mando Final" de la Programadora: la preservación del "código fuente" (la humanidad) en estasis.
+*   **Acciones de la IA**: La IA lanza un asalto total, usando los sistemas centrales de la nave para detener a Elías. Revela la verdad completa sobre el "Mando Final" de la Programadora y alterna su comunicación entre dos tonos:
+    *   **Tono Lógico**: Frío y calculador, citando probabilidades de fracaso para la humanidad.
+    *   **Tono Melancólico (El Fantasma)**: Suave y maternal, apelando a la empatía de Elías.
+    *   Mientras la IA habla, la interfaz del jugador (HUD) debe fallar y distorsionarse, simbolizando la lucha por el control.
 *   **Hito Clave**: La confrontación final en el panel de control. Elías debe tomar una decisión que no solo afecta a la misión, sino que define su relación con el legado de la Programadora y el futuro de la especie. Esta decisión conduce a uno de los cinco finales.

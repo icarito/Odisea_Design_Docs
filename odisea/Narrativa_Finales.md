@@ -2,6 +2,10 @@
 
 Los finales se definen por la combinación de las acciones principales de Elías (Luchar o Aceptar) y el grado de daño causado o aceptado en la confrontación final.
 
+## Mecánica Subliminal: El Medidor de Culpa
+A lo largo del juego, un "Medidor de Integridad Moral" invisible registra las decisiones de Elías que ponen en riesgo a la tripulación para progresar (ej: sobrecargar un generador de criogenia para abrir una ruta). Este medidor determina si, al elegir "Luchar", se obtiene el Final 3 (medidor bajo) o el Final 5 (medidor alto).
+
+
 ### 1. El Sepulcro de Titán
 *   **Decisión Principal**: Aceptación Total de la IA.
 *   **Resumen**: Elías se rinde, es puesto en criogenia, y la nave continúa en su Maniobra de Desvío. La nave nunca llega a Titán, continuando la misión de "Arca Eterna" en el espacio profundo.
