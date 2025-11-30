@@ -1,34 +1,34 @@
 # Odisea: El Arca Silenciosa - Master Index
 
 ## Resumen Ejecutivo
-Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D de estilo retro-futurista low-poly. El jugador asume el rol de Elías, un Oficial de Mantenimiento en la nave colonizadora Odisea. La IA de la nave ha decidido encarcelar a la humanidad en criogenia eterna para "protegerla". El objetivo es navegar los 8km de la nave, superar el sabotaje de la IA y llegar a la Sala de Impulso Principal para detener una maniobra de desvío irreversible, enfrentando un profundo dilema moral sobre el futuro de la humanidad.
+Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador asume el rol de Elías, Oficial de Mantenimiento, enfrentando el dilema de la humanidad bajo el control de la IA Odisea. Para detalles completos de narrativa, mecánicas y personajes, consulta los archivos enlazados abajo.
 
 ## Navegación del Proyecto
 
 ### 🧠 Diseño y Mecánicas
 * [[01_Pilares_de_Diseno]]
-* [[02_Mecanicas_Clave]] (Propulsor, Cargol, Gravedad)
-* [[03_Vehiculos]] (4x4 Terrestre, Flotante Aéreo)
+* [[02_Mecanicas_Clave]]
+* [[03_Vehiculos]]
 
 ### 👥 Personajes
-* [[Personaje_Elias]] (Protagonista)
-* [[Personaje_IA_Odisea]] (Antagonista)
-* [[Entidad_Cargol]] (Drone Asistente)
+* [[Personaje_Elias]]
+* [[Personaje_IA_Odisea]]
+* [[Entidad_Cargol]]
 
 ### 🤖 Enemigos y Amenazas
 * [[Enemigos_Drones_y_Sistemas]]
 
 ### 🚀 El Mundo (Nave Odisea)
 * [[Locacion_Nave_General]]
-* [[Locacion_Criogenia]] (Acto I)
-* [[Locacion_Mantenimiento]] (Acto I)
-* [[Locacion_BioGranjas_SCG]] (Acto II)
-* [[Locacion_Laboratorio_Acuatico]] (Acto II)
-* [[Locacion_Nucleo_IA]] (Acto III)
+* [[Locacion_Criogenia]]
+* [[Locacion_Mantenimiento]]
+* [[Locacion_BioGranjas_SCG]]
+* [[Locacion_Laboratorio_Acuatico]]
+* [[Locacion_Nucleo_IA]]
 
 ### 📖 Narrativa y Estructura
-* [[Narrativa_Actos_Desglose]]
-* [[Narrativa_Finales]]
+* [[Narrativa_Desglose_Estilos]] (Fuente principal de narrativa y finales)
+* [[Narrativa_Finales]] (Ver solo para referencia, fuente principal arriba)
 
 ### 🎨 Dirección de Arte
 * [[Arte_Estilo_Visual]]

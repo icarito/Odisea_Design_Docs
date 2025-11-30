@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personaje_IA_Odisea.md",
+                "file": "Mecanicas_Propulsor_0G.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personaje_IA_Odisea"
+              "title": "Mecanicas_Propulsor_0G"
             }
           }
         ]
@@ -184,16 +184,24 @@
   },
   "active": "8811ceecbd13f503",
   "lastOpenFiles": [
+    "Narrativa_Finales.md",
+    "Narrativa_Actos_Desglose.md",
+    "02_Mecanicas_Indice.md",
+    "Mecanicas_Vehiculo_Aereo.md",
+    "Mecanicas_Vehiculo_4x4.md",
+    "Mecanicas_Herramienta_Mantenimiento.md",
+    "Mecanicas_Gravedad_Variable.md",
+    "Mecanicas_Dron_Cargol.md",
+    "Mecanicas_Controlador_Elias.md",
+    "Locacion_Nave_General.md",
+    "Mecanicas_Propulsor_0G.md",
+    "Sin título.canvas",
+    "Personaje_IA_Odisea.md",
     "Narrativa_Desglose_Estilos.md",
     "Personaje_Elias.md",
-    "Narrativa_Actos_Desglose.md",
-    "Narrativa_Finales.md",
-    "Personaje_IA_Odisea.md",
     "Narrativa_Finales_Final_1.md",
     "Locacion_Nucleo_IA.md",
-    "Mecanicas_Propulsor_0G.md",
     "Locacion_Nucleo_0G.md",
-    "Locacion_Nave_General.md",
     "Locacion_Modulos_Rotatorios.md",
     "Locacion_Mantenimiento.md",
     "Locacion_Laboratorio_Acuatico.md",
@@ -203,17 +211,9 @@
     "Enemigos_Drones_y_Sistemas.md",
     "Arte_Prompts_Generativos.md",
     "Arte_Estilo_Visual.md",
-    "Acto_IV_La_Decision.md",
-    "Acto_V_Final_3.md",
-    "Acto_III_El_Desafio.md",
-    "Acto_II_El_Laberinto.md",
-    "Acto_I_La_Negacion.md",
-    "03_Vehiculos.md",
-    "00_Odisea_Master.md",
     "copilot/copilot-conversations",
     "copilot/copilot-custom-prompts",
     "copilot",
-    "Sin título.canvas",
     "Sin título.base"
   ]
 }

@@ -1,3 +1,4 @@
+
 # Vehículos de Exploración
 
 Debido a la escala de 8km de la nave y el sabotaje de los sistemas de tránsito, Elías deberá usar vehículos para cubrir grandes distancias.
