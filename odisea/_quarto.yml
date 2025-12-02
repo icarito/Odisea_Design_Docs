@@ -79,13 +79,13 @@ format:
     link-external-newwindow: true
     number-depth: 3
 
-#  pdf:
-#    documentclass: scrreprt
-#    cover-image: assets/odisea_master_portada.png
-#    toc: true
-#    toc-depth: 3
-#    number-sections: true
-#    colorlinks: true
+  pdf:
+    documentclass: scrreprt
+    cover-image: assets/odisea_master_portada.png
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
 
 filters:
   - filters/obsidian-callouts.lua
