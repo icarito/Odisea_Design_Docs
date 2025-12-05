@@ -7,3 +7,10 @@ La estética del juego busca un estilo retro-futurista de ciencia ficción dura,
 *   **Influencia Estética**: Elementos visuales inspirados en *Tron*, con espacios limpios y geométricos, especialmente en las áreas cercanas al núcleo de la IA.
 *   **Paleta de Colores**: Tonos fríos (azules, cianes) contrastados con luces de advertencia (rojos, naranjas) y la vegetación de neón de las bio-granjas.
 *   **Diseño de Personajes y Props**: Funcional y utilitario. El traje de Elías es de mantenimiento, no de combate. Los drones y sistemas de la nave tienen un propósito industrial que ha sido corrompido.
+
+# Sistema Operativo Navegacional
+
+Para una "narración ambiental"
+
+Inspiración: LCARS, Halo, Doom3
+[[Guía de Estilo de Interfaz Humana]]

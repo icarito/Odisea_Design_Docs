@@ -27,15 +27,15 @@ Este documento detalla los assets y mecánicas mínimas requeridas para el MVP d
 
 ## Tabla de Mecánicas Mínimas (MVP - Acto I)
 
-| Mecánica                  | Descripción breve                        | Estado/Notas           |
-|---------------------------|------------------------------------------|------------------------|
-| Movimiento 3ra persona    | Caminar, correr, saltar, doble salto     | Prototipo listo        |
-| Interacción con consolas  | Activar paneles, leer mensajes           |                        |
-| Uso de Cargol             | Cambiar control, resolver puzzle simple  |                        |
-| Sigilo y patrulla DDC     | Evitar drones, activar alarma            |                        |
-| Puzzle de reparación      | Minijuego o secuencia simple             |                        |
-| Niebla/ambiente           | Cambios de visibilidad, atmósfera        |                        |
-| Diálogo IA/PP             | Mensajes, voz, efectos de aparición      |                        |
+| Mecánica                 | Descripción breve                       | Estado/Notas    |
+| ------------------------ | --------------------------------------- | --------------- |
+| Movimiento 3ra persona   | Caminar, correr, saltar, doble salto    | Prototipo listo |
+| Interacción con consolas | Activar paneles, leer mensajes          |                 |
+| Uso de Cargol            | Cambiar control, resolver puzzle simple |                 |
+| Sigilo y patrulla DDC    | Evitar drones, activar alarma           |                 |
+| Puzzle de reparación     | Minijuego o secuencia simple            |                 |
+| Niebla/ambiente          | Cambios de visibilidad, atmósfera       |                 |
+| Diálogo IA/PP            | Mensajes, voz, efectos de aparición     |                 |
 
 ---
 

@@ -6,7 +6,7 @@ El controlador de Elías es la base de la jugabilidad. Está diseñado para ser 
 
 *   **Movimiento Ágil**: Elías se mueve con la agilidad de un plataformero clásico, con aceleración y desaceleración predecibles.
 *   **Salto y Doble Salto**: El salto es la acción principal. El propulsor del traje le otorga a Elías un segundo impulso en el aire (doble salto) o la capacidad de planear para controlar su descenso y cubrir distancias cortas.
-*   **Agarre de Bordes**: Elías puede agarrarse automáticamente a los bordes de las plataformas, lo que da un margen de error al jugador en saltos ajustados y permite la exploración vertical.
+*   **Agarre de Bordes**: Elías puede agarrarse automáticamente a los bordes de las plataformas, lo que da un margen de error al jugador en saltos ajustados y permite la exploración vertical. (CUESTIONABLE; COMPLEJO...)
 *   **Interacción Contextual**: Elías puede interactuar con objetos del entorno, como terminales, válvulas y su dron Cargol, usando un único botón de acción cuando está cerca de ellos.
 
 ## Usos en el Juego

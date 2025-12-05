@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a4df6e9f721da9a",
+        "id": "f2b7695e7563e2ad",
         "type": "tabs",
         "children": [
           {
-            "id": "025a88bc874af131",
+            "id": "84a8801acc635282",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "odisea/Sin título.md",
+                "bFile": "odisea/Sin título.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Sin título"
             }
           }
         ]
@@ -155,12 +159,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 666.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,57 +176,58 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "qmd-as-md-obsidian:Toggle Quarto Preview": false
     }
   },
-  "active": "025a88bc874af131",
+  "active": "84a8801acc635282",
   "lastOpenFiles": [
-    "_public/search.json",
-    "Plan_Implementacion_MVP.html",
-    "Plan_Implementacion_MVP_files/mediabag",
-    "Plan_Implementacion_MVP_files",
-    "Arte_Prompts_Generativos.html",
-    "Arte_Prompts_Generativos_files/mediabag",
-    "Arte_Prompts_Generativos_files",
-    "Desglose_Estilos.html",
-    "Desglose_Estilos_files/mediabag",
-    "Desglose_Estilos_files",
-    "Arte_Estilo_Visual.html",
-    "_public/assets/nave_odisea_esquema.png",
-    "_public/assets/nave_odisea_exterior.jpeg",
-    "_public/assets/vehiculo_aereo_secundario.png",
-    "_public/assets/vehiculo_aereo_modelo.png",
-    "_public/assets/vehiculo_4x4_modelo.png",
-    "_public/assets/vehiculo_4x4_biogranja.png",
-    "_public/assets/pp_fantasma_niebla.png",
-    "_public/assets/odisea_master_portada.png",
-    "_public/assets/nave_odisea_seccion.jpeg",
-    "_public/assets/nave_odisea_concepto.png",
-    "index.md",
     "Plan_Implementacion_MVP.md",
+    "assets/Whisk_a85333397bc0eafa8b745dfa89a771bbeg(1).jpeg",
+    "assets/Whisk_42e03af523563cf95684ed492c21026eeg.png",
+    "assets/Whisk_55e79b45eaac8c2ab454dbdff40663f0eg.png",
+    "assets/Whisk_65c1921bd69fa879b7c46c25b156777edr.jpeg",
+    "assets/Whisk_730a7ab7639133cbc344f699e8ea46b6dr.jpeg",
+    "assets/Whisk_3460c085b41d085bce84d50046eb04c8dr.jpeg",
+    "assets/Whisk_93487fda9aa8847adce43bde666ec467dr.jpeg",
+    "assets/Whisk_488778f34db5220bf0349a65e6aac5f0dr.jpeg",
+    "assets/Whisk_4719057d334c98bb67d42a6aaac9272bdr.jpeg",
+    "ACTO 1/Nivel 1.md",
+    "assets/Whisk_af0c9ad002e9c5fa68342bc5dab50e72eg.png",
+    "ACTO 2/Acto_II_El_Laberinto.md",
+    "ACTO 1/Nivel 3.md",
+    "ACTO 1/Nivel 2.md",
+    "ACTO 1/Sin nombre",
+    "Sin título.md",
+    "ACTO 2",
+    "_public/Odisea.pdf",
+    "ACTO 1",
+    "00_Odisea_Master.md",
+    "Mecanicas_Controlador_Elias.md",
+    "02_Mecanicas_Indice.md",
+    "02_Mecanicas_Clave.md",
+    "Excalidraw/Drawing 2025-12-04 19.43.19.excalidraw.md",
+    "Mecanicas_Dron_Cargol.md",
+    "Locacion_Criogenia.md",
+    "Guía de Estilo de Interfaz Humana.md",
+    "Arte_Estilo_Visual.md",
+    "Excalidraw/Drawing 2025-12-04 02.21.27.excalidraw.md",
+    "Excalidraw/Drawing 2025-12-04 02.09.12.excalidraw.md",
+    "Excalidraw",
+    "GIZMO.md",
+    "Odisea.pdf",
+    "index.pdf",
+    "index.toc",
+    "index.aux",
+    "index_files/mediabag",
+    "Arte_Prompts_Generativos.md",
+    "Música.md",
+    "index.md",
     "Personaje_PP_fantasma.md",
     "Personaje_IA_Odisea.md",
     "Personaje_Elias.md",
     "Narrativa_Finales.md",
-    "Mecanicas_Vehiculo_Aereo.md",
-    "Mecanicas_Vehiculo_4x4.md",
-    "Mecanicas_Propulsor_0G.md",
-    "Mecanicas_Herramienta_Mantenimiento.md",
-    "Mecanicas_Gravedad_Variable.md",
-    "Mecanicas_Dron_Cargol.md",
-    "Mecanicas_Controlador_Elias.md",
-    "Locacion_Nucleo_IA.md",
-    "Locacion_Nucleo_0G.md",
-    "Locacion_Nave_General.md",
-    "Locacion_Modulos_Rotatorios.md",
-    "Locacion_Mantenimiento.md",
-    "Locacion_Laboratorio_Acuatico.md",
-    "Locacion_Criogenia.md",
-    "Locacion_BioGranjas_SCG.md",
-    "Entidad_Cargol.md",
-    "Enemigos_Drones_y_Sistemas.md",
-    "Desglose_Estilos.md",
-    "Arte_Prompts_Generativos.md",
     "Sin título.canvas"
   ]
 }

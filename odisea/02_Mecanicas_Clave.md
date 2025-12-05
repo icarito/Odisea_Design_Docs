@@ -13,3 +13,8 @@ Dron controlable para rutas alternativas y reparaciones a distancia. Ver [[Mecan
 Mecánica central que cambia la jugabilidad entre 1G, 0G y fluctuante. Ver [[Mecanicas_Gravedad_Variable]] para detalles.
 
 ![[mecanica_herramienta_mantenimiento.jpeg]]
+
+
+# Powerups
+
+Al principio Elías está un poco débil y mal equipado porque acaba de despertar de _estasis_. De todas maneras es un tipo ágil y ya puede correr.
