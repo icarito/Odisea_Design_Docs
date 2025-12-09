@@ -9,7 +9,7 @@ preview:
 render:
 	$(QUARTO) render
 
-export-json:
+json:
 	$(PYTHON) scripts/md_to_json.py
 
 all: render export-json
