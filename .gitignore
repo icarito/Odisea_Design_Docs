@@ -1,0 +1,31 @@
+# Quarto y artefactos generados
+/.quarto/
+**/*.quarto_ipynb
+site_libs/
+
+# Archivos de salida y artefactos
+_public/
+outputs/
+*.ipynb
+*.pyc
+__pycache__/
+
+# Archivos temporales y de sistema
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.tmp
+*.json.tmp
+
+# Carpeta de imágenes eliminadas o basura
+.trash/
+
+# Otros archivos innecesarios
+*.log
+
+# Excluir configuraciones locales
+.vscode/
+.env
+
+/.luarc.json

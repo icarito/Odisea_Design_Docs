@@ -1,0 +1,370 @@
+{
+  "main": {
+    "id": "8e77425e574818f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2b7695e7563e2ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84a8801acc635282",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ACTO 2/Acto_II_El_Laberinto.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Acto_II_El_Laberinto"
+            }
+          },
+          {
+            "id": "1704da36afdbcb3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PLATFORMER DESIGN/Física y Métricas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Física y Métricas"
+            }
+          },
+          {
+            "id": "6ef46425f97e2807",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PLATFORMER DESIGN/Afordancias, Ritmo y \"Flow\".md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Afordancias, Ritmo y \"Flow\""
+            }
+          },
+          {
+            "id": "dbec52527ccab6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MECANICAS/02_Mecanicas_Clave.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02_Mecanicas_Clave"
+            }
+          },
+          {
+            "id": "ca9e28de5b395fc9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
+            }
+          },
+          {
+            "id": "d6e03062d991aa80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTROL/DroidPad Virtual Joypad.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DroidPad Virtual Joypad"
+            }
+          },
+          {
+            "id": "2e08f31dcf48474a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTROL/Networked DroidPad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Networked DroidPad"
+            }
+          },
+          {
+            "id": "7921a34a4756813c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTROL/Networked DroidPad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Networked DroidPad"
+            }
+          },
+          {
+            "id": "d9134cf0d07a953b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ARTE/Guía de Estilo de Interfaz Humana.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Guía de Estilo de Interfaz Humana"
+            }
+          },
+          {
+            "id": "4b149e817cd6140c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ACTO 1/Nivel 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nivel 3"
+            }
+          },
+          {
+            "id": "9a609a6abe311868",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CONTROL/DroidPad QR Spec.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DroidPad QR Spec"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87bdaa5681a85eee",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1f92bcbc7474fda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a63886e8e4722909",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "b9ff932cdf4702ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "mus",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "d6ce100beb6cfc8e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa94d58a3d283b1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d73d17baf9bd42cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff5623c3d21e648b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ACTO 1/Nivel 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Nivel 1"
+            }
+          },
+          {
+            "id": "1d36b0c5f4ef803e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "a2f817f77c95226e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "2788ca4c349e0c9f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ACTO 1/Nivel 1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Nivel 1"
+            }
+          },
+          {
+            "id": "653b193bafcb83a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 460.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "ca9e28de5b395fc9",
+  "lastOpenFiles": [
+    "MECANICAS/02_Mecanicas_Clave.md",
+    "PLATFORMER DESIGN/Afordancias, Ritmo y \"Flow\".md",
+    "PLATFORMER DESIGN/Física y Métricas.md",
+    "ACTO 2/Acto_II_El_Laberinto.md",
+    "CONTROL/DroidPad QR Spec.md",
+    "CONTROL/DroidPad Virtual Joypad.md",
+    "ACTO 1/Acto_I_La_Negacion.md",
+    "ACTO 1/Nivel 1.md",
+    "_ASSETS/enemigo_extra_concept.jpeg",
+    "_ASSETS/enemigo_dron_agresivo.png",
+    "_ASSETS/elias_modelo.png",
+    "_ASSETS/DroidPad_Odisea.png",
+    "_ASSETS/acto2_laberinto_portada.png",
+    "_ASSETS/2115-3.jpg",
+    "ARTE/Arte_Prompts_Generativos.md",
+    "ACTO 1/Nivel 3.md",
+    "ACTO 1/Nivel 2.md",
+    "ACTO 3/Acto_III_El_Desafio.md",
+    "_ASSETS/nave_odisea_seccion.jpeg",
+    "_ASSETS/TouchControls.png",
+    "ARTE/Guía de Estilo de Interfaz Humana.md",
+    "DroidPad SPEC.md",
+    "CONTROL/Networked DroidPad.md",
+    "00_Odisea_Master.md",
+    "CONTROL",
+    "ACTO FINAL/Narrativa_Finales.md",
+    "ACTO FINAL",
+    "index.md",
+    "PRODUCTION/DEVLOG 2025 12 05.md",
+    "PERSONAJES Y EQUIPOS/Personaje_Elias.md",
+    "PRODUCTION",
+    "MECANICAS/Mecanicas_Controlador_Elias.md",
+    "LUGARES/Locacion_BioGranjas_SCG.md",
+    "LUGARES/Locacion_Laboratorio_Acuatico.md",
+    "LUGARES",
+    "PERSONAJES Y EQUIPOS/Entidad_Cargol.md",
+    "PERSONAJES Y EQUIPOS",
+    "ARTE/Desglose_Estilos.md",
+    "PRODUCTION/Automatización.md",
+    "ARTE",
+    "ACTO 4",
+    "ACTO 3",
+    "_ASSETS/multitool-unshaded.png",
+    "_ASSETS/multitool-black.png",
+    "PLATFORMER DESIGN",
+    "ARQUITECTURA",
+    "Sin título.canvas"
+  ]
+}

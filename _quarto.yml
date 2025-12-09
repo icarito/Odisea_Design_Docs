@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: outputs/
+  resources:
+    - vault/_ASSETS/*
+
+website:
+  title: "Project Docs"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: quarto/index.qmd
+      - text: "00_Odisea_Master"
+        href: vault/00_Odisea_Master.md
+      - text: "DroidPad SPEC"
+        href: vault/DroidPad SPEC.md
+      - text: "Documentación"
+        menu:
+          - text: "index"
+            href: vault/index.md
+
+format:
+  html:
+    theme: cosmo
+    css: style.css
+    toc: true
+    number-sections: true
+
+filters:
+  - quarto/filters/obsidian-callouts.lua
+  - quarto/filters/obsidian-wikilinks-images.lua

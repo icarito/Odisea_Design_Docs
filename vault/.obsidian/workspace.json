@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "51372bcee80d8bf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ac24d97e13fcfb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9f35d6689ab238c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b03ecfe0c2929062",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d8c5fd5eae675f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c21e6031a7d0143",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "40d5ab9d6bcfa05a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "bdba3501b5da980b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e504f7a9c729c631",
+    "type": "split",
+    "children": [
+      {
+        "id": "70adbfdf81c0d616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5616fb1e40ad962",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DroidPad SPEC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de DroidPad SPEC"
+            }
+          },
+          {
+            "id": "2575b74e80d44027",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DroidPad SPEC.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de DroidPad SPEC"
+            }
+          },
+          {
+            "id": "15100dacb4d053c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "43a4a6ec2a5ddc49",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "9348bcb4daf1ef42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DroidPad SPEC.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de DroidPad SPEC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "d9f35d6689ab238c",
+  "lastOpenFiles": [
+    "CONTROL/DroidPad SPEC.md",
+    "00_Odisea_Master.md",
+    "_ASSETS/vehiculo_aereo_secundario.png",
+    "_ASSETS/vehiculo_aereo_modelo.png",
+    "_ASSETS/vehiculo_4x4_modelo.png",
+    "_ASSETS/vehiculo_4x4_biogranja.png",
+    "_ASSETS/pp_fantasma_niebla.png",
+    "_ASSETS/pilot.jpg",
+    "_ASSETS/odisea_master_portada.png",
+    "_ASSETS/nave_odisea_seccion.jpeg",
+    "_ASSETS/nave_odisea_exterior.jpeg",
+    "_ASSETS/nave_odisea_esquema.png",
+    "_ASSETS",
+    "index.md"
+  ]
+}

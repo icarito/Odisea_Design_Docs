@@ -1,0 +1,14 @@
+title: "Project Index"
+---
+
+# Bienvenido a Odisea
+
+Este sitio contiene la documentación y diseño del proyecto Odisea.
+
+## Navegación principal
+
+- [00_Odisea_Master](../vault/00_Odisea_Master.md)
+- [DroidPad SPEC](../vault/DroidPad SPEC.md)
+- [index](../vault/index.md)
+
+Para navegar por las secciones, usa el menú superior o los enlaces directos.
