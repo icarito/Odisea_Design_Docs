@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "51372bcee80d8bf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8387e3a9ba73f5cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecbbe6a01438a2c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_FEATURES PIPELINE/Scene Testing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scene Testing"
+            }
+          },
+          {
+            "id": "61eb546c1410ad2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_FEATURES PIPELINE/Scene Testing.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scene Testing"
+            }
+          },
+          {
+            "id": "51f46289cb8b1ddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Movement Refinement"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b03ecfe0c2929062",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d8c5fd5eae675f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c21e6031a7d0143",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "40d5ab9d6bcfa05a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "bdba3501b5da980b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e504f7a9c729c631",
+    "type": "split",
+    "children": [
+      {
+        "id": "70adbfdf81c0d616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5616fb1e40ad962",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DroidPad SPEC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de DroidPad SPEC"
+            }
+          },
+          {
+            "id": "2575b74e80d44027",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Movement Refinement"
+            }
+          },
+          {
+            "id": "15100dacb4d053c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "43a4a6ec2a5ddc49",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "9348bcb4daf1ef42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Movement Refinement"
+            }
+          },
+          {
+            "id": "542e7cd29124a788",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 598.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "copilot:Open Copilot Chat": false
+    }
+  },
+  "active": "51f46289cb8b1ddb",
+  "lastOpenFiles": [
+    "_FEATURES PIPELINE/Scene Testing.md",
+    "_FEATURES PIPELINE/Movement Refinement.md",
+    "NARRATIVA/ACTO 1/Acto_I_La_Negacion.md",
+    "Sin nombre",
+    "copilot/copilot-conversations/Hagamos_un_plan_para_implementar_el_primer_nivel_del_MVP.@20260107_005750.md",
+    "NARRATIVA/ACTO 1/Screenplay_Nivel_1.md",
+    "_ASSETS/multitool-black.png",
+    "_ASSETS/multitool-unshaded.png",
+    "_ASSETS/nave_odisea_concepto.png",
+    "_ASSETS/nave_odisea_seccion.jpeg",
+    "_ASSETS/nave_odisea_exterior.jpeg",
+    "_ASSETS/nave_odisea_esquema.png",
+    "_ASSETS/odisea_master_portada.png",
+    "_ASSETS/pp_fantasma_niebla.png",
+    "_ASSETS/Whisk_93487fda9aa8847adce43bde666ec467dr.jpeg",
+    "_ASSETS/Whisk_3460c085b41d085bce84d50046eb04c8dr.jpeg",
+    "ARQUITECTURA/01_Pilares_de_Diseno.md",
+    "00_Odisea_Master.md",
+    "index.md",
+    "Referencias e Inspiración.md",
+    "REFACTOR PENDING.md",
+    "Motion Capture.md",
+    "PRODUCTION/DEVLOG 2025 12 05.md",
+    "copilot/copilot-conversations/Hace_un_mes_hicimos_este_documento_devlog_pero_ahora_estamos@20251228_104652.md",
+    "Chats/chat-2025-12-28T14-48-55-658Z.md",
+    "Input.md",
+    "TRAILER/Assets.md",
+    "TRAILER/Guion.md",
+    "PERSONAJES Y EQUIPOS/Personaje_Elias.md",
+    "MECANICAS/Mecanicas_Gravedad_Variable.md",
+    "Física.md",
+    "FISICA",
+    "NNNN.md",
+    "_FEATURES PIPELINE",
+    "NARRATIVA/Cuentos.md",
+    "NARRATIVA/ACTO 1/Nivel 1.md",
+    "NARRATIVA/ACTO 1/Nivel 2.md",
+    "NARRATIVA/ACTO 1/Ep 1.md",
+    "1.md",
+    "Chats",
+    "copilot/copilot-conversations",
+    "copilot",
+    "NARRATIVA",
+    "copilot/copilot-custom-prompts",
+    "TRAILER",
+    "_ASSETS"
+  ]
+}

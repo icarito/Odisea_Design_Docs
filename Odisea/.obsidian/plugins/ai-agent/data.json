@@ -1,0 +1,9 @@
+{
+  "provider": "google",
+  "model": "gemini-2.0-flash",
+  "googleApiKey": "AIzaSyCU_aYADHC3ZwHJR-rhM6Fz9lmeNQTrFXQ",
+  "rules": "",
+  "chatsFolder": "Chats",
+  "debug": false,
+  "readImages": true
+}
