@@ -2,22 +2,34 @@ project:
   type: website
   output-dir: outputs/
   resources:
-    - vault/_ASSETS/*
+    - Odisea/_ASSETS/*
 
 website:
-  title: "Project Docs"
+  title: "Odisea: El Arca Silenciosa — Wiki"
   navbar:
     left:
-      - text: "Inicio"
-        href: quarto/index.qmd
-      - text: "00_Odisea_Master"
-        href: vault/00_Odisea_Master.md
-      - text: "DroidPad SPEC"
-        href: vault/DroidPad SPEC.md
+      - text: "Inicio (MVP)"
+        href: Odisea/00_Odisea_Master.md
+      - text: "Acto I"
+        href: Odisea/NARRATIVA/ACTO 1/Acto_I_La_Negacion.md
+      - text: "Guía de Desarrollo"
+        href: Odisea/Developer_Guide.md
+      - text: "Tests & Determinismo"
+        href: Odisea/Tests_and_Determinism.md
+      - text: "Backlog"
+        href: Odisea/TODO_Backlog.md
+      - text: "Assets"
+        href: Odisea/Assets_Index.md
+      - text: "Archivo"
+        href: archive/
       - text: "Documentación"
         menu:
-          - text: "index"
-            href: vault/index.md
+          - text: "Índice Odisea"
+            href: Odisea/index.md
+          - text: "Plan de Producción"
+            href: Odisea/PRODUCTION/Plan_Implementacion_MVP.md
+          - text: "Devlog"
+            href: Odisea/PRODUCTION/DEVLOG 2025 12 05.md
 
 format:
   html:

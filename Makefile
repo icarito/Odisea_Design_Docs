@@ -12,6 +12,9 @@ render:
 json:
 	$(PYTHON) scripts/md_to_json.py
 
+html:
+	$(PYTHON) scripts/md_to_html.py
+
 all: render export-json
 
-.PHONY: preview render export-json all
+.PHONY: preview render html export-json all

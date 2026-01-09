@@ -1,0 +1,4 @@
+- Short jump if release jump early
+- air_friction != movement_friction
+- Usar curvas de aceleración para plataformas, input y movimiento del player y/o suavizado de cámara
+- Reañadir Tank Turn

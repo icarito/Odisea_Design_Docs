@@ -8,49 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ecbbe6a01438a2c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_FEATURES PIPELINE/Scene Testing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scene Testing"
-            }
-          },
-          {
             "id": "61eb546c1410ad2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_FEATURES PIPELINE/Scene Testing.md",
+                "file": "_FEATURES PIPELINE/Scene_Testing.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scene Testing"
+              "title": "Scene_Testing"
             }
           },
           {
-            "id": "51f46289cb8b1ddb",
+            "id": "38ed70637dfa71a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "file": "NARRATIVA/Deep_Research_Level_Design.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Movement Refinement"
+              "title": "Deep_Research_Level_Design"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,27 +171,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "file": "NARRATIVA/Deep_Research_Level_Design.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Movement Refinement"
-            }
-          },
-          {
-            "id": "542e7cd29124a788",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "title": "Esquema de Deep_Research_Level_Design"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -220,17 +196,48 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "51f46289cb8b1ddb",
+  "active": "9c21e6031a7d0143",
   "lastOpenFiles": [
-    "_FEATURES PIPELINE/Scene Testing.md",
-    "_FEATURES PIPELINE/Movement Refinement.md",
+    "MECANICAS/Física.md",
+    "NARRATIVA/Deep_Research_Level_Design.md",
+    "TODO.md",
+    "index.md",
+    "00_Odisea_Master.md",
+    "ARTE/Referencias_e_Inspiración.md",
+    "MECANICAS/Input.md",
+    "_FEATURES PIPELINE/Scene_Testing.md",
+    "NARRATIVA/ACTO 4/Acto_IV_La_Decision.md",
+    "NARRATIVA/ACTO 3/Acto_III_El_Desafio.md",
     "NARRATIVA/ACTO 1/Acto_I_La_Negacion.md",
-    "Sin nombre",
-    "copilot/copilot-conversations/Hagamos_un_plan_para_implementar_el_primer_nivel_del_MVP.@20260107_005750.md",
-    "NARRATIVA/ACTO 1/Screenplay_Nivel_1.md",
+    "MECANICAS/03_Vehiculos.md",
+    "ARQUITECTURA/01_Pilares_de_Diseno.md",
+    "PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.md",
+    "PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.md",
+    "PERSONAJES Y EQUIPOS/Personaje_Elias.md",
+    "PERSONAJES Y EQUIPOS/Entidad_Cargol.md",
+    "NARRATIVA/ACTO FINAL/Narrativa_Finales.md",
+    "MECANICAS/Mecanicas_Vehiculo_Aereo.md",
+    "MECANICAS/Mecanicas_Vehiculo_4x4.md",
+    "MECANICAS/Mecanicas_Propulsor_0G.md",
+    "MECANICAS/Mecanicas_Herramienta_Mantenimiento.md",
+    "MECANICAS/Mecanicas_Gravedad_Variable.md",
+    "MECANICAS/Mecanicas_Dron_Cargol.md",
+    "MECANICAS/Enemigos_Drones_y_Sistemas.md",
+    "LUGARES/Locacion_Nucleo_IA.md",
+    "NARRATIVA/ACTO 1/Acto_I_La_Negacion.html",
+    "NARRATIVA/ACTO 1/Acto_I_La_Negacion_files/mediabag",
+    "NARRATIVA/ACTO 1/Acto_I_La_Negacion_files",
+    "00_Odisea_Master.html",
+    "00_Odisea_Master_files/mediabag",
+    "00_Odisea_Master_files",
+    "Referencias e Inspiración.html",
+    "Referencias e Inspiración_files/mediabag",
+    "Referencias e Inspiración_files",
+    "Física.html",
     "_ASSETS/multitool-black.png",
     "_ASSETS/multitool-unshaded.png",
     "_ASSETS/nave_odisea_concepto.png",
@@ -240,36 +247,6 @@
     "_ASSETS/odisea_master_portada.png",
     "_ASSETS/pp_fantasma_niebla.png",
     "_ASSETS/Whisk_93487fda9aa8847adce43bde666ec467dr.jpeg",
-    "_ASSETS/Whisk_3460c085b41d085bce84d50046eb04c8dr.jpeg",
-    "ARQUITECTURA/01_Pilares_de_Diseno.md",
-    "00_Odisea_Master.md",
-    "index.md",
-    "Referencias e Inspiración.md",
-    "REFACTOR PENDING.md",
-    "Motion Capture.md",
-    "PRODUCTION/DEVLOG 2025 12 05.md",
-    "copilot/copilot-conversations/Hace_un_mes_hicimos_este_documento_devlog_pero_ahora_estamos@20251228_104652.md",
-    "Chats/chat-2025-12-28T14-48-55-658Z.md",
-    "Input.md",
-    "TRAILER/Assets.md",
-    "TRAILER/Guion.md",
-    "PERSONAJES Y EQUIPOS/Personaje_Elias.md",
-    "MECANICAS/Mecanicas_Gravedad_Variable.md",
-    "Física.md",
-    "FISICA",
-    "NNNN.md",
-    "_FEATURES PIPELINE",
-    "NARRATIVA/Cuentos.md",
-    "NARRATIVA/ACTO 1/Nivel 1.md",
-    "NARRATIVA/ACTO 1/Nivel 2.md",
-    "NARRATIVA/ACTO 1/Ep 1.md",
-    "1.md",
-    "Chats",
-    "copilot/copilot-conversations",
-    "copilot",
-    "NARRATIVA",
-    "copilot/copilot-custom-prompts",
-    "TRAILER",
-    "_ASSETS"
+    "_ASSETS/Whisk_3460c085b41d085bce84d50046eb04c8dr.jpeg"
   ]
 }

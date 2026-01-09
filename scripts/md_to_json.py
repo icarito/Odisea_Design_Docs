@@ -7,7 +7,7 @@ from datetime import datetime
 
 # Carpeta raíz del proyecto
 ROOT = Path(__file__).parent.parent
-MD_DIR = ROOT / "vault"
+MD_DIR = ROOT / "Odisea"
 ASSETS_DIR = MD_DIR / "_ASSETS"
 DATA_DIR = ROOT / "outputs" / "data"
 OUTPUT_JSON = DATA_DIR / "odisea_wiki.json"

@@ -8,11 +8,11 @@ tags:
   - copilot-conversation
 ---
 
-**user**: Hagamos un plan para implementar el primer nivel del MVP. Vamos a implementar plataformas móviles tomando en cuenta[[Scene Testing]]  - Proponme una secuencia de obstáculos que respete el proceso de aprendizaje del jugador
+**user**: Hagamos un plan para implementar el primer nivel del MVP. Vamos a implementar plataformas móviles tomando en cuenta[[Scene_Testing]]  - Proponme una secuencia de obstáculos que respete el proceso de aprendizaje del jugador
 [Context: Notes: _FEATURES PIPELINE/Scene Testing.md, NARRATIVA/ACTO 1/Acto_I_La_Negacion.md]
 [Timestamp: 2026/01/07 00:57:50]
 
-**ai**: Basado en el contexto de [[Acto_I_La_Negacion]] y [[Scene Testing]], aquí tienes un plan de implementación para el primer nivel MVP con progresión de aprendizaje:
+**ai**: Basado en el contexto de [[Acto_I_La_Negacion]] y [[Scene_Testing]], aquí tienes un plan de implementación para el primer nivel MVP con progresión de aprendizaje:
 
 ### Secuencia de Obstáculos para Plataformas Móviles (MVP)
 **Objetivo:** Introducir mecánicas gradualmente respetando la curva de aprendizaje.
@@ -93,7 +93,7 @@ Hazme una tablita con casos para probar y sugerencias para implementar
 [Context: Notes: _FEATURES PIPELINE/Movement Refinement.md]
 [Timestamp: 2026/01/07 10:12:29]
 
-**ai**: Basado en [[Scene Testing]] y [[Movement Refinement]], aquí tienes un plan de testing estructurado para mecánicas de movimiento y obstáculos:
+**ai**: Basado en [[Scene_Testing]] y [[Movement_Refinement]], aquí tienes un plan de testing estructurado para mecánicas de movimiento y obstáculos:
 
 ### Plan de Testing para Movimiento y Plataformas Móviles
 
