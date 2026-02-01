@@ -7,6 +7,7 @@ Odisea: El Arca Silenciosa es un juego de plataformas y aventura 3D. El jugador 
 
 ### 🧠 Diseño y Mecánicas
 * [[01_Pilares_de_Diseno]]
+* [[Protocolo_Core_V2]]
 * [[02_Mecanicas_Clave]]
 * [[03_Vehiculos]]
 

@@ -17,11 +17,13 @@ El controlador de Elías es la base de la jugabilidad. Está diseñado para ser 
 
 ---
 
-### Nota de Diseño: Implementación y Referencias
+### Nota de Diseño: Implementación Determinista (Core_V2)
 
-El "feel" del personaje es crucial. Se debe buscar un equilibrio entre el peso del personaje y la respuesta inmediata de los controles.
+El controlador de Elías ha sido refactorizado bajo el estándar **Core_V2** para garantizar un "feel" consistente y permitir el sistema de replay.
 
-*   **Sugerencia de Implementación**: Utilizar un `Character Controller` basado en físicas, pero con fuerzas muy controladas y personalizadas para los saltos y el movimiento, en lugar de una simulación de `Rigidbody` pura que puede ser impredecible. El agarre de bordes puede implementarse con un sistema de `Raycast` o `Spherecast` desde el personaje.
+*   **Naturaleza Determinista**: Todo el movimiento se calcula en el método `step(dt)`. Esto asegura que, dada una misma secuencia de inputs, el resultado sea idéntico en cada ejecución.
+*   **Física Controlada**: Se utilizan fuerzas kinemáticas personalizadas en lugar de la simulación de `Rigidbody` estándar. Esto permite un control total sobre la trayectoria, especialmente crítico en secciones de gravedad variable.
+*   **Replay y Snapshots**: El controlador implementa el contrato de snapshots, permitiendo guardar y restaurar su posición, velocidad y estado de animación instantáneamente durante el playback.
 
 *   **Referencias de Juegos (Control en Tercera Persona):**
     *   **Super Mario 64 / Super Mario Odyssey**: El estándar de oro para el control de plataformas 3D. Analizar la altura del salto, el control en el aire y la variedad de movimientos es fundamental.

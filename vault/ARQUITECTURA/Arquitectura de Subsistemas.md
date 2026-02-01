@@ -1,12 +1,20 @@
 ## Introducción
 
-Los subsistemas de Odisea siguen una arquitectura modular inspirada en Cogito, con componentes reutilizables, singletons globales para gestión de estados y separación estricta entre lógica de datos, comportamiento y UI. Cada subsistema opera de forma desacoplada: la lógica central reside en singletons o managers accesibles globalmente, los componentes se adjuntan a nodos del mundo para funcionalidades específicas (e.g., interactuables), y la UI se actualiza reactivamente vía señales. Esto facilita pruebas independientes, escalabilidad para actos múltiples y mantenimiento, priorizando el MVP del Acto I (controlador Elías, Cargol, gravedad).
+La arquitectura de Odisea ha evolucionado hacia **Core_V2**, un sistema modular inspirado en Cogito pero centrado en el **determinismo y el sistema de replay**. Los subsistemas utilizan componentes reutilizables, singletons globales para gestión de estados y una separación estricta entre el núcleo de simulación (Core) y la representación visual/UI.
 
-​
+Para las reglas fundamentales de esta arquitectura, consulta el [[Protocolo_Core_V2]].
+
+## Subsistema de Simulación (Core_V2)
+
+Es la espina dorsal del juego. Implementa un sistema de replay basado en:
+- **Record**: Captura de estados de entrada por frame.
+- **Snapshot**: Captura del estado completo del mundo en momentos específicos.
+- **Restore**: Restauración del estado a partir de un snapshot (Hard Reset).
+- **Playback**: Reproducción determinista de la simulación mediante el método `step(dt)`.
 
 ## Subsistema de Controlador Principal
 
-Implementa movimiento preciso de Elías con plataformas 3D, doble salto vía propulsor y agarre de bordes, adaptable a gravedad variable. Usa un `PlayerController` singleton que gestiona estados (terrestre, 0G) y aplica fuerzas kinemáticas para predictibilidad. Componentes modulares como `GravityAdapter` se adjuntan para cambios dinámicos de vector gravedad, inspirado en la modularidad de Cogito para inputs duales.
+Implementa movimiento preciso de Elías con plataformas 3D, doble salto vía propulsor y agarre de bordes, adaptado a la arquitectura determinista Core_V2. El movimiento se calcula en `step(dt)`, asegurando que cada salto y desplazamiento sea replicable exactamente en el sistema de replay.
 
 ​
 
@@ -39,6 +47,12 @@ Herramienta multi-modo (soldadura, hackeo, redirección) para puzzles sistemas; 
 Gestión de sabotajes pasivo-agresivos (gravedad, enemigos DDC) y diálogos PP-fantasma. `OdiseaAIManager` singleton orquesta eventos por acto, triggers ambientales y finales (5 variantes). Componentes `SabotageZone` activan amenazas; datos quests-like para progresión moral.
 
 ​
+
+## Subsistema de Cámara (Core_V2)
+
+Bajo Core_V2, la cámara sigue un contrato de **observación desacoplada**:
+- **Rotación por Input**: La rotación de la cámara emerge puramente del input acumulado, sin que el controlador del jugador fuerce el `basis` del nodo.
+- **Zonas 2.5D**: Implementa **Lazy Pan** (suavizado de seguimiento) y **Liberación de Ángulo**, permitiendo que la cámara mantenga la perspectiva 2.5D sin rigidez excesiva, mejorando el "feel" en secciones de plataformas laterales.
 
 ## Subsistema de UI y HUD
 
