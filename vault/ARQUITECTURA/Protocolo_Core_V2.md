@@ -4,7 +4,7 @@ Este documento establece las normativas técnicas obligatorias para el desarroll
 
 ## Las 7 Reglas de Oro del Determinismo
 
-1.  **Simulación Determinista via `step(dt)`**: Todo movimiento y lógica de física (Player, Cajas, Túneles de Viento) debe ejecutarse dentro de un método `step(dt)`. Se prohíbe el uso de `_physics_process` para lógica de simulación core.
+1.  **Simulación Determinista vía `step(dt)`**: Todo movimiento y lógica de física (Player, Cajas, Túneles de Viento) debe ejecutarse dentro de un método `step(dt)`. Se prohíbe el uso de `_physics_process` para lógica de simulación core.
 2.  **Contrato de Replay (R-S-R-P)**: La arquitectura se basa en el flujo **Record -> Snapshot -> Restore -> Playback**. Cualquier estado que no sea capturado en un snapshot es un estado perdido y causará desincronización.
 3.  **Hard Reset Obligatorio**: El sistema debe garantizar que un `Restore` limpie completamente el estado anterior. No deben quedar residuos de fuerzas, velocidades o estados de animación previos.
 4.  **No Direct Basis Manipulation**: Se prohíbe la manipulación directa de `transform.basis` o `rotation` para forzar orientaciones. La rotación debe emerger orgánicamente de los inputs y el estado de la simulación.
