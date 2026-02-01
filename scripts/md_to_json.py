@@ -35,7 +35,7 @@ def main():
     all_links = set()
     all_images = set()
     all_words = 0
-    DATA_DIR.mkdir(exist_ok=True)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     for md_file in get_markdown_files(MD_DIR):
         with open(md_file, encoding="utf-8") as f:
             content = f.read()

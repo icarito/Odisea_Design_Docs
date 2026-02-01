@@ -21,13 +21,14 @@ Utilizamos estos conocimientos no solo para medir, sino para **controlar**:
 
 Esto asegura que la precisión métrica fuerce la narrativa y la progresión estructural prevista, impidiendo que los jugadores se salten capítulos de la "mini-historia" del nivel.
 
-### 1.3 Fidelidad Cinemática y Pendientes
-La forma de un arco de salto no es un triángulo, sino una **parábola** determinada por la aceleración horizontal y el modelo gravitatorio.
+### 1.3 Fidelidad Cinemática y Determinismo (Core_V2)
+La forma de un arco de salto no es un triángulo, sino una **parábola** determinada por la aceleración horizontal y el modelo gravitatorio, calculada de forma determinista.
 
-**Nota sobre Terrenos Inclinados:**
-Si el desplazamiento por gravedad no se calcula correctamente en relación con la velocidad horizontal en una pendiente, el personaje "rebotará" en lugar de descender suavemente.
-* **Consecuencia:** Movimiento de baja fidelidad que rompe la inmersión.
-* **Requisito:** La precisión del motor de física es un prerrequisito necesario para el "Flow" psicológico.
+**Implementación Core_V2:**
+Para garantizar el sistema de replay, el motor de física estándar ha sido sustituido por una implementación basada en `step(dt)`:
+* **Consistencia:** El desplazamiento por gravedad y la interacción con pendientes se calculan síncronamente, eliminando el "rebote" involuntario.
+* **Determinismo:** El movimiento es 100% reproducible, lo que permite que el sistema de replay capture cada frame con precisión cinemática.
+* **Consecuencia:** El "Flow" psicológico se mantiene incluso durante las restauraciones de estado y playbacks.
 
 ## 2. Tabla de Especificaciones de Métricas
 | Métrica de Restricción | Variable Física | Aplicación de Diseño | Importancia Arquitectónica |

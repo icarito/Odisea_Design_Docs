@@ -1,6 +1,13 @@
 # Odisea
 
-Bienvenido al Documento de Diseño del Juego (GDD) de Odisea.
+Bienvenido al Documento de Diseño del Juego (GDD) de Odisea. Este documento ha sido actualizado a la arquitectura **Core_V2**, reflejando el sistema de replay determinista y los nuevos estándares técnicos.
+
+---
+
+## 🚀 Novedades Core_V2
+- **Determinismo Total**: Simulación basada en `step(dt)`.
+- **Sistema de Replay**: Flujo Record-Snapshot-Restore-Playback implementado.
+- **Protocolo de Desarrollo**: Consulta el [[Protocolo_Core_V2]].
 
 ---
 

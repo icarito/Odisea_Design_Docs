@@ -6,11 +6,15 @@ Movimiento ágil de tercera persona con precisión de plataformas, propulsor par
 ![[mecanica_gravedad_variable.jpeg]]
 ## Dron Cargol (Asistente Remoto)
 
-Dron controlable para rutas alternativas y reparaciones a distancia. Ver [[Mecanicas_Dron_Cargol]] para detalles.
+Dron controlable para rutas alternativas y reparaciones a distancia. Su movimiento es ahora **determinista** para integrarse con el sistema de replay. Ver [[Mecanicas_Dron_Cargol]] para detalles.
 
 ## Gravedad Variable
 
-Mecánica central que cambia la jugabilidad entre 1G, 0G y fluctuante. Ver [[Mecanicas_Gravedad_Variable]] para detalles.
+Mecánica central que cambia la jugabilidad entre 1G, 0G y fluctuante. Los cambios de gravedad se procesan de forma síncrona con el sistema de replay. Ver [[Mecanicas_Gravedad_Variable]] para detalles.
+
+## Objetos Dinámicos Deterministas (Pushable Boxes)
+
+Todos los objetos interactivos, como las **Cajas Empujables**, han sido migrados a la arquitectura **Core_V2**. Esto significa que su movimiento, colisión y posición son parte del estado capturado por el sistema de replay, permitiendo puzzles físicos complejos que son 100% reproducibles.
 
 ![[mecanica_herramienta_mantenimiento.jpeg]]
 
