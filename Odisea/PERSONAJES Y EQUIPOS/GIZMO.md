@@ -6,7 +6,7 @@ Holograma flotante semitransparente (cyan #00FFFF, 85% opacidad) que muestra mod
 
 ## Apariencia y Estructura
 
-text
+
 
 ```
 ┌─────────────────────┐

@@ -4,8 +4,10 @@
 
 local function make_image(target, alt)
   local img = target
-  if not img:match('^assets/') and not img:match('^https?://') and not img:match('^data:') then
-    img = 'assets/' .. img
+  -- Preferir la carpeta real de recursos `_ASSETS` dentro de `Odisea/` para que Quarto los copie
+  if not img:match('^_ASSETS/') and not img:match('^/Odisea/_ASSETS/') and not img:match('^Odisea/_ASSETS/') and not img:match('^assets/') and not img:match('^https?://') and not img:match('^data:') and not img:match('^/') then
+    -- Usar ruta absoluta para evitar que páginas en subcarpetas resuelvan mal
+    img = '/Odisea/_ASSETS/' .. img
   end
   if alt and alt ~= '' then
     return pandoc.Image(alt, img)
@@ -16,18 +18,29 @@ end
 
 local function make_link(target, alias)
   local text = (alias and alias ~= '' and alias) or target
-  if target:match('^https?://') then
-    url = target
-  elseif target:match("/") then
-    url = target .. ".html"
+  -- Manejar anclas locales
+  if target:match('^#') then
+    return pandoc.Link(text, target)
+  end
+  -- Normalizar: quitar .md final si existe
+  local t = target:gsub('%.md$', '')
+  -- URLs absolutas
+  if t:match('^https?://') then
+    url = t
+  elseif t:match('/') then
+    -- Si ya contiene una ruta, convertir a .html (ej: Odisea/Algo -> Odisea/Algo.html)
+    url = t .. '.html'
   else
-    -- Obtener la subcarpeta del archivo actual
+    -- Resolver en la misma carpeta que el archivo de entrada actual
     local input_file = PANDOC_STATE and PANDOC_STATE.input_files and PANDOC_STATE.input_files[1] or nil
-    local subfolder = input_file and input_file:match("vault/([^/]+)/") or nil
-    if subfolder then
-      url = subfolder .. "/" .. target .. ".html"
+    local base = ''
+    if input_file then
+      base = input_file:match('(.*/)' ) or ''
+    end
+    if base and base ~= '' then
+      url = base .. t .. '.html'
     else
-      url = target .. ".html" -- fallback
+      url = t .. '.html'
     end
   end
   return pandoc.Link(text, url)

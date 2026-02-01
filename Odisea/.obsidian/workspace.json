@@ -4,39 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "8387e3a9ba73f5cd",
+        "id": "f24a43b01cd21fde",
         "type": "tabs",
         "children": [
           {
-            "id": "61eb546c1410ad2f",
+            "id": "99764f6bed0712f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_FEATURES PIPELINE/Scene_Testing.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Scene_Testing"
-            }
-          },
-          {
-            "id": "38ed70637dfa71a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NARRATIVA/Deep_Research_Level_Design.md",
+                "file": "_FEATURES PIPELINE/Movement_Refinement.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deep_Research_Level_Design"
+              "title": "Movement_Refinement"
+            }
+          },
+          {
+            "id": "93463ac2078cd0b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERSONAJES Y EQUIPOS/GIZMO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GIZMO"
+            }
+          },
+          {
+            "id": "2e11cdc28b3dce0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PERSONAJES Y EQUIPOS/Manifiesto de carga.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Manifiesto de carga"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"creation_date\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 421.5026054382324
   },
   "right": {
     "id": "e504f7a9c729c631",
@@ -104,12 +118,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "17c25ad534280a86",
+            "type": "leaf",
+            "state": {
+              "type": "recent-notes-view",
+              "state": {},
+              "icon": "clock-10",
+              "title": "Notas recientes"
+            }
+          },
+          {
             "id": "b5616fb1e40ad962",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DroidPad SPEC.md",
+                "file": "PERSONAJES Y EQUIPOS/GIZMO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de DroidPad SPEC"
+              "title": "Enlaces entrantes de GIZMO"
             }
           },
           {
@@ -128,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_FEATURES PIPELINE/Movement Refinement.md",
+                "file": "LEVEL DESIGN/Screenplay_Nivel_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Movement Refinement"
+              "title": "Enlaces salientes de Screenplay_Nivel_1"
             }
           },
           {
@@ -152,40 +176,26 @@
             }
           },
           {
-            "id": "43a4a6ec2a5ddc49",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "Todas las propiedades"
-            }
-          },
-          {
             "id": "9348bcb4daf1ef42",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "NARRATIVA/Deep_Research_Level_Design.md",
+                "file": "PERSONAJES Y EQUIPOS/GIZMO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Deep_Research_Level_Design"
+              "title": "Esquema de GIZMO"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 598.5
+    "width": 448.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,57 +206,57 @@
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
-      "copilot:Open Copilot Chat": false,
-      "webpage-html-export:Export as HTML": false
+      "webpage-html-export:Export as HTML": false,
+      "recent-notes:Notas recientes": false
     }
   },
-  "active": "9c21e6031a7d0143",
+  "active": "2e11cdc28b3dce0d",
   "lastOpenFiles": [
-    "MECANICAS/Física.md",
-    "NARRATIVA/Deep_Research_Level_Design.md",
-    "TODO.md",
-    "index.md",
-    "00_Odisea_Master.md",
-    "ARTE/Referencias_e_Inspiración.md",
-    "MECANICAS/Input.md",
-    "_FEATURES PIPELINE/Scene_Testing.md",
-    "NARRATIVA/ACTO 4/Acto_IV_La_Decision.md",
-    "NARRATIVA/ACTO 3/Acto_III_El_Desafio.md",
-    "NARRATIVA/ACTO 1/Acto_I_La_Negacion.md",
-    "MECANICAS/03_Vehiculos.md",
-    "ARQUITECTURA/01_Pilares_de_Diseno.md",
-    "PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.md",
-    "PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.md",
-    "PERSONAJES Y EQUIPOS/Personaje_Elias.md",
-    "PERSONAJES Y EQUIPOS/Entidad_Cargol.md",
-    "NARRATIVA/ACTO FINAL/Narrativa_Finales.md",
-    "MECANICAS/Mecanicas_Vehiculo_Aereo.md",
-    "MECANICAS/Mecanicas_Vehiculo_4x4.md",
-    "MECANICAS/Mecanicas_Propulsor_0G.md",
-    "MECANICAS/Mecanicas_Herramienta_Mantenimiento.md",
-    "MECANICAS/Mecanicas_Gravedad_Variable.md",
-    "MECANICAS/Mecanicas_Dron_Cargol.md",
-    "MECANICAS/Enemigos_Drones_y_Sistemas.md",
-    "LUGARES/Locacion_Nucleo_IA.md",
-    "NARRATIVA/ACTO 1/Acto_I_La_Negacion.html",
-    "NARRATIVA/ACTO 1/Acto_I_La_Negacion_files/mediabag",
-    "NARRATIVA/ACTO 1/Acto_I_La_Negacion_files",
-    "00_Odisea_Master.html",
-    "00_Odisea_Master_files/mediabag",
-    "00_Odisea_Master_files",
-    "Referencias e Inspiración.html",
-    "Referencias e Inspiración_files/mediabag",
-    "Referencias e Inspiración_files",
-    "Física.html",
-    "_ASSETS/multitool-black.png",
+    "PERSONAJES Y EQUIPOS/GIZMO.md",
+    "PERSONAJES Y EQUIPOS/Manifiesto de carga.md",
+    "NARRATIVA/ACTO 1/Nivel 3.md",
+    "LEVEL DESIGN/Afordancias, Ritmo y \"Flow\".md",
+    "LEVEL DESIGN/Pipeline.md",
     "_ASSETS/multitool-unshaded.png",
-    "_ASSETS/nave_odisea_concepto.png",
-    "_ASSETS/nave_odisea_seccion.jpeg",
-    "_ASSETS/nave_odisea_exterior.jpeg",
-    "_ASSETS/nave_odisea_esquema.png",
-    "_ASSETS/odisea_master_portada.png",
-    "_ASSETS/pp_fantasma_niebla.png",
-    "_ASSETS/Whisk_93487fda9aa8847adce43bde666ec467dr.jpeg",
-    "_ASSETS/Whisk_3460c085b41d085bce84d50046eb04c8dr.jpeg"
+    "PERSONAJES Y EQUIPOS/Multi-Tool.md",
+    "TRAILER/Guion.md",
+    "FISICA/Física.md",
+    "_FEATURES PIPELINE/Movement_Refinement.md",
+    "LEVEL DESIGN/Deep_Research_Level_Design.md",
+    "00_Odisea_Master.md",
+    "index.md",
+    "_ASSETS/Mapa de Narrativa.png",
+    "_ASSETS/Map of Level 1 Concept.png",
+    "_ASSETS/ArtOfGameDesign_Infographic.png",
+    "LEVEL DESIGN/Screenplay_Nivel_1.md",
+    "LEVEL DESIGN/Level_Design_Document.md",
+    "Mecanicas Nuevas.md",
+    "ARTE/Luces.md",
+    "Status.md",
+    "QOL Fixes.md",
+    "NARRATIVA/ACTO 1/Nivel 1.md",
+    "ARCHIVED/Motion Capture.md",
+    "MECANICAS/Input.md",
+    "ARCHIVED/REFACTOR PENDING.md",
+    "ARTE/Referencias_e_Inspiración.md",
+    "_ASSETS/enterprise_TOS.png",
+    "_ASSETS/Whisk_d873b5e18994fef88fd4cfab9d43ec8deg.jpeg",
+    "_ASSETS/Gemini_Generated_Image_6p5ofi6p5ofi6p5o.png",
+    "_ASSETS/Gemini_Generated_Image_2apni2apni2apni2.png",
+    "_ASSETS/enemigo_trampa_ventilacion.png",
+    "_ASSETS/enemigo_dron_diagnostico.jpeg",
+    "_FEATURES PIPELINE/Scene_Testing.md",
+    "LEVEL DESIGN/Física y Métricas.md",
+    "PRODUCTION/Plan_Implementacion_MVP.md",
+    "LEVEL DESIGN",
+    "NARRATIVA/Deep_Research_Level_Design.html",
+    "NARRATIVA/Deep_Research_Level_Design_files/mediabag",
+    "NARRATIVA/Deep_Research_Level_Design_files",
+    "NARRATIVA/ACTO FINAL/Narrativa_Finales.html",
+    "NARRATIVA/ACTO FINAL/Narrativa_Finales_files/mediabag",
+    "NARRATIVA/ACTO FINAL/Narrativa_Finales_files",
+    "NARRATIVA/ACTO 4/Acto_IV_La_Decision.html",
+    "NARRATIVA/ACTO 4/Acto_IV_La_Decision_files/mediabag",
+    "NARRATIVA/ACTO 4/Acto_IV_La_Decision_files"
   ]
 }

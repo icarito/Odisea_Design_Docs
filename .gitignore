@@ -2,6 +2,7 @@
 /.quarto/
 **/*.quarto_ipynb
 site_libs/
+**/*.html
 
 # Archivos de salida y artefactos
 _public/
@@ -25,6 +26,7 @@ __pycache__/
 *.log
 
 # Excluir configuraciones locales
+.obsidian
 .vscode/
 .env
 

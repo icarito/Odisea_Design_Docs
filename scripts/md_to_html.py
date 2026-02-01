@@ -62,7 +62,8 @@ def replace_images(text):
         img = m.group(1).strip()
         # If the asset exists in _ASSETS, reference it relatively
         if (ASSETS_DIR / img).exists():
-            return f"<img src=\"_ASSETS/{img}\" alt=\"{img}\" />"
+            # Usar ruta absoluta para que funcione desde cualquier subruta del sitio
+            return f"<img src=\"/Odisea/_ASSETS/{img}\" alt=\"{img}\" />"
         # else, return alt text
         return f"<em>[imagen: {img}]</em>"
     return IMG_RE.sub(repl, text)
