@@ -1,0 +1,44 @@
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+
+name: Render and Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+        # No 'to' input means render all formats defined in _quarto.yml (html and pdf)
+
+      - name: Verify PDF Existence
+        run: |
+          # Check if PDF exists in expected location
+          if [ -f outputs/Odisea.pdf ]; then
+            echo "PDF found in outputs/Odisea.pdf"
+          elif [ -f Odisea.pdf ]; then
+            echo "PDF found in root, moving to outputs/"
+            mv Odisea.pdf outputs/
+          else
+            echo "PDF not found!"
+            find . -name "*.pdf"
+          fi
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./outputs

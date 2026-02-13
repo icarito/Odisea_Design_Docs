@@ -1,25 +1,40 @@
-# Odisea
+# Odisea: El Arca Silenciosa
 
-Bienvenido al Documento de Diseño del Juego (GDD) de Odisea. Este documento ha sido actualizado a la arquitectura **Core_V2**, reflejando el sistema de replay determinista y los nuevos estándares técnicos.
+Bienvenido al Documento de Diseño y Especificaciones (Wiki) del proyecto Odisea.
+
+Esta documentación está organizada en cuatro pilares fundamentales:
+
+### 1. [Diseño (Game Design)](Diseno/index.md)
+Documentos de narrativa, mecánicas de juego, arte y level design.
+*   **Narrativa**: Actos, Personajes, Lugares.
+*   **Mecánicas**: Vehículos, Gravedad, Herramientas.
+*   **Arte**: Estilo visual, Referencias.
+*   **Level Design**: Métricas, Flow, Pipeline.
+
+### 2. [Canon (Especificaciones Técnicas)](Canon/index.md)
+Documentación técnica "viva" importada directamente del repositorio de código (`core_v2`). Describe features implementados y probados.
+*   **OdysseyScript**: Lenguaje de scripting y replays.
+*   **Interactuables**: Sistema de puertas, botones y lógica.
+*   **Física**: Pushable Box, Movimiento, Gamefeel.
+
+### 3. [Arquitectura & Protocolos](Arquitectura/index.md)
+Normas de desarrollo, estructura del proyecto y contratos de código.
+*   **Protocolo de Desarrollo**: Normas para agentes y humanos.
+*   **Core V2**: Resumen de la arquitectura actual.
+
+### 4. [Producción](Produccion/index.md)
+Estado del proyecto, backlog y pipelines.
+*   **Status Report**: Estado actual del MVP.
+*   **Backlog**: Tareas pendientes y QOL.
 
 ---
 
-## 🚀 Novedades Core_V2
-- **Determinismo Total**: Simulación basada en `step(dt)`.
-- **Sistema de Replay**: Flujo Record-Snapshot-Restore-Playback implementado.
-- **Protocolo de Desarrollo**: Consulta el [[Protocolo_Core_V2]].
+## Recursos Adicionales
+
+*   [Índice Maestro (Legacy)](Master_Index.md)
+*   [Descargar Wiki en PDF](Odisea.pdf) (Generado automáticamente)
+*   [Repositorio de Código (GitHub)](https://github.com/icarito/Odisea)
 
 ---
 
-## Descarga el JSON de la Wiki
-
-Puedes descargar el archivo completo de la wiki en formato JSON optimizado para IA y análisis:
-
-- [Descargar odisea_wiki.json (sitio)](/data/odisea_wiki.json)
-- [Ver el repositorio](https://github.com/icarito/Odisea_Design_Docs/)
-
-Este archivo contiene toda la información estructurada de la wiki, incluyendo los textos, links internos y referencias a imágenes. Es ideal para alimentar modelos LLM, hacer análisis automáticos o migrar el contenido a otras plataformas.
-
----
-
-Este documento contiene toda la información sobre el diseño, la narrativa, las mecánicas y el arte de Odisea. Utiliza el menú de la izquierda para navegar por las diferentes secciones.
+> *Esta documentación se genera automáticamente mediante Quarto y GitHub Actions.*
