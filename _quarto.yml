@@ -11,9 +11,6 @@ book:
   title: 'Odisea: El Arca Silenciosa'
   author: Equipo Odisea
   date: last-modified
-  sidebar:
-    style: docked
-    collapse-level: 1
   chapters:
   - Odisea/index.md
   - Odisea/Master_Index.md
@@ -33,67 +30,57 @@ book:
   - part: Diseño
     chapters:
     - Odisea/Diseno/index.md
-    - section: Pilares
-      contents:
-      - Odisea/Diseno/Pilares.md
-    - section: Narrativa
-      contents:
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.md
-      - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 1.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 2.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 3.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.md
-      - Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.md
-      - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.md
-    - section: Mecánicas
-      contents:
-      - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Input.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.md
-      - Odisea/Diseno/Mecanicas/MECANICAS/Meneo en 0G.md
-    - section: Arte
-      contents:
-      - Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.md
-      - Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.md
-      - Odisea/Diseno/Arte/ARTE/Desglose_Estilos.md
-      - Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.md
-      - Odisea/Diseno/Arte/ARTE/Luces.md
-      - Odisea/Diseno/Arte/ARTE/Música.md
-      - Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.md
-    - section: Level Design
-      contents:
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y "Flow".md
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.md
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.md
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.md
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.md
-      - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.md
+    - Odisea/Diseno/Pilares.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.md
+    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 1.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 2.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 3.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.md
+    - Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.md
+    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Input.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.md
+    - Odisea/Diseno/Mecanicas/MECANICAS/Meneo en 0G.md
+    - Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.md
+    - Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.md
+    - Odisea/Diseno/Arte/ARTE/Desglose_Estilos.md
+    - Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.md
+    - Odisea/Diseno/Arte/ARTE/Luces.md
+    - Odisea/Diseno/Arte/ARTE/Música.md
+    - Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y "Flow".md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.md
   - part: Arquitectura
     chapters:
     - Odisea/Arquitectura/index.md

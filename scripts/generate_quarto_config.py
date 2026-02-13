@@ -42,13 +42,11 @@ def main():
     if os.path.exists(design_index):
         design_chapters.append(design_index)
 
-    design_chapters.extend([
-         {"section": "Pilares", "contents": ["Odisea/Diseno/Pilares.md"]},
-         {"section": "Narrativa", "contents": diseno_narrativa},
-         {"section": "Mecánicas", "contents": diseno_mecanicas},
-         {"section": "Arte", "contents": diseno_arte},
-         {"section": "Level Design", "contents": diseno_level}
-    ])
+    design_chapters.append("Odisea/Diseno/Pilares.md")
+    design_chapters.extend(diseno_narrativa)
+    design_chapters.extend(diseno_mecanicas)
+    design_chapters.extend(diseno_arte)
+    design_chapters.extend(diseno_level)
 
     config = {
         "project": {
@@ -66,10 +64,6 @@ def main():
             "title": "Odisea: El Arca Silenciosa",
             "author": "Equipo Odisea",
             "date": "last-modified",
-            "sidebar": {
-                "style": "docked",
-                "collapse-level": 1
-            },
             "chapters": [
                 "Odisea/index.md",
                 "Odisea/Master_Index.md",
