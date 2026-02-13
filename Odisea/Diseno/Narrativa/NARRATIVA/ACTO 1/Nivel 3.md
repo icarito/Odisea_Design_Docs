@@ -1,4 +1,4 @@
-## Laberinto de Módulos Rotatorios (8-12 minutos)
+# Laberinto de Módulos Rotatorios (8-12 minutos)
 
 ![[acto2_laberinto_portada.png]]
 

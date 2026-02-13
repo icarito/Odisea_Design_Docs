@@ -1,4 +1,6 @@
-## 1. Locomoción Básica (El "Feel")
+# Batería de Pruebas de Mecánicas (Core)
+
+## Locomoción Básica (El "Feel")
 
 Estos tests aseguran que la respuesta a los mandos sea fluida y predecible.
 
@@ -7,7 +9,7 @@ Estos tests aseguran que la respuesta a los mandos sea fluida y predecible.
 * **Cambio de dirección (Flip):** Validar que al pulsar la dirección contraria, el personaje gire y mantenga la inercia correcta durante la transición.
 * **Velocidad máxima (Terminal Velocity):** Asegurar que en caídas largas Elías no acelere infinitamente y atraviese el mapa.
 
-## 2. Dinámica de Salto
+## Dinámica de Salto
 
 El salto es el corazón de Odisea. Aquí es donde suelen aparecer los bugs más feos.
 
@@ -16,7 +18,7 @@ El salto es el corazón de Odisea. Aquí es donde suelen aparecer los bugs más 
 * **Cancelación de salto:** Testear qué pasa si Elías choca con un enemigo en el aire: ¿se resetea la gravedad o mantiene el impulso?
 * **Coyote Time:** Validar que el jugador puede saltar durante unos frames (milisegundos) después de haber dejado de tocar una plataforma.
 
-## 3. Integridad Física (Colisiones)
+## Integridad Física (Colisiones)
 
 Para que el mundo se sienta sólido.
 
@@ -25,7 +27,7 @@ Para que el mundo se sienta sólido.
 * **Muros invisibles:** Asegurar que caminar contra una pared no permite que Elías "escale" por error debido a la fricción de la caja de colisión.
 * **Pendientes (Slopes):** Si el mapa tiene rampas, testear que Elías no vaya dando saltitos al bajar, sino que se mantenga pegado al suelo.
 
-## 4. Transiciones de Estado
+## Transiciones de Estado
 
 Para que las animaciones y la lógica no se peleen entre sí.
 

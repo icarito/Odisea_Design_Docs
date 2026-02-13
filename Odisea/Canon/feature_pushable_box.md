@@ -1,53 +1,46 @@
-Especificación: PushableBoxV2 (Objeto Híbrido Determinista)
+# Especificación: PushableBoxV2 (Objeto Híbrido Determinista)
 
-1. Objetivo
+## Objetivo
 
-Crear un objeto con comportamiento físico dual: un modo "Dinámico" para caídas y rotaciones realistas (6DoF), y un modo "Cinemático" para reposo, apilamiento y transporte determinista. Este sistema permite realismo visual sin comprometer la integridad del replay.
+Crear un objeto con comportamiento físico dual: un modo dinámico para caídas y rotaciones realistas (6DoF), y un modo cinemático para reposo, apilamiento y transporte determinista. Este sistema permite realismo visual sin comprometer la integridad del replay.
 
-2. Clase Base y Configuración
+## Clase Base y Configuración
 
-Nodo: RigidBody (Configurado para alternar modos).
+- Nodo: `RigidBody` (configurado para alternar modos).
+- Grupo: `replay_sync`.
+- Configuración inicial: `mode = MODE_RIGID`. El control de `step(dt)` manejará el cambio a `MODE_KINEMATIC`.
 
-Grupo: replay_sync.
+## Lógica de Estados (Híbrido)
 
-Configuración Inicial: mode = MODE_RIGID. El control de step(dt) manejará el cambio a MODE_KINEMATIC.
-
-3. Lógica de Estados (Híbrido)
-
-A. Estado Dinámico (Caída/Caos)
+### Estado Dinámico (Caída/Caos)
 
 Cuando el objeto es golpeado con fuerza o cae de una plataforma:
 
-Se comporta como un RigidBody estándar de Godot.
+- Se comporta como un `RigidBody` estándar de Godot.
+- Permite rotaciones en los 3 ejes y colisiones complejas.
+- Determinismo: para minimizar el drift, forzar `sleeping = false` y registrar cada frame en replay.
 
-Permite rotaciones en los 3 ejes y colisiones complejas.
+### Estado Cinemático (Asentamiento)
 
-Determinismo: Para minimizar el drift, se fuerza el sleeping = false y se registra cada frame en el replay.
+Cuando la velocidad lineal y angular caen por debajo de un umbral durante N frames:
 
-B. Estado Cinemático (Asentamiento)
+- Snap de rotación: si está cerca de los 90°, hacer snap a ejes globales para asegurar apilado.
+- Cambio de modo: pasar a `MODE_KINEMATIC`.
+- Drift correction: redondear posición a 4 decimales para eliminar inconsistencias de coma flotante.
 
-Cuando la velocidad lineal y angular caen por debajo de un umbral (threshold) durante N frames:
+## Integración de Simulación `step(dt)`
 
-Snap de Rotación: Si la rotación está cerca de los 90°, se hace un "snap" automático a los ejes globales para asegurar que sea apilable.
+En lugar de dejarlo 100% en manos del motor, el `step` supervisa el estado:
 
-Cambio de Modo: Se cambia a MODE_KINEMATIC.
+- Monitoreo: si está en modo dinámico, verificar `linear_velocity.length() < 0.1`.
+- Transición: si se cumple reposo, guardar la posición actual como nueva posición de anclaje determinista.
+- Interacción: si el jugador toca el objeto en modo cinemático, "despertar" y volver a modo dinámico.
 
-Drift Correction: Se redondea la posición a 4 decimales para eliminar inconsistencias de coma flotante del motor de física.
-
-4. Integración de Simulación step(dt)
-
-En lugar de dejarlo 100% en manos del motor, el step supervisa el estado:
-
-Monitoreo: Si está en modo Dinámico, verifica si linear_velocity.length() < 0.1.
-
-Transición: Si se cumple el reposo, guarda la posición actual como la nueva "posición de anclaje" determinista.
-
-Interacción: Si el jugador toca el objeto en modo Cinemático, el objeto "despierta" volviendo a modo Dinámico para reaccionar al impacto.
-
-5. Contrato de Replay (Snapshots)
+## Contrato de Replay (Snapshots)
 
 El snapshot debe capturar el modo actual para saber cómo restaurar la física.
 
+```gdscript
 func get_snapshot() -> Dictionary:
     return {
         "pos": [global_transform.origin.x, global_transform.origin.y, global_transform.origin.z],
@@ -58,3 +51,4 @@ func get_snapshot() -> Dictionary:
     }
 
 func restore_snapshot(data: Dictionary):
+```

@@ -1,59 +1,48 @@
-Spec: Unified Interaction Framework (UIF) - Sensor-Based - Odisea Core_v2
+# Spec: Unified Interaction Framework (UIF) - Sensor-Based - Odisea Core_v2
 
-1. Architectural Concept
+## Architectural Concept
 
-The interaction system shifts from a precise RayCast ("pixel hunting") to a Volume-Based Detection (Sensor). The player projects an invisible volume (Box/Cone) forward. Any InteractableEntity within this volume becomes a "Candidate". The system evaluates candidates each frame to determine the best "Focus Target" based on proximity and angle.
+The interaction system shifts from a precise RayCast ("pixel hunting") to a volume-based detection (sensor). The player projects an invisible volume (box/cone) forward. Any `InteractableEntity` within this volume becomes a candidate.
 
-This unifies interaction logic for static objects (terminals) and dynamic objects (moving platforms, pushable boxes), ensuring all gameplay elements respect the deterministic step(dt) cycle.
+The system evaluates candidates each frame to determine the best focus target based on proximity and angle. This unifies interaction logic for static objects (terminals) and dynamic objects (moving platforms, pushable boxes), ensuring all gameplay elements respect the deterministic `step(dt)` cycle.
 
-2. Component Architecture
+## Component Architecture
 
-A. The Sensor (InteractionSensor.gd)
+### The Sensor (`InteractionSensor.gd`)
 
-Location: core_v2/Components/Player/InteractionSensor.gd
-Node: Area (Child of PlayerControllerV2).
-Responsibilities:
+- Location: `core_v2/Components/Player/InteractionSensor.gd`
+- Node: `Area` (child of `PlayerControllerV2`)
+- Responsibilities:
+- Candidate tracking: maintain a list of overlapping interactable objects.
+- Evaluation loop (`step`): in every `step(dt)`, calculate a score for each candidate.
+- Angle: dot product with camera forward vector (center is better).
+- Distance: closer is better.
+- Line of sight: internal RayCast check to prevent interaction through walls.
+- Focus management: emit signals when the best candidate changes.
 
-Candidate Tracking: Maintain a list of overlapping Interactable objects.
+### The Interactable (`InteractableEntity.gd`)
 
-Evaluation Loop (Step): In every step(dt), calculate a "Score" for each candidate:
+- Location: `core_v2/Components/Shared/InteractableEntity.gd`
+- Inheritance: base class for all interactive objects.
+- Core data:
+- `interaction_text: String` (`"Open"`, `"Push"`, `"Activate"`).
+- `interaction_point: Position3D` (optional center for LoS checks).
+- `requirements: AttributeResource` (e.g. `"Strength > 5"`).
 
-Angle: Dot product with camera forward vector (Center is better).
+## Integration with Existing Features ("The Zoo")
 
-Distance: Closer is better.
+The goal is to refactor current prototypes (`MovingPlatform`, `Conveyor`, `Drawer`) into this unified system.
 
-Line of Sight: Internal RayCast check to prevent interaction through walls.
+### Moving Platforms (`MovingPlatformV2`)
 
-Focus Management: Emit signals when the "Best Candidate" changes.
+- Current status: deterministic `KinematicBody` with `time_accumulator`.
+- UIF integration: add an `InteractableEntity` child node if the platform has a control panel (e.g. an elevator button). The button is the interactable, not the platform itself.
 
-B. The Interactable (InteractableEntity.gd)
+### Conveyor Belts (`Conveyor`)
 
-Location: core_v2/Components/Shared/InteractableEntity.gd
-Inheritance: Base class for all interactive objects.
-Core Data:
+- Current status: physics area applying force.
+- UIF integration: generally passive. However, a conveyor switch object would be an `InteractableEntity` that toggles `Conveyor.active` deterministically.
 
-interaction_text: String ("Open", "Push", "Activate").
+### Pushable Boxes (`PushableBoxV2`)
 
-interaction_point: Position3D (Optional center for LoS checks).
-
-requirements: AttributeResource (e.g., "Strength > 5").
-
-3. Integration with Existing Features ("The Zoo")
-
-The goal is to refactor current prototypes (MovingPlatform, Conveyor, Drawer) into this unified system.
-
-A. Moving Platforms (MovingPlatformV2)
-
-Current Status: Deterministic KinematicBody with time_accumulator.
-
-UIF Integration: Add an InteractableEntity child node if the platform has a control panel (e.g., an elevator button). The button is the interactable, not the platform itself.
-
-B. Conveyor Belts (Conveyor)
-
-Current Status: Physics area applying force.
-
-UIF Integration: Generally passive. However, a "Conveyor Switch" object would be an InteractableEntity that toggles the Conveyor.active state deterministically.
-
-C. Pushable Boxes (PushableBoxV2)
-
-Current Status: Hybrid Rigid/Kinematic body.
+- Current status: hybrid rigid/kinematic body.

@@ -350,9 +350,9 @@ Cada elemento en `elements[]` contiene:
 ```
        Y = -1.0 (ARRIBA)
            ↑
-           │
-X = -1.0 ← 0,0 → X = +1.0 (DERECHA)
-(IZQUIERDA) │
+           |
+X = -1.0 <- 0,0 -> X = +1.0 (DERECHA)
+(IZQUIERDA) |
            ↓
        Y = +1.0 (ABAJO)
 ```
@@ -379,10 +379,10 @@ valor_real = minValue + (valor_normalizado * rango_disponible)
 ```
         0° (RECTO)
            ↑
-           │
--90° ← ─── → +90°
+           |
+-90° <----- -> +90°
 (IZQUIERDA) (DERECHA)
-           │
+           |
            ↓
         ±180° (REVERSA)
 ```

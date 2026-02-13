@@ -1,4 +1,4 @@
-## Primeras Fallas y Exploración Cooperativa (7-10 minutos aprox)  
+# Primeras Fallas y Exploración Cooperativa (7-10 minutos aprox)
 
 ![[acto4_decision_portada.png]]
 

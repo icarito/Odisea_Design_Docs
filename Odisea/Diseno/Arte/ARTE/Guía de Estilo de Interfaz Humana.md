@@ -20,7 +20,7 @@ UI holográfica minimalista para visor integrado en traje de Elías. Enfoque en 
 
 ## Elementos Principales UI
 
-## HUD Visor (Siempre Visible)
+### HUD Visor (Siempre Visible)
 
 `[Mini-mapa curvado esquina superior izq.]  [Energía Propulsor: barra horizontal] [Objetivo: texto cyan flotante centro]     [Estado Cargol: icono dron izq./der.] [Gravedad: icono vector rotatorio abajo]   [Alerta: flash naranja emergencias]`
 
@@ -28,7 +28,7 @@ UI holográfica minimalista para visor integrado en traje de Elías. Enfoque en 
     
 El mini mapa - puede accederse a través del [[GIZMO]]
 
-## Pantalla Holográfica Principal (Activación por gesto)
+### Pantalla Holográfica Principal (Activación por gesto)
 
 - **Activación:** Swipe hacia arriba desde borde inferior visor.
     
@@ -37,17 +37,17 @@ El mini mapa - puede accederse a través del [[GIZMO]]
 - **Secciones:**
 
    ```
-    ┌─────────────────────────────┐
-    │ NAV-OS v2.7 | Odisea Ark    │ ← Header cyan glow 
-    ├─────────────┼───────────────┤ 
-    │ Posición:   │ Rumbo: Titán  │ ← Datos misión 
-    │ Sector: B2  │ Tiempo: 6.2y  │
-    ├─────────────┼───────────────┤ 
-    │ [Mapa 3D]   │    [Sistemas] │ ← Swipe horizontal entre pestañas 
-    └─────────────┴───────────────┘
+    +-----------------------------+
+    | NAV-OS v2.7 | Odisea Ark    | <- Header cyan glow
+    +-------------+---------------+
+    | Posicion:   | Rumbo: Titan  | <- Datos mision
+    | Sector: B2  | Tiempo: 6.2y  |
+    +-------------+---------------+
+    | [Mapa 3D]   |    [Sistemas] | <- Swipe horizontal entre pestanas
+    +-------------+---------------+
     ```
 
-## Gestos Táctiles (Muy Simple)
+### Gestos Táctiles (Muy Simple)
 
 - **Tap:** Seleccionar nodo mapa / confirmar acción.
     
@@ -64,7 +64,7 @@ El mini mapa - puede accederse a través del [[GIZMO]]
 
 ## Pantallas Específicas
 
-## 1. Mapa Navegacional
+### Mapa Navegacional
 
 `Nave Odisea - Vista Seccional (8km escala) [Proa] ← [Puente] ← [Núcleo IA] ← [Módulos Rotatorios] ← [Criogenia Popa]   ↑ Jugador (punto naranja) ↓`
 
@@ -73,7 +73,7 @@ El mini mapa - puede accederse a través del [[GIZMO]]
 - Iconos: 🔴 Bloqueado | 🟢 Accesible | 🟡 En progreso.
     
 
-## 2. Estado Sistemas
+### Estado Sistemas
 
 
 `CRIO: 49,872 OK | 128 ALERTA GRAV: Variable (Sector B2) PROP: 78% | CARGOL: Online IA-ODISEA: [Protocolo Activo]`
@@ -81,7 +81,7 @@ El mini mapa - puede accederse a través del [[GIZMO]]
 - Barras verticales llenado cyan para %.
     
 
-## 3. Logs Narrativos (Diálogos IA)
+### Logs Narrativos (Diálogos IA)
 
 
 `[IA] "Elías, el desvío preserva la misión." [ELÍAS] "No. Reactivo sistemas."`
@@ -97,7 +97,7 @@ El mini mapa - puede accederse a través del [[GIZMO]]
     
 - **Estilo Low-Poly:** Bordes geométricos afilados, sin texturas. Glow shader Unity/UE5.
     
-- **Accesibilidad:** Modo high-contrast toggle, escala texto dinámica.odisea_wiki.json​
+- **Accesibilidad:** Modo high-contrast toggle, escala texto dinámica.
 
 
 ![[TouchControls.png]]

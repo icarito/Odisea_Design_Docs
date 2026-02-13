@@ -1,14 +1,14 @@
-The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics
+# The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics
 
 The optimization of player engagement in modern interactive media necessitates a rigorous synthesis of kinetic physics, cognitive psychology, and spatial engineering. At the intersection of these disciplines lies the "science of fun," a quantifiable framework that governs how movement, perspective, and challenge coalesce to create a state of optimal experience. Precision platformers and third-person action games represent the polarities of this design spectrum—one focusing on the micro-seconds of input fidelity within a two-dimensional plane, and the other on the macro-management of spatial awareness and cinematic immersion within a three-dimensional volume.
 
 The relationship between the player avatar and the digital environment is characterized by a continuous feedback loop where the game takes output and introduces it back as input.[1] In precision genres, the "fun" is not merely the absence of frustration but the achievement of mastery through a calibrated cycle of failure and triumph. This report deconstructs the metrics and methodologies that define these genres, examining the underlying mechanisms of flow, the technical nuances of forgiveness systems, and the rational design of level geometry.
 
-The Kinesthetics of Movement and Response
+## The Kinesthetics of Movement and Response
 
 The fundamental unit of engagement in any character-driven game is the movement mechanic, or what is termed game feel. This sensation is the result of real-time control over virtual objects in a simulated space, emphasized through polish and instantaneous feedback.[2] To achieve a state of high-fidelity control, designers must bridge the gap between the player’s intention and the on-screen execution, a process that relies heavily on the manipulation of acceleration, friction, and gravity curves.
 
-Animation Curves and the Metric of Snappiness
+## Animation Curves and the Metric of Snappiness
 
 The transition from a stationary state to maximum velocity is a critical metric in defining the responsiveness of a character. Industry standards suggest that for precision platformers, reaching top speed should be nearly instantaneous to ensure the controls feel snappy rather than floaty.[3] Snappiness is a functional requirement for high-difficulty titles because it minimizes the unpredictable "ramp-up" period where a player cannot accurately judge the character's final position. When a character reaches top speed almost instantly, the player gains a heightened sense of causality.[3, 4]
 

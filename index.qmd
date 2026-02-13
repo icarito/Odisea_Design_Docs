@@ -1,0 +1,32 @@
+---
+title: "Odisea: El Arca Silenciosa"
+subtitle: "Documentación de Diseño y Desarrollo"
+---
+
+# Introducción
+
+Esta es la documentación completa del proyecto **Odisea: El Arca Silenciosa**, un videojuego de aventura y plataformas con mecánicas únicas de física 2.5D y un sistema de juego determinista.
+
+## Acerca del Proyecto
+
+Odisea es un proyecto ambicioso que combina narrativa profunda con mecánicas de juego innovadoras. Este documento reúne toda la documentación de diseño, especificaciones técnicas, y guías de desarrollo del proyecto.
+
+## Estructura del Documento
+
+Este libro está organizado en las siguientes secciones:
+
+- **Visión General**: Documentos maestros y estado del proyecto
+- **Narrativa**: Historia, personajes y desarrollo narrativo
+- **Arquitectura y Diseño Técnico**: Especificaciones del sistema core_v2
+- **Mecánicas de Juego**: Sistemas de control, cámara y jugabilidad
+- **Arte y Diseño de Niveles**: Guías de arte y principios de level design
+- **Producción**: Planes de implementación y devlogs
+- **Apéndices**: Información adicional para contribuidores
+
+## Cómo Usar Este Documento
+
+Este documento está diseñado para ser leído tanto de forma lineal como por secciones. Usa el índice para navegar a la sección que necesites.
+
+---
+
+*Última actualización: `r format(Sys.Date(), "%d de %B, %Y")`*

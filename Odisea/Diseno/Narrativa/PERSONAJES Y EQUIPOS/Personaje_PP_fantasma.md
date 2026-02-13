@@ -30,5 +30,4 @@ La Programadora Principal (PP) no es un personaje vivo, sino un fantasma digital
 - **Confusión y Salud Mental**: Las apariciones crean niebla mental, donde Elías duda si la IA es enemiga o aliada, y si su lucha es por humanidad o por egoísmo romántico.
 - **En los Finales**: En cada desenlace, el fantasma juega un rol clave, seduciendo o lamentando, amplificando la saudade y la confusión.
 
-Ver [[Personaje_Elias]] para su relación con ella, y [[Personaje_IA_Odisea]] para cómo la IA la usa como fantasma.</content>
-<parameter name="filePath">/home/icarito/Proyectos/odisea/odisea/Personaje_PP_fantasma.md
+Ver [[Personaje_Elias]] para su relación con ella, y [[Personaje_IA_Odisea]] para cómo la IA la usa como fantasma.

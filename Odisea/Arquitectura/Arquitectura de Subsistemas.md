@@ -1,3 +1,5 @@
+# Arquitectura de Subsistemas
+
 ## Introducción
 
 La arquitectura de Odisea ha evolucionado hacia **Core_V2**, un sistema modular inspirado en Cogito pero centrado en el **determinismo y el sistema de replay**. Los subsistemas utilizan componentes reutilizables, singletons globales para gestión de estados y una separación estricta entre el núcleo de simulación (Core) y la representación visual/UI.

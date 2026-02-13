@@ -12,6 +12,7 @@ book:
   author: Equipo Odisea
   date: last-modified
   chapters:
+  - index.qmd
   - Odisea/index.md
   - Odisea/Master_Index.md
   - part: Canon (Especificaciones)
@@ -118,6 +119,7 @@ format:
     toc: true
     number-sections: true
   pdf:
+    pdf-engine: xelatex
     output-file: Odisea.pdf
     toc: true
     number-sections: true

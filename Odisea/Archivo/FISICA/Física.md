@@ -1,5 +1,4 @@
-
-## Física del SCG (Sistema Centrífugo de Gravedad) - Odisea
+# Física del SCG (Sistema Centrífugo de Gravedad) - Odisea
 
 ![SCG dual-sphere rotating gravity system with centrifugal force vectors](https://user-gen-media-assets.s3.amazonaws.com/gemini_images/15fa7d51-0c5c-4710-bcbd-39321aa7f5e0.png)
 He preparado una **documentación completa y detallada** sobre la implementación de los cálculos físicos del SCG para Godot 3. Aquí está el resumen ejecutivo:

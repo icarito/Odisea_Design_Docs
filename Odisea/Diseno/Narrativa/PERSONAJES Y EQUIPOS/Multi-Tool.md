@@ -1,3 +1,5 @@
+# Multi-Tool
+
 ![[multitool-black.png]]
 
 La multi-herramienta de Elías, apodada "MultiTool", es un gadget portátil del tamaño de un marcador grueso (unos 15 cm plegado, 200 gramos), con un cuerpo cilíndrico de aleación de titanio negro mate y grafeno reforzado, que resiste caídas desde 5 metros y temperaturas extremas sin pestañear. Se despliega como un origami futurista: gira el núcleo central holográfico (un display OLED táctil de 3 cm que proyecta menús AR vía lentes integradas) para intercambiar módulos magnéticos en segundos, sin herramientas extra, porque ¿quién tiene tiempo para complicaciones en una misión?youtube​[elcaldennature+2](https://elcaldennature.es/blog/novedades/funcionalidades-de-una-multiherramienta)​

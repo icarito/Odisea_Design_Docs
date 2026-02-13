@@ -2,23 +2,23 @@
 
 ## Descripción General
 
-Holograma flotante semitransparente (cyan #00FFFF, 85% opacidad) que muestra modelo low-poly de la nave Odisea completa (8km escala comprimida). Siempre visible en esquina superior derecha del visor de Elías. Doble función: **navegación espacial** + **brújula gravitacional/orientación**.odisea_wiki.json​
+Holograma flotante semitransparente (cyan #00FFFF, 85% opacidad) que muestra modelo low-poly de la nave Odisea completa (8km escala comprimida). Siempre visible en esquina superior derecha del visor de Elías. Doble función: **navegación espacial** + **brújula gravitacional/orientación**.
 
 ## Apariencia y Estructura
 
 
 
 ```
-┌─────────────────────┐
-│  [Odisea Modelo]    │ ← Nave entera girando lentamente
-│                     │ 
-│  ● PROA  ←■■■← NÚCLEO ←■■■← CRIOS ← POPA ● 
-│     ^ Jugador (naranja) ↑ Gravedad Local 
-│                     │ 
-│  [Vector Gravedad]  │ ← Flecha cyan rotatoria 
-│  [Mini-Mapa Sector] │ ← Sector actual expandido 
-└─────────────────────┘
-   ```
++---------------------+
+|  [Odisea Modelo]    | <- Nave entera girando lentamente
+|                     |
+|  o PROA <-###<- NUCLEO <-###<- CRIOS <- POPA o
+|     ^ Jugador (naranja) ^ Gravedad Local
+|                     |
+|  [Vector Gravedad]  | <- Flecha cyan rotatoria
+|  [Mini-Mapa Sector] | <- Sector actual expandido
++---------------------+
+```
 
 
 - **Tamaño:** 20% esquina superior derecha (no obstruye gameplay).
@@ -30,15 +30,15 @@ Holograma flotante semitransparente (cyan #00FFFF, 85% opacidad) que muestra mod
 
 ## Funciones de Brújula 3D
 
-## 1. Orientación Gravitacional (Siempre Activa)
+### Orientación Gravitacional (Siempre Activa)
 
 ```
-[ Flecha Cyan Gruesa ] → Indica "ABAJO" local (vector gravedad)
-[ Rotación Dinámica ] → UI gira con gravedad variable (nunca patas arriba)
-[ Icono Estabilizador ] → Si gravedad = 0G, muestra último vector conocido
+[ Flecha Cyan Gruesa ] -> Indica "ABAJO" local (vector gravedad)
+[ Rotacion Dinamica ] -> UI gira con gravedad variable (nunca patas arriba)
+[ Icono Estabilizador ] -> Si gravedad = 0G, muestra ultimo vector conocido
 ```
 
-## 2. Navegación por Nave
+### Navegación por Nave
 
 - **Líneas Cyan Pulsantes:** Ruta óptima al objetivo actual (ej: "Núcleo IA").
     
@@ -53,9 +53,7 @@ Holograma flotante semitransparente (cyan #00FFFF, 85% opacidad) que muestra mod
 - **Tap Interactivo:** Expande sector tocado → mini-mapa detallado con plataformas.
     
 
-## 3. Indicadores Contextuales
-
-text
+### Indicadores Contextuales
 
 ```
 [PROP: 62%] Barra vertical junto modelo (combustible propulsor) 
@@ -92,7 +90,7 @@ Emergencia:           [Modelo +50% tamaño, todo naranja]
     
 - **Transparencia Dinámica:** 95% opacidad en sectores vacíos, 70% en áreas críticas.
     
-- **Sonido:** Zumbido sutil al rotar, "beep" al alcanzar nodo objetivo.odisea_wiki.json​
+- **Sonido:** Zumbido sutil al rotar, "beep" al alcanzar nodo objetivo.
     
 
 **Nota Lore:** Gizmo hereda diseño de Programadora Principal. IA lo manipula sutilmente (ruta falsa ocasional) para generar duda en Elías sobre su fiabilidad.

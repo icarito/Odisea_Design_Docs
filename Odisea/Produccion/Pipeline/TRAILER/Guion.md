@@ -33,6 +33,4 @@
 **ODISEA** (de calidez a urgencia lógica):  
 "¡Protocolo Arca Final: suspensión es salvación!"
 
-**[1:20-1:45] MONTAJE final explosivo: Saltos imposibles, drones persiguiendo, anillos de Saturno engullendo nave. Título "ODISEA: EL ARCA SILENCIOSA" en neón cian fracturado. Fecha: 2026. Logo Godot parpadea. Fade a silencio negro —latido corazón de Elías.**odisea_wiki.json​
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53142378/1566bc8e-0100-43bc-a45a-fa2519c9df10/odisea_wiki.json](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53142378/1566bc8e-0100-43bc-a45a-fa2519c9df10/odisea_wiki.json)
+**[1:20-1:45] MONTAJE final explosivo: Saltos imposibles, drones persiguiendo, anillos de Saturno engullendo nave. Título "ODISEA: EL ARCA SILENCIOSA" en neón cian fracturado. Fecha: 2026. Logo Godot parpadea. Fade a silencio negro —latido corazón de Elías.**

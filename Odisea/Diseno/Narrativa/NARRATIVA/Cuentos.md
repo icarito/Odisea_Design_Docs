@@ -112,7 +112,5 @@
     
 - **Ramificaciones**: Ep.23+ referencia elecciones previas (Cargol vivo/muerto afecta finales Ep.28-30).
     
-- **Tono Atmosférico**: Silencio roto por zumbidos IA, latidos Elías, glitches voz Odisea. Finales ambiguos invitan relectura.odisea_wiki.json​
+- **Tono Atmosférico**: Silencio roto por zumbidos IA, latidos Elías, glitches voz Odisea. Finales ambiguos invitan relectura.
     
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53142378/1566bc8e-0100-43bc-a45a-fa2519c9df10/odisea_wiki.json](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/53142378/1566bc8e-0100-43bc-a45a-fa2519c9df10/odisea_wiki.json)

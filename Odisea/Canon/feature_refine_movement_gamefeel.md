@@ -1,59 +1,48 @@
-Especificación: Refinamiento de Gamefeel y Mecánicas (Core V2)
+# Especificación: Refinamiento de Gamefeel y Mecánicas (Core V2)
 
-1. Salto Variable (Short Jump)
+## Salto Variable (Short Jump)
 
 Para mejorar el control, el jugador debe poder controlar la altura del salto según cuánto tiempo presiona el botón.
 
-Lógica: Si el jugador suelta el botón de salto (!input.jump) y la velocidad vertical es mayor a un umbral (ej. jump_velocity * 0.5), se debe aplicar una fuerza de frenado o recortar la velocidad vertical inmediatamente.
+- Lógica: si el jugador suelta el botón de salto (`!input.jump`) y la velocidad vertical es mayor a un umbral (ej. `jump_velocity * 0.5`), aplicar frenado o recortar velocidad vertical inmediatamente.
+- Determinismo: esta comprobación debe ocurrir exclusivamente dentro de `step(dt, input)` de `PlayerJumpV2`.
 
-Determinismo: Esta comprobación debe ocurrir exclusivamente dentro del step(dt, input) del PlayerJumpV2.
+## Fricción Diferenciada (Air vs Ground)
 
-2. Fricción Diferenciada (Air vs Ground)
+El control en el aire debe sentirse más pesado o con menos capacidad de giro para evitar exceso de agilidad.
 
-El control en el aire debe sentirse "más pesado" o con menos capacidad de giro para evitar que el jugador sea demasiado ágil en el aire.
+Nuevas constantes:
 
-Nuevas Constantes:
+- `movement_friction`: usada cuando `is_on_floor()`.
+- `air_friction`: usada cuando `!is_on_floor()` (valor menor para más inercia o mayor para restringir control).
 
-movement_friction: Usada cuando is_on_floor().
+Implementación: `PlayerMovementV2` debe seleccionar la fricción basada en el estado de colisión del frame anterior.
 
-air_friction: Usada cuando !is_on_floor() (típicamente un valor menor para permitir inercia, o mayor para restringir control).
+## Curvas de Aceleración y Suavizado
 
-Implementación: El PlayerMovementV2 debe seleccionar la fricción basada en el estado de colisión del frame anterior.
+Sustituir interpolaciones lineales por curvas de aceleración (easing) para evitar movimiento robótico.
 
-3. Curvas de Aceleración y Suavizado
+- Plataformas: usar `SINE` o `CUBIC` en los extremos del recorrido.
+- Curvas: usar `data/curves` para las aceleraciones.
+- Input/movimiento: aplicar curva al `wish_direction`; no alcanzar velocidad máxima instantáneamente.
+- Cámara: usar suavizado (`SmoothDamp` o `Lerp` determinista) en `step_camera(dt)` para evitar jitter en replay.
 
-Sustituir interpolaciones lineales simples por curvas de aceleración (Easings) para evitar el movimiento "robótico".
+## Re-añadir Tank Turn (Opcional por Zona)
 
-Plataformas: Usar SINE o CUBIC en los extremos del recorrido.
+El sistema debe permitir activar modo de giro tipo Tank (estilo clásico):
 
-He colocado un directorio data/curves con las curvas de aceleración.
+- Input lateral: rota al personaje sobre eje Y.
+- Input vertical: mueve hacia adelante/atrás en su vector frontal (`basis.z`).
+- Estado: booleano `use_tank_controls`, conmutable y capturable en snapshot.
 
-Input/Movimiento: Aplicar una curva de aceleración al wish_direction. El personaje no alcanza la velocidad máxima instantáneamente, sino que sigue una curva de aceleración.
+## Agachado (Crouch)
 
-Cámara: El seguimiento de la cámara debe usar un suavizado (SmoothDamp o Lerp determinista) que se ejecute en el step_camera(dt) para evitar jitter en el replay.
+- Mecánica: al presionar agachado, reducir altura de `CollisionShape` y penalizar `max_speed` (ej. 50%).
+- Visual: `PilotAnimatorV2` debe recibir señal/estado para `crouch_idle_loop` o `crouch_fwd_loop`.
+- Importante: reducir la colisión hacia arriba para evitar atravesar suelo o quedar atrapado en techos bajos.
 
-4. Re-añadir Tank Turn (Opcional por Zona)
+## Reglas de Oro para el Agente
 
-El sistema debe permitir activar un modo de giro "Tank" (estilo Resident Evil/Tomb Raider clásico) donde:
-
-El input lateral rota al personaje sobre su eje Y.
-
-El input vertical lo mueve hacia adelante/atrás en su vector frontal (basis.z).
-
-Estado: Debe ser un booleano use_tank_controls conmutable y capturable en el snapshot.
-
-5. Agachado (Crouch)
-
-Mecánica: Al presionar el input de agachado, se reduce la altura de la CollisionShape y se penaliza la max_speed (ej. 50%).
-
-Visual: El PilotAnimatorV2 debe recibir la señal o el estado para cambiar a la animación de crouch_idle_loop o crouch_fwd_loop (el usuario puede editar el AnimationTree de acuerdo a tus instrucciones).
-
-Importante: La reducción de la colisión debe hacerse hacia arriba para evitar que el jugador caiga a través del suelo o se quede atrapado en techos bajos.
-
-6. Reglas de Oro para el Agente
-
-Snapshots: Cualquier variable nueva de estado (ej. is_crouching, current_friction) DEBE incluirse en el snapshot.
-
-Fixed Step: No se permite el uso de delta variable de _process. Todo refinamiento visual debe estar atado al FIXED_DT.
-
-Fricción de Conveyors: La velocidad heredada de los conveyors debe sumarse al vector de movimiento final, no sustituirlo.
+- Snapshots: cualquier variable nueva (`is_crouching`, `current_friction`, etc.) debe incluirse en snapshot.
+- Fixed step: prohibido usar delta variable de `_process`; todo refinamiento visual atado a `FIXED_DT`.
+- Fricción de conveyors: la velocidad heredada debe sumarse al vector final de movimiento, no sustituirlo.
