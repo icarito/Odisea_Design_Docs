@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>62&nbsp; The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics – Odisea: El Arca Silenciosa</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<link href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.html" rel="next">
+<link href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y &quot;Flow&quot;.html" rel="prev">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../../style.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../Odisea/Diseno/index.html">Diseño</a></li><li class="breadcrumb-item"><a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.html"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../../../">Odisea: El Arca Silenciosa</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Master_Index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Canon (Especificaciones)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Canon: Especificaciones Técnicas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_interact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Technical Specification: Deterministic Interactable System (Odisea V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_interactables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Spec: Unified Interaction Framework (UIF) - Sensor-Based - Odisea Core_v2</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_odisea_script.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">OdysseyScript (OYS): Input and Testing DSL Specification</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_odyssey_script_replay.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Uso de OdysseyScript y Replays en Odisea (2026)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_odyssey_script_usage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">OdysseyScript (OYS) — Guía de Uso</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_pushable_box.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Especificación: PushableBoxV2 (Objeto Híbrido Determinista)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_refine_movement_gamefeel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Especificación: Refinamiento de Gamefeel y Mecánicas (Core V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_sidescroller_zone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Feature Specification: 2.5D Side-Scroller Mode Transition</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_test_battery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Batería de Pruebas de Mecánicas (Core)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Canon/feature_test_runner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Especificación Técnica: Runner de Pruebas de Regresión Determinista</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Diseño</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Diseño de Juego</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Pilares.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Pilares de Diseño</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Locación: Módulos de Criogenia - Acto I</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Locación: Laboratorio de Biología Acuática - Acto II</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Locación: Secciones de Mantenimiento - Acto I</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Locación: Módulos Rotatorios (A y B)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">El Mundo: La Nave Odisea</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Locación: Cuerpo Central / Núcleo 0G</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Locación: Núcleo de la IA / Sala de Impulso - Acto IV</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Acto I: La Negación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Despertar en Criogenia (5-7 minutos aprox)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Primeras Fallas y Exploración Cooperativa (7-10 minutos aprox)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Laberinto de Módulos Rotatorios (8-12 minutos)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Acto II: El Laberinto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Acto III: El Desafío</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Acto IV: La Decisión</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Los 5 Finales</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Serie de Cuentos “Odisea: Historietas del Arca Silenciosa”</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Entidad: Cargol (Dron Asistente)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Gizmo NAV-COMPAS: Modelo 3D Nave + Brújula Orientación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Misión de Colonización Titán</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Multi-Tool</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Personaje: Elías (Unidad Humana 782-C)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Personaje: IA Odisea (Antagonista)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Personaje: Programadora Principal (Fantasma)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Mecánicas Clave</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Índice de Mecánicas de Jugabilidad</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Vehículos de Exploración</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">Enemigos y Amenazas (Sabotaje Pasivo-Agresivo de la IA)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Input.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">Input</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">Mecánicas del Controlador de Elías (Plataformas 3D)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">Mecánicas del Dron Cargol (Asistente Remoto)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Mecánicas de Gravedad Variable</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Mecánicas de la Herramienta de Mantenimiento</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">Mecánicas del Propulsor 0G (6DOF)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">Mecánicas del Vehículo 4x4 (Terrestre)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Mecánicas del Vehículo Flotante/Aéreo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Mecanicas/MECANICAS/Meneo en 0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Animación Procedural de Extremidades en Godot 3</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">Dirección de Arte y Estilo Visual</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">Prompts Generativos y Recursos Gráficos Clave</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Desglose_Estilos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Guía de Diseño UI</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Luces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Especificación: Sistema de Atmósfera y Luz (GLES2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Música.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Música</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">Referencias e Inspiración</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y &quot;Flow&quot;.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">Odisea - GDD: Gramática del Nivel y Teoría del Flow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">Odisea - GDD: Física Fundamental y Métricas del Personaje</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">64</span>&nbsp; <span class="chapter-title">Odisea: Level Design Document (LDD)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">Odisea - GDD: Pipeline de Diseño Iterativo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Screenplay / Gameplay - Nivel 1: El Despertar Criogénico</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Arquitectura</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Arquitectura/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Arquitectura y Protocolos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Arquitectura/Arquitectura de Subsistemas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">Arquitectura de Subsistemas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Arquitectura/Core_V2_Resumen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">Resumen del Núcleo V2 (Core_V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Arquitectura/Protocolo_Core_V2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Protocolo de Desarrollo Core_V2: Reglas de Oro</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Arquitectura/Protocolo_Desarrollo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">AGENTS.md — Guía de Desarrollo (Odisea)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Producción</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">Producción y Backlog</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Backlog/Ideas_Mecanicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Ideas Mecánicas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Backlog/PRODUCTION/Automatización.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">74</span>&nbsp; <span class="chapter-title">Automatización</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">75</span>&nbsp; <span class="chapter-title">Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">76</span>&nbsp; <span class="chapter-title">Plan de Implementación MVP - Odisea</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Backlog/QOL_Checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">77</span>&nbsp; <span class="chapter-title">QOL Checklist</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Pipeline/TRAILER/Assets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">78</span>&nbsp; <span class="chapter-title">Assets Trailer Cinemático (Orden de Aparición)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Pipeline/TRAILER/Guion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">79</span>&nbsp; <span class="chapter-title">Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">80</span>&nbsp; <span class="chapter-title">Movement Refinement</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">81</span>&nbsp; <span class="chapter-title">I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Produccion/Status_Report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Informe de Estado: Vertical Slice “Odisea Sector 07”</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Archivo</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">Archivo y Legacy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/ARCHIVED/Motion Capture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">84</span>&nbsp; <span class="chapter-title">1. Odisea LiveLink (Live Streaming)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/ARCHIVED/REFACTOR PENDING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">💡 Refactor Sugerido para Claridad y Estabilidad</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/CONTROL/DroidPad QR Spec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">86</span>&nbsp; <span class="chapter-title">🎮 DroidPad Dynamic QR Control Feature Specification (Godot 3.6.2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/CONTROL/DroidPad SPEC.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">87</span>&nbsp; <span class="chapter-title">DroidPad Dynamic QR Control Feature Specification (Godot 3.6.2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">88</span>&nbsp; <span class="chapter-title">DroidPad: Configuración, Escalas y Magnitudes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/CONTROL/Networked DroidPad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">DroidPad: Integración, Conexión y QR</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../../Odisea/Archivo/FISICA/Física.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">90</span>&nbsp; <span class="chapter-title">Física del SCG (Sistema Centrífugo de Gravedad) - Odisea</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-kinesthetics-of-movement-and-response" id="toc-the-kinesthetics-of-movement-and-response" class="nav-link active" data-scroll-target="#the-kinesthetics-of-movement-and-response"><span class="header-section-number">62.1</span> The Kinesthetics of Movement and Response</a></li>
+  <li><a href="#animation-curves-and-the-metric-of-snappiness" id="toc-animation-curves-and-the-metric-of-snappiness" class="nav-link" data-scroll-target="#animation-curves-and-the-metric-of-snappiness"><span class="header-section-number">62.2</span> Animation Curves and the Metric of Snappiness</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../../Odisea/Diseno/index.html">Diseño</a></li><li class="breadcrumb-item"><a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.html"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The optimization of player engagement in modern interactive media necessitates a rigorous synthesis of kinetic physics, cognitive psychology, and spatial engineering. At the intersection of these disciplines lies the “science of fun,” a quantifiable framework that governs how movement, perspective, and challenge coalesce to create a state of optimal experience. Precision platformers and third-person action games represent the polarities of this design spectrum—one focusing on the micro-seconds of input fidelity within a two-dimensional plane, and the other on the macro-management of spatial awareness and cinematic immersion within a three-dimensional volume.</p>
+<p>The relationship between the player avatar and the digital environment is characterized by a continuous feedback loop where the game takes output and introduces it back as input.[1] In precision genres, the “fun” is not merely the absence of frustration but the achievement of mastery through a calibrated cycle of failure and triumph. This report deconstructs the metrics and methodologies that define these genres, examining the underlying mechanisms of flow, the technical nuances of forgiveness systems, and the rational design of level geometry.</p>
+<section id="the-kinesthetics-of-movement-and-response" class="level2" data-number="62.1">
+<h2 data-number="62.1" class="anchored" data-anchor-id="the-kinesthetics-of-movement-and-response"><span class="header-section-number">62.1</span> The Kinesthetics of Movement and Response</h2>
+<p>The fundamental unit of engagement in any character-driven game is the movement mechanic, or what is termed game feel. This sensation is the result of real-time control over virtual objects in a simulated space, emphasized through polish and instantaneous feedback.[2] To achieve a state of high-fidelity control, designers must bridge the gap between the player’s intention and the on-screen execution, a process that relies heavily on the manipulation of acceleration, friction, and gravity curves.</p>
+</section>
+<section id="animation-curves-and-the-metric-of-snappiness" class="level2" data-number="62.2">
+<h2 data-number="62.2" class="anchored" data-anchor-id="animation-curves-and-the-metric-of-snappiness"><span class="header-section-number">62.2</span> Animation Curves and the Metric of Snappiness</h2>
+<p>The transition from a stationary state to maximum velocity is a critical metric in defining the responsiveness of a character. Industry standards suggest that for precision platformers, reaching top speed should be nearly instantaneous to ensure the controls feel snappy rather than floaty.[3] Snappiness is a functional requirement for high-difficulty titles because it minimizes the unpredictable “ramp-up” period where a player cannot accurately judge the character’s final position. When a character reaches top speed almost instantly, the player gains a heightened sense of causality.[3, 4]</p>
+<p>Professional implementations often utilize Scriptable Objects to store movement presets, which include discrete AnimationCurves for different states.[3] These curves govern the acceleration and deceleration of the character when on the ground and in the air. By separating these curves, designers can allow for high friction on the ground to enable precise stopping, while maintaining lower friction in the air to allow for momentum conservation.[3, 5] A common approach involves four distinct curves:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Curve Designation</th>
+<th>State</th>
+<th>Functional Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ground Acceleration</td>
+<td>Grounded</td>
+<td>Defines how quickly the character reaches the walk/run cycle. [3]</td>
+</tr>
+<tr class="even">
+<td>Ground Deceleration</td>
+<td>Grounded</td>
+<td>Determines the “slide” distance when input is released. [3]</td>
+</tr>
+<tr class="odd">
+<td>Air Acceleration</td>
+<td>Aerial</td>
+<td>Governs the player’s ability to adjust trajectory mid-jump. [3]</td>
+</tr>
+<tr class="even">
+<td>Air Deceleration</td>
+<td>Aerial</td>
+<td>Controls the retention of horizontal momentum in flight. [3]</td>
+</tr>
+</tbody>
+</table>
+<p>These curves are often supplemented by a boolean check for momentum reset. Choosing whether to reset momentum when turning 180 degrees is a vital design decision; resetting it immediately feels more responsive but less realistic, whereas allowing a turning arc adds “weight” but reduces precision.[3] For precision games like <em>Super Meat Boy</em> or <em>Celeste</em>, the former is almost universally preferred.[6]</p>
+<p>The Physics of the Vertical Leap</p>
+<p>In precision platformers, the jump is rarely a simple parabolic arc governed by Newtonian physics. Real physics often look “wrong” in a digital context; for instance, a human jumping in real life only reaches about half their height and stays in the air for a second.[7] In a game, this would result in a jump of approximately 16 pixels, which is often insufficient for level design needs. Instead, designers manipulate velocity and gravity frames to create a more expressive and controllable arc.</p>
+<p>A typical jumping implementation involves giving the object a large negative Y velocity (e.g., -6 pixels per frame) and then applying a smaller constant gravity (e.g., 0.3 pixels per frame) to bring the object back down.[7] However, the most sophisticated systems use variable gravity. In titles such as <em>Celeste</em> or <em>Super Meat Boy</em>, the game handles a jump normally while the button is held, but releasing the button acting as a brake, cutting the jump short by increasing gravity or immediately zeroing the upward velocity.[6] This is known as “jump braking” and is essential for precise vertical navigation.</p>
+<p><em>Celeste</em> further refines this by applying “halved gravity” at the peak of a jump if the button is held.[8] This subtle manipulation extends the “hang time” at the apex, providing the player with a larger window to adjust for a landing or to plan their next move. This is a classic example of “polish”—a mechanic that is difficult for the player to see consciously but contributes significantly to a pleasant game feel.[2, 8]</p>
+<p>Forgiveness Systems and the “Kindness” of Difficulty</p>
+<p>High-difficulty games often employ “invisible” systems to widen the success window for players, ensuring that deaths feel like the result of personal error rather than mechanical rigidity. These systems are essential for maintaining the player’s psychological state of flow by reducing frustration caused by “near-miss” failures. The goal is to make the game “kind” even when it is difficult.[8]</p>
+<p>Coyote Time: Bridging Perception and Action</p>
+<p>Coyote Time refers to a brief period—typically 5 to 10 frames—where the player can still jump after falling off a ledge.[8, 9, 10] This mechanic addresses the latency between the player perceiving they are at the edge and the physical press of the button. Effectively, this provides a few frames for the player to jump in the air, improving the curve of an ideal jump from a slope with an immediate drop to a more helpful leeway on both sides of the edge.[10]</p>
+<p>In <em>Celeste</em>, Coyote Time is set to 5 frames.[11] This window allows for advanced maneuvers, such as obtaining the maximum possible distance from an “extended hyper” jump or increasing the height of a “dream jump” when exiting blocks.[11] Without this forgiveness, players would often feel they were “robbed” of a jump that they perceived as occurring while still on the platform.</p>
+<p>Jump Buffering: Caching Player Intention</p>
+<p>While Coyote Time handles late inputs, Jump Buffering handles early inputs. If a player presses the jump button a short time before landing on the ground, the game caches this input and executes the jump on the exact frame the character becomes grounded.[9, 12] This prevents the “dead input” problem that occurs when a player attempts to chain jumps but is off by a fraction of a second.</p>
+<p>Standard implementations use a timer—often with a duration of 0.1 seconds—that starts when the jump button is pressed in mid-air.[12, 13] If the character hits the floor while this timer is active, the jump method is called immediately. Designers must ensure this timer is not too long, as it could lead to “pogo-sticking” where the character jumps repeatedly without the player intending to do so.[12]</p>
+<p>Corner and Dash Correction</p>
+<p>Advanced error correction extends beyond timing and into spatial positioning. Corner Correction is a sophisticated mechanic where the game “wiggles” or “pops” the character around obstacles if they clip a corner by a small margin.[8]</p>
+<p>In <em>Celeste</em>, this is applied to both jumps and dashes. If a player dashes sideways and clips a corner, the game pops them up onto the ledge.[8] Similarly, if they bonk their head on a corner during a jump, the game nudges them to the side. These corrections are often measured in pixels:</p>
+<p>• <strong>Jump Corner Correction:</strong> Wiggles the character to the side if they hit a corner.[8]</p>
+<p>• <strong>Dash Corner Correction:</strong> Pops the character onto a ledge if they clip it during a horizontal dash.[8]</p>
+<p>• <strong>Wall Jump Window:</strong> Allows a wall jump even if the player is 2 pixels away from the wall.[8]</p>
+<p>• <strong>Super Wall Jump Window:</strong> Extends the window to 5 pixels (more than half a tile) for more demanding maneuvers.[8]</p>
+<p>These pixel-level adjustments ensure that the character’s hitbox feels “slimmer” for the player’s benefit, effectively reducing the frequency of frustrating collisions that would otherwise break the game’s flow.</p>
+<p>The Psychology of Flow, Fiero, and Engagement</p>
+<p>The “fun” of precision platforming and high-intensity combat is rooted in the psychological state of flow. Proposed by Mihaly Csikszentmihalyi, flow is the optimal state of consciousness where an individual is fully immersed in an activity, characterized by a balance between challenges and skills.[14, 15, 16] When a player’s skill matches the difficulty of the task, they enter the “flow channel,” avoiding both the boredom of tasks that are too easy and the anxiety of those that are too hard.[15]</p>
+<p>The Nine Elements of Flow in Gaming</p>
+<p>Flow in video games is sustained by nine common elements, which can be categorized into antecedent conditions and internal experiences [14, 15]:</p>
+<ol type="1">
+<li><p><strong>Clear Goals:</strong> The player understands exactly what success looks like in the current task (e.g., reaching the next checkpoint).[15]</p></li>
+<li><p><strong>Immediate Feedback:</strong> Direct and timely feedback helps players adjust their actions and stay engaged.[15]</p></li>
+<li><p><strong>Balance Between Challenge and Skill:</strong> The difficulty curve matches the player’s progression.[14, 15]</p></li>
+<li><p><strong>Merging of Action and Awareness:</strong> The player and the game unit (character) feel as one.[14]</p></li>
+<li><p><strong>Exclusion of Distractions:</strong> The high level of concentration required removes external reality from consciousness.[14, 17]</p></li>
+<li><p><strong>No Worry of Failure:</strong> A low punishment for death (quick respawns) encourages experimentation and reduces stress.[14]</p></li>
+<li><p><strong>Loss of Self-Consciousness:</strong> The player is no longer aware of themselves as separate from the activity.[15]</p></li>
+<li><p><strong>Altered Sense of Time:</strong> Time may seem to speed up or slow down.[15, 17]</p></li>
+<li><p><strong>Autotelic Experience:</strong> The activity is rewarding for its own sake rather than for external rewards.[15, 17]</p></li>
+</ol>
+<p>Fiero: The Emotional Reward of Triumph</p>
+<p>While flow is the state of deep concentration, Fiero is the specific emotion of triumph and pride experienced upon accomplishing a difficult task.[14] Derived from the Italian word for pride, Fiero is often expressed through shouting, throwing up hands, or an elevated heart rate.[14] Highly successful games are those that require high levels of intensity and concentration to achieve this state.</p>
+<p>Fiero is a primal chemical reward that motivates players to return to play, even after experiencing frustration.[14] Baumann, Lurig, and Engeser suggest that flow is a loop toward achieving Fiero, asserting that players arrive at a state of pride only after completing a part of the game that requires significant upfront frustration.[14] This explains why games like <em>Super Meat Boy</em> or <em>Dark Souls</em> are “fun” despite their extreme difficulty; the depth of the frustration makes the eventual Fiero more intense.</p>
+<p>Rational Level Design (RLD) and the Metrics of Difficulty</p>
+<p>To consistently deliver the state of flow, designers utilize Rational Level Design (RLD), a framework that quantifies difficulty through metrics rather than intuition.[18] RLD allows designers to fine-tune game elements to ensure the player remains within the flow channel as their familiarity and skill increase.[18]</p>
+<p>The Four Primary Metrics of Difficulty</p>
+<p>The Rational Design Handbook outlines four primary stages of fine-tuning that impact the overall difficulty of a set of level metrics [18]:</p>
+<ol type="1">
+<li><p><strong>Situational Awareness:</strong> This is the most powerful metric for altering difficulty. it controls the amount of information available to the player across three timeframes: second-to-second (immediate puzzles/combat), minute-to-minute (local geography/minimap), and hour-to-hour (overarching goals).[18]</p></li>
+<li><p><strong>Noise:</strong> Superfluous information used to overwhelm the player and obscure the simplicity of a task. This impacts player comprehension and can be visual, auditory, or mechanical.[18]</p></li>
+<li><p><strong>Time Pressure:</strong> Increasing difficulty by reducing the amount of time a player has to act on information. This is placed after situational awareness because a player cannot act on a problem until they are aware of it.[18]</p></li>
+<li><p><strong>Symmetry:</strong> Expressed as a ratio of possibilities between the player and the environment or enemy. A 1:1 ratio is symmetry (equal options), while moving away from this creates asymmetry to fine-tune difficulty based on progression.[18]</p></li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>RLD Metric</th>
+<th>Typical Scaling / Ratio</th>
+<th>Impact on Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Situational Awareness</td>
+<td>+/- 20% (0.8 to 1.2) [18]</td>
+<td>Highest: Alters the fundamental perception of the challenge.</td>
+</tr>
+<tr class="even">
+<td>Noise</td>
+<td>Superfluous UI/Particles</td>
+<td>Medium: Increases cognitive load and distraction.</td>
+</tr>
+<tr class="odd">
+<td>Time Pressure</td>
+<td>Seconds available to act</td>
+<td>High: Forces faster processing and higher error rates.</td>
+</tr>
+<tr class="even">
+<td>Symmetry</td>
+<td>1:1 (Symmetric) to N:1</td>
+<td>Medium: Adjusts the “fairness” of the interaction.</td>
+</tr>
+</tbody>
+</table>
+<p>Designing with these metrics involves establishing a baseline “Perceptual Value of 1.0” during testing.[18] Designers then refactor difficulty by applying deviation ratios. For example, if situational awareness is increased to 1.3, the corresponding puzzle or combat values are multiplied by that factor. Any value exceeding a ceiling (often 8.0) is considered too difficult for the intended audience and is removed.[18]</p>
+<p>Spatial Metrics and Environmental Scaling</p>
+<p>In level design, metrics are used to define the physical dimensions of the world to ensure they complement the player’s movement parameters. For 3D third-person games, a commonly acknowledged rule is that the environment should be scaled up by approximately 33%.[19] This additional space is necessary for several reasons:</p>
+<p>• <strong>Camera Clearance:</strong> It allows space for the third-person camera to move through the environment without clipping into walls or obscuring the player’s view.[19]</p>
+<p>• <strong>Maneuverability:</strong> It provides large enough arenas and wide enough corridors (roughly 2.7 to 3.6 meters) so that players don’t “cling” to walls or fall off bridges accidentally.[20, 21]</p>
+<p>• <strong>Combat Distance:</strong> Map sizes are often scaled to match the range of the character’s abilities. For instance, close-combat maps might be 800x800m, while long-range maps extend to 1200x1200m.[20]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Environmental Metric</th>
+<th>Typical Dimension</th>
+<th>Rationale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Room/Hallway Width</td>
+<td>2.7m - 3.6m [21]</td>
+<td>Allows for movement without wall-clipping.</td>
+</tr>
+<tr class="even">
+<td>Main Path Width</td>
+<td>~5.0m [21]</td>
+<td>Clearly distinguishes the primary route.</td>
+</tr>
+<tr class="odd">
+<td>Side Path Width</td>
+<td>~3.0m [21]</td>
+<td>Signals a secondary or secret path.</td>
+</tr>
+<tr class="even">
+<td>Cover Distance</td>
+<td>2.0m - 3.0m [21]</td>
+<td>Balances safety with vulnerability during movement.</td>
+</tr>
+</tbody>
+</table>
+<p>Visual Language, Affordances, and Signposting</p>
+<p>To maintain flow, a level must be “readable.” Players should intuitively understand what they can interact with and where they should go without overt instructions.[22, 23] This is achieved through the strategic use of affordances and signifiers.</p>
+<p>Affordances and Signifiers</p>
+<p>Affordances are properties of an object that suggest its use (e.g., a ladder suggests climbing, a door suggests opening).[22, 23] Signifiers are visual or audio cues that guide the player’s attention to these affordances. For instance, a shimmering light on a ladder or a yellow cloth on a ledge serves as a signifier that it is interactable.[22]</p>
+<p>Effective signposting prevents frustration by ensuring design intentions are clearly communicated.[23] Techniques include:</p>
+<p>• <strong>Lighting:</strong> Placing a bright light source at the destination of a dark environment to create a natural “leading line”.[22, 24]</p>
+<p>• <strong>Color Coding:</strong> Using consistent colors (e.g., yellow for climbable surfaces, red for explosive barrels) to establish a visual vocabulary.[22, 23]</p>
+<p>• <strong>Landmarks:</strong> Large, unique structures that serve as a point of reference for navigation and orientation.[21]</p>
+<p>The Four Pillars of Visual Language</p>
+<p>Level designers utilize four primary pillars of visual language to guide behavior subconsciously [25]:</p>
+<ol type="1">
+<li><p><strong>Shape Language:</strong> Using forms to convey meaning. Narrow pathways suggest linear progression, while open spaces imply exploration or freedom.[25]</p></li>
+<li><p><strong>Environmental Storytelling:</strong> Using contextual details (e.g., footprints leading to a cave, a battlefield littered with weapons) to guide gameplay without cutscenes.[25]</p></li>
+<li><p><strong>Scripted Scenes:</strong> Constraining camera movement or funneling players through a bottleneck to ensure they see a specific dramatic or educational event.[25]</p></li>
+<li><p><strong>Symbol Language:</strong> Using icons, murals, or markers (e.g., a glowing handle for positive interaction, debris for negative interaction) to communicate directly with the player.[25]</p></li>
+</ol>
+<p>Third-Person Camera Mechanics and the Illusion of Depth</p>
+<p>The transition from 2D to 3D introduces significant challenges in perspective and depth perception. Perspective view in computer graphics mimics real-world vision by making objects smaller as they move away and causing parallel lines to converge at vanishing points.[26] However, this “foreshortening” can make it difficult for players to judge jump distances or the positions of enemies in a 360-degree space.[27, 28]</p>
+<p>The “One-Shot” Camera of God of War (2018)</p>
+<p>In <em>God of War (2018)</em>, the developers opted for an “intimate” over-the-shoulder camera to highlight engine features like high-poly characters and advanced shaders.[29] This choice influenced the entire design, leading to close combat distances and a more personal connection with Kratos.[29, 30] However, this restrictive field of view (FOV) created a trade-off: players often struggle to see enemies behind them, necessitating “hack-ey” tricks like a quick-turn button and HUD indicators that warn of off-screen threats.[31, 32]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Camera Parameter</th>
+<th>Default Value (GoW)</th>
+<th>Impact on Gameplay</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Field of View (FOV)</td>
+<td>90 Degrees [33]</td>
+<td>Restricts peripheral vision; enhances cinematic feel.</td>
+</tr>
+<tr class="even">
+<td>Offset (X, Y)</td>
+<td>Shoulder Position</td>
+<td>Creates an “intimate” view but can obscure pathfinding. [34]</td>
+</tr>
+<tr class="odd">
+<td>Distance</td>
+<td>“Intimate” / Close</td>
+<td>Emphasizes combat impact but reduces scale. [32]</td>
+</tr>
+</tbody>
+</table>
+<p>While some players find the default FOV claustrophobic, the development team used this proximity to manage focus. By pulling the camera back or expanding the FOV (as seen in PC mods), players might see characters or effects “teleporting” into a scene, breaking the “one-shot” illusion that the developers maintained through scripted moments.[31, 35, 36]</p>
+<p>Enhancing Depth Perception in Virtual Spaces</p>
+<p>To assist players in 3D navigation, designers use subtle depth cues. One such technique is the “Landing Shadow” or “Blob Shadow.” By projecting a simple, dark circle directly beneath the player’s character in mid-air, the game provides a visual anchor that allows the player to triangulate their exact position over a platform, regardless of the camera’s angle.[37]</p>
+<p>Other cues include:</p>
+<p>• <strong>Atmospheric Perspective:</strong> Using fog or color gradients that vary with distance to enhance pre-attentive depth perception.[28]</p>
+<p>• <strong>Texture Blur:</strong> Increasing blurriness with distance to resemble natural depth cues and maintain visual integrity while covertly enhancing depth estimation.[28]</p>
+<p>• <strong>Size Scaling:</strong> Using repeated assets (like palms in racing games) at different sizes to create the illusion of depth.[38]</p>
+<p>The Failure Cycle: Death and Rebirth Metrics</p>
+<p>In precision genres, failure is not a terminal state but a central component of the experience. The design of what happens when a player dies—the “death and rebirth taxonomy”—directly impacts mastery, challenge, and immersion.[39, 40]</p>
+<p>The Taxonomy of Platformer Death</p>
+<p>A study of 62 platformer games identified five notable dimensions of death and rebirth [39, 40]:</p>
+<ol type="1">
+<li><p><strong>Obstacles:</strong> The cause of death (e.g., pits, enemies, spikes).</p></li>
+<li><p><strong>Death Conditions:</strong> The trigger (e.g., health reaching zero, falling off the screen).</p></li>
+<li><p><strong>Aesthetics:</strong> The visual and audio representation (e.g., a “glitch” sound, character fading out).[41]</p></li>
+<li><p><strong>Changes to Player Progress:</strong> What is lost (e.g., items, hearts, progress toward a checkpoint).[40, 41]</p></li>
+<li><p><strong>Respawn Locations:</strong> Where the cycle restarts (e.g., start of game, start of level, last checkpoint, or manual save point).[39, 41]</p></li>
+</ol>
+<p>The Metric of Respawn Time</p>
+<p>The duration of the death-to-respawn transition is a critical variable. In precision platformers like <em>Super Meat Boy</em> or <em>Celeste</em>, mistakes are easy and frequent, so the game uses instant resets (1-2 seconds) to keep the player focused and motivated.[42] These short breaks reduce the punishment of death, allowing for “repetition-based learning”.[42, 43]</p>
+<p>Contrast this with “slower” games like those in the <em>Souls</em> series, where death animations and loading screens can take 10 to 15 seconds.[42] This downtime serves as a “wave’s ebb,” providing a controlled burst of intensity followed by a period where the player must analyze their failure before retrying. In high-intensity sessions, if the intensity is always high, it’s never high; downtime is a valuable tool for pacing.[42]</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Game Genre</th>
+<th>Challenge Duration</th>
+<th>Respawn Time</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Precision Platformer</td>
+<td>~20 Seconds [42]</td>
+<td>1-2 Seconds [42]</td>
+<td>Maintain high focus/flow.</td>
+</tr>
+<tr class="even">
+<td>Hard Action (Souls-like)</td>
+<td>Minutes</td>
+<td>10-15 Seconds [42]</td>
+<td>Encourage analysis/caution.</td>
+</tr>
+<tr class="odd">
+<td>Multiplayer Raid (Destiny)</td>
+<td>Long Encounters</td>
+<td>40+ Seconds [43]</td>
+<td>Difficulty check; force team wipe.</td>
+</tr>
+</tbody>
+</table>
+<p>In multiplayer contexts like <em>Destiny</em>, long respawn timers (40+ seconds) in platforming sections are often criticized as “overboard” but are intended to increase the consequence of failure, making a full team wipe more likely if multiple players fail.[43] However, for practice-based learning, many argue that quick attempts are superior for building skill.[43]</p>
+<p>Technical Synthesis: Analyzing Celeste’s Movement Metrics</p>
+<p>The movement in <em>Celeste</em> is a benchmark for the genre because its metrics are transparent yet deeply layered. The game uses a 320x180 resolution, meaning even small pixel offsets are significant.[8] Its movement can be categorized into discrete “techs” that utilize specific speed values [5]:</p>
+<p>• <strong>Horizontal Movement:</strong> Walking/mid-air movement caps at 90. Jumping adds 40 speed horizontally and sets vertical speed to 105.[44]</p>
+<p>• <strong>Dashing:</strong> Sets speed to 240 for 10 frames, then resets to 160.[44]</p>
+<p>• <strong>Hyperdash:</strong> Dashing diagonally into the ground and jumping grants 325 speed but only half the normal jump height.[5]</p>
+<p>• <strong>Wavedash:</strong> A hyperdash from mid-air that hits the ground and jumps, allowing the player to keep the 325 speed and gain a full jump height if timed correctly.[5]</p>
+<p>These mechanics rely on precise collision detection. For example, to grab a wall, Madeline must be on one of the two pixels closest to the wall and not be moving upward.[5] A “cornerboost” can be performed by climb-jumping off the top 5-7 pixels of a wall, which allows the player to maintain horizontal momentum.[5, 11]</p>
+<p>Momentum Storage and Refunding</p>
+<p><em>Celeste</em> uses “Stamina Refunds” to resolve input ambiguity.[8] If a player jumps straight up while grabbing a wall (which consumes high stamina) but then immediately presses away from the wall, the game “refunds” the stamina and belatedly converts the action into a horizontal wall jump. This grace window ensures that the game interprets the player’s true intention rather than punishing a minor input sequencing error.[8] This is the ultimate “science of fun”: using complex underlying logic to create an experience that feels simple, responsive, and fair.</p>
+<p>Conclusion: The Integrated Science of Engagement</p>
+<p>The “fun” of precision platformers and third-person mechanics is not an accident but the result of a deliberate, metric-driven engineering process. By quantifying movement through AnimationCurves, difficulty through the RLD framework, and spatial awareness through environmental scaling, designers can create experiences that consistently induce the state of flow.</p>
+<p>The most successful games are those that balance high challenge with extreme leniency. Systems like Coyote Time and Corner Correction widen the success window at the micro-level, while instant respawns and clear visual signposting maintain the momentum of the experience at the macro-level. Whether it is the 2-pixel margin of a wall jump in <em>Celeste</em> or the 33% scaling of a hallway in a third-person shooter, these metrics are the “invisible hands” that guide players toward Fiero—the ultimate reward of the gaming experience. Professional design in these domains must continue to iterate on these quantitative benchmarks, ensuring that the “science of fun” remains grounded in the human perceptual and psychological limits of the player.</p>
+<hr>
+<ol type="1">
+<li><p>Game systems: Feedback loops and how they help craft player experiences, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmachinations.io%2Farticles%2Fgame-systems-feedback-loops-and-how-they-help-craft-player-experiences">https://machinations.io/articles/game-systems-feedback-loops-and-how-they-help-craft-player-experiences</a></p></li>
+<li><p>Analysis and Generation of Flow in 3D Jump’n’Run Games, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdownloads.hci.informatik.uni-wuerzburg.de%2F2024-CoG-JumpAndRunFlow.pdf">https://downloads.hci.informatik.uni-wuerzburg.de/2024-CoG-JumpAndRunFlow.pdf</a></p></li>
+<li><p>InDepth: Movement in Unity using AnimationCurves | by Gustav Corpas | Dev Genius, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fblog.devgenius.io%2Findepth-movement-in-unity-using-animationcurves-1dba668dc777">https://blog.devgenius.io/indepth-movement-in-unity-using-animationcurves-1dba668dc777</a></p></li>
+<li><p>Mechanics of Game Feel, <a href="https://www.google.com/url?sa=E&amp;q=http%3A%2F%2Fdtc-wsuv.org%2Fwp%2Fdtc338-engines%2Ffiles%2F2017%2F01%2FMechanics-and-Metrics-of-Game-Feel-Steve-Swink.pdf">http://dtc-wsuv.org/wp/dtc338-engines/files/2017/01/Mechanics-and-Metrics-of-Game-Feel-Steve-Swink.pdf</a></p></li>
+<li><p>Tech - Celeste Wiki, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fceleste.ink%2Fwiki%2FTech">https://celeste.ink/wiki/Tech</a></p></li>
+<li><p>Platformer Game Design (Definition, Fundamentals, Mechanics), <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fgamedesignskills.com%2Fgame-design%2Fplatformer%2F">https://gamedesignskills.com/game-design/platformer/</a></p></li>
+<li><p>Calculating jump speed - NESDev Forum, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fforums.nesdev.org%2Fviewtopic.php%3Ft%3D13765">https://forums.nesdev.org/viewtopic.php?t=13765</a></p></li>
+<li><p>Celeste &amp; Forgiveness - Maddy Makes Games, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.maddymakesgames.com%2Farticles%2Fceleste_and_forgiveness%2Findex.html">https://www.maddymakesgames.com/articles/celeste_and_forgiveness/index.html</a></p></li>
+<li><p>Coyote time and Jump Buffer for platformer games - Developer Forum | Roblox, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fdevforum.roblox.com%2Ft%2Fcoyote-time-and-jump-buffer-for-platformer-games%2F2809273">https://devforum.roblox.com/t/coyote-time-and-jump-buffer-for-platformer-games/2809273</a></p></li>
+<li><p>Building Coyote Time in a 2D Platformer - World of Zero, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fworldofzero.com%2Fvideos%2Fbuilding-coyote-time-in-a-2d-platformer%2F">https://worldofzero.com/videos/building-coyote-time-in-a-2d-platformer/</a></p></li>
+<li><p>Moves | Celeste Wiki - Fandom, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fcelestegame.fandom.com%2Fwiki%2FMoves">https://celestegame.fandom.com/wiki/Moves</a></p></li>
+<li><p>Improve Your Game Feel With Coyote Time and Jump Buffering - YouTube, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D97_jvSPoRDo">https://www.youtube.com/watch?v=97_jvSPoRDo</a></p></li>
+<li><p>Coyote Time &amp; Jump Buffering In Unity - YouTube, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRFix_Kg2Di0">https://www.youtube.com/watch?v=RFix_Kg2Di0</a></p></li>
+<li><p>Fiero and Flow in Online Competitive Gaming: - IGI Global, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.igi-global.com%2Fviewtitle.aspx%3FTitleId%3D315493%26isxn%3D9781668475898">https://www.igi-global.com/viewtitle.aspx?TitleId=315493&amp;isxn=9781668475898</a></p></li>
+<li><p>Design components of serious game based on flow theories - Clausius Scientific Press, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fclausiuspress.com%2Fassets%2Fdefault%2Farticle%2F2025%2F05%2F31%2Farticle_1748743350.pdf">https://clausiuspress.com/assets/default/article/2025/05/31/article_1748743350.pdf</a></p></li>
+<li><p>(PDF) Toward an understanding of flow in video games - ResearchGate, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F235428533_Toward_an_understanding_of_flow_in_video_games">https://www.researchgate.net/publication/235428533_Toward_an_understanding_of_flow_in_video_games</a></p></li>
+<li><p>Flow and Immersion in Video Games: The Aftermath of a Conceptual Challenge - Frontiers, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.frontiersin.org%2Fjournals%2Fpsychology%2Farticles%2F10.3389%2Ffpsyg.2018.01682%2Ffull">https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01682/full</a></p></li>
+<li><p>The Rational Design Handbook: Four Primary Metrics, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.gamedeveloper.com%2Fdesign%2Fthe-rational-design-handbook-four-primary-metrics">https://www.gamedeveloper.com/design/the-rational-design-handbook-four-primary-metrics</a></p></li>
+<li><p>A Rational Approach To Racing Game Track Design - Game Developer, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.gamedeveloper.com%2Fdesign%2Fa-rational-approach-to-racing-game-track-design">https://www.gamedeveloper.com/design/a-rational-approach-to-racing-game-track-design</a></p></li>
+<li><p>Featured Blog | Designing maps that complement game mechanics, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.gamedeveloper.com%2Fdesign%2Fdesigning-maps-that-complement-game-mechanics">https://www.gamedeveloper.com/design/designing-maps-that-complement-game-mechanics</a></p></li>
+<li><p>Level Design, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmemoof.me%2Fdownload%2F445%2Fpdf%2F445.pdf">https://memoof.me/download/445/pdf/445.pdf</a></p></li>
+<li><p>Mastering the Invisible : How Affordances &amp; Signifiers Shape Player Experience in Level Design | by Genesis | Medium, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fmedium.com%2F%40Genesis_Design%2Fmastering-the-invisible-how-affordances-signifiers-shape-player-experience-in-level-design-64082c602fa0">https://medium.com/<span class="citation" data-cites="Genesis_Design/mastering-the-invisible-how-affordances-signifiers-shape-player-experience-in-level-design-64082c602fa0">@Genesis_Design/mastering-the-invisible-how-affordances-signifiers-shape-player-experience-in-level-design-64082c602fa0</span></a></p></li>
+<li><p>Level Design: Understanding a level - Game Developer, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.gamedeveloper.com%2Fdesign%2Flevel-design-understanding-a-level">https://www.gamedeveloper.com/design/level-design-understanding-a-level</a></p></li>
+<li><p>The Influence of Intrinsic Cues on Navigational Choices in Virtual Environments. - University of Huddersfield Repository, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Feprints.hud.ac.uk%2Fid%2Feprint%2F34448%2F1%2FFINAL%2520THESIS%2520-%2520Marples.pdf">https://eprints.hud.ac.uk/id/eprint/34448/1/FINAL%20THESIS%20-%20Marples.pdf</a></p></li>
+<li><p>How to Use Visual Language for Intuitive Level Design | UXPin, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.uxpin.com%2Fstudio%2Fblog%2Fhow-to-use-visual-language-for-intuitive-level-design%2F">https://www.uxpin.com/studio/blog/how-to-use-visual-language-for-intuitive-level-design/</a></p></li>
+<li><p>What is Perspective View? How Does it Work? | Lenovo UK, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.lenovo.com%2Fgb%2Foutletgb%2Fen%2Fglossary%2Fperspective-view%2F">https://www.lenovo.com/gb/outletgb/en/glossary/perspective-view/</a></p></li>
+<li><p>DepthScape: Authoring 2.5D Designs via Depth Estimation, Semantic Understanding, and Geometry Extraction - arXiv, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Farxiv.org%2Fhtml%2F2512.02263v1">https://arxiv.org/html/2512.02263v1</a></p></li>
+<li><p>Subtle Cueing For Improving Depth Perception in Virtual Reality - IEEE Xplore, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fieeexplore.ieee.org%2Fiel8%2F10765357%2F10765151%2F10765485.pdf">https://ieeexplore.ieee.org/iel8/10765357/10765151/10765485.pdf</a></p></li>
+<li><p>Level Design in a Day: Your Questions, Answered - Game Developer, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.gamedeveloper.com%2Fdesign%2Flevel-design-in-a-day-your-questions-answered">https://www.gamedeveloper.com/design/level-design-in-a-day-your-questions-answered</a></p></li>
+<li><p>Pattern Language For Game Design | PDF | Narrative - Scribd, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.scribd.com%2Fdocument%2F712458313%2FPattern-Language-for-Game-Design">https://www.scribd.com/document/712458313/Pattern-Language-for-Game-Design</a></p></li>
+<li><p>God of War (2018) restrictive FOV is such a turn off. : r/GodofWar - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FGodofWar%2Fcomments%2F196yw3e%2Fgod_of_war_2018_restrictive_fov_is_such_a_turn_off%2F">https://www.reddit.com/r/GodofWar/comments/196yw3e/god_of_war_2018_restrictive_fov_is_such_a_turn_off/</a></p></li>
+<li><p>God of War Camera Angle–Thoughts? : r/GodofWar - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FGodofWar%2Fcomments%2F8tpwbh%2Fgod_of_war_camera_anglethoughts%2F">https://www.reddit.com/r/GodofWar/comments/8tpwbh/god_of_war_camera_anglethoughts/</a></p></li>
+<li><p>Tutorial: How to fix God of war 2018 Camera Fov - Pc version - YouTube, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXjSlm7zpfz4">https://www.youtube.com/watch?v=XjSlm7zpfz4</a></p></li>
+<li><p>Xbox – Out Of Lives, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.outoflives.net%2Fcategory%2Fgaming%2Fxbox%2Ffeed%2F">https://www.outoflives.net/category/gaming/xbox/feed/</a></p></li>
+<li><p>PSA: You can easily add an FOV slider to God of War PC using ‘Flawless Widescreen’ : r/GodofWar - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FGodofWar%2Fcomments%2Fsb1j4v%2Fpsa_you_can_easily_add_an_fov_slider_to_god_of%2F">https://www.reddit.com/r/GodofWar/comments/sb1j4v/psa_you_can_easily_add_an_fov_slider_to_god_of/</a></p></li>
+<li><p>FOV (Field Of View) Mod for God of War : r/GodofWar - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FGodofWar%2Fcomments%2Fsh8wat%2Ffov_field_of_view_mod_for_god_of_war%2F">https://www.reddit.com/r/GodofWar/comments/sh8wat/fov_field_of_view_mod_for_god_of_war/</a></p></li>
+<li><p>Dribbble Favorites - Ivo’s Design Inspiration Gallery, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fivomynttinen.com%2Fgallery%2Fdribbble-favorites%2F">https://ivomynttinen.com/gallery/dribbble-favorites/</a></p></li>
+<li><p>2.5D - Wikipedia, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2F2.5D">https://en.wikipedia.org/wiki/2.5D</a></p></li>
+<li><p>Death &amp; Rebirth in Platformer Games - ALT Games Lab, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Faltgameslab.soe.ucsc.edu%2Fdeath-and-rebirth-in-platformer-games%2F">https://altgameslab.soe.ucsc.edu/death-and-rebirth-in-platformer-games/</a></p></li>
+<li><p>(PDF) Death and Rebirth in Platformer Games - ResearchGate, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F340458456_Death_and_Rebirth_in_Platformer_Games">https://www.researchgate.net/publication/340458456_Death_and_Rebirth_in_Platformer_Games</a></p></li>
+<li><p>(PDF) Die-r Consequences: Player Experience and the Design of Failure through Respawning Mechanics - ResearchGate, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F354020467_Die-r_Consequences_Player_Experience_and_the_Design_of_Failure_through_Respawning_Mechanics">https://www.researchgate.net/publication/354020467_Die-r_Consequences_Player_Experience_and_the_Design_of_Failure_through_Respawning_Mechanics</a></p></li>
+<li><p>How long should death take and why? : r/gamedesign - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2Fgamedesign%2Fcomments%2F115t7ul%2Fhow_long_should_death_take_and_why%2F">https://www.reddit.com/r/gamedesign/comments/115t7ul/how_long_should_death_take_and_why/</a></p></li>
+<li><p>Respawn timers of 40+ seconds, especially in non-combat areas, is wholly ridiculous and needs to stop. : r/DestinyTheGame - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2FDestinyTheGame%2Fcomments%2F10d468k%2Frespawn_timers_of_40_seconds_especially_in%2F">https://www.reddit.com/r/DestinyTheGame/comments/10d468k/respawn_timers_of_40_seconds_especially_in/</a></p></li>
+<li><p>Asking about the mechanics : r/celestegame - Reddit, <a href="https://www.google.com/url?sa=E&amp;q=https%3A%2F%2Fwww.reddit.com%2Fr%2Fcelestegame%2Fcomments%2F1nxwtlc%2Fasking_about_the_mechanics%2F">https://www.reddit.com/r/celestegame/comments/1nxwtlc/asking_about_the_mechanics/</a></p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y &quot;Flow&quot;.html" class="pagination-link" aria-label="Odisea - GDD: Gramática del Nivel y Teoría del Flow">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">Odisea - GDD: Gramática del Nivel y Teoría del Flow</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.html" class="pagination-link" aria-label="Odisea - GDD: Física Fundamental y Métricas del Personaje">
+        <span class="nav-page-text"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">Odisea - GDD: Física Fundamental y Métricas del Personaje</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>89&nbsp; DroidPad: Integración, Conexión y QR – Odisea: El Arca Silenciosa</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../Odisea/Archivo/FISICA/Física.html" rel="next">
+<link href="../../../Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.html" rel="prev">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-70a47bd5681a7291082a5b9f83d58762.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../style.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Odisea/Archivo/index.html">Archivo</a></li><li class="breadcrumb-item"><a href="../../../Odisea/Archivo/CONTROL/Networked DroidPad.html"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">DroidPad: Integración, Conexión y QR</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../../">Odisea: El Arca Silenciosa</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Master_Index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Canon (Especificaciones)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Canon: Especificaciones Técnicas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_interact.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Technical Specification: Deterministic Interactable System (Odisea V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_interactables.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Spec: Unified Interaction Framework (UIF) - Sensor-Based - Odisea Core_v2</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_odisea_script.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">OdysseyScript (OYS): Input and Testing DSL Specification</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_odyssey_script_replay.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Uso de OdysseyScript y Replays en Odisea (2026)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_odyssey_script_usage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">OdysseyScript (OYS) — Guía de Uso</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_pushable_box.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Especificación: PushableBoxV2 (Objeto Híbrido Determinista)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_refine_movement_gamefeel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Especificación: Refinamiento de Gamefeel y Mecánicas (Core V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_sidescroller_zone.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Feature Specification: 2.5D Side-Scroller Mode Transition</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_test_battery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Batería de Pruebas de Mecánicas (Core)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Canon/feature_test_runner.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Especificación Técnica: Runner de Pruebas de Regresión Determinista</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Diseño</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Diseño de Juego</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Pilares.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Pilares de Diseño</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Locación: Módulos de Criogenia - Acto I</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Locación: Laboratorio de Biología Acuática - Acto II</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Locación: Secciones de Mantenimiento - Acto I</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Locación: Módulos Rotatorios (A y B)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">El Mundo: La Nave Odisea</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Locación: Cuerpo Central / Núcleo 0G</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Locación: Núcleo de la IA / Sala de Impulso - Acto IV</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Acto I: La Negación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Despertar en Criogenia (5-7 minutos aprox)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Primeras Fallas y Exploración Cooperativa (7-10 minutos aprox)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Laberinto de Módulos Rotatorios (8-12 minutos)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Acto II: El Laberinto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Acto III: El Desafío</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Acto IV: La Decisión</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Los 5 Finales</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Serie de Cuentos “Odisea: Historietas del Arca Silenciosa”</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Entidad: Cargol (Dron Asistente)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Gizmo NAV-COMPAS: Modelo 3D Nave + Brújula Orientación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Misión de Colonización Titán</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Multi-Tool</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Personaje: Elías (Unidad Humana 782-C)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Personaje: IA Odisea (Antagonista)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Personaje: Programadora Principal (Fantasma)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Mecánicas Clave</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Índice de Mecánicas de Jugabilidad</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Vehículos de Exploración</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">Enemigos y Amenazas (Sabotaje Pasivo-Agresivo de la IA)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Input.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">Input</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">Mecánicas del Controlador de Elías (Plataformas 3D)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">Mecánicas del Dron Cargol (Asistente Remoto)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Mecánicas de Gravedad Variable</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Mecánicas de la Herramienta de Mantenimiento</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">Mecánicas del Propulsor 0G (6DOF)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">Mecánicas del Vehículo 4x4 (Terrestre)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Mecánicas del Vehículo Flotante/Aéreo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Mecanicas/MECANICAS/Meneo en 0G.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Animación Procedural de Extremidades en Godot 3</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">Dirección de Arte y Estilo Visual</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">Prompts Generativos y Recursos Gráficos Clave</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Desglose_Estilos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">Odisea: El Arca Silenciosa - Desglose de Actos y Estilos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Guía de Diseño UI</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Luces.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Especificación: Sistema de Atmósfera y Luz (GLES2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Música.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Música</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">Referencias e Inspiración</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y &quot;Flow&quot;.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">Odisea - GDD: Gramática del Nivel y Teoría del Flow</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">The Architecture of Precision and Perspective: A Socio-Technical Analysis of Platforming Kinesthetics and Third-Person Spatial Mechanics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">Odisea - GDD: Física Fundamental y Métricas del Personaje</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">64</span>&nbsp; <span class="chapter-title">Odisea: Level Design Document (LDD)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">Odisea - GDD: Pipeline de Diseño Iterativo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">Screenplay / Gameplay - Nivel 1: El Despertar Criogénico</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Arquitectura</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Arquitectura/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">Arquitectura y Protocolos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Arquitectura/Arquitectura de Subsistemas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">Arquitectura de Subsistemas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Arquitectura/Core_V2_Resumen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">Resumen del Núcleo V2 (Core_V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Arquitectura/Protocolo_Core_V2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Protocolo de Desarrollo Core_V2: Reglas de Oro</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Arquitectura/Protocolo_Desarrollo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">AGENTS.md — Guía de Desarrollo (Odisea)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Producción</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">Producción y Backlog</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Backlog/Ideas_Mecanicas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Ideas Mecánicas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Backlog/PRODUCTION/Automatización.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">74</span>&nbsp; <span class="chapter-title">Automatización</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">75</span>&nbsp; <span class="chapter-title">Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">76</span>&nbsp; <span class="chapter-title">Plan de Implementación MVP - Odisea</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Backlog/QOL_Checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">77</span>&nbsp; <span class="chapter-title">QOL Checklist</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Pipeline/TRAILER/Assets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">78</span>&nbsp; <span class="chapter-title">Assets Trailer Cinemático (Orden de Aparición)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Pipeline/TRAILER/Guion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">79</span>&nbsp; <span class="chapter-title">Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">80</span>&nbsp; <span class="chapter-title">Movement Refinement</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">81</span>&nbsp; <span class="chapter-title">I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Produccion/Status_Report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Informe de Estado: Vertical Slice “Odisea Sector 07”</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Archivo</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">Archivo y Legacy</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/ARCHIVED/Motion Capture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">84</span>&nbsp; <span class="chapter-title">1. Odisea LiveLink (Live Streaming)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/ARCHIVED/REFACTOR PENDING.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">💡 Refactor Sugerido para Claridad y Estabilidad</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/CONTROL/DroidPad QR Spec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">86</span>&nbsp; <span class="chapter-title">🎮 DroidPad Dynamic QR Control Feature Specification (Godot 3.6.2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/CONTROL/DroidPad SPEC.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">87</span>&nbsp; <span class="chapter-title">DroidPad Dynamic QR Control Feature Specification (Godot 3.6.2)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">88</span>&nbsp; <span class="chapter-title">DroidPad: Configuración, Escalas y Magnitudes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/CONTROL/Networked DroidPad.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">DroidPad: Integración, Conexión y QR</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../Odisea/Archivo/FISICA/Física.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">90</span>&nbsp; <span class="chapter-title">Física del SCG (Sistema Centrífugo de Gravedad) - Odisea</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#tabla-de-contenidos" id="toc-tabla-de-contenidos" class="nav-link active" data-scroll-target="#tabla-de-contenidos"><span class="header-section-number">89.1</span> Tabla de Contenidos</a></li>
+  <li><a href="#datos-de-conexión-en-qr" id="toc-datos-de-conexión-en-qr" class="nav-link" data-scroll-target="#datos-de-conexión-en-qr"><span class="header-section-number">89.2</span> Datos de Conexión en QR</a>
+  <ul class="collapse">
+  <li><a href="#incluyen-todos-los-datos-de-conexión" id="toc-incluyen-todos-los-datos-de-conexión" class="nav-link" data-scroll-target="#incluyen-todos-los-datos-de-conexión"><span class="header-section-number">89.2.1</span> ¿Incluyen todos los datos de conexión?</a></li>
+  </ul></li>
+  <li><a href="#formatos-de-qr-soportados" id="toc-formatos-de-qr-soportados" class="nav-link" data-scroll-target="#formatos-de-qr-soportados"><span class="header-section-number">89.3</span> Formatos de QR Soportados</a>
+  <ul class="collapse">
+  <li><a href="#formato-1-deep-link-url-recomendado" id="toc-formato-1-deep-link-url-recomendado" class="nav-link" data-scroll-target="#formato-1-deep-link-url-recomendado"><span class="header-section-number">89.3.1</span> Formato 1: Deep Link URL (Recomendado)</a></li>
+  <li><a href="#formato-2-json-base64-encoded" id="toc-formato-2-json-base64-encoded" class="nav-link" data-scroll-target="#formato-2-json-base64-encoded"><span class="header-section-number">89.3.2</span> Formato 2: JSON Base64 Encoded</a></li>
+  <li><a href="#formato-3-plain-text-json" id="toc-formato-3-plain-text-json" class="nav-link" data-scroll-target="#formato-3-plain-text-json"><span class="header-section-number">89.3.3</span> Formato 3: Plain Text JSON</a></li>
+  </ul></li>
+  <li><a href="#generar-qr-desde-tu-app" id="toc-generar-qr-desde-tu-app" class="nav-link" data-scroll-target="#generar-qr-desde-tu-app"><span class="header-section-number">89.4</span> Generar QR desde tu App</a>
+  <ul class="collapse">
+  <li><a href="#opción-1-usando-api-web-gratuita-más-simple" id="toc-opción-1-usando-api-web-gratuita-más-simple" class="nav-link" data-scroll-target="#opción-1-usando-api-web-gratuita-más-simple"><span class="header-section-number">89.4.1</span> Opción 1: Usando API Web Gratuita (Más Simple)</a></li>
+  <li><a href="#opción-2-usar-un-addon-de-qr-local-recomendado-para-producción" id="toc-opción-2-usar-un-addon-de-qr-local-recomendado-para-producción" class="nav-link" data-scroll-target="#opción-2-usar-un-addon-de-qr-local-recomendado-para-producción"><span class="header-section-number">89.4.2</span> Opción 2: Usar un Addon de QR Local (Recomendado para Producción)</a></li>
+  <li><a href="#opción-3-deep-link-sin-generar-imagen" id="toc-opción-3-deep-link-sin-generar-imagen" class="nav-link" data-scroll-target="#opción-3-deep-link-sin-generar-imagen"><span class="header-section-number">89.4.3</span> Opción 3: Deep Link sin Generar Imagen</a></li>
+  </ul></li>
+  <li><a href="#formato-de-eventos-en-tiempo-real" id="toc-formato-de-eventos-en-tiempo-real" class="nav-link" data-scroll-target="#formato-de-eventos-en-tiempo-real"><span class="header-section-number">89.5</span> Formato de Eventos en Tiempo Real</a>
+  <ul class="collapse">
+  <li><a href="#eventos-recibidos-desde-droidpad" id="toc-eventos-recibidos-desde-droidpad" class="nav-link" data-scroll-target="#eventos-recibidos-desde-droidpad"><span class="header-section-number">89.5.1</span> Eventos Recibidos desde DroidPad</a></li>
+  <li><a href="#tabla-de-eventos-por-tipo" id="toc-tabla-de-eventos-por-tipo" class="nav-link" data-scroll-target="#tabla-de-eventos-por-tipo"><span class="header-section-number">89.5.2</span> Tabla de Eventos por Tipo</a></li>
+  </ul></li>
+  <li><a href="#protocolo-de-comunicación" id="toc-protocolo-de-comunicación" class="nav-link" data-scroll-target="#protocolo-de-comunicación"><span class="header-section-number">89.6</span> Protocolo de Comunicación</a>
+  <ul class="collapse">
+  <li><a href="#conexión-tcp" id="toc-conexión-tcp" class="nav-link" data-scroll-target="#conexión-tcp"><span class="header-section-number">89.6.1</span> Conexión TCP</a></li>
+  <li><a href="#conexión-websocket" id="toc-conexión-websocket" class="nav-link" data-scroll-target="#conexión-websocket"><span class="header-section-number">89.6.2</span> Conexión WebSocket</a></li>
+  <li><a href="#mqtt" id="toc-mqtt" class="nav-link" data-scroll-target="#mqtt"><span class="header-section-number">89.6.3</span> MQTT</a></li>
+  <li><a href="#udp" id="toc-udp" class="nav-link" data-scroll-target="#udp"><span class="header-section-number">89.6.4</span> UDP</a></li>
+  </ul></li>
+  <li><a href="#preguntas-frecuentes" id="toc-preguntas-frecuentes" class="nav-link" data-scroll-target="#preguntas-frecuentes"><span class="header-section-number">89.7</span> Preguntas Frecuentes</a>
+  <ul class="collapse">
+  <li><a href="#p1-puedo-usar-diferentes-protocolos-simultáneamente" id="toc-p1-puedo-usar-diferentes-protocolos-simultáneamente" class="nav-link" data-scroll-target="#p1-puedo-usar-diferentes-protocolos-simultáneamente"><span class="header-section-number">89.7.1</span> P1: ¿Puedo usar diferentes protocolos simultáneamente?</a></li>
+  <li><a href="#p2-qué-tan-frecuentes-son-los-eventos" id="toc-p2-qué-tan-frecuentes-son-los-eventos" class="nav-link" data-scroll-target="#p2-qué-tan-frecuentes-son-los-eventos"><span class="header-section-number">89.7.2</span> P2: ¿Qué tan frecuentes son los eventos?</a></li>
+  <li><a href="#p3-la-precisión-es-suficiente-para-juegos" id="toc-p3-la-precisión-es-suficiente-para-juegos" class="nav-link" data-scroll-target="#p3-la-precisión-es-suficiente-para-juegos"><span class="header-section-number">89.7.3</span> P3: ¿La precisión es suficiente para juegos?</a></li>
+  <li><a href="#p4-puedo-modificar-el-qr-después-de-generarlo" id="toc-p4-puedo-modificar-el-qr-después-de-generarlo" class="nav-link" data-scroll-target="#p4-puedo-modificar-el-qr-después-de-generarlo"><span class="header-section-number">89.7.4</span> P4: ¿Puedo modificar el QR después de generarlo?</a></li>
+  <li><a href="#p5-qué-sucede-si-el-servidor-está-offline-cuando-se-escanea-el-qr" id="toc-p5-qué-sucede-si-el-servidor-está-offline-cuando-se-escanea-el-qr" class="nav-link" data-scroll-target="#p5-qué-sucede-si-el-servidor-está-offline-cuando-se-escanea-el-qr"><span class="header-section-number">89.7.5</span> P5: ¿Qué sucede si el servidor está offline cuando se escanea el QR?</a></li>
+  <li><a href="#p6-puedo-usar-localhost-127.0.0.1" id="toc-p6-puedo-usar-localhost-127.0.0.1" class="nav-link" data-scroll-target="#p6-puedo-usar-localhost-127.0.0.1"><span class="header-section-number">89.7.6</span> P6: ¿Puedo usar localhost (127.0.0.1)?</a></li>
+  <li><a href="#p7-el-protocolo-es-seguro" id="toc-p7-el-protocolo-es-seguro" class="nav-link" data-scroll-target="#p7-el-protocolo-es-seguro"><span class="header-section-number">89.7.7</span> P7: ¿El protocolo es seguro?</a></li>
+  <li><a href="#p8-puedo-enviar-comandos-de-vuelta-al-teléfono" id="toc-p8-puedo-enviar-comandos-de-vuelta-al-teléfono" class="nav-link" data-scroll-target="#p8-puedo-enviar-comandos-de-vuelta-al-teléfono"><span class="header-section-number">89.7.8</span> P8: ¿Puedo enviar comandos de vuelta al teléfono?</a></li>
+  </ul></li>
+  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias"><span class="header-section-number">89.8</span> Referencias</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Odisea/Archivo/index.html">Archivo</a></li><li class="breadcrumb-item"><a href="../../../Odisea/Archivo/CONTROL/Networked DroidPad.html"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">DroidPad: Integración, Conexión y QR</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">DroidPad: Integración, Conexión y QR</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="tabla-de-contenidos" class="level2" data-number="89.1">
+<h2 data-number="89.1" class="anchored" data-anchor-id="tabla-de-contenidos"><span class="header-section-number">89.1</span> Tabla de Contenidos</h2>
+<ol type="1">
+<li><a href="#datos-de-conexión-en-qr">Datos de Conexión en QR</a></li>
+<li><a href="#formatos-de-qr-soportados">Formatos de QR Soportados</a></li>
+<li><a href="#generar-qr-desde-tu-app">Generar QR desde tu App</a></li>
+<li><a href="#formato-de-eventos-en-tiempo-real">Formato de Eventos en Tiempo Real</a></li>
+<li><a href="#protocolo-de-comunicación">Protocolo de Comunicación</a></li>
+<li><a href="#preguntas-frecuentes">Preguntas Frecuentes</a></li>
+</ol>
+<hr>
+</section>
+<section id="datos-de-conexión-en-qr" class="level2" data-number="89.2">
+<h2 data-number="89.2" class="anchored" data-anchor-id="datos-de-conexión-en-qr"><span class="header-section-number">89.2</span> Datos de Conexión en QR</h2>
+<section id="incluyen-todos-los-datos-de-conexión" class="level3" data-number="89.2.1">
+<h3 data-number="89.2.1" class="anchored" data-anchor-id="incluyen-todos-los-datos-de-conexión"><span class="header-section-number">89.2.1</span> ¿Incluyen todos los datos de conexión?</h3>
+<p><strong>Respuesta corta:</strong> Sí, cuando se genera correctamente.</p>
+<p>Los QR codes de DroidPad son diseñados para contener <strong>toda la información necesaria</strong> para que un dispositivo móvil se conecte automáticamente a tu servidor/app sin necesidad de configuración manual adicional.</p>
+<p><strong>Datos incluidos:</strong> - Nombre del pad (identificador único) - Protocolo de comunicación (TCP, UDP, WEBSOCKET, MQTT, BLE) - Host/IP address del servidor - Puerto de conexión - Timeout (opcional)</p>
+<hr>
+</section>
+</section>
+<section id="formatos-de-qr-soportados" class="level2" data-number="89.3">
+<h2 data-number="89.3" class="anchored" data-anchor-id="formatos-de-qr-soportados"><span class="header-section-number">89.3</span> Formatos de QR Soportados</h2>
+<p>DroidPad soporta múltiples formatos para codificar datos de conexión. Elige el que mejor se adapte a tu caso de uso.</p>
+<section id="formato-1-deep-link-url-recomendado" class="level3" data-number="89.3.1">
+<h3 data-number="89.3.1" class="anchored" data-anchor-id="formato-1-deep-link-url-recomendado"><span class="header-section-number">89.3.1</span> Formato 1: Deep Link URL (Recomendado)</h3>
+<pre><code>droidpad://import/config?pad=my_gamepad&amp;protocol=TCP&amp;host=192.168.1.100&amp;port=8080</code></pre>
+<p><strong>Parámetros:</strong> | Parámetro | Obligatorio | Rango | Ejemplo | |———–|————|——-|———| | <code>pad</code> | Sí | String | <code>my_gamepad</code> | | <code>protocol</code> | Sí | TCP, UDP, WEBSOCKET, MQTT, BLE | <code>TCP</code> | | <code>host</code> | Sí | IP o hostname | <code>192.168.1.100</code> | | <code>port</code> | Sí | 1-65535 | <code>8080</code> | | <code>timeout</code> | No | Milisegundos | <code>5000</code> |</p>
+<p><strong>Ventajas:</strong> - URL limpia y legible - Fácil de generar desde cualquier lenguaje - Deep links permiten integración con navegadores - Escálable a nuevos parámetros</p>
+<p><strong>Desventajas:</strong> - Requiere que la app esté instalada para manejar <code>droidpad://</code> - Si la app no está instalada, necesita fallback</p>
+<p><strong>Ejemplo completo:</strong></p>
+<pre><code>droidpad://import/config?pad=game_controller&amp;protocol=TCP&amp;host=192.168.1.50&amp;port=8080&amp;timeout=10000</code></pre>
+</section>
+<section id="formato-2-json-base64-encoded" class="level3" data-number="89.3.2">
+<h3 data-number="89.3.2" class="anchored" data-anchor-id="formato-2-json-base64-encoded"><span class="header-section-number">89.3.2</span> Formato 2: JSON Base64 Encoded</h3>
+<p><strong>JSON original:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"pad"</span><span class="fu">:</span> <span class="st">"my_gamepad"</span><span class="fu">,</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"protocol"</span><span class="fu">:</span> <span class="st">"TCP"</span><span class="fu">,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"host"</span><span class="fu">:</span> <span class="st">"192.168.1.100"</span><span class="fu">,</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"port"</span><span class="fu">:</span> <span class="dv">8080</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Codificado en Base64:</strong></p>
+<pre><code>eyJwYWQiOiAibXlfZ2FtZXBhZCIsICJwcm90b2NvbCI6ICJUQ1AiLCAiaG9zdCI6ICIxOTIuMTY4LjEuMTAwIiwgInBvcnQiOiA4MDgwfQ==</code></pre>
+<p><strong>Ventajas:</strong> - Más compacto en algunos casos - Fácil de parsear en JSON - Puede contener más datos complejos</p>
+<p><strong>Desventajas:</strong> - Menos legible - QR más denso = más área requerida - Requiere decodificación Base64</p>
+</section>
+<section id="formato-3-plain-text-json" class="level3" data-number="89.3.3">
+<h3 data-number="89.3.3" class="anchored" data-anchor-id="formato-3-plain-text-json"><span class="header-section-number">89.3.3</span> Formato 3: Plain Text JSON</h3>
+<pre><code>{"pad":"my_gamepad","protocol":"TCP","host":"192.168.1.100","port":8080}</code></pre>
+<p><strong>Ventajas:</strong> - Muy simple - Completamente legible - Fácil debug</p>
+<p><strong>Desventajas:</strong> - QR más grande - Menos robusto</p>
+<hr>
+</section>
+</section>
+<section id="generar-qr-desde-tu-app" class="level2" data-number="89.4">
+<h2 data-number="89.4" class="anchored" data-anchor-id="generar-qr-desde-tu-app"><span class="header-section-number">89.4</span> Generar QR desde tu App</h2>
+<section id="opción-1-usando-api-web-gratuita-más-simple" class="level3" data-number="89.4.1">
+<h3 data-number="89.4.1" class="anchored" data-anchor-id="opción-1-usando-api-web-gratuita-más-simple"><span class="header-section-number">89.4.1</span> Opción 1: Usando API Web Gratuita (Más Simple)</h3>
+<p><strong>Ventajas:</strong> - No requiere dependencias locales - Funciona en cualquier plataforma - Instantáneo</p>
+<p><strong>Desventajas:</strong> - Requiere conexión a internet - Depende de servicios externos - Potencial latencia de red</p>
+<section id="godot-3.x" class="level4" data-number="89.4.1.1">
+<h4 data-number="89.4.1.1" class="anchored" data-anchor-id="godot-3.x"><span class="header-section-number">89.4.1.1</span> Godot 3.x</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode gdscript code-with-copy"><code class="sourceCode gdscript"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># QRGenerator.gd</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">extends</span> Node</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="fu">generate_qr_from_deeplink</span>(pad_name: String, host: String, port: int, protocol: String <span class="op">=</span> <span class="st">"TCP"</span>) <span class="op">-&gt;</span> String:</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> deeplink <span class="op">=</span> <span class="fu">create_droidpad_deeplink</span>(pad_name, host, port, protocol)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> encoded <span class="op">=</span> deeplink.<span class="fu">uri_encode</span>()</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Usar qrserver.com (gratis, sin autenticación)</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=</span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> encoded</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="fu">create_droidpad_deeplink</span>(pad_name: String, host: String, port: int, protocol: String <span class="op">=</span> <span class="st">"TCP"</span>) <span class="op">-&gt;</span> String:</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> params <span class="op">=</span> <span class="st">"pad=</span><span class="sc">%s</span><span class="st">&amp;protocol=</span><span class="sc">%s</span><span class="st">&amp;host=</span><span class="sc">%s</span><span class="st">&amp;port=</span><span class="sc">%d</span><span class="st">"</span> <span class="op">%</span> [pad_name, protocol, host, port]</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"droidpad://import/config?</span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> params</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Uso en escena</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="bu">_ready</span>():</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> qr_url <span class="op">=</span> <span class="fu">generate_qr_from_deeplink</span>(<span class="st">"my_pad"</span>, <span class="st">"192.168.1.50"</span>, <span class="dv">8080</span>, <span class="st">"TCP"</span>)</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"QR URL: </span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> qr_url)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mostrar en navegador (para testing)</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>    OS.<span class="fu">shell_open</span>(qr_url)</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>    <span class="co"># O mostrar la imagen en un TextureRect</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> http <span class="op">=</span> HTTPClient.<span class="fu">new</span>()</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># ... código para descargar la imagen</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="python-servidor-backend" class="level4" data-number="89.4.1.2">
+<h4 data-number="89.4.1.2" class="anchored" data-anchor-id="python-servidor-backend"><span class="header-section-number">89.4.1.2</span> Python (Servidor Backend)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> urllib.parse <span class="im">import</span> urlencode, quote</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_droidpad_qr(pad_name: <span class="bu">str</span>, host: <span class="bu">str</span>, port: <span class="bu">int</span>, protocol: <span class="bu">str</span> <span class="op">=</span> <span class="st">"TCP"</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Generar URL de QR para importar config en DroidPad"""</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    deeplink <span class="op">=</span> <span class="ss">f"droidpad://import/config?pad=</span><span class="sc">{</span>pad_name<span class="sc">}</span><span class="ss">&amp;protocol=</span><span class="sc">{</span>protocol<span class="sc">}</span><span class="ss">&amp;host=</span><span class="sc">{</span>host<span class="sc">}</span><span class="ss">&amp;port=</span><span class="sc">{</span>port<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Usar API de qrserver</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    qr_url <span class="op">=</span> <span class="ss">f"https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=</span><span class="sc">{</span>quote(deeplink)<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> qr_url</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Uso</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>qr_url <span class="op">=</span> generate_droidpad_qr(<span class="st">"game_controller"</span>, <span class="st">"192.168.1.100"</span>, <span class="dv">8080</span>, <span class="st">"TCP"</span>)</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Mostrar este QR: </span><span class="sc">{</span>qr_url<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Descargar la imagen</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>response <span class="op">=</span> requests.get(qr_url)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">"droidpad_qr.png"</span>, <span class="st">"wb"</span>) <span class="im">as</span> f:</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>    f.write(response.content)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="javascriptnode.js" class="level4" data-number="89.4.1.3">
+<h4 data-number="89.4.1.3" class="anchored" data-anchor-id="javascriptnode.js"><span class="header-section-number">89.4.1.3</span> JavaScript/Node.js</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">generateDroidPadQR</span>(padName<span class="op">,</span> host<span class="op">,</span> port<span class="op">,</span> protocol <span class="op">=</span> <span class="st">"TCP"</span>) {</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> deeplink <span class="op">=</span> <span class="vs">`droidpad://import/config?pad=</span><span class="sc">${</span>padName<span class="sc">}</span><span class="vs">&amp;protocol=</span><span class="sc">${</span>protocol<span class="sc">}</span><span class="vs">&amp;host=</span><span class="sc">${</span>host<span class="sc">}</span><span class="vs">&amp;port=</span><span class="sc">${</span>port<span class="sc">}</span><span class="vs">`</span><span class="op">;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> encoded <span class="op">=</span> <span class="pp">encodeURIComponent</span>(deeplink)<span class="op">;</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="vs">`https://api.qrserver.com/v1/create-qr-code/?size=300x300&amp;data=</span><span class="sc">${</span>encoded<span class="sc">}</span><span class="vs">`</span><span class="op">;</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co">// Uso</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> qrUrl <span class="op">=</span> <span class="fu">generateDroidPadQR</span>(<span class="st">"my_pad"</span><span class="op">,</span> <span class="st">"192.168.1.50"</span><span class="op">,</span> <span class="dv">8080</span><span class="op">,</span> <span class="st">"TCP"</span>)<span class="op">;</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">"QR URL:"</span><span class="op">,</span> qrUrl)<span class="op">;</span></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="co">// Mostrar en HTML</span></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">"qrImage"</span>)<span class="op">.</span><span class="at">src</span> <span class="op">=</span> qrUrl<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="opción-2-usar-un-addon-de-qr-local-recomendado-para-producción" class="level3" data-number="89.4.2">
+<h3 data-number="89.4.2" class="anchored" data-anchor-id="opción-2-usar-un-addon-de-qr-local-recomendado-para-producción"><span class="header-section-number">89.4.2</span> Opción 2: Usar un Addon de QR Local (Recomendado para Producción)</h3>
+<p>Para Godot, existen addons gratuitos que generan QR sin necesidad de internet:</p>
+<p><strong>Pasos:</strong> 1. Descargar addon QR desde Asset Store de Godot 2. Instalarlo en <code>res://addons/qr/</code> 3. Activarlo en Project Settings → Plugins</p>
+<p><strong>Godot 3.x con addon QR:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode gdscript code-with-copy"><code class="sourceCode gdscript"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Requiere addon QR instalado</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="kw">extends</span> Node</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="bu">_ready</span>():</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> qr_generator <span class="op">=</span> <span class="pp">preload</span>(<span class="st">"res://addons/qr/qr.gd"</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> config <span class="op">=</span> {</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>        <span class="st">"pad"</span>: <span class="st">"game_controller"</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>        <span class="st">"protocol"</span>: <span class="st">"TCP"</span>,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">"host"</span>: <span class="fu">get_local_ip</span>(),</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>        <span class="st">"port"</span>: <span class="dv">8080</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> qr_string <span class="op">=</span> JSON.<span class="bu">print</span>(config)</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> qr_image <span class="op">=</span> qr_generator.<span class="fu">generate</span>(qr_string, <span class="dv">10</span>)  <span class="co"># 10 = tamaño</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mostrar en TextureRect</span></span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>    <span class="va">$TextureRect</span>.texture <span class="op">=</span> qr_image</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="fu">get_local_ip</span>() <span class="op">-&gt;</span> String:</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> ip_addresses <span class="op">=</span> IP.<span class="fu">get_local_addresses</span>()</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> addr <span class="kw">in</span> ip_addresses:</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> addr.<span class="fu">contains</span>(<span class="st">"."</span>) <span class="kw">and</span> <span class="kw">not</span> addr.<span class="fu">begins_with</span>(<span class="st">"127"</span>):</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>            <span class="cf">return</span> addr</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">"127.0.0.1"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="opción-3-deep-link-sin-generar-imagen" class="level3" data-number="89.4.3">
+<h3 data-number="89.4.3" class="anchored" data-anchor-id="opción-3-deep-link-sin-generar-imagen"><span class="header-section-number">89.4.3</span> Opción 3: Deep Link sin Generar Imagen</h3>
+<p>Si solo necesitas compartir el enlace (sin la imagen visual del QR):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode gdscript code-with-copy"><code class="sourceCode gdscript"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="fu">create_shareable_droidpad_link</span>(pad_name: String, host: String, port: int) <span class="op">-&gt;</span> String:</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> deeplink <span class="op">=</span> <span class="st">"droidpad://import/config?pad=</span><span class="sc">%s</span><span class="st">&amp;protocol=TCP&amp;host=</span><span class="sc">%s</span><span class="st">&amp;port=</span><span class="sc">%d</span><span class="st">"</span> <span class="op">%</span> [pad_name, host, port]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> deeplink</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Uso: compartir vía WhatsApp, Telegram, email, etc.</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="kw">func</span> <span class="fu">share_controller_config</span>():</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> link <span class="op">=</span> <span class="fu">create_shareable_droidpad_link</span>(<span class="st">"my_game"</span>, <span class="st">"192.168.1.100"</span>, <span class="dv">8080</span>)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>    OS.<span class="fu">shell_open</span>(<span class="st">"https://wa.me/?text=</span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> link.<span class="fu">uri_encode</span>())  <span class="co"># WhatsApp</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="formato-de-eventos-en-tiempo-real" class="level2" data-number="89.5">
+<h2 data-number="89.5" class="anchored" data-anchor-id="formato-de-eventos-en-tiempo-real"><span class="header-section-number">89.5</span> Formato de Eventos en Tiempo Real</h2>
+<section id="eventos-recibidos-desde-droidpad" class="level3" data-number="89.5.1">
+<h3 data-number="89.5.1" class="anchored" data-anchor-id="eventos-recibidos-desde-droidpad"><span class="header-section-number">89.5.1</span> Eventos Recibidos desde DroidPad</h3>
+<p>Cuando los usuarios interactúan con controles en la app DroidPad, se envían eventos al servidor en formato JSON.</p>
+<p>Cada evento contiene: - <strong>id:</strong> Identificador único del elemento - <strong>type:</strong> Tipo de control - <strong>Datos específicos:</strong> Dependen del tipo</p>
+</section>
+<section id="tabla-de-eventos-por-tipo" class="level3" data-number="89.5.2">
+<h3 data-number="89.5.2" class="anchored" data-anchor-id="tabla-de-eventos-por-tipo"><span class="header-section-number">89.5.2</span> Tabla de Eventos por Tipo</h3>
+<section id="button-botón" class="level4" data-number="89.5.2.1">
+<h4 data-number="89.5.2.1" class="anchored" data-anchor-id="button-botón"><span class="header-section-number">89.5.2.1</span> <strong>BUTTON</strong> (Botón)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"btn_fire"</span><span class="fu">,</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"BUTTON"</span><span class="fu">,</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"state"</span><span class="fu">:</span> <span class="st">"PRESS"</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Estados posibles: - <code>PRESS</code> - Botón presionado (descenso) - <code>RELEASE</code> - Botón liberado (ascenso) - <code>CLICK</code> - Un click completo (presion + liberación)</p>
+</section>
+<section id="dpad-botones-direccionales" class="level4" data-number="89.5.2.2">
+<h4 data-number="89.5.2.2" class="anchored" data-anchor-id="dpad-botones-direccionales"><span class="header-section-number">89.5.2.2</span> <strong>DPAD</strong> (Botones Direccionales)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"arrow_keys"</span><span class="fu">,</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"DPAD"</span><span class="fu">,</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"button"</span><span class="fu">:</span> <span class="st">"RIGHT"</span><span class="fu">,</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"state"</span><span class="fu">:</span> <span class="st">"CLICK"</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Direcciones: <code>LEFT</code>, <code>RIGHT</code>, <code>UP</code>, <code>DOWN</code> Estados: <code>PRESS</code>, <code>RELEASE</code>, <code>CLICK</code></p>
+</section>
+<section id="joystick-palanca-analógica" class="level4" data-number="89.5.2.3">
+<h4 data-number="89.5.2.3" class="anchored" data-anchor-id="joystick-palanca-analógica"><span class="header-section-number">89.5.2.3</span> <strong>JOYSTICK</strong> (Palanca Analógica)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"left_stick"</span><span class="fu">,</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"JOYSTICK"</span><span class="fu">,</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"x"</span><span class="fu">:</span> <span class="fl">0.5</span><span class="fu">,</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"y"</span><span class="fu">:</span> <span class="fl">-0.75</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Importante:</strong> - Rango: <strong>x y y de -1.0 a +1.0</strong> (normalizado) - Centro: 0.0 - Sin campo “state” - es solo la posición actual - Se envía continuamente mientras se mueve</p>
+<p><strong>Interpretación de ejes:</strong></p>
+<pre><code>         y = -1.0
+            ↑
+            |
+x = -1.0 ← 0,0 → x = +1.0
+            |
+            ↓
+         y = +1.0</code></pre>
+</section>
+<section id="slider-control-deslizante" class="level4" data-number="89.5.2.4">
+<h4 data-number="89.5.2.4" class="anchored" data-anchor-id="slider-control-deslizante"><span class="header-section-number">89.5.2.4</span> <strong>SLIDER</strong> (Control Deslizante)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"volume"</span><span class="fu">,</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"SLIDER"</span><span class="fu">,</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"value"</span><span class="fu">:</span> <span class="fl">0.85</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Rango: <strong>Desde <code>minValue</code> a <code>maxValue</code></strong> definidos en la configuración</li>
+<li>Típicamente 0.0 a 1.0, pero completamente configurable</li>
+<li>Se envía continuamente</li>
+</ul>
+</section>
+<section id="switch-interruptor-onoff" class="level4" data-number="89.5.2.5">
+<h4 data-number="89.5.2.5" class="anchored" data-anchor-id="switch-interruptor-onoff"><span class="header-section-number">89.5.2.5</span> <strong>SWITCH</strong> (Interruptor ON/OFF)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"power"</span><span class="fu">,</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"SWITCH"</span><span class="fu">,</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"state"</span><span class="fu">:</span> <span class="kw">true</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li><code>state</code>: <code>true</code> (ON) o <code>false</code> (OFF)</li>
+<li>Se envía al cambiar de estado</li>
+</ul>
+</section>
+<section id="steering_wheel-volante-de-dirección" class="level4" data-number="89.5.2.6">
+<h4 data-number="89.5.2.6" class="anchored" data-anchor-id="steering_wheel-volante-de-dirección"><span class="header-section-number">89.5.2.6</span> <strong>STEERING_WHEEL</strong> (Volante de Dirección)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"steering"</span><span class="fu">,</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"STEERING_WHEEL"</span><span class="fu">,</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"angle"</span><span class="fu">:</span> <span class="fl">45.233445</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Rango: <strong>-180 a +180 grados</strong></li>
+<li>0° = posición neutra (recto)</li>
+<li>Positivo = rotación horaria (derecha)</li>
+<li>Negativo = rotación contra-horaria (izquierda)</li>
+<li>Se envía continuamente</li>
+</ul>
+</section>
+<section id="accelerometer-sensor-de-aceleración" class="level4" data-number="89.5.2.7">
+<h4 data-number="89.5.2.7" class="anchored" data-anchor-id="accelerometer-sensor-de-aceleración"><span class="header-section-number">89.5.2.7</span> <strong>ACCELEROMETER</strong> (Sensor de Aceleración)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"ACCELEROMETER"</span><span class="fu">,</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"x"</span><span class="fu">:</span> <span class="fl">0.31892395</span><span class="fu">,</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"y"</span><span class="fu">:</span> <span class="fl">-0.97802734</span><span class="fu">,</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"z"</span><span class="fu">:</span> <span class="fl">10.049896</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Unidad: <strong>m/s²</strong> (metros por segundo al cuadrado)</li>
+<li>Incluye gravedad (Z ≈ 9.8 en reposo)</li>
+<li>Rango típico: -20 a +20 m/s²</li>
+<li>Ejes: X (lateral), Y (frontal), Z (vertical)</li>
+</ul>
+</section>
+<section id="gyroscope-sensor-giroscópico" class="level4" data-number="89.5.2.8">
+<h4 data-number="89.5.2.8" class="anchored" data-anchor-id="gyroscope-sensor-giroscópico"><span class="header-section-number">89.5.2.8</span> <strong>GYROSCOPE</strong> (Sensor Giroscópico)</h4>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"type"</span><span class="fu">:</span> <span class="st">"GYROSCOPE"</span><span class="fu">,</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"x"</span><span class="fu">:</span> <span class="fl">0.15387291</span><span class="fu">,</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"y"</span><span class="fu">:</span> <span class="fl">-0.22954187</span><span class="fu">,</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"z"</span><span class="fu">:</span> <span class="fl">0.08163925</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Unidad: <strong>rad/s</strong> (radianes por segundo)</li>
+<li>Rango típico: -π a +π (-3.14159 a +3.14159)</li>
+<li>Velocidad de rotación alrededor de cada eje</li>
+<li>No incluye posición, solo velocidad de giro</li>
+</ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="protocolo-de-comunicación" class="level2" data-number="89.6">
+<h2 data-number="89.6" class="anchored" data-anchor-id="protocolo-de-comunicación"><span class="header-section-number">89.6</span> Protocolo de Comunicación</h2>
+<section id="conexión-tcp" class="level3" data-number="89.6.1">
+<h3 data-number="89.6.1" class="anchored" data-anchor-id="conexión-tcp"><span class="header-section-number">89.6.1</span> Conexión TCP</h3>
+<p><strong>Flujo de conexión:</strong></p>
+<pre><code>1. Cliente (DroidPad) inicia conexión TCP
+2. Se conecta a host:puerto especificado
+3. Envía eventos JSON, uno por línea
+4. Servidor procesa cada línea como evento independiente
+5. Conexión se mantiene abierta hasta cierre</code></pre>
+<p><strong>Formato:</strong></p>
+<pre><code>{evento JSON 1}\n
+{evento JSON 2}\n
+{evento JSON 3}\n
+...</code></pre>
+<p><strong>Ejemplo de stream TCP recibido:</strong></p>
+<pre><code>{"id":"left_stick","type":"JOYSTICK","x":0.0,"y":0.0}
+{"id":"left_stick","type":"JOYSTICK","x":0.1,"y":0.0}
+{"id":"left_stick","type":"JOYSTICK","x":0.2,"y":-0.1}
+{"id":"btn_a","type":"BUTTON","state":"PRESS"}
+{"id":"btn_a","type":"BUTTON","state":"RELEASE"}</code></pre>
+</section>
+<section id="conexión-websocket" class="level3" data-number="89.6.2">
+<h3 data-number="89.6.2" class="anchored" data-anchor-id="conexión-websocket"><span class="header-section-number">89.6.2</span> Conexión WebSocket</h3>
+<p>Similar a TCP, pero con protocolo WebSocket (ws:// o wss://):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode javascript code-with-copy"><code class="sourceCode javascript"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Cliente WebSocket</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="kw">const</span> ws <span class="op">=</span> <span class="kw">new</span> <span class="bu">WebSocket</span>(<span class="st">"ws://192.168.1.100:8080"</span>)<span class="op">;</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>ws<span class="op">.</span><span class="at">onmessage</span> <span class="op">=</span> (<span class="bu">event</span>) <span class="kw">=&gt;</span> {</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> data <span class="op">=</span> <span class="bu">JSON</span><span class="op">.</span><span class="fu">parse</span>(<span class="bu">event</span><span class="op">.</span><span class="at">data</span>)<span class="op">;</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">"Evento recibido:"</span><span class="op">,</span> data)<span class="op">;</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="mqtt" class="level3" data-number="89.6.3">
+<h3 data-number="89.6.3" class="anchored" data-anchor-id="mqtt"><span class="header-section-number">89.6.3</span> MQTT</h3>
+<p>Para usar MQTT, DroidPad envía eventos a un tópico específico:</p>
+<pre><code>Tópico: droidpad/{pad_name}/{element_id}
+Payload: {"type":"JOYSTICK","x":0.5,"y":-0.75}</code></pre>
+</section>
+<section id="udp" class="level3" data-number="89.6.4">
+<h3 data-number="89.6.4" class="anchored" data-anchor-id="udp"><span class="header-section-number">89.6.4</span> UDP</h3>
+<p>Eventos enviados como datagramas UDP:</p>
+<pre><code>Destino: {host}:{port}
+Payload: {evento JSON}</code></pre>
+<p>Nota: UDP no garantiza entrega, ideal para datos de alta frecuencia donde la pérdida ocasional es aceptable.</p>
+<hr>
+</section>
+</section>
+<section id="preguntas-frecuentes" class="level2" data-number="89.7">
+<h2 data-number="89.7" class="anchored" data-anchor-id="preguntas-frecuentes"><span class="header-section-number">89.7</span> Preguntas Frecuentes</h2>
+<section id="p1-puedo-usar-diferentes-protocolos-simultáneamente" class="level3" data-number="89.7.1">
+<h3 data-number="89.7.1" class="anchored" data-anchor-id="p1-puedo-usar-diferentes-protocolos-simultáneamente"><span class="header-section-number">89.7.1</span> P1: ¿Puedo usar diferentes protocolos simultáneamente?</h3>
+<p><strong>R:</strong> No en una misma conexión de pad. Debes crear pads separados para cada protocolo.</p>
+<pre><code>Pad 1 (TCP) - Conectado a 192.168.1.100:8080
+Pad 2 (WebSocket) - Conectado a 192.168.1.50:9000
+Pad 3 (MQTT) - Conectado a broker.example.com:1883</code></pre>
+</section>
+<section id="p2-qué-tan-frecuentes-son-los-eventos" class="level3" data-number="89.7.2">
+<h3 data-number="89.7.2" class="anchored" data-anchor-id="p2-qué-tan-frecuentes-son-los-eventos"><span class="header-section-number">89.7.2</span> P2: ¿Qué tan frecuentes son los eventos?</h3>
+<p><strong>R:</strong> Depende del tipo de control: - <strong>Joystick/Slider/Steering:</strong> ~60 Hz (cada ~16ms) mientras se mueven - <strong>Button/DPAD/Switch:</strong> Solo al cambiar estado - <strong>Accelerometer/Gyroscope:</strong> 30-60 Hz según sensor</p>
+</section>
+<section id="p3-la-precisión-es-suficiente-para-juegos" class="level3" data-number="89.7.3">
+<h3 data-number="89.7.3" class="anchored" data-anchor-id="p3-la-precisión-es-suficiente-para-juegos"><span class="header-section-number">89.7.3</span> P3: ¿La precisión es suficiente para juegos?</h3>
+<p><strong>R:</strong> Sí. Los joysticks tienen precisión de float (6-8 decimales). Es comparable a controles físicos profesionales.</p>
+</section>
+<section id="p4-puedo-modificar-el-qr-después-de-generarlo" class="level3" data-number="89.7.4">
+<h3 data-number="89.7.4" class="anchored" data-anchor-id="p4-puedo-modificar-el-qr-después-de-generarlo"><span class="header-section-number">89.7.4</span> P4: ¿Puedo modificar el QR después de generarlo?</h3>
+<p><strong>R:</strong> El QR es estático - encadena datos específicos. Para cambiar la configuración, debes: 1. Generar un nuevo QR 2. O cargar la configuración vía archivo JSON</p>
+</section>
+<section id="p5-qué-sucede-si-el-servidor-está-offline-cuando-se-escanea-el-qr" class="level3" data-number="89.7.5">
+<h3 data-number="89.7.5" class="anchored" data-anchor-id="p5-qué-sucede-si-el-servidor-está-offline-cuando-se-escanea-el-qr"><span class="header-section-number">89.7.5</span> P5: ¿Qué sucede si el servidor está offline cuando se escanea el QR?</h3>
+<p><strong>R:</strong> DroidPad intentará conectar según el <code>timeout</code> especificado. Si falla: - Reintentar automáticamente - Mostrar error al usuario - Permitir configuración manual</p>
+</section>
+<section id="p6-puedo-usar-localhost-127.0.0.1" class="level3" data-number="89.7.6">
+<h3 data-number="89.7.6" class="anchored" data-anchor-id="p6-puedo-usar-localhost-127.0.0.1"><span class="header-section-number">89.7.6</span> P6: ¿Puedo usar localhost (127.0.0.1)?</h3>
+<p><strong>R:</strong> <strong>No.</strong> El teléfono es un dispositivo diferente, localhost refiere a sí mismo. Usa: - IP local de tu máquina (ej: 192.168.1.x) - IP pública (si están en redes diferentes) - Hostname con DNS resuelto</p>
+</section>
+<section id="p7-el-protocolo-es-seguro" class="level3" data-number="89.7.7">
+<h3 data-number="89.7.7" class="anchored" data-anchor-id="p7-el-protocolo-es-seguro"><span class="header-section-number">89.7.7</span> P7: ¿El protocolo es seguro?</h3>
+<p><strong>R:</strong> No tiene autenticación en los protocolos base. Para producción: - Usa <strong>wss://</strong> (WebSocket seguro) en lugar de ws:// - Implementa verificación de token/API key - Usa VPN o red privada - No expongas puertos públicos directamente</p>
+</section>
+<section id="p8-puedo-enviar-comandos-de-vuelta-al-teléfono" class="level3" data-number="89.7.8">
+<h3 data-number="89.7.8" class="anchored" data-anchor-id="p8-puedo-enviar-comandos-de-vuelta-al-teléfono"><span class="header-section-number">89.7.8</span> P8: ¿Puedo enviar comandos de vuelta al teléfono?</h3>
+<p><strong>R:</strong> Depende del protocolo: - <strong>TCP/WebSocket:</strong> Sí, es bidireccional. Envía JSON y DroidPad puede procesarlo - <strong>UDP:</strong> No, es unidireccional (móvil → servidor) - <strong>MQTT:</strong> Sí, usa tópicos de respuesta</p>
+<hr>
+</section>
+</section>
+<section id="referencias" class="level2" data-number="89.8">
+<h2 data-number="89.8" class="anchored" data-anchor-id="referencias"><span class="header-section-number">89.8</span> Referencias</h2>
+<ul>
+<li><a href="https://github.com/UmerCodez/DroidPad">GitHub: UmerCodez/DroidPad</a></li>
+<li><a href="https://qr-server.com/">QR Server API</a> - Generador QR gratis</li>
+<li><a href="https://developer.android.com/training/app-links">Deep Linking</a></li>
+<li>Licencia: GPL-3.0</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../../Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.html" class="pagination-link" aria-label="DroidPad: Configuración, Escalas y Magnitudes">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">88</span>&nbsp; <span class="chapter-title">DroidPad: Configuración, Escalas y Magnitudes</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../../Odisea/Archivo/FISICA/Física.html" class="pagination-link" aria-label="Física del SCG (Sistema Centrífugo de Gravedad) - Odisea">
+        <span class="nav-page-text"><span class="chapter-number">90</span>&nbsp; <span class="chapter-title">Física del SCG (Sistema Centrífugo de Gravedad) - Odisea</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
