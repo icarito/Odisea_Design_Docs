@@ -1,3 +1,4 @@
+![[mecanica_herramienta_mantenimiento.jpeg]]
 # Mecánicas de la Herramienta de Mantenimiento
 
 La Herramienta de Mantenimiento es la multi-herramienta de Elías y su principal forma de interactuar con los puzzles de la nave. Refuerza la fantasía de ser un técnico y no un soldado.

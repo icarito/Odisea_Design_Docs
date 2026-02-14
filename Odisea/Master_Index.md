@@ -48,6 +48,7 @@ Elías despierta en la nave Odisea tras un largo letargo criogénico. La IA Odis
 ### Diseño y Mecánicas
 * [[01_Pilares_de_Diseno]]
 * [[02_Mecanicas_Clave]]
+* [[Apéndice_Imagenes_Huérfanas|Galería de Conceptos Extra]]
 
 ### Personajes Principales
 * [[Personaje_Elias]]

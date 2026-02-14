@@ -1,4 +1,7 @@
+![[vehiculo_aereo_modelo.png]]
 # Mecánicas del Vehículo Flotante/Aéreo
+
+![[vehiculo_aereo_secundario.png]]
 
 El vehículo aéreo es una herramienta de exploración avanzada que otorga a Elías la capacidad de navegar por grandes cámaras verticales o inundadas y zonas de gravedad cero sin depender de su propulsor personal.
 

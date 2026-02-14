@@ -1,3 +1,4 @@
+![[mecanica_gravedad_variable.jpeg]]
 # Mecánicas de Gravedad Variable
 
 La Gravedad Variable es una de las mecánicas centrales y un pilar de diseño de "Odisea". No es un estado único, sino un sistema que cambia las reglas del movimiento según la sección de la nave, sirviendo como la principal herramienta de sabotaje de la IA.

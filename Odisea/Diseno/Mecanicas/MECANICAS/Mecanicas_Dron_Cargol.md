@@ -1,4 +1,7 @@
+![[dron_cargol_modelo.png]]
 # Mecánicas del Dron Cargol (Asistente Remoto)
+
+![[dron_cargol_secundario.png]]
 
 Cargol no es solo una herramienta, sino el compañero de Elías y un elemento central de la narrativa. Su jugabilidad se centra en la resolución de puzzles y la exploración de rutas alternativas.
 

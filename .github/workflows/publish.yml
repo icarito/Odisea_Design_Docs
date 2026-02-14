@@ -19,6 +19,9 @@ jobs:
         with:
           tinytex: true
 
+      - name: Generate Orphaned Images Appendix
+        run: python3 scripts/generate_orphaned_appendix.py
+
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
         # No 'to' input means render all formats defined in _quarto.yml (html and pdf)

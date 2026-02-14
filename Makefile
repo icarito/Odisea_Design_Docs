@@ -15,6 +15,9 @@ json:
 html:
 	$(PYTHON) scripts/md_to_html.py
 
+appendix:
+	$(PYTHON) scripts/generate_orphaned_appendix.py
+
 all: render export-json
 
-.PHONY: preview render html export-json all
+.PHONY: preview render html export-json all appendix

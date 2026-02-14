@@ -1,3 +1,4 @@
+![[acto2_laberinto_portada.png]]
 # Acto II: El Laberinto
 
 ![[mecanica_herramienta_mantenimiento.jpeg]]

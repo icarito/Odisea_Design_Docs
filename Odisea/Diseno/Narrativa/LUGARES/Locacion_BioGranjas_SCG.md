@@ -1,4 +1,5 @@
 
+![[vehiculo_4x4_biogranja.png]]
 # Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II
 
 *   **Tema / Estética**: "El Corazón Inestable". Contraste entre estética orgánica y hard sci-fi. Vegetación de neón bajo iluminación UV. Grandes domos de cristal que miran al espacio.
