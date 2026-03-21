@@ -84,7 +84,14 @@ local VAULT_MAP = {
 local function make_image(target, alt)
   local img = target
   if not img:match('^_ASSETS/') and not img:match('^/') and not img:match('^https?://') and not img:match('^data:') then
-    img = '/Odisea_Design_Docs/Odisea/_ASSETS/' .. img
+    -- Para HTML (GitHub Pages): ruta absoluta con base del repo
+    -- Para PDF/LaTeX: ruta relativa desde la raíz del proyecto
+    local fmt = FORMAT or ''
+    if fmt:match('html') then
+      img = '/Odisea_Design_Docs/Odisea/_ASSETS/' .. img
+    else
+      img = 'Odisea/_ASSETS/' .. img
+    end
   end
   if alt and alt ~= '' then
     return pandoc.Image(alt, img)
