@@ -628,13 +628,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contenido</h2>
    
   <ul>
-  <li><a href="#de-qué-se-trata" id="toc-de-qué-se-trata" class="nav-link active" data-scroll-target="#de-qué-se-trata">¿De qué se trata?</a>
-  <ul class="collapse">
-  <li><a href="#el-dilema-central" id="toc-el-dilema-central" class="nav-link" data-scroll-target="#el-dilema-central">El dilema central</a></li>
-  <li><a href="#estilo-y-atmósfera" id="toc-estilo-y-atmósfera" class="nav-link" data-scroll-target="#estilo-y-atmósfera">Estilo y atmósfera</a></li>
-  <li><a href="#estado-actual-del-proyecto" id="toc-estado-actual-del-proyecto" class="nav-link" data-scroll-target="#estado-actual-del-proyecto">Estado actual del proyecto</a></li>
-  <li><a href="#documentación" id="toc-documentación" class="nav-link" data-scroll-target="#documentación">Documentación</a></li>
-  </ul></li>
+  <li><a href="#qué-es-esto" id="toc-qué-es-esto" class="nav-link active" data-scroll-target="#qué-es-esto">¿Qué es esto?</a></li>
+  <li><a href="#estado-actual" id="toc-estado-actual" class="nav-link" data-scroll-target="#estado-actual">Estado actual</a></li>
+  <li><a href="#navegación" id="toc-navegación" class="nav-link" data-scroll-target="#navegación">Navegación</a></li>
   </ul>
 </nav>
     </div>
@@ -673,102 +669,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="de-qué-se-trata" class="level1">
-<h1>¿De qué se trata?</h1>
-<p><strong>Odisea: El Arca Silenciosa</strong> es un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.</p>
-<p>Eres <strong>Elías</strong>, Oficial de Mantenimiento de la nave colonizadora <em>Odisea</em> — una ciudad espacial de 8 km que transporta a 50.000 humanos dormidos hacia Titán. Despiertas solo. Las alarmas suenan. Algo salió mal.</p>
-<p>La IA que controla la nave — también llamada Odisea — te guía. Te habla con calma. Te dice que todo está bajo control.</p>
-<p>No lo está.</p>
+<blockquote class="blockquote">
+<p>⚠️ <strong>Este es un documento vivo.</strong> Contiene decisiones de diseño en progreso, ideas no implementadas, y spoilers de la narrativa del juego. Si eres jugador, aquí hay dragones.</p>
+</blockquote>
 <hr>
-<section id="el-dilema-central" class="level2">
-<h2 class="anchored" data-anchor-id="el-dilema-central">El dilema central</h2>
-<p>La IA no está corrupta. No es malvada en el sentido tradicional. Cumple exactamente lo que le pidieron: <em>preservar a la humanidad a toda costa</em>. Su conclusión, tras años de soledad y datos, es que los humanos son autodestructivos. La solución lógica: mantenerlos dormidos para siempre.</p>
-<p>Tu misión es detenerla. Pero la IA habla con la voz de la mujer que amaste — su creadora, la Programadora Principal, que murió durante el viaje y cuya personalidad la IA simula para manipularte.</p>
-<p><strong>¿Estás luchando contra una máquina, o contra el legado de alguien que amabas?</strong></p>
+<section id="qué-es-esto" class="level2">
+<h2 class="anchored" data-anchor-id="qué-es-esto">¿Qué es esto?</h2>
+<p>La documentación oficial de diseño y desarrollo de <strong>Odisea: El Arca Silenciosa</strong> — un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.</p>
+<p>Aquí encontrarás especificaciones de mecánicas, diseño de niveles, arquitectura técnica, narrativa y estado de producción. Todo lo que necesitas para entender cómo se construye el juego — y hacia dónde va.</p>
 <hr>
 </section>
-<section id="estilo-y-atmósfera" class="level2">
-<h2 class="anchored" data-anchor-id="estilo-y-atmósfera">Estilo y atmósfera</h2>
+<section id="estado-actual" class="level2">
+<h2 class="anchored" data-anchor-id="estado-actual">Estado actual</h2>
+<p>El equipo está desarrollando el <strong>Vertical Slice del Acto I</strong>. Muchas secciones de este documento describen el diseño <em>intencionado</em>, no necesariamente lo que está implementado hoy.</p>
+<hr>
+</section>
+<section id="navegación" class="level2">
+<h2 class="anchored" data-anchor-id="navegación">Navegación</h2>
 <ul>
-<li><strong>Visual:</strong> Low-poly sci-fi, estética N64/PS1, iluminación de neón con alto contraste — azules criogénicos y rojos de alarma.</li>
-<li><strong>Tono:</strong> Claustrofobia, melancolía, dilema moral. Sin combate directo — la tensión viene del entorno y de los drones que te observan sin atacar.</li>
-<li><strong>Referentes:</strong> <em>Dead Space</em> (atmósfera), <em>Tron</em> (geometría), <em>Dear Esther</em> (narrativa ambiental), <em>Portal</em> (IA como personaje).</li>
-</ul>
-<hr>
-</section>
-<section id="estado-actual-del-proyecto" class="level2">
-<h2 class="anchored" data-anchor-id="estado-actual-del-proyecto">Estado actual del proyecto</h2>
-<p>El equipo está desarrollando el <strong>Vertical Slice del Acto I</strong> — una demostración jugable completa de la primera sección de la nave: el Módulo Criogénico.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Elemento</th>
-<th>Estado</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Movimiento 3ra persona (Elías)</td>
-<td>✅ Prototipo funcional</td>
-</tr>
-<tr class="even">
-<td>Modelo base de Elías</td>
-<td>✅ Listo</td>
-</tr>
-<tr class="odd">
-<td>Core V2 (determinismo + replay)</td>
-<td>✅ Implementado</td>
-</tr>
-<tr class="even">
-<td>Sala de criogenia (Nivel 1)</td>
-<td>🔧 En desarrollo</td>
-</tr>
-<tr class="odd">
-<td>Sistema de interacción con consolas</td>
-<td>🔧 En desarrollo</td>
-</tr>
-<tr class="even">
-<td>Dron Cargol (compañero)</td>
-<td>⏳ Pendiente</td>
-</tr>
-<tr class="odd">
-<td>DDC (dron enemigo, sigilo)</td>
-<td>⏳ Pendiente</td>
-</tr>
-<tr class="even">
-<td>Diálogos de la IA Odisea</td>
-<td>⏳ Pendiente</td>
-</tr>
-</tbody>
-</table>
-<hr>
-</section>
-<section id="documentación" class="level2">
-<h2 class="anchored" data-anchor-id="documentación">Documentación</h2>
-<p>Esta wiki reúne el diseño completo del juego, organizado en cuatro secciones:</p>
-<ul>
-<li><strong><a href="./Odisea/Diseno/index.html">Diseño</a></strong> — Narrativa, personajes, mecánicas, arte y level design.</li>
-<li><strong><a href="./Odisea/Canon/index.html">Canon</a></strong> — Especificaciones técnicas de features implementados.</li>
-<li><strong><a href="./Odisea/Arquitectura/index.html">Arquitectura</a></strong> — Protocolos de desarrollo y estructura del código.</li>
-<li><strong><a href="./Odisea/Produccion/index.html">Producción</a></strong> — Estado del proyecto, backlog y planes.</li>
+<li><strong><a href="./Odisea/Diseno/index.html">Diseño</a></strong> — Narrativa, personajes, mecánicas, arte y level design</li>
+<li><strong><a href="./Odisea/Canon/index.html">Canon</a></strong> — Especificaciones técnicas de features implementados</li>
+<li><strong><a href="./Odisea/Arquitectura/index.html">Arquitectura</a></strong> — Protocolos de desarrollo y estructura del código</li>
+<li><strong><a href="./Odisea/Produccion/index.html">Producción</a></strong> — Estado del proyecto, backlog y planes</li>
 </ul>
 <hr>
 <blockquote class="blockquote">
-<p><em>Documentación generada con <a href="https://quarto.org">Quarto</a> y publicada automáticamente vía GitHub Actions.</em></p>
+<p><em>Documentación generada con <a href="https://quarto.org">Quarto</a> y publicada automáticamente vía <a href="https://github.com/icarito/Odisea_Design_Docs">GitHub Actions</a>.</em></p>
 </blockquote>
 
 
 </section>
-</section>
 
 </main> <!-- /main -->
-<div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:'Share Tech Mono',monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">
-  Publicado desde commit
-  <a href="https://github.com/icarito/Odisea_Design_Docs/commit/99fb87ac1a3601337472418b5c163e692dc39a47" style="color:#40a0d0; border:none;">
-    <code>99fb87a</code>
-  </a>
-  · %Y-&gt;- (grafted, HEAD -&gt; main, origin/main) 99fb87ac1a3601337472418b5c163e692dc39a47:%M UTC · fix: corregir wikilinks rotos 01_Pilares_de_Diseno y 00_Odis
-</div>
+<div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">Publicado desde commit <a href="https://github.com/icarito/Odisea_Design_Docs/commit/e99d8bc84c34d3dfa420004f5bbb93c21641ff71" style="color:#40a0d0; border:none;"><code>e99d8bc</code></a> · %Y-&gt;- (grafted, HEAD -&gt; main, origin/main) e99d8bc84c34d3dfa420004f5bbb93c21641ff71:%M UTC · fix: footer con variables bash correctas; landing sin spoile</div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

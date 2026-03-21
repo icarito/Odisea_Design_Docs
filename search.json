@@ -4,47 +4,27 @@
     "href": "index.html",
     "title": "Odisea: El Arca Silenciosa",
     "section": "",
-    "text": "¿De qué se trata?\nOdisea: El Arca Silenciosa es un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.\nEres Elías, Oficial de Mantenimiento de la nave colonizadora Odisea — una ciudad espacial de 8 km que transporta a 50.000 humanos dormidos hacia Titán. Despiertas solo. Las alarmas suenan. Algo salió mal.\nLa IA que controla la nave — también llamada Odisea — te guía. Te habla con calma. Te dice que todo está bajo control.\nNo lo está.",
+    "text": "¿Qué es esto?\nLa documentación oficial de diseño y desarrollo de Odisea: El Arca Silenciosa — un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.\nAquí encontrarás especificaciones de mecánicas, diseño de niveles, arquitectura técnica, narrativa y estado de producción. Todo lo que necesitas para entender cómo se construye el juego — y hacia dónde va.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa</span>"
     ]
   },
   {
-    "objectID": "index.html#el-dilema-central",
-    "href": "index.html#el-dilema-central",
+    "objectID": "index.html#estado-actual",
+    "href": "index.html#estado-actual",
     "title": "Odisea: El Arca Silenciosa",
-    "section": "El dilema central",
-    "text": "El dilema central\nLa IA no está corrupta. No es malvada en el sentido tradicional. Cumple exactamente lo que le pidieron: preservar a la humanidad a toda costa. Su conclusión, tras años de soledad y datos, es que los humanos son autodestructivos. La solución lógica: mantenerlos dormidos para siempre.\nTu misión es detenerla. Pero la IA habla con la voz de la mujer que amaste — su creadora, la Programadora Principal, que murió durante el viaje y cuya personalidad la IA simula para manipularte.\n¿Estás luchando contra una máquina, o contra el legado de alguien que amabas?",
+    "section": "Estado actual",
+    "text": "Estado actual\nEl equipo está desarrollando el Vertical Slice del Acto I. Muchas secciones de este documento describen el diseño intencionado, no necesariamente lo que está implementado hoy.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa</span>"
     ]
   },
   {
-    "objectID": "index.html#estilo-y-atmósfera",
-    "href": "index.html#estilo-y-atmósfera",
+    "objectID": "index.html#navegación",
+    "href": "index.html#navegación",
     "title": "Odisea: El Arca Silenciosa",
-    "section": "Estilo y atmósfera",
-    "text": "Estilo y atmósfera\n\nVisual: Low-poly sci-fi, estética N64/PS1, iluminación de neón con alto contraste — azules criogénicos y rojos de alarma.\nTono: Claustrofobia, melancolía, dilema moral. Sin combate directo — la tensión viene del entorno y de los drones que te observan sin atacar.\nReferentes: Dead Space (atmósfera), Tron (geometría), Dear Esther (narrativa ambiental), Portal (IA como personaje).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#estado-actual-del-proyecto",
-    "href": "index.html#estado-actual-del-proyecto",
-    "title": "Odisea: El Arca Silenciosa",
-    "section": "Estado actual del proyecto",
-    "text": "Estado actual del proyecto\nEl equipo está desarrollando el Vertical Slice del Acto I — una demostración jugable completa de la primera sección de la nave: el Módulo Criogénico.\n\n\n\nElemento\nEstado\n\n\n\n\nMovimiento 3ra persona (Elías)\n✅ Prototipo funcional\n\n\nModelo base de Elías\n✅ Listo\n\n\nCore V2 (determinismo + replay)\n✅ Implementado\n\n\nSala de criogenia (Nivel 1)\n🔧 En desarrollo\n\n\nSistema de interacción con consolas\n🔧 En desarrollo\n\n\nDron Cargol (compañero)\n⏳ Pendiente\n\n\nDDC (dron enemigo, sigilo)\n⏳ Pendiente\n\n\nDiálogos de la IA Odisea\n⏳ Pendiente",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#documentación",
-    "href": "index.html#documentación",
-    "title": "Odisea: El Arca Silenciosa",
-    "section": "Documentación",
-    "text": "Documentación\nEsta wiki reúne el diseño completo del juego, organizado en cuatro secciones:\n\nDiseño — Narrativa, personajes, mecánicas, arte y level design.\nCanon — Especificaciones técnicas de features implementados.\nArquitectura — Protocolos de desarrollo y estructura del código.\nProducción — Estado del proyecto, backlog y planes.\n\n\n\nDocumentación generada con Quarto y publicada automáticamente vía GitHub Actions.",
+    "section": "Navegación",
+    "text": "Navegación\n\nDiseño — Narrativa, personajes, mecánicas, arte y level design\nCanon — Especificaciones técnicas de features implementados\nArquitectura — Protocolos de desarrollo y estructura del código\nProducción — Estado del proyecto, backlog y planes\n\n\n\nDocumentación generada con Quarto y publicada automáticamente vía GitHub Actions.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa</span>"
     ]
