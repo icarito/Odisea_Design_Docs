@@ -32,7 +32,7 @@ Estado del proyecto, backlog y pipelines.
 ## Recursos Adicionales
 
 *   [Índice Maestro (Legacy)](Master_Index.md)
-*   [Descargar Wiki en PDF](Odisea.pdf) (Generado automáticamente)
+*   [Descargar Wiki en PDF](../Odisea.pdf) (Generado automáticamente)
 *   [Repositorio de Código (GitHub)](https://github.com/icarito/Odisea)
 
 ---

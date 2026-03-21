@@ -24,6 +24,7 @@ local function make_link(target, alias)
   end
   -- Normalizar: quitar .md final si existe
   local t = target:gsub('%.md$', '')
+  local url
   -- URLs absolutas
   if t:match('^https?://') then
     url = t
@@ -31,17 +32,10 @@ local function make_link(target, alias)
     -- Si ya contiene una ruta, convertir a .html (ej: Odisea/Algo -> Odisea/Algo.html)
     url = t .. '.html'
   else
-    -- Resolver en la misma carpeta que el archivo de entrada actual
-    local input_file = PANDOC_STATE and PANDOC_STATE.input_files and PANDOC_STATE.input_files[1] or nil
-    local base = ''
-    if input_file then
-      base = input_file:match('(.*/)' ) or ''
-    end
-    if base and base ~= '' then
-      url = base .. t .. '.html'
-    else
-      url = t .. '.html'
-    end
+    -- Wikilink sin ruta: usar solo el nombre del archivo como link relativo.
+    -- NO usar PANDOC_STATE.input_files porque esa ruta es /tmp/... durante el render.
+    -- El navegador resolverá el link relativo desde la página actual.
+    url = t .. '.html'
   end
   return pandoc.Link(text, url)
 end
