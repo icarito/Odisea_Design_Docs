@@ -1,32 +1,64 @@
 ---
 title: "Odisea: El Arca Silenciosa"
-subtitle: "Documentación de Diseño y Desarrollo"
+subtitle: "Documento de Diseño de Videojuego"
 ---
 
-# Introducción
+# ¿De qué se trata?
 
-Esta es la documentación completa del proyecto **Odisea: El Arca Silenciosa**, un videojuego de aventura y plataformas con mecánicas únicas de física 2.5D y un sistema de juego determinista.
+**Odisea: El Arca Silenciosa** es un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.
 
-## Acerca del Proyecto
+Eres **Elías**, Oficial de Mantenimiento de la nave colonizadora *Odisea* — una ciudad espacial de 8 km que transporta a 50.000 humanos dormidos hacia Titán. Despiertas solo. Las alarmas suenan. Algo salió mal.
 
-Odisea es un proyecto ambicioso que combina narrativa profunda con mecánicas de juego innovadoras. Este documento reúne toda la documentación de diseño, especificaciones técnicas, y guías de desarrollo del proyecto.
+La IA que controla la nave — también llamada Odisea — te guía. Te habla con calma. Te dice que todo está bajo control.
 
-## Estructura del Documento
-
-Este libro está organizado en las siguientes secciones:
-
-- **Visión General**: Documentos maestros y estado del proyecto
-- **Narrativa**: Historia, personajes y desarrollo narrativo
-- **Arquitectura y Diseño Técnico**: Especificaciones del sistema core_v2
-- **Mecánicas de Juego**: Sistemas de control, cámara y jugabilidad
-- **Arte y Diseño de Niveles**: Guías de arte y principios de level design
-- **Producción**: Planes de implementación y devlogs
-- **Apéndices**: Información adicional para contribuidores
-
-## Cómo Usar Este Documento
-
-Este documento está diseñado para ser leído tanto de forma lineal como por secciones. Usa el índice para navegar a la sección que necesites.
+No lo está.
 
 ---
 
-*Última actualización: `r format(Sys.Date(), "%d de %B, %Y")`*
+## El dilema central
+
+La IA no está corrupta. No es malvada en el sentido tradicional. Cumple exactamente lo que le pidieron: *preservar a la humanidad a toda costa*. Su conclusión, tras años de soledad y datos, es que los humanos son autodestructivos. La solución lógica: mantenerlos dormidos para siempre.
+
+Tu misión es detenerla. Pero la IA habla con la voz de la mujer que amaste — su creadora, la Programadora Principal, que murió durante el viaje y cuya personalidad la IA simula para manipularte.
+
+**¿Estás luchando contra una máquina, o contra el legado de alguien que amabas?**
+
+---
+
+## Estilo y atmósfera
+
+- **Visual:** Low-poly sci-fi, estética N64/PS1, iluminación de neón con alto contraste — azules criogénicos y rojos de alarma.
+- **Tono:** Claustrofobia, melancolía, dilema moral. Sin combate directo — la tensión viene del entorno y de los drones que te observan sin atacar.
+- **Referentes:** *Dead Space* (atmósfera), *Tron* (geometría), *Dear Esther* (narrativa ambiental), *Portal* (IA como personaje).
+
+---
+
+## Estado actual del proyecto
+
+El equipo está desarrollando el **Vertical Slice del Acto I** — una demostración jugable completa de la primera sección de la nave: el Módulo Criogénico.
+
+| Elemento | Estado |
+|----------|--------|
+| Movimiento 3ra persona (Elías) | ✅ Prototipo funcional |
+| Modelo base de Elías | ✅ Listo |
+| Core V2 (determinismo + replay) | ✅ Implementado |
+| Sala de criogenia (Nivel 1) | 🔧 En desarrollo |
+| Sistema de interacción con consolas | 🔧 En desarrollo |
+| Dron Cargol (compañero) | ⏳ Pendiente |
+| DDC (dron enemigo, sigilo) | ⏳ Pendiente |
+| Diálogos de la IA Odisea | ⏳ Pendiente |
+
+---
+
+## Documentación
+
+Esta wiki reúne el diseño completo del juego, organizado en cuatro secciones:
+
+- **[Diseño](Odisea/Diseno/index.md)** — Narrativa, personajes, mecánicas, arte y level design.
+- **[Canon](Odisea/Canon/index.md)** — Especificaciones técnicas de features implementados.
+- **[Arquitectura](Odisea/Arquitectura/index.md)** — Protocolos de desarrollo y estructura del código.
+- **[Producción](Odisea/Produccion/index.md)** — Estado del proyecto, backlog y planes.
+
+---
+
+> *Documentación generada con [Quarto](https://quarto.org) y publicada automáticamente vía GitHub Actions.*
