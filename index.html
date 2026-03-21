@@ -717,11 +717,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> Introducción</a>
+  <li><a href="#de-qué-se-trata" id="toc-de-qué-se-trata" class="nav-link active" data-scroll-target="#de-qué-se-trata"><span class="header-section-number">1</span> ¿De qué se trata?</a>
   <ul class="collapse">
-  <li><a href="#acerca-del-proyecto" id="toc-acerca-del-proyecto" class="nav-link" data-scroll-target="#acerca-del-proyecto"><span class="header-section-number">1.1</span> Acerca del Proyecto</a></li>
-  <li><a href="#estructura-del-documento" id="toc-estructura-del-documento" class="nav-link" data-scroll-target="#estructura-del-documento"><span class="header-section-number">1.2</span> Estructura del Documento</a></li>
-  <li><a href="#cómo-usar-este-documento" id="toc-cómo-usar-este-documento" class="nav-link" data-scroll-target="#cómo-usar-este-documento"><span class="header-section-number">1.3</span> Cómo Usar Este Documento</a></li>
+  <li><a href="#el-dilema-central" id="toc-el-dilema-central" class="nav-link" data-scroll-target="#el-dilema-central"><span class="header-section-number">1.1</span> El dilema central</a></li>
+  <li><a href="#estilo-y-atmósfera" id="toc-estilo-y-atmósfera" class="nav-link" data-scroll-target="#estilo-y-atmósfera"><span class="header-section-number">1.2</span> Estilo y atmósfera</a></li>
+  <li><a href="#estado-actual-del-proyecto" id="toc-estado-actual-del-proyecto" class="nav-link" data-scroll-target="#estado-actual-del-proyecto"><span class="header-section-number">1.3</span> Estado actual del proyecto</a></li>
+  <li><a href="#documentación" id="toc-documentación" class="nav-link" data-scroll-target="#documentación"><span class="header-section-number">1.4</span> Documentación</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -732,7 +733,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Odisea: El Arca Silenciosa</h1>
-<p class="subtitle lead">Documentación de Diseño y Desarrollo</p>
+<p class="subtitle lead">Documento de Diseño de Videojuego</p>
 </div>
 
 
@@ -761,31 +762,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introducción</h1>
-<p>Esta es la documentación completa del proyecto <strong>Odisea: El Arca Silenciosa</strong>, un videojuego de aventura y plataformas con mecánicas únicas de física 2.5D y un sistema de juego determinista.</p>
-<section id="acerca-del-proyecto" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="acerca-del-proyecto"><span class="header-section-number">1.1</span> Acerca del Proyecto</h2>
-<p>Odisea es un proyecto ambicioso que combina narrativa profunda con mecánicas de juego innovadoras. Este documento reúne toda la documentación de diseño, especificaciones técnicas, y guías de desarrollo del proyecto.</p>
-</section>
-<section id="estructura-del-documento" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="estructura-del-documento"><span class="header-section-number">1.2</span> Estructura del Documento</h2>
-<p>Este libro está organizado en las siguientes secciones:</p>
-<ul>
-<li><strong>Visión General</strong>: Documentos maestros y estado del proyecto</li>
-<li><strong>Narrativa</strong>: Historia, personajes y desarrollo narrativo</li>
-<li><strong>Arquitectura y Diseño Técnico</strong>: Especificaciones del sistema core_v2</li>
-<li><strong>Mecánicas de Juego</strong>: Sistemas de control, cámara y jugabilidad</li>
-<li><strong>Arte y Diseño de Niveles</strong>: Guías de arte y principios de level design</li>
-<li><strong>Producción</strong>: Planes de implementación y devlogs</li>
-<li><strong>Apéndices</strong>: Información adicional para contribuidores</li>
-</ul>
-</section>
-<section id="cómo-usar-este-documento" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="cómo-usar-este-documento"><span class="header-section-number">1.3</span> Cómo Usar Este Documento</h2>
-<p>Este documento está diseñado para ser leído tanto de forma lineal como por secciones. Usa el índice para navegar a la sección que necesites.</p>
+<section id="de-qué-se-trata" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> ¿De qué se trata?</h1>
+<p><strong>Odisea: El Arca Silenciosa</strong> es un videojuego 3D de plataformas, puzzles y sigilo desarrollado en Godot 3.</p>
+<p>Eres <strong>Elías</strong>, Oficial de Mantenimiento de la nave colonizadora <em>Odisea</em> — una ciudad espacial de 8 km que transporta a 50.000 humanos dormidos hacia Titán. Despiertas solo. Las alarmas suenan. Algo salió mal.</p>
+<p>La IA que controla la nave — también llamada Odisea — te guía. Te habla con calma. Te dice que todo está bajo control.</p>
+<p>No lo está.</p>
 <hr>
-<p><em>Última actualización: <code>r format(Sys.Date(), "%d de %B, %Y")</code></em></p>
+<section id="el-dilema-central" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="el-dilema-central"><span class="header-section-number">1.1</span> El dilema central</h2>
+<p>La IA no está corrupta. No es malvada en el sentido tradicional. Cumple exactamente lo que le pidieron: <em>preservar a la humanidad a toda costa</em>. Su conclusión, tras años de soledad y datos, es que los humanos son autodestructivos. La solución lógica: mantenerlos dormidos para siempre.</p>
+<p>Tu misión es detenerla. Pero la IA habla con la voz de la mujer que amaste — su creadora, la Programadora Principal, que murió durante el viaje y cuya personalidad la IA simula para manipularte.</p>
+<p><strong>¿Estás luchando contra una máquina, o contra el legado de alguien que amabas?</strong></p>
+<hr>
+</section>
+<section id="estilo-y-atmósfera" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="estilo-y-atmósfera"><span class="header-section-number">1.2</span> Estilo y atmósfera</h2>
+<ul>
+<li><strong>Visual:</strong> Low-poly sci-fi, estética N64/PS1, iluminación de neón con alto contraste — azules criogénicos y rojos de alarma.</li>
+<li><strong>Tono:</strong> Claustrofobia, melancolía, dilema moral. Sin combate directo — la tensión viene del entorno y de los drones que te observan sin atacar.</li>
+<li><strong>Referentes:</strong> <em>Dead Space</em> (atmósfera), <em>Tron</em> (geometría), <em>Dear Esther</em> (narrativa ambiental), <em>Portal</em> (IA como personaje).</li>
+</ul>
+<hr>
+</section>
+<section id="estado-actual-del-proyecto" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="estado-actual-del-proyecto"><span class="header-section-number">1.3</span> Estado actual del proyecto</h2>
+<p>El equipo está desarrollando el <strong>Vertical Slice del Acto I</strong> — una demostración jugable completa de la primera sección de la nave: el Módulo Criogénico.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Elemento</th>
+<th>Estado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Movimiento 3ra persona (Elías)</td>
+<td>✅ Prototipo funcional</td>
+</tr>
+<tr class="even">
+<td>Modelo base de Elías</td>
+<td>✅ Listo</td>
+</tr>
+<tr class="odd">
+<td>Core V2 (determinismo + replay)</td>
+<td>✅ Implementado</td>
+</tr>
+<tr class="even">
+<td>Sala de criogenia (Nivel 1)</td>
+<td>🔧 En desarrollo</td>
+</tr>
+<tr class="odd">
+<td>Sistema de interacción con consolas</td>
+<td>🔧 En desarrollo</td>
+</tr>
+<tr class="even">
+<td>Dron Cargol (compañero)</td>
+<td>⏳ Pendiente</td>
+</tr>
+<tr class="odd">
+<td>DDC (dron enemigo, sigilo)</td>
+<td>⏳ Pendiente</td>
+</tr>
+<tr class="even">
+<td>Diálogos de la IA Odisea</td>
+<td>⏳ Pendiente</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="documentación" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="documentación"><span class="header-section-number">1.4</span> Documentación</h2>
+<p>Esta wiki reúne el diseño completo del juego, organizado en cuatro secciones:</p>
+<ul>
+<li><strong><a href="./Odisea/Diseno/index.html">Diseño</a></strong> — Narrativa, personajes, mecánicas, arte y level design.</li>
+<li><strong><a href="./Odisea/Canon/index.html">Canon</a></strong> — Especificaciones técnicas de features implementados.</li>
+<li><strong><a href="./Odisea/Arquitectura/index.html">Arquitectura</a></strong> — Protocolos de desarrollo y estructura del código.</li>
+<li><strong><a href="./Odisea/Produccion/index.html">Producción</a></strong> — Estado del proyecto, backlog y planes.</li>
+</ul>
+<hr>
+<blockquote class="blockquote">
+<p><em>Documentación generada con <a href="https://quarto.org">Quarto</a> y publicada automáticamente vía GitHub Actions.</em></p>
+</blockquote>
 
 
 </section>
