@@ -11,6 +11,8 @@ book:
   title: 'Odisea: El Arca Silenciosa'
   author: Equipo Odisea
   date: last-modified
+  sidebar:
+    collapse-level: 1
   chapters:
   - index.qmd
   - Odisea/index.md
