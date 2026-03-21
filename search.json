@@ -104,7 +104,7 @@
     "href": "Odisea/Master_Index.html#navegación-del-proyecto-solo-lo-esencial-para-mvp",
     "title": "Odisea: El Arca Silenciosa — Índice Maestro (MVP)",
     "section": "Navegación del Proyecto (Solo lo esencial para MVP)",
-    "text": "Navegación del Proyecto (Solo lo esencial para MVP)\n\nDiseño y Mecánicas\n\n01_Pilares_de_Diseno\n02_Mecanicas_Clave\n[[Apéndice_Imagenes_Huérfanas|Galería de Conceptos Extra]]\n\n\n\nPersonajes Principales\n\nPersonaje_Elias\nPersonaje_IA_Odisea\nEntidad_Cargol\n\n\n\nActo I (MVP)\n\nActo_I_La_Negacion\n\n\n\nEnemigos y Amenazas (MVP)\n\nEnemigos_Drones_y_Sistemas\n\n\n\nMundo y Entorno (MVP)\n\nLocacion_Criogenia\n\n\n\nPlan de Producción\n\nPlan_Implementacion_MVP",
+    "text": "Navegación del Proyecto (Solo lo esencial para MVP)\n\nDiseño y Mecánicas\n\nPilares\n02_Mecanicas_Clave\n[[Apéndice_Imagenes_Huérfanas|Galería de Conceptos Extra]]\n\n\n\nPersonajes Principales\n\nPersonaje_Elias\nPersonaje_IA_Odisea\nEntidad_Cargol\n\n\n\nActo I (MVP)\n\nActo_I_La_Negacion\n\n\n\nEnemigos y Amenazas (MVP)\n\nEnemigos_Drones_y_Sistemas\n\n\n\nMundo y Entorno (MVP)\n\nLocacion_Criogenia\n\n\n\nPlan de Producción\n\nPlan_Implementacion_MVP",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span>"
     ]
@@ -2851,7 +2851,7 @@
     "href": "Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#tabla-de-mecánicas-mínimas-mvp---acto-i",
     "title": "Plan de Implementación MVP - Odisea",
     "section": "Tabla de Mecánicas Mínimas (MVP - Acto I)",
-    "text": "Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición\n\n\n\n\n\nEste plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.\nVer 00_Odisea_Master para navegación general del proyecto.",
+    "text": "Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición\n\n\n\n\n\nEste plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.\nVer Master_Index para navegación general del proyecto.",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>76</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
