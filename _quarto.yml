@@ -114,10 +114,20 @@ book:
     - Odisea/Archivo/FISICA/Física.md
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: style.css
     toc: true
-    number-sections: true
+    toc-depth: 3
+    toc-title: "Contenido"
+    number-sections: false
+    smooth-scroll: true
+    code-copy: true
+    link-external-icon: true
+    link-external-newwindow: true
+    include-after-body: _footer.html
+    page-footer:
+      left: "Odisea: El Arca Silenciosa"
+      right: "[GitHub](https://github.com/icarito/Odisea_Design_Docs)"
   pdf:
     pdf-engine: xelatex
     output-file: Odisea.pdf
