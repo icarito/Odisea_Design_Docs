@@ -29,18 +29,12 @@ jobs:
 
       - name: Generate footer with commit info
         run: |
-          SHORT_SHA=$(echo "${{ github.sha }}" | cut -c1-7)
+          FULL_SHA="${{ github.sha }}"
+          SHORT_SHA="${FULL_SHA:0:7}"
           COMMIT_DATE=$(git log -1 --format="%Y-%m-%d %H:%M UTC")
           COMMIT_MSG=$(git log -1 --format="%s" | cut -c1-60)
-          cat > _footer.html << EOF
-          <div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:'Share Tech Mono',monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">
-            Publicado desde commit
-            <a href="https://github.com/icarito/Odisea_Design_Docs/commit/${{ github.sha }}" style="color:#40a0d0; border:none;">
-              <code>${SHORT_SHA}</code>
-            </a>
-            · ${COMMIT_DATE} · ${COMMIT_MSG}
-          </div>
-          EOF
+          printf '<div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">Publicado desde commit <a href="https://github.com/icarito/Odisea_Design_Docs/commit/%s" style="color:#40a0d0; border:none;"><code>%s</code></a> · %s · %s</div>\n' \
+            "$FULL_SHA" "$SHORT_SHA" "$COMMIT_DATE" "$COMMIT_MSG" > _footer.html
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
