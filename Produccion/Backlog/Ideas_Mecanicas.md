@@ -1,3 +1,0 @@
-# Ideas Mecánicas
-
-- Bounce balls
