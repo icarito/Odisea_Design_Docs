@@ -1,0 +1,196 @@
+{
+  "nodes": [
+    {
+      "id": "spawn",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 160,
+      "color": "1",
+      "text": "## 🛏️ SPAWN\n**Criocápsula se abre**\n\n- Fade in desde negro\n- Sonido: respiración + latidos\n- Vapor hidráulico\n- ⏱ 0–2s (cinemática)"
+    },
+    {
+      "id": "dolly",
+      "type": "text",
+      "x": 360,
+      "y": 0,
+      "width": 280,
+      "height": 160,
+      "color": "1",
+      "text": "## 🎥 DOLLY SHOT\n**Cámara revela el pasillo**\n\n- Riel scriptado 4s\n- 49.000 cápsulas visibles\n- Escala aplastante\n- ⏱ 2–6s (cinemática)"
+    },
+    {
+      "id": "control",
+      "type": "text",
+      "x": 720,
+      "y": 0,
+      "width": 280,
+      "height": 160,
+      "color": "6",
+      "text": "## 🎮 CONTROL AL JUGADOR\n**Primer tramo del pasillo (eje N-S)**\n\n- Movimiento libre\n- 3× holopantallas pasivas\n- Luz de guía: cubículo al fondo\n- ⏱ ~60s"
+    },
+    {
+      "id": "holopantallas",
+      "type": "text",
+      "x": 720,
+      "y": 240,
+      "width": 280,
+      "height": 180,
+      "color": "3",
+      "text": "## 📺 HOLOPANTALLAS (×3)\n*No interactuables*\n\n- Panel 1: Lista de pasajeros\n- Panel 2: Fecha y estado misión\n- Panel 3: Conteo cápsulas activas\n\n→ Narrativa ambiental pura\n→ Todo parece *en orden*"
+    },
+    {
+      "id": "cubiculo",
+      "type": "text",
+      "x": 1080,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "5",
+      "text": "## 🔧 CUBÍCULO DE CONTROL\n**En la esquina del L**\n\n- Punto más brillante del pasillo\n- 3× pantallas de sistema\n- 1× **TERMINAL** (naranja, activa)\n- Prompt: `[E] Hackear terminal`\n- ⏱ ~90s"
+    },
+    {
+      "id": "terminal",
+      "type": "text",
+      "x": 1080,
+      "y": 280,
+      "width": 300,
+      "height": 200,
+      "color": "4",
+      "text": "## 💻 TERMINAL HACKEADA\n**Acción: presionar E**\n\n- Animación de texto automática\n- Pantalla de alerta: rojo → verde\n- *Click* metálico lejano\n- 🔓 Habilita el BOTÓN de la puerta\n\n⚡ Trigger: aparece holograma Odisea"
+    },
+    {
+      "id": "odisea1",
+      "type": "text",
+      "x": 1460,
+      "y": 280,
+      "width": 280,
+      "height": 180,
+      "color": "2",
+      "text": "## 👁️ ODISEA — Primera aparición\n*Holograma sobre la terminal*\n\n> *\"Elías. Es tarde para estar despierto. El Protocolo Arca garantiza tu seguridad. Te recomiendo volver a la cápsula.\"*\n\n→ No bloquea. Solo observa."
+    },
+    {
+      "id": "tramo2",
+      "type": "text",
+      "x": 1460,
+      "y": 0,
+      "width": 280,
+      "height": 180,
+      "color": "6",
+      "text": "## 🚶 SEGUNDO TRAMO (eje E-O)\n**Después del cubículo**\n\n- 2× holopantallas de *anomalía*\n  - \"Trayectoria: DESVIADA\"\n  - Log de error (hace 6 meses)\n- BOTÓN visible al fondo\n- ⏱ ~60s"
+    },
+    {
+      "id": "boton",
+      "type": "text",
+      "x": 1820,
+      "y": 0,
+      "width": 260,
+      "height": 180,
+      "color": "4",
+      "text": "## 🔴→🟢 BOTÓN DE PUERTA\n**Estado según terminal**\n\n- Antes del hackeo: sin prompt\n- Después: `[E] Abrir puerta`\n- Luz roja → verde al activarse\n\n→ Enseña: el mundo reacciona\na tus acciones previas"
+    },
+    {
+      "id": "puerta",
+      "type": "text",
+      "x": 2160,
+      "y": 0,
+      "width": 260,
+      "height": 160,
+      "color": "1",
+      "text": "## 🚪 PUERTA BULKHEAD\n**Abre con sonido neumático**\n\n- Luz del corredor siguiente\n- Screen shake leve\n- Golpe metálico lejano\n- La puerta se cierra detrás\n- ⏱ ~15s (cinemática breve)"
+    },
+    {
+      "id": "odisea2",
+      "type": "text",
+      "x": 2160,
+      "y": 240,
+      "width": 260,
+      "height": 160,
+      "color": "2",
+      "text": "## 👁️ ODISEA — Cliffhanger\n*Solo voz, sin holograma*\n\n> *\"Confía en mí, Elías.\"*\n\n→ Silencio\n→ El jugador avanza\n→ Transición a Sala 2"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "spawn",
+      "fromSide": "right",
+      "toNode": "dolly",
+      "toSide": "left",
+      "label": "cinemática"
+    },
+    {
+      "id": "e2",
+      "fromNode": "dolly",
+      "fromSide": "right",
+      "toNode": "control",
+      "toSide": "left",
+      "label": "control al jugador"
+    },
+    {
+      "id": "e3",
+      "fromNode": "control",
+      "fromSide": "bottom",
+      "toNode": "holopantallas",
+      "toSide": "top",
+      "label": "opcional"
+    },
+    {
+      "id": "e4",
+      "fromNode": "control",
+      "fromSide": "right",
+      "toNode": "cubiculo",
+      "toSide": "left",
+      "label": "avanzar al giro"
+    },
+    {
+      "id": "e5",
+      "fromNode": "cubiculo",
+      "fromSide": "bottom",
+      "toNode": "terminal",
+      "toSide": "top",
+      "label": "[E]"
+    },
+    {
+      "id": "e6",
+      "fromNode": "terminal",
+      "fromSide": "right",
+      "toNode": "odisea1",
+      "toSide": "left",
+      "label": "trigger"
+    },
+    {
+      "id": "e7",
+      "fromNode": "cubiculo",
+      "fromSide": "right",
+      "toNode": "tramo2",
+      "toSide": "left",
+      "label": "doblar la esquina"
+    },
+    {
+      "id": "e8",
+      "fromNode": "tramo2",
+      "fromSide": "right",
+      "toNode": "boton",
+      "toSide": "left",
+      "label": "llegar al botón"
+    },
+    {
+      "id": "e9",
+      "fromNode": "boton",
+      "fromSide": "right",
+      "toNode": "puerta",
+      "toSide": "left",
+      "label": "[E]"
+    },
+    {
+      "id": "e10",
+      "fromNode": "puerta",
+      "fromSide": "bottom",
+      "toNode": "odisea2",
+      "toSide": "top",
+      "label": "al cruzar"
+    }
+  ]
+}
