@@ -104,7 +104,7 @@ Encounter design governs every challenge the player faces, from tense stealth se
 
 ### 5.1 Vantage Points & Player Choice
 
-Whenever possible, players must be given a **vantage point** to survey a challenge area before engaging. This empowers them to observe the environment, identify threats (such as patrolling DDC drones), spot opportunities (flanking routes, interactive objects), and formulate a plan. Our combat spaces must be designed to support multiple playstyles by offering viable paths and tools for different player archetypes.
+Whenever possible, players must be given a **vantage point** to survey a challenge area before engaging. This empowers them to observe the environment, identify threats (such as patrolling DDC units), spot opportunities (flanking routes, interactive objects), and formulate a plan. Our combat spaces must be designed to support multiple playstyles by offering viable paths and tools for different player archetypes.
 
 - **Rusher:** Prefers to charge directly into combat, relying on aggression and close-to-mid-range attacks. Levels must provide direct paths with sufficient cover.
 - **Sniper:** Seeks elevated positions with long lines of sight to engage enemies from a safe distance. Spaces should include overlooks and defendable perches.
@@ -113,10 +113,10 @@ Whenever possible, players must be given a **vantage point** to survey a challen
 
 ### 5.2 Single-Player Encounter Pacing (Act I)
 
-In Act I, Elias is alone, vulnerable, and just beginning to understand his predicament. The Odyssey AI is not yet openly hostile, instead orchestrating "accidents" and using non-combatant DDC drones for surveillance. Encounters in this act **must** reflect this narrative context.
+In Act I, Elias is alone, vulnerable, and just beginning to understand his predicament. The Odyssey AI is not yet openly hostile, instead orchestrating "accidents" and using non-combatant DDC units for surveillance. Encounters in this act **must** reflect this narrative context.
 
 - **Threat without Combat:** The primary tension will come from environmental hazards, such as sudden plasma leaks or malfunctioning machinery, and the psychological pressure of being watched by patrolling drones.
-- **Stealth and Avoidance:** Levels must feature clear routes that allow players to bypass DDC drones. The challenge is one of observation, timing, and patience, rewarding players who avoid confrontation.
+- **Stealth and Avoidance:** Levels must feature clear routes that allow players to bypass DDC units. The challenge is one of observation, timing, and patience, rewarding players who avoid confrontation.
 - **Puzzle as Encounter:** The main form of engagement will be environmental puzzles. Activating panels, manipulating transport belts, and using the Cargo drone to access new areas will constitute the core challenges of Act I.
 
 ### 5.3 Multiplayer Arena Design

@@ -13,7 +13,7 @@ La atmósfera de Criogenia se refuerza mediante el uso de **flipbook_particles**
 - **Fugas de Plasma**: Chispas y distorsiones visuales utilizando el nuevo sistema de partículas optimizado.
 
 ## Puzzles y Mecánicas
-* **Introducción al Sigilo:** Elías debe pasar por zonas patrulladas por Drones de Diagnóstico Corruptos (DDC). Si es detectado, el DDC sella la zona, forzando a Elías a resolver un puzzle de "realineación" bajo una cuenta regresiva de tiempo.
+* **Introducción al Sigilo:** Elías debe pasar por zonas patrulladas por Drones de Diagnóstico y Configuración (DDC) bajo control de Odisea. Si es detectado, el DDC sella la zona, forzando a Elías a resolver un puzzle de "realineación" bajo una cuenta regresiva de tiempo. Nota: los DDC usan el mismo hardware que Cargol; la diferencia es de software.
 * **Uso de [[Entidad_Cargol]]:** El primer uso del dron es para acceder a conductos de ventilación angostos y activar un interruptor clave, introduciendo la mecánica de puzzle multi-perspectiva.
 * **Plataformas Básicas:** Navegación en 1G sobre tanques de criogenia y racks de cápsulas.
 
