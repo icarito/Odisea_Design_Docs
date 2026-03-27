@@ -114,7 +114,7 @@
     "href": "Odisea/GDD_v3.html",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "",
-    "text": "1. Visión General\nOdisea es un juego de plataformas 3D con puzzles y exploración. El jugador es Elías, un Oficial de Mantenimiento que despierta de criogenia en una nave intergaláctica controlada por una IA llamada Odisea. La nave ha sido saboteada. El jugador debe reparar sistemas, evitar amenazas y descubrir la verdad sobre la misión.\nGénero: Plataformas 3D / Aventura / Puzzles Tono: Suspenso, claustrofobia, melancolía, dilema moral Estilo visual: Low-poly sci-fi retrofuturista. Iluminación de neón, niebla, metal industrial.",
+    "text": "1. Visión General\nOdisea es un juego de plataformas 3D con exploración y narrativa ambiental. El jugador es Elías, un Oficial de Mantenimiento que despierta de criogenia en una nave intergaláctica controlada por una IA llamada Odisea. La nave ha sido saboteada. El jugador debe recorrer el entorno, evitar amenazas y descubrir la verdad sobre la misión.\nGénero: Plataformas 3D / Aventura Tono: Suspenso, claustrofobia, melancolía, dilema moral Estilo visual: Low-poly sci-fi retrofuturista. Iluminación de neón, niebla, metal industrial.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -134,7 +134,7 @@
     "href": "Odisea/GDD_v3.html#personajes",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "3. Personajes",
-    "text": "3. Personajes\n\nElías (jugable)\nOficial de Mantenimiento. Traje naranja. Ágil, capaz de correr, saltar y usar herramientas. Despierta de criogenia sin recuerdos recientes.\n\n\nIA Odisea\nControla la nave. Comunica por voz, mensajes y efectos ambientales. Aparenta ser benevolente. Sus intenciones reales son ambiguas.\n\n\nCargol (NPC asistente)\nDron compañero. Se mueve por conductos de ventilación y zonas angostas. El jugador puede darle órdenes simples (ir a un punto, activar un interruptor). No es piloteable.\n\n\nDDC — Drone de Diagnóstico Corrupto\nDrone de seguridad reprogramado por la IA. Patrulla zonas y detecta al jugador. [DECIDIR: Forma final del modelo — disco hover por plasma, cuerpo compacto, sensor óptico. Ver concept art generados.]",
+    "text": "3. Personajes\n\nElías (jugable)\nOficial de Mantenimiento. Traje naranja. Ágil, capaz de correr y saltar. Despierta de criogenia sin recuerdos recientes.\n\n\nIA Odisea\nControla la nave. Comunica por voz y efectos ambientales. Aparenta ser benevolente. Sus intenciones reales son ambiguas.\n\n\nCargol (NPC asistente)\nDron compañero. Se mueve por conductos de ventilación y zonas angostas. El jugador puede darle órdenes simples (ir a un punto, activar un interruptor). No es piloteable.\n\n\nDD\nDrone de seguridad reprogramado por la IA. Patrulla zonas y detecta al jugador. [DECIDIR: Forma final del modelo — disco hover por plasma, cuerpo compacto, sensor óptico. Ver concept art generados.]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "Odisea/GDD_v3.html#mecánicas-del-jugador",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "4. Mecánicas del Jugador",
-    "text": "4. Mecánicas del Jugador\n\nMovimiento\n\nCaminar, correr, saltar, doble salto\nInteractuar con objetos del entorno (tecla E)\nUsar herramienta de mantenimiento (puzzle de reparación)\n\n\n\nFísica y Momentum\n\nConservación de momentum en movimiento\nMovimientos pendulares y aceleración mecánica\n[DECIDIR: ¿Se incluye gravedad variable en el VS? Posible combinación con momentum — gravedad fluctuante que amplifica la sensación física]\n\n\n\nSigilo\n\nZonas patrulladas por DDC\nDetección → alarma → zona sellada → puzzle de realineación bajo tiempo\nNo hay combate directo\n\n\n\nPuzzles\n\nActivación de consolas en secuencia\nUso de Cargol para zonas inaccesibles (órdenes simples)\nObjetos empujables / plataformas móviles\n[DECIDIR: Complejidad del puzzle de reparación — minijuego vs secuencia simple]",
+    "text": "4. Mecánicas del Jugador\n\nMovimiento\n\nCaminar, correr, saltar\nInteractuar con objetos del entorno (tecla E)\nUsar herramienta de mantenimiento\n\n\n\nFísica y Momentum\n\nConservación de momentum en movimiento\nMovimientos pendulares y aceleración mecánica\n[DECIDIR: ¿Se incluye gravedad variable en el VS? Posible combinación con momentum — gravedad fluctuante que amplifica la sensación física]\n\n\n\nNavegación y Observación\n\nEl jugador avanza explorando y leyendo el entorno\nLa narrativa es ambiental: props, iluminación, disposición del espacio\nDiálogo mínimo — voz de la IA Odisea como guía sutil, sin romper inmersión\n\n\n\nSigilo\n\nZonas patrulladas por DD\nDetección → alarma → zona sellada\nNo hay combate directo\n\n\n\nInteracción\n\nActivación de consolas y objetos del entorno\nUso de Cargol para zonas inaccesibles (órdenes simples)\n[DECIDIR: Objetos empujables / plataformas móviles — ¿en el VS?]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "Odisea/GDD_v3.html#vertical-slice-scope",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "5. Vertical Slice — Scope",
-    "text": "5. Vertical Slice — Scope\n\nLo que el VS debe demostrar\n\nEl jugador se mueve y se siente bien (momentum, inercia, game feel)\nUna sala con historia ambiental legible\nInteracción básica (consolas, objetos)\nUna zona de sigilo con DDC\nUso de Cargol como asistente\nAl menos un puzzle\nLa voz de la IA Odisea manipulando al jugador\n\n\n\nLo que NO está en el VS\n\nActos II, III, IV\nCargol piloteable\nVehículos (4WD, nave)\nModo 2.5D\nCooperativo\nCómic / trailer\nMedidor de integridad moral\n\n\n\n[DECIDIR: Punto final del VS]\n\nOpción A: Restaurar energía + clímax de la IA (revelación del Mando Final)\nOpción B: Solo la primera sala funcional como demo técnica\nOpción C: [definir]",
+    "text": "5. Vertical Slice — Scope\n\nLo que el VS debe demostrar\n\nEl jugador se mueve y se siente bien (momentum, inercia, game feel)\nUna sala con historia ambiental legible\nInteracción básica (consolas, objetos)\nUna zona de sigilo con DD\nUso de Cargol como asistente\nLa voz de la IA Odisea manipulando al jugador\n\n\n\nLo que NO está en el VS\n\nActos II, III, IV\nCargol piloteable\nVehículos (4WD, nave)\nModo 2.5D\nCooperativo\nCómic / trailer\nMedidor de integridad moral\nPuzzles de reparación / minijuegos de circuitos\n\n\n\n[DECIDIR: Punto final del VS]\n\nOpción A: Restaurar energía + clímax de la IA (revelación del Mando Final)\nOpción B: Solo la primera sala funcional como demo técnica\nOpción C: [definir]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -164,7 +164,7 @@
     "href": "Odisea/GDD_v3.html#entorno-módulo-criogenia",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "6. Entorno — Módulo Criogenia",
-    "text": "6. Entorno — Módulo Criogenia\nUbicación: Popa de la nave Odisea Estética: Claustrofóbico. Pasillos estrechos. Miles de cápsulas criogénicas emitiendo luz azul cian. Metal gris oscuro. Niebla criogénica densa. Traje naranja de Elías como único punto cálido.\nElementos clave: - Cápsulas criogénicas (props + iluminación) - Consolas de datos (interactuables) - Paneles de reparación (puntos de puzzle) - Conductos de ventilación (acceso Cargol) - Zonas patrulladas por DDC",
+    "text": "6. Entorno — Módulo Criogenia\nUbicación: Popa de la nave Odisea Estética: Claustrofóbico. Pasillos estrechos. Miles de cápsulas criogénicas emitiendo luz azul cian. Metal gris oscuro. Niebla criogénica densa. Traje naranja de Elías como único punto cálido.\nElementos clave: - Cápsulas criogénicas (props + iluminación) - Consolas de datos (interactuables) - Conductos de ventilación (acceso Cargol) - Zonas patrulladas por DD",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "Odisea/GDD_v3.html#amenazas-acto-i",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "7. Amenazas (Acto I)",
-    "text": "7. Amenazas (Acto I)\nTodas son sistemas de la nave reprogramados por la IA, no enemigos “vivos”.\n\n\n\n\n\n\n\n\nAmenaza\nComportamiento\nNotas\n\n\n\n\nDDC\nPatrulla, detecta, sella zona\nEnemigo principal del VS\n\n\nBrazos robóticos\nLentos, predecibles, aplastan\nAmbiental, no requiere sigilo\n\n\nTorres de purga\nEstáticas, gas frío, retienen\nTrampa de área\n\n\n\n[DECIDIR: ¿Cuántas amenazas están en el VS? Probablemente solo DDC + una ambiental.]",
+    "text": "7. Amenazas (Acto I)\nTodas son sistemas de la nave reprogramados por la IA, no enemigos “vivos”.\n\n\n\n\n\n\n\n\nAmenaza\nComportamiento\nNotas\n\n\n\n\nDD\nPatrulla, detecta, sella zona\nEnemigo principal del VS\n\n\nBrazos robóticos\nLentos, predecibles, aplastan\nAmbiental, no requiere sigilo\n\n\n\n[DECIDIR: ¿Cuántas amenazas están en el VS? Probablemente solo DD + una ambiental.]",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -194,7 +194,7 @@
     "href": "Odisea/GDD_v3.html#decisiones-pendientes",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "9. Decisiones Pendientes",
-    "text": "9. Decisiones Pendientes\n\n\n\n\n\n\n\n\n#\nDecisión\nContexto\n\n\n\n\n1\nGravedad variable en VS\nDirección: momentum + física visceral. ¿Se suma gravedad fluctuante?\n\n\n2\nDDC — modelo final\nConcept art listo. Falta decidir versión y complejidad\n\n\n3\nPuzzle de reparación\nMinijuego vs secuencia simple\n\n\n4\nAmenazas en VS\n¿Solo DDC? ¿DDC + 1 ambiental? ¿3?\n\n\n5\nPunto final del VS\n¿Hasta dónde llega la demo?\n\n\n6\nResolución visual objetivo\nPolígonos, shader, nivel de detalle\n\n\n7\nAlcance de la física\n¿Cuántas mecánicas dependen del motor de física?",
+    "text": "9. Decisiones Pendientes\n\n\n\n\n\n\n\n\n#\nDecisión\nContexto\n\n\n\n\n1\nGravedad variable en VS\nDirección: momentum + física visceral. ¿Se suma gravedad fluctuante?\n\n\n2\nDD — modelo final\nConcept art listo. Falta decidir versión y complejidad\n\n\n3\nAmenazas en VS\n¿Solo DD? ¿DD + 1 ambiental? ¿3?\n\n\n4\nPunto final del VS\n¿Hasta dónde llega la demo?\n\n\n5\nResolución visual objetivo\nPolígonos, shader, nivel de detalle\n\n\n6\nAlcance de la física\n¿Cuántas mecánicas dependen del motor de física?\n\n\n7\nInteracción narrativa\n¿Voz de Odisea? ¿Textos? ¿Cuánto diálogo es demasiado?",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]
@@ -204,7 +204,7 @@
     "href": "Odisea/GDD_v3.html#qué-no-es-este-juego-restricciones",
     "title": "GDD v3 — Odisea: El Arca Silenciosa",
     "section": "10. Qué NO es este juego (restricciones)",
-    "text": "10. Qué NO es este juego (restricciones)\n\nNo es un shooter\nNo es un juego de combate\nNo es un roguelike\nNo tiene sistema de inventario complejo\nNo tiene multiplayer\nNo tiene árboles de habilidades / RPG progression",
+    "text": "10. Qué NO es este juego (restricciones)\n\nNo es un shooter\nNo es un juego de combate\nNo es un roguelike\nNo tiene puzzles de reparación / minijuegos\nNo tiene sistema de inventario complejo\nNo tiene multiplayer\nNo tiene árboles de habilidades / RPG progression",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>GDD v3 — Odisea: El Arca Silenciosa</span>"
     ]

@@ -308,14 +308,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#elías-jugable" id="toc-elías-jugable" class="nav-link" data-scroll-target="#elías-jugable">Elías (jugable)</a></li>
   <li><a href="#ia-odisea" id="toc-ia-odisea" class="nav-link" data-scroll-target="#ia-odisea">IA Odisea</a></li>
   <li><a href="#cargol-npc-asistente" id="toc-cargol-npc-asistente" class="nav-link" data-scroll-target="#cargol-npc-asistente">Cargol (NPC asistente)</a></li>
-  <li><a href="#ddc-drone-de-diagnóstico-corrupto" id="toc-ddc-drone-de-diagnóstico-corrupto" class="nav-link" data-scroll-target="#ddc-drone-de-diagnóstico-corrupto">DDC — Drone de Diagnóstico Corrupto</a></li>
+  <li><a href="#dd" id="toc-dd" class="nav-link" data-scroll-target="#dd">DD</a></li>
   </ul></li>
   <li><a href="#mecánicas-del-jugador" id="toc-mecánicas-del-jugador" class="nav-link" data-scroll-target="#mecánicas-del-jugador">4. Mecánicas del Jugador</a>
   <ul class="collapse">
   <li><a href="#movimiento" id="toc-movimiento" class="nav-link" data-scroll-target="#movimiento">Movimiento</a></li>
   <li><a href="#física-y-momentum" id="toc-física-y-momentum" class="nav-link" data-scroll-target="#física-y-momentum">Física y Momentum</a></li>
+  <li><a href="#navegación-y-observación" id="toc-navegación-y-observación" class="nav-link" data-scroll-target="#navegación-y-observación">Navegación y Observación</a></li>
   <li><a href="#sigilo" id="toc-sigilo" class="nav-link" data-scroll-target="#sigilo">Sigilo</a></li>
-  <li><a href="#puzzles" id="toc-puzzles" class="nav-link" data-scroll-target="#puzzles">Puzzles</a></li>
+  <li><a href="#interacción" id="toc-interacción" class="nav-link" data-scroll-target="#interacción">Interacción</a></li>
   </ul></li>
   <li><a href="#vertical-slice-scope" id="toc-vertical-slice-scope" class="nav-link" data-scroll-target="#vertical-slice-scope">5. Vertical Slice — Scope</a>
   <ul class="collapse">
@@ -359,8 +360,8 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <section id="visión-general" class="level2">
 <h2 class="anchored" data-anchor-id="visión-general">1. Visión General</h2>
-<p>Odisea es un juego de plataformas 3D con puzzles y exploración. El jugador es Elías, un Oficial de Mantenimiento que despierta de criogenia en una nave intergaláctica controlada por una IA llamada Odisea. La nave ha sido saboteada. El jugador debe reparar sistemas, evitar amenazas y descubrir la verdad sobre la misión.</p>
-<p><strong>Género:</strong> Plataformas 3D / Aventura / Puzzles <strong>Tono:</strong> Suspenso, claustrofobia, melancolía, dilema moral <strong>Estilo visual:</strong> Low-poly sci-fi retrofuturista. Iluminación de neón, niebla, metal industrial.</p>
+<p>Odisea es un juego de plataformas 3D con exploración y narrativa ambiental. El jugador es Elías, un Oficial de Mantenimiento que despierta de criogenia en una nave intergaláctica controlada por una IA llamada Odisea. La nave ha sido saboteada. El jugador debe recorrer el entorno, evitar amenazas y descubrir la verdad sobre la misión.</p>
+<p><strong>Género:</strong> Plataformas 3D / Aventura <strong>Tono:</strong> Suspenso, claustrofobia, melancolía, dilema moral <strong>Estilo visual:</strong> Low-poly sci-fi retrofuturista. Iluminación de neón, niebla, metal industrial.</p>
 <hr>
 </section>
 <section id="pilares-de-diseño" class="level2">
@@ -377,18 +378,18 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="personajes">3. Personajes</h2>
 <section id="elías-jugable" class="level3">
 <h3 class="anchored" data-anchor-id="elías-jugable">Elías (jugable)</h3>
-<p>Oficial de Mantenimiento. Traje naranja. Ágil, capaz de correr, saltar y usar herramientas. Despierta de criogenia sin recuerdos recientes.</p>
+<p>Oficial de Mantenimiento. Traje naranja. Ágil, capaz de correr y saltar. Despierta de criogenia sin recuerdos recientes.</p>
 </section>
 <section id="ia-odisea" class="level3">
 <h3 class="anchored" data-anchor-id="ia-odisea">IA Odisea</h3>
-<p>Controla la nave. Comunica por voz, mensajes y efectos ambientales. Aparenta ser benevolente. Sus intenciones reales son ambiguas.</p>
+<p>Controla la nave. Comunica por voz y efectos ambientales. Aparenta ser benevolente. Sus intenciones reales son ambiguas.</p>
 </section>
 <section id="cargol-npc-asistente" class="level3">
 <h3 class="anchored" data-anchor-id="cargol-npc-asistente">Cargol (NPC asistente)</h3>
 <p>Dron compañero. Se mueve por conductos de ventilación y zonas angostas. El jugador puede darle órdenes simples (ir a un punto, activar un interruptor). No es piloteable.</p>
 </section>
-<section id="ddc-drone-de-diagnóstico-corrupto" class="level3">
-<h3 class="anchored" data-anchor-id="ddc-drone-de-diagnóstico-corrupto">DDC — Drone de Diagnóstico Corrupto</h3>
+<section id="dd" class="level3">
+<h3 class="anchored" data-anchor-id="dd">DD</h3>
 <p>Drone de seguridad reprogramado por la IA. Patrulla zonas y detecta al jugador. [DECIDIR: Forma final del modelo — disco hover por plasma, cuerpo compacto, sensor óptico. Ver concept art generados.]</p>
 <hr>
 </section>
@@ -398,9 +399,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="movimiento" class="level3">
 <h3 class="anchored" data-anchor-id="movimiento">Movimiento</h3>
 <ul>
-<li>Caminar, correr, saltar, doble salto</li>
+<li>Caminar, correr, saltar</li>
 <li>Interactuar con objetos del entorno (tecla E)</li>
-<li>Usar herramienta de mantenimiento (puzzle de reparación)</li>
+<li>Usar herramienta de mantenimiento</li>
 </ul>
 </section>
 <section id="física-y-momentum" class="level3">
@@ -411,21 +412,28 @@ ul.task-list li input[type="checkbox"] {
 <li>[DECIDIR: ¿Se incluye gravedad variable en el VS? Posible combinación con momentum — gravedad fluctuante que amplifica la sensación física]</li>
 </ul>
 </section>
+<section id="navegación-y-observación" class="level3">
+<h3 class="anchored" data-anchor-id="navegación-y-observación">Navegación y Observación</h3>
+<ul>
+<li>El jugador avanza explorando y leyendo el entorno</li>
+<li>La narrativa es ambiental: props, iluminación, disposición del espacio</li>
+<li>Diálogo mínimo — voz de la IA Odisea como guía sutil, sin romper inmersión</li>
+</ul>
+</section>
 <section id="sigilo" class="level3">
 <h3 class="anchored" data-anchor-id="sigilo">Sigilo</h3>
 <ul>
-<li>Zonas patrulladas por DDC</li>
-<li>Detección → alarma → zona sellada → puzzle de realineación bajo tiempo</li>
+<li>Zonas patrulladas por DD</li>
+<li>Detección → alarma → zona sellada</li>
 <li>No hay combate directo</li>
 </ul>
 </section>
-<section id="puzzles" class="level3">
-<h3 class="anchored" data-anchor-id="puzzles">Puzzles</h3>
+<section id="interacción" class="level3">
+<h3 class="anchored" data-anchor-id="interacción">Interacción</h3>
 <ul>
-<li>Activación de consolas en secuencia</li>
+<li>Activación de consolas y objetos del entorno</li>
 <li>Uso de Cargol para zonas inaccesibles (órdenes simples)</li>
-<li>Objetos empujables / plataformas móviles</li>
-<li>[DECIDIR: Complejidad del puzzle de reparación — minijuego vs secuencia simple]</li>
+<li>[DECIDIR: Objetos empujables / plataformas móviles — ¿en el VS?]</li>
 </ul>
 <hr>
 </section>
@@ -438,9 +446,8 @@ ul.task-list li input[type="checkbox"] {
 <li>El jugador se mueve y se siente bien (momentum, inercia, game feel)</li>
 <li>Una sala con historia ambiental legible</li>
 <li>Interacción básica (consolas, objetos)</li>
-<li>Una zona de sigilo con DDC</li>
+<li>Una zona de sigilo con DD</li>
 <li>Uso de Cargol como asistente</li>
-<li>Al menos un puzzle</li>
 <li>La voz de la IA Odisea manipulando al jugador</li>
 </ol>
 </section>
@@ -454,6 +461,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Cooperativo</li>
 <li>Cómic / trailer</li>
 <li>Medidor de integridad moral</li>
+<li>Puzzles de reparación / minijuegos de circuitos</li>
 </ul>
 </section>
 <section id="decidir-punto-final-del-vs" class="level3">
@@ -469,7 +477,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="entorno-módulo-criogenia" class="level2">
 <h2 class="anchored" data-anchor-id="entorno-módulo-criogenia">6. Entorno — Módulo Criogenia</h2>
 <p><strong>Ubicación:</strong> Popa de la nave Odisea <strong>Estética:</strong> Claustrofóbico. Pasillos estrechos. Miles de cápsulas criogénicas emitiendo luz azul cian. Metal gris oscuro. Niebla criogénica densa. Traje naranja de Elías como único punto cálido.</p>
-<p><strong>Elementos clave:</strong> - Cápsulas criogénicas (props + iluminación) - Consolas de datos (interactuables) - Paneles de reparación (puntos de puzzle) - Conductos de ventilación (acceso Cargol) - Zonas patrulladas por DDC</p>
+<p><strong>Elementos clave:</strong> - Cápsulas criogénicas (props + iluminación) - Consolas de datos (interactuables) - Conductos de ventilación (acceso Cargol) - Zonas patrulladas por DD</p>
 <hr>
 </section>
 <section id="amenazas-acto-i" class="level2">
@@ -490,7 +498,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>DDC</td>
+<td>DD</td>
 <td>Patrulla, detecta, sella zona</td>
 <td>Enemigo principal del VS</td>
 </tr>
@@ -499,14 +507,9 @@ ul.task-list li input[type="checkbox"] {
 <td>Lentos, predecibles, aplastan</td>
 <td>Ambiental, no requiere sigilo</td>
 </tr>
-<tr class="odd">
-<td>Torres de purga</td>
-<td>Estáticas, gas frío, retienen</td>
-<td>Trampa de área</td>
-</tr>
 </tbody>
 </table>
-<p>[DECIDIR: ¿Cuántas amenazas están en el VS? Probablemente solo DDC + una ambiental.]</p>
+<p>[DECIDIR: ¿Cuántas amenazas están en el VS? Probablemente solo DD + una ambiental.]</p>
 <hr>
 </section>
 <section id="estilo-visual" class="level2">
@@ -543,33 +546,33 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td>2</td>
-<td>DDC — modelo final</td>
+<td>DD — modelo final</td>
 <td>Concept art listo. Falta decidir versión y complejidad</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td>Puzzle de reparación</td>
-<td>Minijuego vs secuencia simple</td>
+<td>Amenazas en VS</td>
+<td>¿Solo DD? ¿DD + 1 ambiental? ¿3?</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Amenazas en VS</td>
-<td>¿Solo DDC? ¿DDC + 1 ambiental? ¿3?</td>
-</tr>
-<tr class="odd">
-<td>5</td>
 <td>Punto final del VS</td>
 <td>¿Hasta dónde llega la demo?</td>
 </tr>
-<tr class="even">
-<td>6</td>
+<tr class="odd">
+<td>5</td>
 <td>Resolución visual objetivo</td>
 <td>Polígonos, shader, nivel de detalle</td>
 </tr>
-<tr class="odd">
-<td>7</td>
+<tr class="even">
+<td>6</td>
 <td>Alcance de la física</td>
 <td>¿Cuántas mecánicas dependen del motor de física?</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Interacción narrativa</td>
+<td>¿Voz de Odisea? ¿Textos? ¿Cuánto diálogo es demasiado?</td>
 </tr>
 </tbody>
 </table>
@@ -581,6 +584,7 @@ ul.task-list li input[type="checkbox"] {
 <li>No es un shooter</li>
 <li>No es un juego de combate</li>
 <li>No es un roguelike</li>
+<li>No tiene puzzles de reparación / minijuegos</li>
 <li>No tiene sistema de inventario complejo</li>
 <li>No tiene multiplayer</li>
 <li>No tiene árboles de habilidades / RPG progression</li>
@@ -590,7 +594,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">Publicado desde commit <a href="https://github.com/icarito/Odisea_Design_Docs/commit/4dfbe736244d584859ed28c2fbd701686bac7841" style="color:#40a0d0; border:none;"><code>4dfbe73</code></a> · %Y-&gt;- (grafted, HEAD -&gt; main, origin/main) 4dfbe736244d584859ed28c2fbd701686bac7841:%M UTC · fix: estructura plana en _quarto.yml — parts sin nesting</div>
+<div style="margin-top:3em; padding:1em 0; border-top:1px solid rgba(0,180,255,0.15); font-family:monospace; font-size:0.78em; color:#4a6a7a; text-align:center;">Publicado desde commit <a href="https://github.com/icarito/Odisea_Design_Docs/commit/01775e8d088495c2e391f115a3e1501f2f8e4777" style="color:#40a0d0; border:none;"><code>01775e8</code></a> · %Y-&gt;- (grafted, HEAD -&gt; main, origin/main) 01775e8d088495c2e391f115a3e1501f2f8e4777:%M UTC · fix(GDD v3): DD en vez de DDC, sin doble salto, sin puzzles </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
