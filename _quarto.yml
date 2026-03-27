@@ -16,7 +16,7 @@ book:
   - Odisea/index.md
   - Odisea/Master_Index.md
   - Odisea/GDD_v3.md
-  - part: Anexos (Specs Detalladas)
+  - part: Anexos
     chapters:
     - Odisea/Anexos/INDEX.md
     - part: Mecánicas
@@ -31,9 +31,6 @@ book:
     - part: Narrativa
       chapters:
       - Odisea/Anexos/Narrativa/Acto_I_La_Negacion.md
-      - Odisea/Anexos/Narrativa/Nivel 1.md
-      - Odisea/Anexos/Narrativa/Nivel 2.md
-      - Odisea/Anexos/Narrativa/Nivel 3.md
       - Odisea/Anexos/Narrativa/Locacion_Criogenia.md
       - Odisea/Anexos/Narrativa/Personaje_Elias.md
       - Odisea/Anexos/Narrativa/Personaje_IA_Odisea.md
@@ -45,7 +42,7 @@ book:
       - Odisea/Anexos/LevelDesign/Screenplay_Nivel_1.md
       - Odisea/Anexos/LevelDesign/Storyboard_Nivel_1.md
       - Odisea/Anexos/LevelDesign/Deep_Research_Level_Design.md
-    - part: Canon (Feature Specs)
+    - part: Canon
       chapters:
       - Odisea/Anexos/Canon/index.md
       - Odisea/Anexos/Canon/feature_interact.md
