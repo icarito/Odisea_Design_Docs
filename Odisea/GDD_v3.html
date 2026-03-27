@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Odisea: El Arca Silenciosa – Odisea: El Arca Silenciosa</title>
+<title>GDD v3 — Odisea: El Arca Silenciosa – Odisea: El Arca Silenciosa</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../Odisea/Master_Index.html" rel="next">
-<link href="../index.html" rel="prev">
+<link href="../Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.html" rel="next">
+<link href="../Odisea/Master_Index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Odisea/index.html"><span class="chapter-title">Odisea: El Arca Silenciosa</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Odisea/GDD_v3.html"><span class="chapter-title">GDD v3 — Odisea: El Arca Silenciosa</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Odisea/index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Odisea: El Arca Silenciosa</span></a>
+  <a href="../Odisea/index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Odisea: El Arca Silenciosa</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Odisea/GDD_v3.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">GDD v3 — Odisea: El Arca Silenciosa</span></a>
+  <a href="../Odisea/GDD_v3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">GDD v3 — Odisea: El Arca Silenciosa</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -301,11 +301,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contenido</h2>
    
   <ul>
-  <li><a href="#diseño-game-design" id="toc-diseño-game-design" class="nav-link active" data-scroll-target="#diseño-game-design">1. Diseño (Game Design)</a></li>
-  <li><a href="#canon-especificaciones-técnicas" id="toc-canon-especificaciones-técnicas" class="nav-link" data-scroll-target="#canon-especificaciones-técnicas">2. Canon (Especificaciones Técnicas)</a></li>
-  <li><a href="#arquitectura-protocolos" id="toc-arquitectura-protocolos" class="nav-link" data-scroll-target="#arquitectura-protocolos">3. Arquitectura &amp; Protocolos</a></li>
-  <li><a href="#producción" id="toc-producción" class="nav-link" data-scroll-target="#producción">4. Producción</a></li>
-  <li><a href="#recursos-adicionales" id="toc-recursos-adicionales" class="nav-link" data-scroll-target="#recursos-adicionales">Recursos Adicionales</a></li>
+  <li><a href="#visión-general" id="toc-visión-general" class="nav-link active" data-scroll-target="#visión-general">1. Visión General</a></li>
+  <li><a href="#pilares-de-diseño" id="toc-pilares-de-diseño" class="nav-link" data-scroll-target="#pilares-de-diseño">2. Pilares de Diseño</a></li>
+  <li><a href="#personajes" id="toc-personajes" class="nav-link" data-scroll-target="#personajes">3. Personajes</a>
+  <ul class="collapse">
+  <li><a href="#elías-jugable" id="toc-elías-jugable" class="nav-link" data-scroll-target="#elías-jugable">Elías (jugable)</a></li>
+  <li><a href="#ia-odisea" id="toc-ia-odisea" class="nav-link" data-scroll-target="#ia-odisea">IA Odisea</a></li>
+  <li><a href="#cargol-npc-asistente" id="toc-cargol-npc-asistente" class="nav-link" data-scroll-target="#cargol-npc-asistente">Cargol (NPC asistente)</a></li>
+  <li><a href="#ddc-drone-de-diagnóstico-corrupto" id="toc-ddc-drone-de-diagnóstico-corrupto" class="nav-link" data-scroll-target="#ddc-drone-de-diagnóstico-corrupto">DDC — Drone de Diagnóstico Corrupto</a></li>
+  </ul></li>
+  <li><a href="#mecánicas-del-jugador" id="toc-mecánicas-del-jugador" class="nav-link" data-scroll-target="#mecánicas-del-jugador">4. Mecánicas del Jugador</a>
+  <ul class="collapse">
+  <li><a href="#movimiento" id="toc-movimiento" class="nav-link" data-scroll-target="#movimiento">Movimiento</a></li>
+  <li><a href="#física-y-momentum" id="toc-física-y-momentum" class="nav-link" data-scroll-target="#física-y-momentum">Física y Momentum</a></li>
+  <li><a href="#sigilo" id="toc-sigilo" class="nav-link" data-scroll-target="#sigilo">Sigilo</a></li>
+  <li><a href="#puzzles" id="toc-puzzles" class="nav-link" data-scroll-target="#puzzles">Puzzles</a></li>
+  </ul></li>
+  <li><a href="#vertical-slice-scope" id="toc-vertical-slice-scope" class="nav-link" data-scroll-target="#vertical-slice-scope">5. Vertical Slice — Scope</a>
+  <ul class="collapse">
+  <li><a href="#lo-que-el-vs-debe-demostrar" id="toc-lo-que-el-vs-debe-demostrar" class="nav-link" data-scroll-target="#lo-que-el-vs-debe-demostrar">Lo que el VS debe demostrar</a></li>
+  <li><a href="#lo-que-no-está-en-el-vs" id="toc-lo-que-no-está-en-el-vs" class="nav-link" data-scroll-target="#lo-que-no-está-en-el-vs">Lo que NO está en el VS</a></li>
+  <li><a href="#decidir-punto-final-del-vs" id="toc-decidir-punto-final-del-vs" class="nav-link" data-scroll-target="#decidir-punto-final-del-vs">[DECIDIR: Punto final del VS]</a></li>
+  </ul></li>
+  <li><a href="#entorno-módulo-criogenia" id="toc-entorno-módulo-criogenia" class="nav-link" data-scroll-target="#entorno-módulo-criogenia">6. Entorno — Módulo Criogenia</a></li>
+  <li><a href="#amenazas-acto-i" id="toc-amenazas-acto-i" class="nav-link" data-scroll-target="#amenazas-acto-i">7. Amenazas (Acto I)</a></li>
+  <li><a href="#estilo-visual" id="toc-estilo-visual" class="nav-link" data-scroll-target="#estilo-visual">8. Estilo Visual</a></li>
+  <li><a href="#decisiones-pendientes" id="toc-decisiones-pendientes" class="nav-link" data-scroll-target="#decisiones-pendientes">9. Decisiones Pendientes</a></li>
+  <li><a href="#qué-no-es-este-juego-restricciones" id="toc-qué-no-es-este-juego-restricciones" class="nav-link" data-scroll-target="#qué-no-es-este-juego-restricciones">10. Qué NO es este juego (restricciones)</a></li>
   </ul>
 </nav>
     </div>
@@ -314,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Odisea: El Arca Silenciosa</span></h1>
+<h1 class="title"><span class="chapter-title">GDD v3 — Odisea: El Arca Silenciosa</span></h1>
 </div>
 
 
@@ -331,36 +353,238 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Bienvenido al Documento de Diseño y Especificaciones (Wiki) del proyecto Odisea.</p>
-<p>Esta documentación está organizada en cuatro pilares fundamentales:</p>
-<section id="diseño-game-design" class="level3">
-<h3 class="anchored" data-anchor-id="diseño-game-design">1. <a href="Diseno/index.md">Diseño (Game Design)</a></h3>
-<p>Documentos de narrativa, mecánicas de juego, arte y level design. * <strong>Narrativa</strong>: Actos, Personajes, Lugares. * <strong>Mecánicas</strong>: Vehículos, Gravedad, Herramientas. * <strong>Arte</strong>: Estilo visual, Referencias. * <strong>Level Design</strong>: Métricas, Flow, Pipeline.</p>
-</section>
-<section id="canon-especificaciones-técnicas" class="level3">
-<h3 class="anchored" data-anchor-id="canon-especificaciones-técnicas">2. <a href="Canon/index.md">Canon (Especificaciones Técnicas)</a></h3>
-<p>Documentación técnica “viva” importada directamente del repositorio de código (<code>core_v2</code>). Describe features implementados y probados. * <strong>OdysseyScript</strong>: Lenguaje de scripting y replays. * <strong>Interactuables</strong>: Sistema de puertas, botones y lógica. * <strong>Física</strong>: Pushable Box, Movimiento, Gamefeel.</p>
-</section>
-<section id="arquitectura-protocolos" class="level3">
-<h3 class="anchored" data-anchor-id="arquitectura-protocolos">3. <a href="Arquitectura/index.md">Arquitectura &amp; Protocolos</a></h3>
-<p>Normas de desarrollo, estructura del proyecto y contratos de código. * <strong>Protocolo de Desarrollo</strong>: Normas para agentes y humanos. * <strong>Core V2</strong>: Resumen de la arquitectura actual.</p>
-</section>
-<section id="producción" class="level3">
-<h3 class="anchored" data-anchor-id="producción">4. <a href="Produccion/index.md">Producción</a></h3>
-<p>Estado del proyecto, backlog y pipelines. * <strong>Status Report</strong>: Estado actual del MVP. * <strong>Backlog</strong>: Tareas pendientes y QOL.</p>
+<blockquote class="blockquote">
+<p>Documento de Diseño de Juego. Minimalista. Solo decisiones confirmadas. Cosas sin decidir se marcan como <code>[DECIDIR]</code>.</p>
+</blockquote>
+<hr>
+<section id="visión-general" class="level2">
+<h2 class="anchored" data-anchor-id="visión-general">1. Visión General</h2>
+<p>Odisea es un juego de plataformas 3D con puzzles y exploración. El jugador es Elías, un Oficial de Mantenimiento que despierta de criogenia en una nave intergaláctica controlada por una IA llamada Odisea. La nave ha sido saboteada. El jugador debe reparar sistemas, evitar amenazas y descubrir la verdad sobre la misión.</p>
+<p><strong>Género:</strong> Plataformas 3D / Aventura / Puzzles <strong>Tono:</strong> Suspenso, claustrofobia, melancolía, dilema moral <strong>Estilo visual:</strong> Low-poly sci-fi retrofuturista. Iluminación de neón, niebla, metal industrial.</p>
 <hr>
 </section>
-<section id="recursos-adicionales" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-adicionales">Recursos Adicionales</h2>
+<section id="pilares-de-diseño" class="level2">
+<h2 class="anchored" data-anchor-id="pilares-de-diseño">2. Pilares de Diseño</h2>
+<ol type="1">
+<li><strong>Física visceral</strong> — El movimiento se siente físico. Conservación de momentum, aceleración mecánica, inercia. El motor de física no es decoración, es mecánica.</li>
+<li><strong>El espacio cuenta la historia</strong> — Cada sala comunica narrativa a través de su geometría, iluminación y props. No se necesita diálogo para entender qué pasó.</li>
+<li><strong>Amenaza ambiental, no combate</strong> — El peligro viene de la nave y sus sistemas corrompidos. El jugador evade, no pelea.</li>
+<li><strong>Un solo mundo coherente</strong> — Todo lo que existe en el juego pertenece a la misma lógica interna. Nada es un “minijuego aislado”.</li>
+</ol>
+<hr>
+</section>
+<section id="personajes" class="level2">
+<h2 class="anchored" data-anchor-id="personajes">3. Personajes</h2>
+<section id="elías-jugable" class="level3">
+<h3 class="anchored" data-anchor-id="elías-jugable">Elías (jugable)</h3>
+<p>Oficial de Mantenimiento. Traje naranja. Ágil, capaz de correr, saltar y usar herramientas. Despierta de criogenia sin recuerdos recientes.</p>
+</section>
+<section id="ia-odisea" class="level3">
+<h3 class="anchored" data-anchor-id="ia-odisea">IA Odisea</h3>
+<p>Controla la nave. Comunica por voz, mensajes y efectos ambientales. Aparenta ser benevolente. Sus intenciones reales son ambiguas.</p>
+</section>
+<section id="cargol-npc-asistente" class="level3">
+<h3 class="anchored" data-anchor-id="cargol-npc-asistente">Cargol (NPC asistente)</h3>
+<p>Dron compañero. Se mueve por conductos de ventilación y zonas angostas. El jugador puede darle órdenes simples (ir a un punto, activar un interruptor). No es piloteable.</p>
+</section>
+<section id="ddc-drone-de-diagnóstico-corrupto" class="level3">
+<h3 class="anchored" data-anchor-id="ddc-drone-de-diagnóstico-corrupto">DDC — Drone de Diagnóstico Corrupto</h3>
+<p>Drone de seguridad reprogramado por la IA. Patrulla zonas y detecta al jugador. [DECIDIR: Forma final del modelo — disco hover por plasma, cuerpo compacto, sensor óptico. Ver concept art generados.]</p>
+<hr>
+</section>
+</section>
+<section id="mecánicas-del-jugador" class="level2">
+<h2 class="anchored" data-anchor-id="mecánicas-del-jugador">4. Mecánicas del Jugador</h2>
+<section id="movimiento" class="level3">
+<h3 class="anchored" data-anchor-id="movimiento">Movimiento</h3>
 <ul>
-<li><a href="../Odisea/Master_Index.html">Índice Maestro (Legacy)</a></li>
-<li><a href="../Odisea.pdf">Descargar Wiki en PDF</a> (Generado automáticamente)</li>
-<li><a href="https://github.com/icarito/Odisea">Repositorio de Código (GitHub)</a></li>
+<li>Caminar, correr, saltar, doble salto</li>
+<li>Interactuar con objetos del entorno (tecla E)</li>
+<li>Usar herramienta de mantenimiento (puzzle de reparación)</li>
+</ul>
+</section>
+<section id="física-y-momentum" class="level3">
+<h3 class="anchored" data-anchor-id="física-y-momentum">Física y Momentum</h3>
+<ul>
+<li>Conservación de momentum en movimiento</li>
+<li>Movimientos pendulares y aceleración mecánica</li>
+<li>[DECIDIR: ¿Se incluye gravedad variable en el VS? Posible combinación con momentum — gravedad fluctuante que amplifica la sensación física]</li>
+</ul>
+</section>
+<section id="sigilo" class="level3">
+<h3 class="anchored" data-anchor-id="sigilo">Sigilo</h3>
+<ul>
+<li>Zonas patrulladas por DDC</li>
+<li>Detección → alarma → zona sellada → puzzle de realineación bajo tiempo</li>
+<li>No hay combate directo</li>
+</ul>
+</section>
+<section id="puzzles" class="level3">
+<h3 class="anchored" data-anchor-id="puzzles">Puzzles</h3>
+<ul>
+<li>Activación de consolas en secuencia</li>
+<li>Uso de Cargol para zonas inaccesibles (órdenes simples)</li>
+<li>Objetos empujables / plataformas móviles</li>
+<li>[DECIDIR: Complejidad del puzzle de reparación — minijuego vs secuencia simple]</li>
 </ul>
 <hr>
-<blockquote class="blockquote">
-<p><em>Esta documentación se genera automáticamente mediante Quarto y GitHub Actions.</em></p>
-</blockquote>
+</section>
+</section>
+<section id="vertical-slice-scope" class="level2">
+<h2 class="anchored" data-anchor-id="vertical-slice-scope">5. Vertical Slice — Scope</h2>
+<section id="lo-que-el-vs-debe-demostrar" class="level3">
+<h3 class="anchored" data-anchor-id="lo-que-el-vs-debe-demostrar">Lo que el VS debe demostrar</h3>
+<ol type="1">
+<li>El jugador se mueve y se siente bien (momentum, inercia, game feel)</li>
+<li>Una sala con historia ambiental legible</li>
+<li>Interacción básica (consolas, objetos)</li>
+<li>Una zona de sigilo con DDC</li>
+<li>Uso de Cargol como asistente</li>
+<li>Al menos un puzzle</li>
+<li>La voz de la IA Odisea manipulando al jugador</li>
+</ol>
+</section>
+<section id="lo-que-no-está-en-el-vs" class="level3">
+<h3 class="anchored" data-anchor-id="lo-que-no-está-en-el-vs">Lo que NO está en el VS</h3>
+<ul>
+<li>Actos II, III, IV</li>
+<li>Cargol piloteable</li>
+<li>Vehículos (4WD, nave)</li>
+<li>Modo 2.5D</li>
+<li>Cooperativo</li>
+<li>Cómic / trailer</li>
+<li>Medidor de integridad moral</li>
+</ul>
+</section>
+<section id="decidir-punto-final-del-vs" class="level3">
+<h3 class="anchored" data-anchor-id="decidir-punto-final-del-vs">[DECIDIR: Punto final del VS]</h3>
+<ul>
+<li>Opción A: Restaurar energía + clímax de la IA (revelación del Mando Final)</li>
+<li>Opción B: Solo la primera sala funcional como demo técnica</li>
+<li>Opción C: [definir]</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="entorno-módulo-criogenia" class="level2">
+<h2 class="anchored" data-anchor-id="entorno-módulo-criogenia">6. Entorno — Módulo Criogenia</h2>
+<p><strong>Ubicación:</strong> Popa de la nave Odisea <strong>Estética:</strong> Claustrofóbico. Pasillos estrechos. Miles de cápsulas criogénicas emitiendo luz azul cian. Metal gris oscuro. Niebla criogénica densa. Traje naranja de Elías como único punto cálido.</p>
+<p><strong>Elementos clave:</strong> - Cápsulas criogénicas (props + iluminación) - Consolas de datos (interactuables) - Paneles de reparación (puntos de puzzle) - Conductos de ventilación (acceso Cargol) - Zonas patrulladas por DDC</p>
+<hr>
+</section>
+<section id="amenazas-acto-i" class="level2">
+<h2 class="anchored" data-anchor-id="amenazas-acto-i">7. Amenazas (Acto I)</h2>
+<p>Todas son sistemas de la nave reprogramados por la IA, no enemigos “vivos”.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 48%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Amenaza</th>
+<th>Comportamiento</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DDC</td>
+<td>Patrulla, detecta, sella zona</td>
+<td>Enemigo principal del VS</td>
+</tr>
+<tr class="even">
+<td>Brazos robóticos</td>
+<td>Lentos, predecibles, aplastan</td>
+<td>Ambiental, no requiere sigilo</td>
+</tr>
+<tr class="odd">
+<td>Torres de purga</td>
+<td>Estáticas, gas frío, retienen</td>
+<td>Trampa de área</td>
+</tr>
+</tbody>
+</table>
+<p>[DECIDIR: ¿Cuántas amenazas están en el VS? Probablemente solo DDC + una ambiental.]</p>
+<hr>
+</section>
+<section id="estilo-visual" class="level2">
+<h2 class="anchored" data-anchor-id="estilo-visual">8. Estilo Visual</h2>
+<ul>
+<li>Low-poly con flat shading, geometría visible</li>
+<li>Paleta: azul cian (cápsulas), gris oscuro (metal), naranja (Elías), rojo (amenazas)</li>
+<li>Niebla como herramienta de diseño (reduce visibilidad, crea tensión)</li>
+<li>Luces volumétricas y god rays como guías de navegación</li>
+<li>[DECIDIR: Resolución/polígono objetivo — PS1/N64, Switch, o intermedio]</li>
+</ul>
+<hr>
+</section>
+<section id="decisiones-pendientes" class="level2">
+<h2 class="anchored" data-anchor-id="decisiones-pendientes">9. Decisiones Pendientes</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 45%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Decisión</th>
+<th>Contexto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Gravedad variable en VS</td>
+<td>Dirección: momentum + física visceral. ¿Se suma gravedad fluctuante?</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>DDC — modelo final</td>
+<td>Concept art listo. Falta decidir versión y complejidad</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Puzzle de reparación</td>
+<td>Minijuego vs secuencia simple</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Amenazas en VS</td>
+<td>¿Solo DDC? ¿DDC + 1 ambiental? ¿3?</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Punto final del VS</td>
+<td>¿Hasta dónde llega la demo?</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Resolución visual objetivo</td>
+<td>Polígonos, shader, nivel de detalle</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Alcance de la física</td>
+<td>¿Cuántas mecánicas dependen del motor de física?</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="qué-no-es-este-juego-restricciones" class="level2">
+<h2 class="anchored" data-anchor-id="qué-no-es-este-juego-restricciones">10. Qué NO es este juego (restricciones)</h2>
+<ul>
+<li>No es un shooter</li>
+<li>No es un juego de combate</li>
+<li>No es un roguelike</li>
+<li>No tiene sistema de inventario complejo</li>
+<li>No tiene multiplayer</li>
+<li>No tiene árboles de habilidades / RPG progression</li>
+</ul>
 
 
 </section>
@@ -776,13 +1000,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Odisea: El Arca Silenciosa">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Odisea: El Arca Silenciosa</span></span>
+      <a href="../Odisea/Master_Index.html" class="pagination-link" aria-label="Odisea: El Arca Silenciosa — Índice Maestro (MVP)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../Odisea/Master_Index.html" class="pagination-link" aria-label="Odisea: El Arca Silenciosa — Índice Maestro (MVP)">
-        <span class="nav-page-text"><span class="chapter-title">Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.html" class="pagination-link" aria-label="Mecánicas Clave">
+        <span class="nav-page-text"><span class="chapter-title">Mecánicas Clave</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
