@@ -1,91 +1,88 @@
 -- Convierte wikilinks de Obsidian en imágenes/enlaces de Pandoc.
 -- Usa un mapa global del vault para resolver wikilinks con rutas absolutas correctas.
 
--- Mapa completo del vault: nombre de archivo → ruta absoluta HTML
+-- Mapa del vault actualizado para estructura Anexos/ + Archive/
 local VAULT_MAP = {
-  ["Apéndice_Imagenes_Huérfanas"] = "/Odisea/Apéndice_Imagenes_Huérfanas.html",
-  ["Motion Capture"] = "/Odisea/Archivo/ARCHIVED/Motion Capture.html",
-  ["REFACTOR PENDING"] = "/Odisea/Archivo/ARCHIVED/REFACTOR PENDING.html",
-  ["DroidPad QR Spec"] = "/Odisea/Archivo/CONTROL/DroidPad QR Spec.html",
-  ["DroidPad SPEC"] = "/Odisea/Archivo/CONTROL/DroidPad SPEC.html",
-  ["DroidPad Virtual Joypad"] = "/Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.html",
-  ["Networked DroidPad"] = "/Odisea/Archivo/CONTROL/Networked DroidPad.html",
-  ["Física"] = "/Odisea/Archivo/FISICA/Física.html",
-  ["Arquitectura de Subsistemas"] = "/Odisea/Arquitectura/Arquitectura de Subsistemas.html",
-  ["Core_V2_Resumen"] = "/Odisea/Arquitectura/Core_V2_Resumen.html",
-  ["Protocolo_Core_V2"] = "/Odisea/Arquitectura/Protocolo_Core_V2.html",
-  ["Protocolo_Desarrollo"] = "/Odisea/Arquitectura/Protocolo_Desarrollo.html",
-  ["design_intent_tree"] = "/Odisea/Canon/design_intent_tree.html",
-  ["feature_interact"] = "/Odisea/Canon/feature_interact.html",
-  ["feature_interactables"] = "/Odisea/Canon/feature_interactables.html",
-  ["feature_odisea_script"] = "/Odisea/Canon/feature_odisea_script.html",
-  ["feature_odyssey_script_replay"] = "/Odisea/Canon/feature_odyssey_script_replay.html",
-  ["feature_odyssey_script_usage"] = "/Odisea/Canon/feature_odyssey_script_usage.html",
-  ["feature_pushable_box"] = "/Odisea/Canon/feature_pushable_box.html",
-  ["feature_refine_movement_gamefeel"] = "/Odisea/Canon/feature_refine_movement_gamefeel.html",
-  ["feature_sidescroller_zone"] = "/Odisea/Canon/feature_sidescroller_zone.html",
-  ["feature_test_battery"] = "/Odisea/Canon/feature_test_battery.html",
-  ["feature_test_runner"] = "/Odisea/Canon/feature_test_runner.html",
-  ["Arte_Estilo_Visual"] = "/Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.html",
-  ["Arte_Prompts_Generativos"] = "/Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.html",
-  ["Desglose_Estilos"] = "/Odisea/Diseno/Arte/ARTE/Desglose_Estilos.html",
-  ["Guía de Estilo de Interfaz Humana"] = "/Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.html",
-  ["Luces"] = "/Odisea/Diseno/Arte/ARTE/Luces.html",
-  ["Música"] = "/Odisea/Diseno/Arte/ARTE/Música.html",
-  ["Referencias_e_Inspiración"] = "/Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.html",
-  ["Deep_Research_Level_Design"] = "/Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.html",
-  ["Level_Design_Document"] = "/Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.html",
-  ["Pipeline"] = "/Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.html",
-  ["Screenplay_Nivel_1"] = "/Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.html",
-  ["Storyboard_Nivel_1"] = "/Odisea/Diseno/LevelDesign/LEVEL DESIGN/Storyboard_Nivel_1.html",
-  ["02_Mecanicas_Clave"] = "/Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.html",
-  ["02_Mecanicas_Indice"] = "/Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.html",
-  ["03_Vehiculos"] = "/Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.html",
-  ["Enemigos_Drones_y_Sistemas"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.html",
-  ["Input"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Input.html",
-  ["Mecanicas_Controlador_Elias"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.html",
-  ["Mecanicas_Dron_Cargol"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.html",
-  ["Mecanicas_Gravedad_Variable"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.html",
-  ["Mecanicas_Herramienta_Mantenimiento"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.html",
-  ["Mecanicas_Propulsor_0G"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.html",
-  ["Mecanicas_Vehiculo_4x4"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.html",
-  ["Mecanicas_Vehiculo_Aereo"] = "/Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.html",
-  ["Locacion_BioGranjas_SCG"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.html",
-  ["Locacion_Criogenia"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.html",
-  ["Locacion_Laboratorio_Acuatico"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.html",
-  ["Locacion_Mantenimiento"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.html",
-  ["Locacion_Modulos_Rotatorios"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.html",
-  ["Locacion_Nave_General"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.html",
-  ["Locacion_Nucleo_0G"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.html",
-  ["Locacion_Nucleo_IA"] = "/Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.html",
-  ["Acto_I_La_Negacion"] = "/Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.html",
-  ["Acto_II_El_Laberinto"] = "/Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.html",
-  ["Acto_III_El_Desafio"] = "/Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.html",
-  ["Acto_IV_La_Decision"] = "/Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.html",
-  ["Narrativa_Finales"] = "/Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.html",
-  ["Cuentos"] = "/Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.html",
-  ["Entidad_Cargol"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.html",
-  ["GIZMO"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.html",
-  ["Manifiesto de carga"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.html",
-  ["Multi-Tool"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.html",
-  ["Personaje_Elias"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.html",
-  ["Personaje_IA_Odisea"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.html",
-  ["Personaje_PP_fantasma"] = "/Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.html",
-  ["Pilares"] = "/Odisea/Diseno/Pilares.html",
+  -- GDD principal
+  ["GDD_v3"] = "/Odisea/GDD_v3.html",
   ["Master_Index"] = "/Odisea/Master_Index.html",
-  ["Ideas_Mecanicas"] = "/Odisea/Produccion/Backlog/Ideas_Mecanicas.html",
-  ["Automatización"] = "/Odisea/Produccion/Backlog/PRODUCTION/Automatización.html",
-  ["DEVLOG 2025 12 05"] = "/Odisea/Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html",
-  ["Plan_Implementacion_MVP"] = "/Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
-  ["QOL_Checklist"] = "/Odisea/Produccion/Backlog/QOL_Checklist.html",
-  ["Status_Report"] = "/Odisea/Produccion/Status_Report.html"
+
+  -- Anexos - Mecánicas
+  ["02_Mecanicas_Clave"] = "/Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.html",
+  ["02_Mecanicas_Indice"] = "/Odisea/Anexos/Mecanicas/02_Mecanicas_Indice.html",
+  ["Mecanicas_Controlador_Elias"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Controlador_Elias.html",
+  ["Mecanicas_Dron_Cargol"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Dron_Cargol.html",
+  ["Enemigos_Drones_y_Sistemas"] = "/Odisea/Anexos/Mecanicas/Enemigos_Drones_y_Sistemas.html",
+  ["Mecanicas_Herramienta_Mantenimiento"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Herramienta_Mantenimiento.html",
+  ["Input"] = "/Odisea/Anexos/Mecanicas/Input.html",
+
+  -- Anexos - Narrativa
+  ["Acto_I_La_Negacion"] = "/Odisea/Anexos/Narrativa/Acto_I_La_Negacion.html",
+  ["Locacion_Criogenia"] = "/Odisea/Anexos/Narrativa/Locacion_Criogenia.html",
+  ["Personaje_Elias"] = "/Odisea/Anexos/Narrativa/Personaje_Elias.html",
+  ["Personaje_IA_Odisea"] = "/Odisea/Anexos/Narrativa/Personaje_IA_Odisea.html",
+  ["Entidad_Cargol"] = "/Odisea/Anexos/Narrativa/Entidad_Cargol.html",
+
+  -- Anexos - Level Design
+  ["Level_Design_Document"] = "/Odisea/Anexos/LevelDesign/Level_Design_Document.html",
+  ["Pipeline"] = "/Odisea/Anexos/LevelDesign/Pipeline.html",
+  ["Screenplay_Nivel_1"] = "/Odisea/Anexos/LevelDesign/Screenplay_Nivel_1.html",
+  ["Storyboard_Nivel_1"] = "/Odisea/Anexos/LevelDesign/Storyboard_Nivel_1.html",
+  ["Deep_Research_Level_Design"] = "/Odisea/Anexos/LevelDesign/Deep_Research_Level_Design.html",
+
+  -- Anexos - Canon
+  ["feature_interact"] = "/Odisea/Anexos/Canon/feature_interact.html",
+  ["feature_interactables"] = "/Odisea/Anexos/Canon/feature_interactables.html",
+  ["feature_odisea_script"] = "/Odisea/Anexos/Canon/feature_odisea_script.html",
+  ["feature_odyssey_script_replay"] = "/Odisea/Anexos/Canon/feature_odyssey_script_replay.html",
+  ["feature_odyssey_script_usage"] = "/Odisea/Anexos/Canon/feature_odyssey_script_usage.html",
+  ["feature_pushable_box"] = "/Odisea/Anexos/Canon/feature_pushable_box.html",
+  ["feature_refine_movement_gamefeel"] = "/Odisea/Anexos/Canon/feature_refine_movement_gamefeel.html",
+
+  -- Archive/MVP_Out
+  ["Mecanicas_Gravedad_Variable"] = "/Archive/MVP_Out/Mecanicas_Gravedad_Variable.html",
+  ["Mecanicas_Propulsor_0G"] = "/Archive/MVP_Out/Mecanicas_Propulsor_0G.html",
+  ["Mecanicas_Vehiculo_4x4"] = "/Archive/MVP_Out/Mecanicas_Vehiculo_4x4.html",
+  ["Mecanicas_Vehiculo_Aereo"] = "/Archive/MVP_Out/Mecanicas_Vehiculo_Aereo.html",
+  ["03_Vehiculos"] = "/Archive/MVP_Out/03_Vehiculos.html",
+  ["Locacion_BioGranjas_SCG"] = "/Archive/MVP_Out/Locacion_BioGranjas_SCG.html",
+  ["Locacion_Laboratorio_Acuatico"] = "/Archive/MVP_Out/Locacion_Laboratorio_Acuatico.html",
+  ["Locacion_Mantenimiento"] = "/Archive/MVP_Out/Locacion_Mantenimiento.html",
+  ["Locacion_Modulos_Rotatorios"] = "/Archive/MVP_Out/Locacion_Modulos_Rotatorios.html",
+  ["Locacion_Nave_General"] = "/Archive/MVP_Out/Locacion_Nave_General.html",
+  ["Locacion_Nucleo_0G"] = "/Archive/MVP_Out/Locacion_Nucleo_0G.html",
+  ["Locacion_Nucleo_IA"] = "/Archive/MVP_Out/Locacion_Nucleo_IA.html",
+  ["Acto_II_El_Laberinto"] = "/Archive/MVP_Out/ACTO 2/Acto_II_El_Laberinto.html",
+  ["Acto_III_El_Desafio"] = "/Archive/MVP_Out/ACTO 3/Acto_III_El_Desafio.html",
+  ["Acto_IV_La_Decision"] = "/Archive/MVP_Out/ACTO 4/Acto_IV_La_Decision.html",
+  ["Narrativa_Finales"] = "/Archive/MVP_Out/ACTO FINAL/Narrativa_Finales.html",
+  ["Cuentos"] = "/Archive/MVP_Out/Cuentos.html",
+  ["GIZMO"] = "/Archive/MVP_Out/GIZMO.html",
+  ["Personaje_PP_fantasma"] = "/Archive/MVP_Out/Personaje_PP_fantasma.html",
+  ["design_intent_tree"] = "/Archive/MVP_Out/design_intent_tree.html",
+  ["feature_sidescroller_zone"] = "/Archive/MVP_Out/feature_sidescroller_zone.html",
+  ["feature_test_battery"] = "/Archive/MVP_Out/feature_test_battery.html",
+  ["feature_test_runner"] = "/Archive/MVP_Out/feature_test_runner.html",
+  ["feature_replay_upload"] = "/Archive/MVP_Out/feature_replay_upload.html",
+
+  -- Archive/Pendientes
+  ["Arquitectura de Subsistemas"] = "/Archive/Pendientes/Arquitectura/Arquitectura de Subsistemas.html",
+  ["Core_V2_Resumen"] = "/Archive/Pendientes/Arquitectura/Core_V2_Resumen.html",
+  ["Protocolo_Core_V2"] = "/Archive/Pendientes/Arquitectura/Protocolo_Core_V2.html",
+  ["Protocolo_Desarrollo"] = "/Archive/Pendientes/Arquitectura/Protocolo_Desarrollo.html",
+  ["Pilares"] = "/Archive/Pendientes/Pilares.html",
+  ["Status_Report"] = "/Archive/Pendientes/Produccion/Status_Report.html",
+  ["Plan_Implementacion_MVP"] = "/Archive/Pendientes/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
+  ["Ideas_Mecanicas"] = "/Archive/Pendientes/Produccion/Backlog/Ideas_Mecanicas.html",
+  ["Motion Capture"] = "/Archive/Pendientes/Archivo/ARCHIVED/Motion Capture.html",
+  ["REFACTOR PENDING"] = "/Archive/Pendientes/Archivo/ARCHIVED/REFACTOR PENDING.html",
+  ["Manifiesto de carga"] = "/Archive/Pendientes/Manifiesto de carga.html",
+  ["Multi-Tool"] = "/Archive/Pendientes/Multi-Tool.html",
 }
 
 local function make_image(target, alt)
   local img = target
   if not img:match('^_ASSETS/') and not img:match('^/') and not img:match('^https?://') and not img:match('^data:') then
-    -- Para HTML (GitHub Pages): ruta absoluta con base del repo
-    -- Para PDF/LaTeX: ruta relativa desde la raíz del proyecto
     local fmt = FORMAT or ''
     if fmt:match('html') then
       img = '/Odisea/_ASSETS/' .. img
@@ -110,7 +107,6 @@ local function make_link(target, alias)
   if t:match('^https?://') then
     url = t
   else
-    -- Buscar en el mapa del vault primero
     local mapped = VAULT_MAP[t]
     if mapped then
       url = mapped

@@ -3,10 +3,8 @@ project:
   output-dir: outputs
   resources:
   - Odisea/_ASSETS/*
-  - Odisea/Canon/*
-  - Odisea/Diseno/*
-  - Odisea/Arquitectura/*
-  - Odisea/Produccion/*
+  - Archive/Pendientes/*
+  - Archive/MVP_Out/*
 book:
   title: 'Odisea: El Arca Silenciosa'
   author: Equipo Odisea
@@ -17,103 +15,46 @@ book:
   - index.qmd
   - Odisea/index.md
   - Odisea/Master_Index.md
-  - part: Canon (Especificaciones)
+  - Odisea/GDD_v3.md
+  - part: Anexos (Specs Detalladas)
     chapters:
-    - Odisea/Canon/index.md
-    - Odisea/Canon/feature_interact.md
-    - Odisea/Canon/feature_interactables.md
-    - Odisea/Canon/feature_odisea_script.md
-    - Odisea/Canon/feature_odyssey_script_replay.md
-    - Odisea/Canon/feature_odyssey_script_usage.md
-    - Odisea/Canon/feature_pushable_box.md
-    - Odisea/Canon/feature_refine_movement_gamefeel.md
-    - Odisea/Canon/feature_sidescroller_zone.md
-    - Odisea/Canon/feature_test_battery.md
-    - Odisea/Canon/feature_test_runner.md
-  - part: Diseño
-    chapters:
-    - Odisea/Diseno/index.md
-    - Odisea/Diseno/Pilares.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_BioGranjas_SCG.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Criogenia.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Laboratorio_Acuatico.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Mantenimiento.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Modulos_Rotatorios.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nave_General.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_0G.md
-    - Odisea/Diseno/Narrativa/LUGARES/Locacion_Nucleo_IA.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Acto_I_La_Negacion.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 1.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 2.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 1/Nivel 3.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 2/Acto_II_El_Laberinto.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 3/Acto_III_El_Desafio.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO 4/Acto_IV_La_Decision.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/ACTO FINAL/Narrativa_Finales.md
-    - Odisea/Diseno/Narrativa/NARRATIVA/Cuentos.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Entidad_Cargol.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/GIZMO.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Manifiesto de carga.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Multi-Tool.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_Elias.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_IA_Odisea.md
-    - Odisea/Diseno/Narrativa/PERSONAJES Y EQUIPOS/Personaje_PP_fantasma.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Clave.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/02_Mecanicas_Indice.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/03_Vehiculos.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Enemigos_Drones_y_Sistemas.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Input.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Controlador_Elias.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Dron_Cargol.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Gravedad_Variable.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Herramienta_Mantenimiento.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Propulsor_0G.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_4x4.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Mecanicas_Vehiculo_Aereo.md
-    - Odisea/Diseno/Mecanicas/MECANICAS/Meneo en 0G.md
-    - Odisea/Diseno/Arte/ARTE/Arte_Estilo_Visual.md
-    - Odisea/Diseno/Arte/ARTE/Arte_Prompts_Generativos.md
-    - Odisea/Diseno/Arte/ARTE/Desglose_Estilos.md
-    - Odisea/Diseno/Arte/ARTE/Guía de Estilo de Interfaz Humana.md
-    - Odisea/Diseno/Arte/ARTE/Luces.md
-    - Odisea/Diseno/Arte/ARTE/Música.md
-    - Odisea/Diseno/Arte/ARTE/Referencias_e_Inspiración.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y "Flow".md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Deep_Research_Level_Design.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Level_Design_Document.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Pipeline.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Screenplay_Nivel_1.md
-  - part: Arquitectura
-    chapters:
-    - Odisea/Arquitectura/index.md
-    - Odisea/Arquitectura/Arquitectura de Subsistemas.md
-    - Odisea/Arquitectura/Core_V2_Resumen.md
-    - Odisea/Arquitectura/Protocolo_Core_V2.md
-    - Odisea/Arquitectura/Protocolo_Desarrollo.md
-  - part: Producción
-    chapters:
-    - Odisea/Produccion/index.md
-    - Odisea/Produccion/Backlog/Ideas_Mecanicas.md
-    - Odisea/Produccion/Backlog/PRODUCTION/Automatización.md
-    - Odisea/Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.md
-    - Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.md
-    - Odisea/Produccion/Backlog/QOL_Checklist.md
-    - Odisea/Produccion/Pipeline/TRAILER/Assets.md
-    - Odisea/Produccion/Pipeline/TRAILER/Guion.md
-    - Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.md
-    - Odisea/Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.md
-    - Odisea/Produccion/Status_Report.md
-  - part: Archivo
-    chapters:
-    - Odisea/Archivo/index.md
-    - Odisea/Archivo/ARCHIVED/Motion Capture.md
-    - Odisea/Archivo/ARCHIVED/REFACTOR PENDING.md
-    - Odisea/Archivo/CONTROL/DroidPad QR Spec.md
-    - Odisea/Archivo/CONTROL/DroidPad SPEC.md
-    - Odisea/Archivo/CONTROL/DroidPad Virtual Joypad.md
-    - Odisea/Archivo/CONTROL/Networked DroidPad.md
-    - Odisea/Archivo/FISICA/Física.md
+    - Odisea/Anexos/INDEX.md
+    - part: Mecánicas
+      chapters:
+      - Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.md
+      - Odisea/Anexos/Mecanicas/02_Mecanicas_Indice.md
+      - Odisea/Anexos/Mecanicas/Mecanicas_Controlador_Elias.md
+      - Odisea/Anexos/Mecanicas/Mecanicas_Dron_Cargol.md
+      - Odisea/Anexos/Mecanicas/Enemigos_Drones_y_Sistemas.md
+      - Odisea/Anexos/Mecanicas/Mecanicas_Herramienta_Mantenimiento.md
+      - Odisea/Anexos/Mecanicas/Input.md
+    - part: Narrativa
+      chapters:
+      - Odisea/Anexos/Narrativa/Acto_I_La_Negacion.md
+      - Odisea/Anexos/Narrativa/Nivel 1.md
+      - Odisea/Anexos/Narrativa/Nivel 2.md
+      - Odisea/Anexos/Narrativa/Nivel 3.md
+      - Odisea/Anexos/Narrativa/Locacion_Criogenia.md
+      - Odisea/Anexos/Narrativa/Personaje_Elias.md
+      - Odisea/Anexos/Narrativa/Personaje_IA_Odisea.md
+      - Odisea/Anexos/Narrativa/Entidad_Cargol.md
+    - part: Level Design
+      chapters:
+      - Odisea/Anexos/LevelDesign/Level_Design_Document.md
+      - Odisea/Anexos/LevelDesign/Pipeline.md
+      - Odisea/Anexos/LevelDesign/Screenplay_Nivel_1.md
+      - Odisea/Anexos/LevelDesign/Storyboard_Nivel_1.md
+      - Odisea/Anexos/LevelDesign/Deep_Research_Level_Design.md
+    - part: Canon (Feature Specs)
+      chapters:
+      - Odisea/Anexos/Canon/index.md
+      - Odisea/Anexos/Canon/feature_interact.md
+      - Odisea/Anexos/Canon/feature_interactables.md
+      - Odisea/Anexos/Canon/feature_odisea_script.md
+      - Odisea/Anexos/Canon/feature_odyssey_script_replay.md
+      - Odisea/Anexos/Canon/feature_odyssey_script_usage.md
+      - Odisea/Anexos/Canon/feature_pushable_box.md
+      - Odisea/Anexos/Canon/feature_refine_movement_gamefeel.md
 format:
   html:
     theme: darkly
