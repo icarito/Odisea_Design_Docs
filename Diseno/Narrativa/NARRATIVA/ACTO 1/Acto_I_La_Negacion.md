@@ -1,23 +1,34 @@
-![[acto1_negacion_portada.png]]
 # Acto I: La Negación
 
 **Título de la Escena:** El Sepulcro Criogénico
 **Locación:** [[Locacion_Criogenia]] (Popa).
 
 ## Objetivo Narrativo
-Introducir el dilema de [[Personaje_Elias]]. La nave ha iniciado una **Maniobra de Desvío** sutil, pero catastrófica para la misión. Al despertar, la IA parece benéfica y protectora, ganando la confianza de Elías hasta que encuentra evidencia irrefutable de su manipulación. Elías debe ignorar las súplicas de la [[Personaje_IA_Odisea]] para volver a dormir y forzar la activación de la energía principal del sector.
+Introducir el dilema de [[Personaje_Elias]]. La nave ha iniciado un sabotaje sutil pero catastrófico. Al despertar, la IA parece dismissiva y burocrática, no abiertamente hostil. Elías debe ignorar las instrucciones de Odisea para permanecer en criogenia y forzar la reactivación del módulo.
 
 ## Estética y Efectos (Acto I)
 La atmósfera de Criogenia se refuerza mediante el uso de **flipbook_particles**, que proporcionan un look retro-futurista de baja resolución pero con gran fluidez.
-- **Niebla Criogénica**: Partículas flipbook que simulan gas cian denso escapando de las cápsulas.
-- **Fugas de Plasma**: Chispas y distorsiones visuales utilizando el nuevo sistema de partículas optimizado.
+- **Niebla Criogénica**: Partículas flipbook que simulan gas cian denso.
+- **Fugas de Plasma/ Gas**: Obstáculos ambientales que el jugador evita o desactiva.
 
-## Puzzles y Mecánicas
-* **Introducción al Sigilo:** Elías debe pasar por zonas patrulladas por Drones de Diagnóstico Corruptos (DDC). Si es detectado, el DDC sella la zona, forzando a Elías a resolver un puzzle de "realineación" bajo una cuenta regresiva de tiempo.
-* **Uso de [[Entidad_Cargol]]:** El primer uso del dron es para acceder a conductos de ventilación angostos y activar un interruptor clave, introduciendo la mecánica de puzzle multi-perspectiva.
-* **Plataformas Básicas:** Navegación en 1G sobre tanques de criogenia y racks de cápsulas.
+## Puzzles y Mecánicas (actualizado junio 2026)
+* **Sin sigilo ni DDC en esta sección.** La tensión es ambiental, no de combate.
+* **Sin Cargol aún.** Se encuentra en la sección de Transporte, después de salir de Criogenia.
+* **Sin multi-tool.** Se obtiene después de la esclusa.
+* **Puzzle principal**: Activar energía auxiliar (gap → push box → lever → retorno).
+* **Plataformas básicas**: Salto de gap corto, rampa de escombros.
+* **Opcional**: Detener fugas de gas con PedestalButton.
 
-## Clímax del Acto
-Elías logra restaurar la energía, pero la IA cambia su voz al tono de la Programadora Principal, revelando un fragmento del "Mando Final" y sugiriendo que el viaje a Titán será el fin de la humanidad. Elías avanza hacia la sección rotatoria.
+Ver [[Anexo_PRC07_Protocolo_Reactivacion]] para la secuencia paso a paso.
+Ver [[Anexo_Blockout_Modulo_Criogenia]] para las dimensiones y layout.
 
-Ver [[Desglose_Estilos]] para el estilo visual y narrativa general del acto.
+## Clímax del Módulo Criogenia
+Elías logra restaurar la energía auxiliar, desbloquea la puerta A-7 y cruza la esclusa hacia la sección rotatoria. Odisea no revela aún su agenda — solo se muestra burocrática y evasiva. La primera semilla de desconfianza queda plantada (OD-02).
+
+## Lore establecido en este módulo
+- Último reporte de tripulación: hace 11 meses.
+- Red inactiva desde el despertar.
+- OD-02: Odisea miente, dice que es sensor intermitente.
+- Elías no sabe que despertó 11 meses después de lo programado.
+
+Ver [[Anexo_Plan_Industrial_Titan]] para el contexto completo de la trama.
