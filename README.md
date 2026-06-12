@@ -3,14 +3,16 @@
 Este repositorio contiene únicamente la documentación, diseño y pipeline de producción para el proyecto Odisea: El Arca Silenciosa.
 
 ## ¿Qué contiene este repo?
-- Documentación de diseño, narrativa, mecánicas y arte.
-- Planes de producción y backlog priorizado.
-- Índices de assets y referencias para el equipo.
-- Protocolos de pruebas y determinismo (referencias a core_v2 en el repo Godot).
+- Documentación completa de diseño, narrativa, mecánicas y arte.
+- Planes de producción, status reports y backlog priorizado.
+- Índices de assets y galería de imágenes del proyecto.
+- Protocolos de desarrollo, pruebas y especificaciones técnicas de Core V2.
+- Scripts de automatización para la generación de documentación.
 
 ## ¿Qué NO contiene?
-- No incluye código fuente ejecutable de Godot ni assets binarios finales.
-- No contiene el proyecto Godot; solo enlaces y referencias.
+- No incluye el código fuente ejecutable del motor Godot.
+- No contiene el proyecto de Godot principal (escenas, scripts .gd del juego).
+- No contiene los assets binarios finales optimizados para el motor.
 
 ## ¿Cómo compilar/publicar la documentación?
 

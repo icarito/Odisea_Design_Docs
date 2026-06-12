@@ -82,7 +82,14 @@ local VAULT_MAP = {
 
 local function make_image(target, alt)
   local img = target
-  if not img:match('^_ASSETS/') and not img:match('^/') and not img:match('^https?://') and not img:match('^data:') then
+  if target:match('^_ASSETS/') then
+    local fmt = FORMAT or ''
+    if fmt:match('html') then
+      img = '/Odisea/' .. target
+    else
+      img = 'Odisea/' .. target
+    end
+  elseif not img:match('^/') and not img:match('^https?://') and not img:match('^data:') then
     local fmt = FORMAT or ''
     if fmt:match('html') then
       img = '/Odisea/_ASSETS/' .. img
