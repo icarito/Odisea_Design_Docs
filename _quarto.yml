@@ -3,66 +3,76 @@ project:
   output-dir: outputs
   resources:
   - Odisea/_ASSETS/*
+  - Odisea/Canon/*
+  - Odisea/Diseno/*
+  - Odisea/Arquitectura/*
+  - Odisea/Produccion/*
 book:
   title: 'Odisea: El Arca Silenciosa'
   author: Equipo Odisea
   date: last-modified
-  sidebar:
-    collapse-level: 1
   chapters:
   - index.qmd
-  - Odisea/index.md
   - Odisea/Master_Index.md
-  - Odisea/GDD_v3.md
-  - part: Anexos - Mecánicas
+  - part: Canon (Especificaciones)
     chapters:
-    - Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.md
-    - Odisea/Anexos/Mecanicas/Mecanicas_Controlador_Elias.md
-    - Odisea/Anexos/Mecanicas/Mecanicas_Dron_Cargol.md
-    - Odisea/Anexos/Mecanicas/Enemigos_Drones_y_Sistemas.md
-    - Odisea/Anexos/Mecanicas/Mecanicas_Herramienta_Mantenimiento.md
-    - Odisea/Anexos/Mecanicas/Input.md
-  - part: Anexos - Narrativa
+    - Odisea/Canon/index.md
+    - Odisea/Canon/feature_interact.md
+    - Odisea/Canon/feature_interactables.md
+    - Odisea/Canon/feature_odisea_script.md
+    - Odisea/Canon/feature_odyssey_script_replay.md
+    - Odisea/Canon/feature_odyssey_script_usage.md
+    - Odisea/Canon/feature_pushable_box.md
+    - Odisea/Canon/feature_refine_movement_gamefeel.md
+    - Odisea/Canon/feature_sidescroller_zone.md
+    - Odisea/Canon/feature_test_battery.md
+    - Odisea/Canon/feature_test_runner.md
+  - part: Diseño
     chapters:
-    - Odisea/Anexos/Narrativa/Acto_I_La_Negacion.md
-    - Odisea/Anexos/Narrativa/Locacion_Criogenia.md
-    - Odisea/Anexos/Narrativa/Personaje_Elias.md
-    - Odisea/Anexos/Narrativa/Personaje_IA_Odisea.md
-    - Odisea/Anexos/Narrativa/Entidad_Cargol.md
-  - part: Anexos - Level Design
+    - Odisea/Diseno/Pilares.md
+    - Odisea/Diseno/Narrativa/Acto_I_La_Negacion.md
+    - Odisea/Diseno/Narrativa/Entidad_Cargol.md
+    - Odisea/Diseno/Narrativa/Locacion_Criogenia.md
+    - Odisea/Diseno/Narrativa/Nivel 1.md
+    - Odisea/Diseno/Narrativa/Nivel 2.md
+    - Odisea/Diseno/Narrativa/Nivel 3.md
+    - Odisea/Diseno/Narrativa/Personaje_Elias.md
+    - Odisea/Diseno/Narrativa/Personaje_IA_Odisea.md
+    - Odisea/Diseno/Mecanicas/02_Mecanicas_Clave.md
+    - Odisea/Diseno/Mecanicas/02_Mecanicas_Indice.md
+    - Odisea/Diseno/Mecanicas/Enemigos_Drones_y_Sistemas.md
+    - Odisea/Diseno/Mecanicas/Input.md
+    - Odisea/Diseno/Mecanicas/Mecanicas_Controlador_Elias.md
+    - Odisea/Diseno/Mecanicas/Mecanicas_Dron_Cargol.md
+    - Odisea/Diseno/Mecanicas/Mecanicas_Herramienta_Mantenimiento.md
+    - Odisea/Diseno/LevelDesign/Deep_Research_Level_Design.md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y "Flow".md
+    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.md
+    - Odisea/Diseno/LevelDesign/Level_Design_Document.md
+    - Odisea/Diseno/LevelDesign/Pipeline.md
+    - Odisea/Diseno/LevelDesign/Screenplay_Nivel_1.md
+    - Odisea/Diseno/LevelDesign/Storyboard_Nivel_1.md
+  - part: Arquitectura
     chapters:
-    - Odisea/Anexos/LevelDesign/Level_Design_Document.md
-    - Odisea/Anexos/LevelDesign/Pipeline.md
-    - Odisea/Anexos/LevelDesign/Screenplay_Nivel_1.md
-    - Odisea/Anexos/LevelDesign/Storyboard_Nivel_1.md
-    - Odisea/Anexos/LevelDesign/Deep_Research_Level_Design.md
-  - part: Anexos - Canon
+    - Odisea/Arquitectura/index.md
+    - Odisea/Arquitectura/Arquitectura de Subsistemas.md
+    - Odisea/Arquitectura/Core_V2_Resumen.md
+    - Odisea/Arquitectura/Protocolo_Core_V2.md
+    - Odisea/Arquitectura/Protocolo_Desarrollo.md
+  - part: Producción
     chapters:
-    - Odisea/Anexos/Canon/feature_interact.md
-    - Odisea/Anexos/Canon/feature_interactables.md
-    - Odisea/Anexos/Canon/feature_odisea_script.md
-    - Odisea/Anexos/Canon/feature_odyssey_script_replay.md
-    - Odisea/Anexos/Canon/feature_odyssey_script_usage.md
-    - Odisea/Anexos/Canon/feature_pushable_box.md
-    - Odisea/Anexos/Canon/feature_refine_movement_gamefeel.md
+    - Odisea/Produccion/index.md
+    - Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.md
+    - Odisea/Produccion/Status_Report.md
+  - part: Archivo
+    chapters: []
 format:
   html:
-    theme: darkly
+    theme: cosmo
     css: style.css
     toc: true
-    toc-depth: 3
-    toc-title: "Contenido"
-    number-sections: false
-    smooth-scroll: true
-    code-copy: true
-    link-external-icon: true
-    link-external-newwindow: true
-    include-after-body: _footer.html
-    page-footer:
-      left: "Odisea: El Arca Silenciosa"
-      right: "[GitHub](https://github.com/icarito/Odisea_Design_Docs)"
+    number-sections: true
   pdf:
-    pdf-engine: xelatex
     output-file: Odisea.pdf
     toc: true
     number-sections: true

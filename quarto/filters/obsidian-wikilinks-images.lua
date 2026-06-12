@@ -7,37 +7,37 @@ local VAULT_MAP = {
   ["GDD_v3"] = "/Odisea/GDD_v3.html",
   ["Master_Index"] = "/Odisea/Master_Index.html",
 
-  -- Anexos - Mecánicas
-  ["02_Mecanicas_Clave"] = "/Odisea/Anexos/Mecanicas/02_Mecanicas_Clave.html",
-  ["02_Mecanicas_Indice"] = "/Odisea/Anexos/Mecanicas/02_Mecanicas_Indice.html",
-  ["Mecanicas_Controlador_Elias"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Controlador_Elias.html",
-  ["Mecanicas_Dron_Cargol"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Dron_Cargol.html",
-  ["Enemigos_Drones_y_Sistemas"] = "/Odisea/Anexos/Mecanicas/Enemigos_Drones_y_Sistemas.html",
-  ["Mecanicas_Herramienta_Mantenimiento"] = "/Odisea/Anexos/Mecanicas/Mecanicas_Herramienta_Mantenimiento.html",
-  ["Input"] = "/Odisea/Anexos/Mecanicas/Input.html",
+  -- Diseño - Mecánicas
+  ["02_Mecanicas_Clave"] = "/Odisea/Diseno/Mecanicas/02_Mecanicas_Clave.html",
+  ["02_Mecanicas_Indice"] = "/Odisea/Diseno/Mecanicas/02_Mecanicas_Indice.html",
+  ["Mecanicas_Controlador_Elias"] = "/Odisea/Diseno/Mecanicas/Mecanicas_Controlador_Elias.html",
+  ["Mecanicas_Dron_Cargol"] = "/Odisea/Diseno/Mecanicas/Mecanicas_Dron_Cargol.html",
+  ["Enemigos_Drones_y_Sistemas"] = "/Odisea/Diseno/Mecanicas/Enemigos_Drones_y_Sistemas.html",
+  ["Mecanicas_Herramienta_Mantenimiento"] = "/Odisea/Diseno/Mecanicas/Mecanicas_Herramienta_Mantenimiento.html",
+  ["Input"] = "/Odisea/Diseno/Mecanicas/Input.html",
 
-  -- Anexos - Narrativa
-  ["Acto_I_La_Negacion"] = "/Odisea/Anexos/Narrativa/Acto_I_La_Negacion.html",
-  ["Locacion_Criogenia"] = "/Odisea/Anexos/Narrativa/Locacion_Criogenia.html",
-  ["Personaje_Elias"] = "/Odisea/Anexos/Narrativa/Personaje_Elias.html",
-  ["Personaje_IA_Odisea"] = "/Odisea/Anexos/Narrativa/Personaje_IA_Odisea.html",
-  ["Entidad_Cargol"] = "/Odisea/Anexos/Narrativa/Entidad_Cargol.html",
+  -- Diseño - Narrativa
+  ["Acto_I_La_Negacion"] = "/Odisea/Diseno/Narrativa/Acto_I_La_Negacion.html",
+  ["Locacion_Criogenia"] = "/Odisea/Diseno/Narrativa/Locacion_Criogenia.html",
+  ["Personaje_Elias"] = "/Odisea/Diseno/Narrativa/Personaje_Elias.html",
+  ["Personaje_IA_Odisea"] = "/Odisea/Diseno/Narrativa/Personaje_IA_Odisea.html",
+  ["Entidad_Cargol"] = "/Odisea/Diseno/Narrativa/Entidad_Cargol.html",
 
-  -- Anexos - Level Design
-  ["Level_Design_Document"] = "/Odisea/Anexos/LevelDesign/Level_Design_Document.html",
-  ["Pipeline"] = "/Odisea/Anexos/LevelDesign/Pipeline.html",
-  ["Screenplay_Nivel_1"] = "/Odisea/Anexos/LevelDesign/Screenplay_Nivel_1.html",
-  ["Storyboard_Nivel_1"] = "/Odisea/Anexos/LevelDesign/Storyboard_Nivel_1.html",
-  ["Deep_Research_Level_Design"] = "/Odisea/Anexos/LevelDesign/Deep_Research_Level_Design.html",
+  -- Diseño - Level Design
+  ["Level_Design_Document"] = "/Odisea/Diseno/LevelDesign/Level_Design_Document.html",
+  ["Pipeline"] = "/Odisea/Diseno/LevelDesign/Pipeline.html",
+  ["Screenplay_Nivel_1"] = "/Odisea/Diseno/LevelDesign/Screenplay_Nivel_1.html",
+  ["Storyboard_Nivel_1"] = "/Odisea/Diseno/LevelDesign/Storyboard_Nivel_1.html",
+  ["Deep_Research_Level_Design"] = "/Odisea/Diseno/LevelDesign/Deep_Research_Level_Design.html",
 
-  -- Anexos - Canon
-  ["feature_interact"] = "/Odisea/Anexos/Canon/feature_interact.html",
-  ["feature_interactables"] = "/Odisea/Anexos/Canon/feature_interactables.html",
-  ["feature_odisea_script"] = "/Odisea/Anexos/Canon/feature_odisea_script.html",
-  ["feature_odyssey_script_replay"] = "/Odisea/Anexos/Canon/feature_odyssey_script_replay.html",
-  ["feature_odyssey_script_usage"] = "/Odisea/Anexos/Canon/feature_odyssey_script_usage.html",
-  ["feature_pushable_box"] = "/Odisea/Anexos/Canon/feature_pushable_box.html",
-  ["feature_refine_movement_gamefeel"] = "/Odisea/Anexos/Canon/feature_refine_movement_gamefeel.html",
+  -- Canon
+  ["feature_interact"] = "/Odisea/Canon/feature_interact.html",
+  ["feature_interactables"] = "/Odisea/Canon/feature_interactables.html",
+  ["feature_odisea_script"] = "/Odisea/Canon/feature_odisea_script.html",
+  ["feature_odyssey_script_replay"] = "/Odisea/Canon/feature_odyssey_script_replay.html",
+  ["feature_odyssey_script_usage"] = "/Odisea/Canon/feature_odyssey_script_usage.html",
+  ["feature_pushable_box"] = "/Odisea/Canon/feature_pushable_box.html",
+  ["feature_refine_movement_gamefeel"] = "/Odisea/Canon/feature_refine_movement_gamefeel.html",
 
   -- Archive/MVP_Out
   ["Mecanicas_Gravedad_Variable"] = "/Archive/MVP_Out/Mecanicas_Gravedad_Variable.html",
@@ -65,14 +65,16 @@ local VAULT_MAP = {
   ["feature_test_runner"] = "/Archive/MVP_Out/feature_test_runner.html",
   ["feature_replay_upload"] = "/Archive/MVP_Out/feature_replay_upload.html",
 
-  -- Archive/Pendientes
-  ["Arquitectura de Subsistemas"] = "/Archive/Pendientes/Arquitectura/Arquitectura de Subsistemas.html",
-  ["Core_V2_Resumen"] = "/Archive/Pendientes/Arquitectura/Core_V2_Resumen.html",
-  ["Protocolo_Core_V2"] = "/Archive/Pendientes/Arquitectura/Protocolo_Core_V2.html",
-  ["Protocolo_Desarrollo"] = "/Archive/Pendientes/Arquitectura/Protocolo_Desarrollo.html",
-  ["Pilares"] = "/Archive/Pendientes/Pilares.html",
-  ["Status_Report"] = "/Archive/Pendientes/Produccion/Status_Report.html",
-  ["Plan_Implementacion_MVP"] = "/Archive/Pendientes/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
+  -- Arquitectura
+  ["Arquitectura de Subsistemas"] = "/Odisea/Arquitectura/Arquitectura de Subsistemas.html",
+  ["Core_V2_Resumen"] = "/Odisea/Arquitectura/Core_V2_Resumen.html",
+  ["Protocolo_Core_V2"] = "/Odisea/Arquitectura/Protocolo_Core_V2.html",
+  ["Protocolo_Desarrollo"] = "/Odisea/Arquitectura/Protocolo_Desarrollo.html",
+
+  -- Producción & Diseño
+  ["Pilares"] = "/Odisea/Diseno/Pilares.html",
+  ["Status_Report"] = "/Odisea/Produccion/Status_Report.html",
+  ["Plan_Implementacion_MVP"] = "/Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
   ["Ideas_Mecanicas"] = "/Archive/Pendientes/Produccion/Backlog/Ideas_Mecanicas.html",
   ["Motion Capture"] = "/Archive/Pendientes/Archivo/ARCHIVED/Motion Capture.html",
   ["REFACTOR PENDING"] = "/Archive/Pendientes/Archivo/ARCHIVED/REFACTOR PENDING.html",
