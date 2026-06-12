@@ -72,22 +72,28 @@ Drone de seguridad reprogramado por la IA. Patrulla zonas y detecta al jugador. 
 ## 5. Vertical Slice — Scope
 
 ### Lo que el VS debe demostrar
-1. El jugador se mueve y se siente bien (momentum, inercia, game feel)
-2. Una sala con historia ambiental legible
-3. Interacción básica (consolas, objetos)
-4. Una zona de sigilo con DD
-5. Uso de Cargol como asistente
-6. La voz de la IA Odisea manipulando al jugador
+1. El jugador se mueve y se siente bien (momentum, inercia, game feel refinado)
+2. Tres controladores funcionales: 3ra persona, 4WD, 0G (ZeroGravityController)
+3. Módulo Criogenia: blockout completo (3 niveles, puzzle energía auxiliar, esclusa)
+4. Bridge central de telemetría y Dashboard web (live tracking, heatmaps 3D)
+5. Core V2 con determinismo y replay funcional
+6. Props interactuables (LeverV2, PipeValve, DataSlate, etc.)
+
+### Pendiente para el VS (En Desarrollo)
+- Implementar sigilo con DD (patrulla, detección, zona sellada)
+- Implementar Cargol como dron asistente
+- Implementar multi-tool
+- Puzzle de reparación
+- Diálogos IA Odisea
+- Level design final de salas post-criogenia
 
 ### Lo que NO está en el VS
 - Actos II, III, IV
 - Cargol piloteable
-- Vehículos (4WD, nave)
 - Modo 2.5D
 - Cooperativo
 - Cómic / trailer
 - Medidor de integridad moral
-- Puzzles de reparación / minijuegos de circuitos
 
 ### [DECIDIR: Punto final del VS]
 - Opción A: Restaurar energía + clímax de la IA (revelación del Mando Final)

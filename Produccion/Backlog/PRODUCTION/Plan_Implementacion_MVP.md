@@ -41,4 +41,4 @@ Este documento detalla los assets y mecánicas mínimas requeridas para el MVP d
 
 Este plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.
 
-Ver [[00_Odisea_Master]] para navegación general del proyecto.
+Ver [ENLACE ROTO: 00_Odisea_Master] para navegación general del proyecto.

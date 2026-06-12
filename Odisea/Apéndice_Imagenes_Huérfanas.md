@@ -2,7 +2,7 @@
 
 Este apéndice se genera automáticamente y contiene imágenes presentes en el repositorio `_ASSETS` que no han sido utilizadas en la documentación.
 
-## Imágenes no referenciadas (33)
+## Imágenes no referenciadas (48)
 
 ![[_ASSETS/2115-3.jpg]]
 *_ASSETS/2115-3.jpg*
@@ -16,11 +16,17 @@ Este apéndice se genera automáticamente y contiene imágenes presentes en el r
 ![[_ASSETS/ChatGPT Image 30 nov 2025, 08_26_52 a.m..png]]
 *_ASSETS/ChatGPT Image 30 nov 2025, 08_26_52 a.m..png*
 
+![[_ASSETS/DroidPad_Odisea.png]]
+*_ASSETS/DroidPad_Odisea.png*
+
 ![[_ASSETS/Gemini_Generated_Image_2apni2apni2apni2.png]]
 *_ASSETS/Gemini_Generated_Image_2apni2apni2apni2.png*
 
 ![[_ASSETS/Gemini_Generated_Image_5ie7rp5ie7rp5ie7.png]]
 *_ASSETS/Gemini_Generated_Image_5ie7rp5ie7rp5ie7.png*
+
+![[_ASSETS/Gemini_Generated_Image_6p5ofi6p5ofi6p5o.png]]
+*_ASSETS/Gemini_Generated_Image_6p5ofi6p5ofi6p5o.png*
 
 ![[_ASSETS/Gemini_Generated_Image_fdtqyvfdtqyvfdtq.png]]
 *_ASSETS/Gemini_Generated_Image_fdtqyvfdtqyvfdtq.png*
@@ -54,6 +60,9 @@ Este apéndice se genera automáticamente y contiene imágenes presentes en el r
 
 ![[_ASSETS/Mapa de Narrativa.png]]
 *_ASSETS/Mapa de Narrativa.png*
+
+![[_ASSETS/TouchControls.png]]
+*_ASSETS/TouchControls.png*
 
 ![[_ASSETS/Whisk_2afa28969de8dee86824e478fde6d1feeg.png]]
 *_ASSETS/Whisk_2afa28969de8dee86824e478fde6d1feeg.png*
@@ -91,6 +100,9 @@ Este apéndice se genera automáticamente y contiene imágenes presentes en el r
 ![[_ASSETS/Whisk_d873b5e18994fef88fd4cfab9d43ec8deg.jpeg]]
 *_ASSETS/Whisk_d873b5e18994fef88fd4cfab9d43ec8deg.jpeg*
 
+![[_ASSETS/Whisk_f4705403137620cb6c7442f634d6d087dr.jpeg]]
+*_ASSETS/Whisk_f4705403137620cb6c7442f634d6d087dr.jpeg*
+
 ![[_ASSETS/Whisk_fefdc838fdc8aaeafaf43252413f025edr.jpeg]]
 *_ASSETS/Whisk_fefdc838fdc8aaeafaf43252413f025edr.jpeg*
 
@@ -100,6 +112,38 @@ Este apéndice se genera automáticamente y contiene imágenes presentes en el r
 ![[_ASSETS/enterprise_TOS.png]]
 *_ASSETS/enterprise_TOS.png*
 
+![[_ASSETS/multitool-black.png]]
+*_ASSETS/multitool-black.png*
+
+![[_ASSETS/multitool-unshaded.png]]
+*_ASSETS/multitool-unshaded.png*
+
+![[_ASSETS/nave_odisea_concepto.png]]
+*_ASSETS/nave_odisea_concepto.png*
+
+![[_ASSETS/nave_odisea_esquema.png]]
+*_ASSETS/nave_odisea_esquema.png*
+
+![[_ASSETS/nave_odisea_exterior.jpeg]]
+*_ASSETS/nave_odisea_exterior.jpeg*
+
+![[_ASSETS/nave_odisea_seccion.jpeg]]
+*_ASSETS/nave_odisea_seccion.jpeg*
+
 ![[_ASSETS/pilot.jpg]]
 *_ASSETS/pilot.jpg*
 
+![[_ASSETS/pp_fantasma_niebla.png]]
+*_ASSETS/pp_fantasma_niebla.png*
+
+![[_ASSETS/vehiculo_4x4_biogranja.png]]
+*_ASSETS/vehiculo_4x4_biogranja.png*
+
+![[_ASSETS/vehiculo_4x4_modelo.png]]
+*_ASSETS/vehiculo_4x4_modelo.png*
+
+![[_ASSETS/vehiculo_aereo_modelo.png]]
+*_ASSETS/vehiculo_aereo_modelo.png*
+
+![[_ASSETS/vehiculo_aereo_secundario.png]]
+*_ASSETS/vehiculo_aereo_secundario.png*

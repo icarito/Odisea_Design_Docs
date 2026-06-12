@@ -1,30 +1,35 @@
-# Informe de Estado: Vertical Slice "Odisea Sector 07"
+# Status Report — Odisea: El Arca Silenciosa
+**Fecha:** Junio 2026
 
-## 1. Análisis de Salud del Proyecto
+## 1. Sistemas Completados
+El proyecto ha avanzado significativamente, estableciendo las bases técnicas y de contenido para el Vertical Slice:
 
-- **Core Técnico:** Excelente. La implementación de `MovingPlatformV2.gd` con soporte de curvas y el fix de posición global asegura que las plataformas no se desincronicen.
-    
-- **Visuales:** Controlados. La corrección del `Glow` y la `Niebla` en el `WorldEnvironment` elimina el "look barato" de GLES2.
-    
-- **Mecánicas:** El `PushableBoxV2.gd` con inclinación visual añade el peso necesario para que el entorno se sienta físico.
-    
+- **Core V2:** Sistema determinista con soporte de replay funcional (`SessionManager`, `OysScript`, batería de tests completa).
+- **Movimiento 3ra Persona:** Refinado con momentum, inercia y game feel mecánico.
+- **Controladores Funcionales:** Tres esquemas validados: 3ra persona (Elias), 4WD (vehículo terrestre), 0G (ZeroGravityController).
+- **Scaffold WFC:** Generación procedural de andamios con 9 módulos y alineación automática de altura.
+- **Bridge de Telemetría:** Sistema centralizado para heartbeats, ghosts y sesiones históricas con persistencia en SQLite.
+- **Dashboard Web:** Herramienta de tracking en vivo, visualización de heatmaps 3D y playback de sesiones con Viewport3D.
+- **Props (Batch 1):** Completados e integrados: `LeverV2`, `BrokenFloorPanel`, `WarningBarrier`, `DataSlate`, `SteelPlate/Stack`, `PipeValve`, `Manometer`, tuberías, `FireEmitter`, `RetractableBridge`.
+- **Módulo Criogenia:** Blockout completo (3 niveles, puzzle de energía auxiliar, esclusa funcional).
+- **PRC-07:** Protocolo de Reactivación Post-Criogénica totalmente documentado.
+- **Personaje Elías:** Modelo base listo e integrado en el pipeline.
+- **Multiplataforma:** Pipeline de exportación funcional para HTML5, Linux, Windows y macOS.
 
-## 2. Roadmap: Últimos pasos para el Slice
+## 2. Pendiente para el Vertical Slice (VS)
+Tareas críticas en desarrollo para completar la demo técnica:
 
-Para poder presentar este MVP, te sugiero completar estas 3 tareas en orden:
+- **Sigilo con DD:** Implementar comportamiento de patrulla, detección y sellado de zonas.
+- **Cargol:** Implementación del dron asistente y su sistema de órdenes simples.
+- **Multi-tool:** Desarrollo de la herramienta de mantenimiento versátil.
+- **Puzzle de reparación:** Mecánica interactiva de mantenimiento.
+- **IA Odisea:** Integración de diálogos y sistema de guía narrativa.
+- **Level Design:** Refinamiento de las salas post-criogenia.
 
-### Tarea A: El "Túnel de Transición" (Zona B)
+## 3. Riesgos Actuales
+- Complejidad en la navegación de la IA (DD) en entornos generados proceduralmente (WFC).
+- Balanceo de la dificultad en las zonas de sigilo sin combate.
+- Sincronización de audio para la IA Odisea en la versión HTML5.
 
-Implementar el `Area2D` que dispare el cambio de cámara del `2_5d_transition_spec.md`. Es el momento más importante del Vertical Slice: pasar del 3D claustrofóbico al 2.5D épico.
-
-### Tarea B: Integración de GDUnit3
-
-Ejecutar el `test_runner_spec.md`. Debes asegurar que si Elias mueve una caja y luego salta sobre una plataforma, el replay lo reproduzca con un drift menor a **0.0001**. Si esto pasa, el juego es técnicamente perfecto.
-
-### Tarea C: Pulido de Assets
-
-Aplicar el **Triplanar Mapping** a todos los materiales de la nave (Punto 6 de `atm_lighting_spec.md`). Esto hará que la escala de 8km se sienta real y no como texturas estiradas.
-
-## 3. Conclusión
-
-Estás a **un solo nivel bien diseñado** de tener un Vertical Slice funcional. Los componentes individuales (Plataformas, Cajas, Cámara, Atmósfera) ya funcionan por separado. El siguiente paso es el **Level Design** puro usando los estándares de `metrics_standard.md`.
+## 4. Próximo Hito
+**Integración de Sistemas de Sigilo y IA (Julio 2026):** Primera prueba de juego completa en el Módulo Criogenia con amenazas activas y guía de la IA.
