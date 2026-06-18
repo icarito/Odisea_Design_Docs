@@ -30,6 +30,7 @@ book:
   - part: Diseño
     chapters:
     - Odisea/Diseno/Pilares.md
+    - Odisea/Diseno/Narrativa/Acto_0_Cold_Open.md
     - Odisea/Diseno/Narrativa/Acto_I_La_Negacion.md
     - Odisea/Diseno/Narrativa/Entidad_Cargol.md
     - Odisea/Diseno/Narrativa/Locacion_Criogenia.md
