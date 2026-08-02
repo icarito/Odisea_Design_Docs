@@ -2,71 +2,118 @@ project:
   type: book
   output-dir: outputs
   resources:
-  - Odisea/_ASSETS/*
-  - Odisea/Canon/*
-  - Odisea/Diseno/*
-  - Odisea/Arquitectura/*
-  - Odisea/Produccion/*
+  - _ASSETS/*
 book:
   title: 'Odisea: El Arca Silenciosa'
   author: Equipo Odisea
   date: last-modified
   chapters:
   - index.qmd
-  - Odisea/Master_Index.md
+  - Master_Index.md
+  - GDD_v3.md
   - part: Canon (Especificaciones)
     chapters:
-    - Odisea/Canon/index.md
-    - Odisea/Canon/feature_interact.md
-    - Odisea/Canon/feature_interactables.md
-    - Odisea/Canon/feature_odisea_script.md
-    - Odisea/Canon/feature_odyssey_script_replay.md
-    - Odisea/Canon/feature_odyssey_script_usage.md
-    - Odisea/Canon/feature_pushable_box.md
-    - Odisea/Canon/feature_refine_movement_gamefeel.md
-    - Odisea/Canon/feature_sidescroller_zone.md
-    - Odisea/Canon/feature_test_battery.md
-    - Odisea/Canon/feature_test_runner.md
+    - Canon/index.md
+    - Canon/feature_interact.md
+    - Canon/feature_interactables.md
+    - Canon/feature_interaction_marker.md
+    - Canon/feature_odisea_bridge.md
+    - Canon/feature_odisea_script.md
+    - Canon/feature_odiseaos_cameras.md
+    - Canon/feature_odyssey_script_replay.md
+    - Canon/feature_odyssey_script_usage.md
+    - Canon/feature_pushable_box.md
+    - Canon/feature_refine_movement_gamefeel.md
+    - Canon/feature_searchlights_trackers.md
+    - Canon/feature_sidescroller_zone.md
+    - Canon/feature_test_battery.md
+    - Canon/feature_test_runner.md
   - part: Diseño
     chapters:
-    - Odisea/Diseno/Pilares.md
-    - Odisea/Diseno/Narrativa/Acto_0_Cold_Open.md
-    - Odisea/Diseno/Narrativa/Acto_I_La_Negacion.md
-    - Odisea/Diseno/Narrativa/Entidad_Cargol.md
-    - Odisea/Diseno/Narrativa/Locacion_Criogenia.md
-    - Odisea/Diseno/Narrativa/Nivel 1.md
-    - Odisea/Diseno/Narrativa/Nivel 2.md
-    - Odisea/Diseno/Narrativa/Nivel 3.md
-    - Odisea/Diseno/Narrativa/Personaje_Elias.md
-    - Odisea/Diseno/Narrativa/Personaje_IA_Odisea.md
-    - Odisea/Diseno/Mecanicas/02_Mecanicas_Clave.md
-    - Odisea/Diseno/Mecanicas/02_Mecanicas_Indice.md
-    - Odisea/Diseno/Mecanicas/Enemigos_Drones_y_Sistemas.md
-    - Odisea/Diseno/Mecanicas/Input.md
-    - Odisea/Diseno/Mecanicas/Mecanicas_Controlador_Elias.md
-    - Odisea/Diseno/Mecanicas/Mecanicas_Dron_Cargol.md
-    - Odisea/Diseno/Mecanicas/Mecanicas_Herramienta_Mantenimiento.md
-    - Odisea/Diseno/LevelDesign/Deep_Research_Level_Design.md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Afordancias, Ritmo y "Flow".md
-    - Odisea/Diseno/LevelDesign/LEVEL DESIGN/Física y Métricas.md
-    - Odisea/Diseno/LevelDesign/Level_Design_Document.md
-    - Odisea/Diseno/LevelDesign/Pipeline.md
-    - Odisea/Diseno/LevelDesign/Screenplay_Nivel_1.md
-    - Odisea/Diseno/LevelDesign/Storyboard_Nivel_1.md
+    - Diseno/index.md
+    - Diseno/Pilares.md
+    - Diseno/Narrativa/Acto_0_Cold_Open.md
+    - Diseno/Narrativa/Acto_I_La_Negacion.md
+    - Diseno/Narrativa/Nivel 1.md
+    - Diseno/Narrativa/Nivel 2.md
+    - Diseno/Narrativa/Nivel 3.md
+    - Diseno/Narrativa/Acto_II_El_Laberinto.md
+    - Diseno/Narrativa/Acto_III_El_Desafio.md
+    - Diseno/Narrativa/Acto_IV_La_Decision.md
+    - Diseno/Narrativa/Narrativa_Finales.md
+    - Diseno/Narrativa/Cuentos.md
+    - Diseno/Narrativa/Personaje_Elias.md
+    - Diseno/Narrativa/Personaje_IA_Odisea.md
+    - Diseno/Narrativa/Personaje_PP_fantasma.md
+    - Diseno/Narrativa/Entidad_Cargol.md
+    - Diseno/Narrativa/GIZMO.md
+    - Diseno/Narrativa/Multi-Tool.md
+    - Diseno/Narrativa/Manifiesto de carga.md
+    - Diseno/Narrativa/Anexo_Plan_Industrial_Titan.md
+    - Diseno/Narrativa/Locacion_BioGranjas_SCG.md
+    - Diseno/Narrativa/Locacion_Criogenia.md
+    - Diseno/Narrativa/Locacion_Laboratorio_Acuatico.md
+    - Diseno/Narrativa/Locacion_Mantenimiento.md
+    - Diseno/Narrativa/Locacion_Modulos_Rotatorios.md
+    - Diseno/Narrativa/Locacion_Nave_General.md
+    - Diseno/Narrativa/Locacion_Nucleo_0G.md
+    - Diseno/Narrativa/Locacion_Nucleo_IA.md
+    - Diseno/Mecanicas/02_Mecanicas_Clave.md
+    - Diseno/Mecanicas/02_Mecanicas_Indice.md
+    - Diseno/Mecanicas/03_Vehiculos.md
+    - Diseno/Mecanicas/Enemigos_Drones_y_Sistemas.md
+    - Diseno/Mecanicas/Input.md
+    - Diseno/Mecanicas/Mecanicas_Controlador_Elias.md
+    - Diseno/Mecanicas/Mecanicas_Dron_Cargol.md
+    - Diseno/Mecanicas/Mecanicas_Gravedad_Variable.md
+    - Diseno/Mecanicas/Mecanicas_Herramienta_Mantenimiento.md
+    - Diseno/Mecanicas/Mecanicas_Propulsor_0G.md
+    - Diseno/Mecanicas/Mecanicas_Vehiculo_4x4.md
+    - Diseno/Mecanicas/Mecanicas_Vehiculo_Aereo.md
+    - Diseno/Mecanicas/Meneo en 0G.md
+    - Diseno/Arte/Arte_Estilo_Visual.md
+    - Diseno/Arte/Arte_Prompts_Generativos.md
+    - Diseno/Arte/Desglose_Estilos.md
+    - Diseno/Arte/Guía de Estilo de Interfaz Humana.md
+    - Diseno/Arte/Luces.md
+    - Diseno/Arte/Música.md
+    - Diseno/Arte/Referencias_e_Inspiración.md
+    - Diseno/LevelDesign/Afordancias, Ritmo y "Flow".md
+    - Diseno/LevelDesign/Deep_Research_Level_Design.md
+    - Diseno/LevelDesign/FD-050_Scaffold_WFC.md
+    - Diseno/LevelDesign/Física y Métricas.md
+    - Diseno/LevelDesign/Level_Design_Document.md
+    - Diseno/LevelDesign/Pipeline.md
+    - Diseno/LevelDesign/Screenplay_Nivel_1.md
+    - Diseno/LevelDesign/Storyboard_Nivel_1.md
   - part: Arquitectura
     chapters:
-    - Odisea/Arquitectura/index.md
-    - Odisea/Arquitectura/Arquitectura de Subsistemas.md
-    - Odisea/Arquitectura/Core_V2_Resumen.md
-    - Odisea/Arquitectura/Protocolo_Core_V2.md
-    - Odisea/Arquitectura/Protocolo_Desarrollo.md
+    - Arquitectura/index.md
+    - Arquitectura/Arquitectura de Subsistemas.md
+    - Arquitectura/Core_V2_Resumen.md
+    - Arquitectura/Protocolo_Core_V2.md
+    - Arquitectura/Protocolo_Desarrollo.md
   - part: Producción
     chapters:
-    - Odisea/Produccion/index.md
-    - Odisea/Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.md
-    - Odisea/Produccion/Status_Report.md
-  - part: Archivo
-    chapters: []
+    - Produccion/index.md
+    - Produccion/Status_Report.md
+    - Produccion/Backlog/Ideas_Mecanicas.md
+    - Produccion/Backlog/QOL_Checklist.md
+    - Produccion/Backlog/PRODUCTION/Automatización.md
+    - Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.md
+    - Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.md
+    - Produccion/Pipeline/TRAILER/Assets.md
+    - Produccion/Pipeline/TRAILER/Guion.md
+    - Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.md
+    - Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.md
+  - part: Anexos
+    chapters:
+    - Anexos/Anexo_Blockout_Modulo_Criogenia.md
+    - Anexos/Anexo_PRC07_Protocolo_Reactivacion.md
+  appendices:
+  - Politica_Privacidad.md
+  - Apendice_Imagenes_Huerfanas.md
+lang: es
 format:
   html:
     theme: cosmo

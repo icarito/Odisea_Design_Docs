@@ -24,10 +24,11 @@ El equipo está desarrollando el **Vertical Slice del Acto I**. Muchas secciones
 
 ## Navegación
 
-- **[Diseño](Odisea/Diseno/index.md)** — Narrativa, personajes, mecánicas, arte y level design
-- **[Canon](Odisea/Canon/index.md)** — Especificaciones técnicas de features implementados
-- **[Arquitectura](Odisea/Arquitectura/index.md)** — Protocolos de desarrollo y estructura del código
-- **[Producción](Odisea/Produccion/index.md)** — Estado del proyecto, backlog y planes
+- **[Diseño](Diseno/index.md)** — Narrativa, personajes, mecánicas, arte y level design
+- **[Canon](Canon/index.md)** — Especificaciones técnicas de features implementados
+- **[Arquitectura](Arquitectura/index.md)** — Protocolos de desarrollo y estructura del código
+- **[Producción](Produccion/index.md)** — Estado del proyecto, backlog y planes
+- **[Política de Privacidad](Politica_Privacidad.md)** — Qué telemetría recolecta el juego y qué hacemos con ella
 
 ---
 

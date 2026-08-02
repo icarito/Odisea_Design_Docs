@@ -27,6 +27,13 @@ jobs:
       - name: Generate Orphaned Images Appendix
         run: python3 scripts/generate_orphaned_appendix.py
 
+      # Debe ir despues del apendice: la navegacion se arma desde el arbol real,
+      # e incluye ese archivo generado. Tambien reescribe quarto/filters/vault_map.lua.
+      - name: Generate Quarto config and wikilink map
+        run: |
+          pip install pyyaml
+          python3 scripts/generate_quarto_config.py
+
       - name: Generate footer with commit info
         run: |
           FULL_SHA="${{ github.sha }}"

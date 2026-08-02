@@ -3,9 +3,11 @@ import re
 
 def main():
     # Configuration
-    wiki_base = "Odisea"
-    assets_dir = os.path.join(wiki_base, "_ASSETS")
-    output_file = os.path.join(wiki_base, "Apéndice_Imagenes_Huérfanas.md")
+    wiki_base = "."
+    assets_dir = "_ASSETS"
+    output_file = "Apendice_Imagenes_Huerfanas.md"
+    # Directorios que no son documentacion viva (salidas de build, archivo, restos).
+    skip_dirs = {".git", ".quarto", "outputs", "_book", "site_libs", "_fit", "Odisea"}
     
     # 1. Get all images in _ASSETS
     all_images = set()
@@ -24,6 +26,7 @@ def main():
     obsidian_pattern = re.compile(r'!\[\[(.*?)\]\]')
     
     for root, dirs, files in os.walk(wiki_base):
+        dirs[:] = [d for d in dirs if d not in skip_dirs]
         for file in files:
             if file.endswith(".md"):
                 file_path = os.path.join(root, file)
@@ -71,8 +74,7 @@ def main():
     print(f"Successfully generated '{output_file}'")
 
 if __name__ == "__main__":
-    # Ensure we run from the wiki root (parent of 'Odisea')
-    # Use script location to find wiki root
+    # Ensure we run from the wiki root
     script_dir = os.path.dirname(os.path.abspath(__file__))
     wiki_root = os.path.dirname(script_dir)
     os.chdir(wiki_root)
