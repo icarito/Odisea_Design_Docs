@@ -11,35 +11,35 @@ Este documento prioriza la información y recursos clave para alcanzar el MVP, a
 
 ### Tabla de Assets Mínimos (MVP - Acto I)
 
-| Categoría   | Asset/Elemento             | Descripción breve                       | Estado/Notas      |
-| ----------- | -------------------------- | --------------------------------------- | ----------------- |
-| Personaje   | Elías                      | Modelo low-poly, animaciones básicas    | Modelo base listo |
-| Personaje   | Cargol (Dron)              | Modelo, animación flotante, luz azul    |                   |
-| IA/Fantasma | Voz IA/PP                  | Audio, texto, efecto holográfico/niebla |                   |
-| Entorno     | Módulo Criogenia           | Pasillos, cápsulas, niebla, luces       |                   |
-| Props       | Consola de datos           | Panel interactivo                       |                   |
-| Props       | Panel de reparación        | Punto de puzzle                         |                   |
-| Enemigos    | DDC (drone enemigo)        | Modelo simple, animación patrulla       |                   |
-| UI          | Mensajes, diálogos         | Caja de texto, efectos visuales         |                   |
-| Efectos     | Niebla, luces volumétricas | Shader simple, partículas               |                   |
-| Sonido      | Ambiente, efectos básicos  | Loop ambiental, efectos de acción       |                   |
+| Categoría   | Asset/Elemento             | Descripción breve                                                    | Estado/Notas               |
+| ----------- | -------------------------- | -------------------------------------------------------------------- | -------------------------- |
+| Personaje   | Elías                      | Modelo low-poly, animaciones básicas                                 | Modelo base listo          |
+| Personaje   | Cargol (Dron)              | Modelo, animación flotante, luz azul                                 | FUERA del MVP (Backlog)    |
+| IA/Fantasma | Voz IA/PP                  | Audio, texto, efecto holográfico/niebla                              |                            |
+| Entorno     | Domo Criogénico            | 4 redes (coolant/plasma/aire/energía), reactor, blast door, hangar   |                            |
+| Props       | Consola de datos           | Panel interactivo                                                    |                            |
+| Props       | Panel de reparación        | Punto de puzzle                                                      |                            |
+| Enemigos    | DDC (drone enemigo)        | Modelo simple, animación patrulla                                    | FUERA del MVP (Backlog)    |
+| UI          | Mensajes, diálogos         | Caja de texto, efectos visuales                                      |                            |
+| Efectos     | Niebla, luces volumétricas | Shader simple, partículas                                            |                            |
+| Sonido      | Ambiente, efectos básicos  | Loop ambiental, efectos de acción                                    |                            |
 
 ### Tabla de Mecánicas Mínimas (MVP - Acto I)
 
-| Mecánica                 | Descripción breve                       | Estado/Notas    |
-| ------------------------ | --------------------------------------- | --------------- |
-| Movimiento 3ra persona   | Caminar, correr, saltar, doble salto    | Prototipo listo |
-| Interacción con consolas | Activar paneles, leer mensajes          |                 |
-| Uso de Cargol            | Cambiar control, resolver puzzle simple |                 |
-| Sigilo y patrulla DDC    | Evitar drones, activar alarma           |                 |
-| Puzzle de reparación     | Minijuego o secuencia simple            |                 |
-| Niebla/ambiente          | Cambios de visibilidad, atmósfera       |                 |
-| Diálogo IA/PP            | Mensajes, voz, efectos de aparición     |                 |
+| Mecánica                 | Descripción breve                       | Estado/Notas            |
+| ------------------------ | --------------------------------------- | ----------------------- |
+| Movimiento 3ra persona   | Caminar, correr, saltar, doble salto    | Prototipo listo         |
+| Interacción con consolas | Activar paneles, leer mensajes          |                         |
+| Uso de Cargol            | Cambiar control, resolver puzzle simple | FUERA del MVP (Backlog) |
+| Sigilo y patrulla DDC    | Evitar drones, activar alarma           | FUERA del MVP (Backlog) |
+| Puzzle de reparación     | Minijuego o secuencia simple            |                         |
+| Niebla/ambiente          | Cambios de visibilidad, atmósfera       |                         |
+| Diálogo IA/PP            | Mensajes, voz, efectos de aparición     |                         |
 
 ---
 
 ## Narrativa Resumida y Coherente (MVP)
-Elías despierta en la nave Odisea tras un largo letargo criogénico. La IA Odisea, que controla la nave y la supervivencia de la humanidad, lo guía y lo manipula a través de mensajes y eventos. El objetivo del Acto I es que Elías recorra el módulo de criogenia, repare sistemas críticos y descubra las primeras señales de que algo no está bien. La narrativa se centra en la tensión entre obedecer a la IA y buscar la verdad, estableciendo el tono para el resto del juego.
+Elías despierta en la nave Odisea tras un largo letargo criogénico. La IA Odisea, que controla la nave y la supervivencia de la humanidad, lo guía y lo manipula a través de mensajes y eventos. El objetivo del Acto I es que Elías recorra el domo criogénico y repare sus cuatro redes de sistemas, y descubra las primeras señales de que algo no está bien. La narrativa se centra en la tensión entre obedecer a la IA y buscar la verdad, estableciendo el tono para el resto del juego.
 
 ---
 
