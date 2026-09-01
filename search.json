@@ -44,7 +44,7 @@
     "href": "Master_Index.html#prioridad-mvp-acto-i",
     "title": "2  Odisea: El Arca Silenciosa — Índice Maestro (MVP)",
     "section": "2.2 Prioridad: MVP Acto I",
-    "text": "2.2 Prioridad: MVP Acto I\n\n2.2.1 Tabla de Assets Mínimos (MVP - Acto I)\n\n\n\n\n\n\n\n\n\nCategoría\nAsset/Elemento\nDescripción breve\nEstado/Notas\n\n\n\n\nPersonaje\nElías\nModelo low-poly, animaciones básicas\nModelo base listo\n\n\nPersonaje\nCargol (Dron)\nModelo, animación flotante, luz azul\n\n\n\nIA/Fantasma\nVoz IA/PP\nAudio, texto, efecto holográfico/niebla\n\n\n\nEntorno\nMódulo Criogenia\nPasillos, cápsulas, niebla, luces\n\n\n\nProps\nConsola de datos\nPanel interactivo\n\n\n\nProps\nPanel de reparación\nPunto de puzzle\n\n\n\nEnemigos\nDDC (drone enemigo)\nModelo simple, animación patrulla\n\n\n\nUI\nMensajes, diálogos\nCaja de texto, efectos visuales\n\n\n\nEfectos\nNiebla, luces volumétricas\nShader simple, partículas\n\n\n\nSonido\nAmbiente, efectos básicos\nLoop ambiental, efectos de acción\n\n\n\n\n\n\n2.2.2 Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición",
+    "text": "2.2 Prioridad: MVP Acto I\n\n2.2.1 Tabla de Assets Mínimos (MVP - Acto I)\n\n\n\n\n\n\n\n\n\nCategoría\nAsset/Elemento\nDescripción breve\nEstado/Notas\n\n\n\n\nPersonaje\nElías\nModelo low-poly, animaciones básicas\nModelo base listo\n\n\nPersonaje\nCargol (Dron)\nModelo, animación flotante, luz azul\nFUERA del MVP (Backlog)\n\n\nIA/Fantasma\nVoz IA/PP\nAudio, texto, efecto holográfico/niebla\n\n\n\nEntorno\nDomo Criogénico\n4 redes (coolant/plasma/aire/energía), reactor, blast door, hangar\n\n\n\nProps\nConsola de datos\nPanel interactivo\n\n\n\nProps\nPanel de reparación\nPunto de puzzle\n\n\n\nEnemigos\nDDC (drone enemigo)\nModelo simple, animación patrulla\nFUERA del MVP (Backlog)\n\n\nUI\nMensajes, diálogos\nCaja de texto, efectos visuales\n\n\n\nEfectos\nNiebla, luces volumétricas\nShader simple, partículas\n\n\n\nSonido\nAmbiente, efectos básicos\nLoop ambiental, efectos de acción\n\n\n\n\n\n\n2.2.2 Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\nFUERA del MVP (Backlog)\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\nFUERA del MVP (Backlog)\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span>"
     ]
@@ -54,7 +54,7 @@
     "href": "Master_Index.html#narrativa-resumida-y-coherente-mvp",
     "title": "2  Odisea: El Arca Silenciosa — Índice Maestro (MVP)",
     "section": "2.3 Narrativa Resumida y Coherente (MVP)",
-    "text": "2.3 Narrativa Resumida y Coherente (MVP)\nElías despierta en la nave Odisea tras un largo letargo criogénico. La IA Odisea, que controla la nave y la supervivencia de la humanidad, lo guía y lo manipula a través de mensajes y eventos. El objetivo del Acto I es que Elías recorra el módulo de criogenia, repare sistemas críticos y descubra las primeras señales de que algo no está bien. La narrativa se centra en la tensión entre obedecer a la IA y buscar la verdad, estableciendo el tono para el resto del juego.",
+    "text": "2.3 Narrativa Resumida y Coherente (MVP)\nElías despierta en la nave Odisea tras un largo letargo criogénico. La IA Odisea, que controla la nave y la supervivencia de la humanidad, lo guía y lo manipula a través de mensajes y eventos. El objetivo del Acto I es que Elías recorra el domo criogénico y repare sus cuatro redes de sistemas, y descubra las primeras señales de que algo no está bien. La narrativa se centra en la tensión entre obedecer a la IA y buscar la verdad, estableciendo el tono para el resto del juego.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Odisea: El Arca Silenciosa — Índice Maestro (MVP)</span>"
     ]
@@ -3582,7 +3582,7 @@
     "href": "Produccion/Status_Report.html",
     "title": "81  Status Report — Odisea: El Arca Silenciosa",
     "section": "",
-    "text": "81.1 1. Sistemas Completados\nFecha: Junio 2026\nEl proyecto ha avanzado significativamente, estableciendo las bases técnicas y de contenido para el Vertical Slice:",
+    "text": "81.1 1. Sistemas Completados\nFecha: Junio 2026 Última actualización: 2026-09-01 (Reconciliado con el canon del domo criogénico)\nEl proyecto ha avanzado significativamente, estableciendo las bases técnicas y de contenido para el Vertical Slice:",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>81</span>  <span class='chapter-title'>Status Report — Odisea: El Arca Silenciosa</span>"
@@ -3593,7 +3593,7 @@
     "href": "Produccion/Status_Report.html#sistemas-completados",
     "title": "81  Status Report — Odisea: El Arca Silenciosa",
     "section": "",
-    "text": "Core V2: Sistema determinista con soporte de replay funcional (SessionManager, OysScript, batería de tests completa).\nMovimiento 3ra Persona: Refinado con momentum, inercia y game feel mecánico.\nControladores Funcionales: Tres esquemas validados: 3ra persona (Elias), 4WD (vehículo terrestre), 0G (ZeroGravityController).\nScaffold WFC: Generación procedural de andamios con 9 módulos y alineación automática de altura.\nBridge de Telemetría: Sistema centralizado para heartbeats, ghosts y sesiones históricas con persistencia en SQLite.\nDashboard Web: Herramienta de tracking en vivo, visualización de heatmaps 3D y playback de sesiones con Viewport3D.\nProps (Batch 1): Completados e integrados: LeverV2, BrokenFloorPanel, WarningBarrier, DataSlate, SteelPlate/Stack, PipeValve, Manometer, tuberías, FireEmitter, RetractableBridge.\nMódulo Criogenia: Blockout completo (3 niveles, puzzle de energía auxiliar, esclusa funcional).\nPRC-07: Protocolo de Reactivación Post-Criogénica totalmente documentado.\nPersonaje Elías: Modelo base listo e integrado en el pipeline.\nMultiplataforma: Pipeline de exportación funcional para HTML5, Linux, Windows y macOS.",
+    "text": "Core V2: Sistema determinista con soporte de replay funcional (SessionManager, OysScript, batería de tests completa).\nMovimiento 3ra Persona: Refinado con momentum, inercia y game feel mecánico.\nControladores Funcionales: Tres esquemas validados: 3ra persona (Elias), 4WD (vehículo terrestre), 0G (ZeroGravityController).\nScaffold WFC: Generación procedural de andamios con 9 módulos y alineación automática de altura.\nBridge de Telemetría: Sistema centralizado para heartbeats, ghosts y sesiones históricas con persistencia en SQLite.\nDashboard Web: Herramienta de tracking en vivo, visualización de heatmaps 3D y playback de sesiones con Viewport3D.\nProps (Batch 1): Completados e integrados: LeverV2, BrokenFloorPanel, WarningBarrier, DataSlate, SteelPlate/Stack, PipeValve, Manometer, tuberías, FireEmitter, RetractableBridge.\nDomo Criogénico: Canon actualizado a domo criogénico con 4 redes de sistemas (coolant, plasma, aire y energía), reactor central, blast door y hangar de mantenimiento (escena separada que conduce a la esclusa exterior). Nota: El diseño previo de “3 niveles + esclusa” queda superseded/legacy.\nPRC-07: Protocolo de Reactivación Post-Criogénica totalmente documentado (SUPERSEDED - ver Anexos/Anexo_PRC07_Protocolo_Reactivacion.md).\nPersonaje Elías: Modelo base listo e integrado en el pipeline.\nMultiplataforma: Pipeline de exportación funcional para HTML5, Linux, Windows y macOS.",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>81</span>  <span class='chapter-title'>Status Report — Odisea: El Arca Silenciosa</span>"
@@ -3604,7 +3604,7 @@
     "href": "Produccion/Status_Report.html#pendiente-para-el-vertical-slice-vs",
     "title": "81  Status Report — Odisea: El Arca Silenciosa",
     "section": "81.2 2. Pendiente para el Vertical Slice (VS)",
-    "text": "81.2 2. Pendiente para el Vertical Slice (VS)\nTareas críticas en desarrollo para completar la demo técnica:\n\nSigilo con DD: Implementar comportamiento de patrulla, detección y sellado de zonas.\nCargol: Implementación del dron asistente y su sistema de órdenes simples.\nMulti-tool: Desarrollo de la herramienta de mantenimiento versátil.\nPuzzle de reparación: Mecánica interactiva de mantenimiento.\nIA Odisea: Integración de diálogos y sistema de guía narrativa.\nLevel Design: Refinamiento de las salas post-criogenia.",
+    "text": "81.2 2. Pendiente para el Vertical Slice (VS)\nTareas críticas en desarrollo para completar la demo técnica del MVP:\n\nPuzzle de reparación: Mecánica interactiva de mantenimiento en las máquinas del domo (válvulas, bomba, purga, fusible, parche) y puzzles físicos del hangar.\nIA Odisea: Integración de diálogos y sistema de guía narrativa.\nLevel Design: Refinamiento de la estructura del domo criogénico (blast door, descenso al hangar de mantenimiento y esclusa exterior).\n\n\n81.2.1 Elementos fuera del MVP (Backlog)\n\nSigilo con DD: Implementación de comportamiento de patrulla y detección del drone enemigo (postergado, FUERA del MVP).\nCargol: Dron asistente y su sistema de órdenes simples (postergado, FUERA del MVP por ahora).\nMulti-tool: Herramienta de mantenimiento versátil (postergada, FUERA del MVP).",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>81</span>  <span class='chapter-title'>Status Report — Odisea: El Arca Silenciosa</span>"
@@ -3615,7 +3615,7 @@
     "href": "Produccion/Status_Report.html#riesgos-actuales",
     "title": "81  Status Report — Odisea: El Arca Silenciosa",
     "section": "81.3 3. Riesgos Actuales",
-    "text": "81.3 3. Riesgos Actuales\n\nComplejidad en la navegación de la IA (DD) en entornos generados proceduralmente (WFC).\nBalanceo de la dificultad en las zonas de sigilo sin combate.\nSincronización de audio para la IA Odisea en la versión HTML5.",
+    "text": "81.3 3. Riesgos Actuales\n\nComplejidad en la navegación de la IA en entornos generados proceduralmente (WFC).\nBalanceo de los puzzles de reparación de máquinas en el domo.\nSincronización de audio para la IA Odisea en la versión HTML5.",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>81</span>  <span class='chapter-title'>Status Report — Odisea: El Arca Silenciosa</span>"
@@ -3626,7 +3626,7 @@
     "href": "Produccion/Status_Report.html#próximo-hito",
     "title": "81  Status Report — Odisea: El Arca Silenciosa",
     "section": "81.4 4. Próximo Hito",
-    "text": "81.4 4. Próximo Hito\nIntegración de Sistemas de Sigilo y IA (Julio 2026): Primera prueba de juego completa en el Módulo Criogenia con amenazas activas y guía de la IA.",
+    "text": "81.4 4. Próximo Hito\nIntegración de Sistemas de IA y Puzzles del Domo (Julio 2026): Primera prueba de juego completa en el Domo Criogénico con interacción de máquinas y guía de la IA.",
     "crumbs": [
       "Producción",
       "<span class='chapter-number'>81</span>  <span class='chapter-title'>Status Report — Odisea: El Arca Silenciosa</span>"

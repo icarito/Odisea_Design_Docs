@@ -755,7 +755,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#sistemas-completados" id="toc-sistemas-completados" class="nav-link active" data-scroll-target="#sistemas-completados"><span class="header-section-number">81.1</span> 1. Sistemas Completados</a></li>
-  <li><a href="#pendiente-para-el-vertical-slice-vs" id="toc-pendiente-para-el-vertical-slice-vs" class="nav-link" data-scroll-target="#pendiente-para-el-vertical-slice-vs"><span class="header-section-number">81.2</span> 2. Pendiente para el Vertical Slice (VS)</a></li>
+  <li><a href="#pendiente-para-el-vertical-slice-vs" id="toc-pendiente-para-el-vertical-slice-vs" class="nav-link" data-scroll-target="#pendiente-para-el-vertical-slice-vs"><span class="header-section-number">81.2</span> 2. Pendiente para el Vertical Slice (VS)</a>
+  <ul class="collapse">
+  <li><a href="#elementos-fuera-del-mvp-backlog" id="toc-elementos-fuera-del-mvp-backlog" class="nav-link" data-scroll-target="#elementos-fuera-del-mvp-backlog"><span class="header-section-number">81.2.1</span> Elementos fuera del MVP (Backlog)</a></li>
+  </ul></li>
   <li><a href="#riesgos-actuales" id="toc-riesgos-actuales" class="nav-link" data-scroll-target="#riesgos-actuales"><span class="header-section-number">81.3</span> 3. Riesgos Actuales</a></li>
   <li><a href="#próximo-hito" id="toc-próximo-hito" class="nav-link" data-scroll-target="#próximo-hito"><span class="header-section-number">81.4</span> 4. Próximo Hito</a></li>
   </ul>
@@ -783,7 +786,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Fecha:</strong> Junio 2026</p>
+<p><strong>Fecha:</strong> Junio 2026 <strong>Última actualización:</strong> 2026-09-01 (Reconciliado con el canon del domo criogénico)</p>
 <section id="sistemas-completados" class="level2" data-number="81.1">
 <h2 data-number="81.1" class="anchored" data-anchor-id="sistemas-completados"><span class="header-section-number">81.1</span> 1. Sistemas Completados</h2>
 <p>El proyecto ha avanzado significativamente, estableciendo las bases técnicas y de contenido para el Vertical Slice:</p>
@@ -795,35 +798,40 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Bridge de Telemetría:</strong> Sistema centralizado para heartbeats, ghosts y sesiones históricas con persistencia en SQLite.</li>
 <li><strong>Dashboard Web:</strong> Herramienta de tracking en vivo, visualización de heatmaps 3D y playback de sesiones con Viewport3D.</li>
 <li><strong>Props (Batch 1):</strong> Completados e integrados: <code>LeverV2</code>, <code>BrokenFloorPanel</code>, <code>WarningBarrier</code>, <code>DataSlate</code>, <code>SteelPlate/Stack</code>, <code>PipeValve</code>, <code>Manometer</code>, tuberías, <code>FireEmitter</code>, <code>RetractableBridge</code>.</li>
-<li><strong>Módulo Criogenia:</strong> Blockout completo (3 niveles, puzzle de energía auxiliar, esclusa funcional).</li>
-<li><strong>PRC-07:</strong> Protocolo de Reactivación Post-Criogénica totalmente documentado.</li>
+<li><strong>Domo Criogénico:</strong> Canon actualizado a domo criogénico con 4 redes de sistemas (coolant, plasma, aire y energía), reactor central, blast door y hangar de mantenimiento (escena separada que conduce a la esclusa exterior). <em>Nota: El diseño previo de “3 niveles + esclusa” queda superseded/legacy.</em></li>
+<li><strong>PRC-07:</strong> Protocolo de Reactivación Post-Criogénica totalmente documentado <em>(SUPERSEDED - ver <code>Anexos/Anexo_PRC07_Protocolo_Reactivacion.md</code>)</em>.</li>
 <li><strong>Personaje Elías:</strong> Modelo base listo e integrado en el pipeline.</li>
 <li><strong>Multiplataforma:</strong> Pipeline de exportación funcional para HTML5, Linux, Windows y macOS.</li>
 </ul>
 </section>
 <section id="pendiente-para-el-vertical-slice-vs" class="level2" data-number="81.2">
 <h2 data-number="81.2" class="anchored" data-anchor-id="pendiente-para-el-vertical-slice-vs"><span class="header-section-number">81.2</span> 2. Pendiente para el Vertical Slice (VS)</h2>
-<p>Tareas críticas en desarrollo para completar la demo técnica:</p>
+<p>Tareas críticas en desarrollo para completar la demo técnica del MVP:</p>
 <ul>
-<li><strong>Sigilo con DD:</strong> Implementar comportamiento de patrulla, detección y sellado de zonas.</li>
-<li><strong>Cargol:</strong> Implementación del dron asistente y su sistema de órdenes simples.</li>
-<li><strong>Multi-tool:</strong> Desarrollo de la herramienta de mantenimiento versátil.</li>
-<li><strong>Puzzle de reparación:</strong> Mecánica interactiva de mantenimiento.</li>
+<li><strong>Puzzle de reparación:</strong> Mecánica interactiva de mantenimiento en las máquinas del domo (válvulas, bomba, purga, fusible, parche) y puzzles físicos del hangar.</li>
 <li><strong>IA Odisea:</strong> Integración de diálogos y sistema de guía narrativa.</li>
-<li><strong>Level Design:</strong> Refinamiento de las salas post-criogenia.</li>
+<li><strong>Level Design:</strong> Refinamiento de la estructura del domo criogénico (blast door, descenso al hangar de mantenimiento y esclusa exterior).</li>
 </ul>
+<section id="elementos-fuera-del-mvp-backlog" class="level3" data-number="81.2.1">
+<h3 data-number="81.2.1" class="anchored" data-anchor-id="elementos-fuera-del-mvp-backlog"><span class="header-section-number">81.2.1</span> Elementos fuera del MVP (Backlog)</h3>
+<ul>
+<li><strong>Sigilo con DD:</strong> Implementación de comportamiento de patrulla y detección del drone enemigo (postergado, FUERA del MVP).</li>
+<li><strong>Cargol:</strong> Dron asistente y su sistema de órdenes simples (postergado, FUERA del MVP por ahora).</li>
+<li><strong>Multi-tool:</strong> Herramienta de mantenimiento versátil (postergada, FUERA del MVP).</li>
+</ul>
+</section>
 </section>
 <section id="riesgos-actuales" class="level2" data-number="81.3">
 <h2 data-number="81.3" class="anchored" data-anchor-id="riesgos-actuales"><span class="header-section-number">81.3</span> 3. Riesgos Actuales</h2>
 <ul>
-<li>Complejidad en la navegación de la IA (DD) en entornos generados proceduralmente (WFC).</li>
-<li>Balanceo de la dificultad en las zonas de sigilo sin combate.</li>
+<li>Complejidad en la navegación de la IA en entornos generados proceduralmente (WFC).</li>
+<li>Balanceo de los puzzles de reparación de máquinas en el domo.</li>
 <li>Sincronización de audio para la IA Odisea en la versión HTML5.</li>
 </ul>
 </section>
 <section id="próximo-hito" class="level2" data-number="81.4">
 <h2 data-number="81.4" class="anchored" data-anchor-id="próximo-hito"><span class="header-section-number">81.4</span> 4. Próximo Hito</h2>
-<p><strong>Integración de Sistemas de Sigilo y IA (Julio 2026):</strong> Primera prueba de juego completa en el Módulo Criogenia con amenazas activas y guía de la IA.</p>
+<p><strong>Integración de Sistemas de IA y Puzzles del Domo (Julio 2026):</strong> Primera prueba de juego completa en el Domo Criogénico con interacción de máquinas y guía de la IA.</p>
 
 
 </section>
