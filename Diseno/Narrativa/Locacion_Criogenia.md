@@ -1,3 +1,9 @@
+---
+title: "Criogenia"
+status: draft
+relacionado: [Acto_I_La_Negacion, Mecanicas_Controlador_Elias]
+---
+
 # Locación: Domo Criogénico — Acto I
 
 *   **Tema / Estética**: "El Sepulcro Criogénico". Un domo inmenso y oscuro: claustrofobia industrial, tuberías expuestas, la columna del reactor brillando tenue en el centro y miles de cápsulas criogénicas dispuestas en anillos concéntricos.

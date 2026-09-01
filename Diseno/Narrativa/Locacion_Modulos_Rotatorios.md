@@ -1,3 +1,9 @@
+---
+title: "Módulos Rotatorios"
+status: draft
+relacionado: [Acto_II_El_Laberinto]
+---
+
 # Locación: Módulos Rotatorios (A y B)
 
 **Asociado a:** [[Acto_II_El_Laberinto]].

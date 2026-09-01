@@ -1,3 +1,8 @@
+---
+title: "BioGranjas SCG"
+status: draft
+relacionado: [Acto_II_El_Laberinto, Mecanicas_Gravedad_Variable, Personaje_IA_Odisea, Mecanicas_Vehiculo_4x4, Personaje_Elias]
+---
 
 ![[vehiculo_4x4_biogranja.png]]
 # Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II

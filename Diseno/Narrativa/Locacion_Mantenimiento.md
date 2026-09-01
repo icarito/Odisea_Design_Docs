@@ -1,3 +1,9 @@
+---
+title: "Mantenimiento"
+status: draft
+relacionado: [Acto_I_La_Negacion]
+---
+
 # Locación: Secciones de Mantenimiento - Acto I
 
 *   **Tema / Estética**: "El Vientre del Leviatán" (parcialmente). Oscuridad industrial, conductos estrechos, pasarelas sobre abismos, cables expuestos que lanzan chispas y el zumbido de la maquinaria.

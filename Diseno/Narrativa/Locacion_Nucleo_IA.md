@@ -1,3 +1,8 @@
+---
+title: "Núcleo IA"
+status: draft
+relacionado: [Acto_IV_La_Decision, Mecanicas_Gravedad_Variable, Personaje_Elias, Mecanicas_Propulsor_0G, Enemigos_Drones_y_Sistemas, Personaje_IA_Odisea, Narrativa_Finales]
+---
 
 # Locación: Núcleo de la IA / Sala de Impulso - Acto IV
 
