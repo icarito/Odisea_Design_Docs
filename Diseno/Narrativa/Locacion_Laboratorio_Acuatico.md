@@ -1,3 +1,9 @@
+---
+title: "Laboratorio Acuático"
+status: draft
+relacionado: [Acto_II_El_Laberinto]
+---
+
 # Locación: Laboratorio de Biología Acuática - Acto II
 
 *   **Tema / Estética**: Alto contraste visual, con tanques de agua bioluminiscente, tuberías de metano congelado y maquinaria de laboratorio. El sonido del agua y el goteo es constante.

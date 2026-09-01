@@ -1,3 +1,9 @@
+---
+title: "Núcleo 0G"
+status: draft
+relacionado: [Acto_III_El_Desafio, Mecanicas_Propulsor_0G, Personaje_IA_Odisea]
+---
+
 # Locación: Cuerpo Central / Núcleo 0G
 
 **Asociado a:** [[Acto_III_El_Desafio]].

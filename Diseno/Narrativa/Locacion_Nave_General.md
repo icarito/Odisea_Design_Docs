@@ -1,3 +1,9 @@
+---
+title: "Nave General"
+status: draft
+relacionado: [Acto_I_La_Negacion, Acto_II_El_Laberinto, Acto_III_El_Desafio]
+---
+
 ![[nave_odisea_concepto.png]]
 # El Mundo: La Nave Odisea
 ![[nave_odisea_exterior.jpeg]]
