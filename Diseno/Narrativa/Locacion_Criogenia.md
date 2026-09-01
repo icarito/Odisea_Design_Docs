@@ -30,7 +30,8 @@ Dome_Intro (domo)                        Dome_Intro_Hangar (escena separada)
 3. **Reactor central** — Columna vertebral del domo. El coolant baja de los criopods a la
    chaqueta del reactor; el plasma sale hacia arriba al bus eléctrico.
 4. **Blast door (compuerta de piso)** — Requiere las 4 redes HEALTHY. Al abrirse revela el
-   pozo de descenso al hangar.
+   pozo de descenso: una **plataforma móvil de carga** (ruta cinemática) y una **rampa de
+   servicio** (ruta peatonal).
 
 ## Continuación: sótano / hangar (escena separada)
 
@@ -60,7 +61,7 @@ Especificación técnica completa en el repo del juego: `docs/features/FD-289_do
 4. Activar la energía auxiliar (palanca del bus) → red 2/4.
 5. Redirigir el plasma (válvulas) → red 3/4.
 6. Restaurar el aire (bomba + purga) → red 4/4 → el blast door se abre.
-7. Descender al hangar (`change_scene`) → puzzles de cajas y cintas.
+7. Descender al hangar por la **plataforma móvil** (o la **rampa de servicio**) → `change_scene` → puzzles de cajas y cintas.
 8. Cruza la esclusa → exterior.
 
 ## Lore ambiental

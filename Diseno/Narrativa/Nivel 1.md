@@ -14,7 +14,7 @@ Gameplay:
 - Primeros desafíos: moverse por el anillo superior de criopods y bajar al nivel de máquinas.
 - Puzzle central: restaurar las **4 redes del domo** (coolant → energía → plasma → aire) para abrir el blast door.
 - Obstáculos ambientales: fugas de plasma, niebla cian densa, generando tensión sin combate.
-- Al restaurar los sistemas, el **blast door (compuerta de piso)** se abre → el jugador desciende a la **escena separada del hangar** (`change_scene`).
+- Al restaurar los sistemas, el **blast door (compuerta de piso)** se abre → el jugador desciende por una **plataforma móvil de carga** (o una **rampa de servicio**) a la **escena separada del hangar** (`change_scene`).
 - En el hangar: puzzles físicos con **cajas empujables** y **cintas transportadoras** para despejar la ruta a la esclusa.
 - Final del nivel: cruzar la esclusa y salir al anillo exterior; ver un ventanal gigante que muestra una nebulosa impresionante. La IA (Odisea) da respuestas evasivas, creando sensación de paranoia y amenaza silenciosa.
 
