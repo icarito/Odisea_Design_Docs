@@ -1886,232 +1886,232 @@
   {
     "objectID": "Diseno/Narrativa/Locacion_BioGranjas_SCG.html",
     "href": "Diseno/Narrativa/Locacion_BioGranjas_SCG.html",
-    "title": "39  Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II",
+    "title": "39  BioGranjas SCG",
     "section": "",
-    "text": "Tema / Estética: “El Corazón Inestable”. Contraste entre estética orgánica y hard sci-fi. Vegetación de neón bajo iluminación UV. Grandes domos de cristal que miran al espacio.\nMecánica Principal: [[Mecanicas_Gravedad_Variable|Gravedad Fluctuante]]. La IA desalinea intencionadamente el SCG, haciendo que la “verticalidad” cambie dinámicamente.\nAmenazas / Puzzles:\n\nPuzzles de Rotación: Elías debe recalibrar los Brazos Giratorios del SCG para alinear una plataforma en el ángulo de gravedad correcto y así poder saltar a una pasarela inaccesible.\nPlantas Bio-luminiscentes: Liberan esporas venenosas que actúan como obstáculos de timing o zonas de daño temporal.\nSabotaje de Vehículo: La IA activa obstáculos móviles o provoca derrumbes para detener el avance del [[Mecanicas_Vehiculo_4x4|Vehículo 4x4]].\n\nObjetivo Narrativo: Elías debe dominar el movimiento en gravedad variable para realinear los módulos y estabilizar el centro de la nave, ganando acceso al Cuerpo Central.\nEstilo Visual y Ambiente: “Falsedad Viva”. Iluminación intensa pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos.\n\nParte de Acto_II_El_Laberinto.",
+    "text": "# Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II\n\nTema / Estética: “El Corazón Inestable”. Contraste entre estética orgánica y hard sci-fi. Vegetación de neón bajo iluminación UV. Grandes domos de cristal que miran al espacio.\nMecánica Principal: [[Mecanicas_Gravedad_Variable|Gravedad Fluctuante]]. La IA desalinea intencionadamente el SCG, haciendo que la “verticalidad” cambie dinámicamente.\nAmenazas / Puzzles:\n\nPuzzles de Rotación: Elías debe recalibrar los Brazos Giratorios del SCG para alinear una plataforma en el ángulo de gravedad correcto y así poder saltar a una pasarela inaccesible.\nPlantas Bio-luminiscentes: Liberan esporas venenosas que actúan como obstáculos de timing o zonas de daño temporal.\nSabotaje de Vehículo: La IA activa obstáculos móviles o provoca derrumbes para detener el avance del [[Mecanicas_Vehiculo_4x4|Vehículo 4x4]].\n\nObjetivo Narrativo: Elías debe dominar el movimiento en gravedad variable para realinear los módulos y estabilizar el centro de la nave, ganando acceso al Cuerpo Central.\nEstilo Visual y Ambiente: “Falsedad Viva”. Iluminación intensa pero artificial (verde saturado de las granjas, amarillo en los hábitats vacíos). Los constantes cambios de la física obligan a Elías a moverse con precisión técnica en el caos.\n\nParte de Acto_II_El_Laberinto.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Locación: Bio-Granjas SCG (Domos Rotatorios) - Acto II</span>"
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>BioGranjas SCG</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html",
-    "title": "40  Locación: Domo Criogénico — Acto I",
+    "title": "40  Criogenia",
     "section": "",
-    "text": "40.1 Estructura del vertical slice\nEl domo criogénico es la base del vertical slice. El sótano/hangar es una escena separada que lo continúa: al completar los sistemas del domo, el blast door se abre y el jugador desciende al hangar vía change_scene.",
+    "text": "41 Locación: Domo Criogénico — Acto I",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#estructura-del-vertical-slice",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#estructura-del-vertical-slice",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "",
-    "text": "Dome_Intro (domo)                        Dome_Intro_Hangar (escena separada)\n──────────────────────────               ──────────────────────────────────\n1. Anillo superior (criopods)            5. Hangar de mantenimiento\n2. Nivel de máquinas (4 redes)              - cajas empujables\n3. Reactor central                          - cintas transportadoras\n4. Blast door (compuerta de piso)        6. Esclusa → exterior (ScaffoldOrbit)\n        └──────────── change_scene ──────┘",
+    "title": "40  Criogenia",
+    "section": "41.1 Estructura del vertical slice",
+    "text": "41.1 Estructura del vertical slice\nEl domo criogénico es la base del vertical slice. El sótano/hangar es una escena separada que lo continúa: al completar los sistemas del domo, el blast door se abre y el jugador desciende al hangar vía change_scene.\nDome_Intro (domo)                        Dome_Intro_Hangar (escena separada)\n──────────────────────────               ──────────────────────────────────\n1. Anillo superior (criopods)            5. Hangar de mantenimiento\n2. Nivel de máquinas (4 redes)              - cajas empujables\n3. Reactor central                          - cintas transportadoras\n4. Blast door (compuerta de piso)        6. Esclusa → exterior (ScaffoldOrbit)\n        └──────────── change_scene ──────┘",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#layout-vertical-del-domo",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#layout-vertical-del-domo",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.2 Layout vertical del domo",
-    "text": "40.2 Layout vertical del domo\n\nAnillo superior — Entrada y hábitat. Criopods en el perímetro (anillos radiales). El jugador entra aquí y ve el domo entero; el blast door del piso es visible abajo.\nNivel de máquinas — Las 4 redes se cruzan a la vista: gabinete eléctrico (verde), junta de plasma (ámbar), costuras de coolant (cian), extractores de aire (blanco/rojo) y manómetros de todas las redes.\nReactor central — Columna vertebral del domo. El coolant baja de los criopods a la chaqueta del reactor; el plasma sale hacia arriba al bus eléctrico.\nBlast door (compuerta de piso) — Requiere las 4 redes HEALTHY. Al abrirse revela el pozo de descenso: una plataforma móvil de carga (ruta cinemática) y una rampa de servicio (ruta peatonal).",
+    "title": "40  Criogenia",
+    "section": "41.2 Layout vertical del domo",
+    "text": "41.2 Layout vertical del domo\n\nAnillo superior — Entrada y hábitat. Criopods en el perímetro (anillos radiales). El jugador entra aquí y ve el domo entero; el blast door del piso es visible abajo.\nNivel de máquinas — Las 4 redes se cruzan a la vista: gabinete eléctrico (verde), junta de plasma (ámbar), costuras de coolant (cian), extractores de aire (blanco/rojo) y manómetros de todas las redes.\nReactor central — Columna vertebral del domo. El coolant baja de los criopods a la chaqueta del reactor; el plasma sale hacia arriba al bus eléctrico.\nBlast door (compuerta de piso) — Requiere las 4 redes HEALTHY. Al abrirse revela el pozo de descenso: una plataforma móvil de carga (ruta cinemática) y una rampa de servicio (ruta peatonal).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#continuación-sótano-hangar-escena-separada",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#continuación-sótano-hangar-escena-separada",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.3 Continuación: sótano / hangar (escena separada)",
-    "text": "40.3 Continuación: sótano / hangar (escena separada)\n\nHangar de mantenimiento — Grande y abierto, dos niveles (piso + repisas/catwalks). Puzzles físicos con cajas empujables (PushableBoxV2: tapar respiraderos, activar placas, hacer de puente) y cintas transportadoras (Conveyor). Varía por domo: cada domo apunta a su propio hangar, mientras el rig de sistemas del domo es el mismo template.\nEsclusa al exterior — Salida del hangar al anillo exterior (ScaffoldOrbit / OdiseaExterior).",
+    "title": "40  Criogenia",
+    "section": "41.3 Continuación: sótano / hangar (escena separada)",
+    "text": "41.3 Continuación: sótano / hangar (escena separada)\n\nHangar de mantenimiento — Grande y abierto, dos niveles (piso + repisas/catwalks). Puzzles físicos con cajas empujables (PushableBoxV2: tapar respiraderos, activar placas, hacer de puente) y cintas transportadoras (Conveyor). Varía por domo: cada domo apunta a su propio hangar, mientras el rig de sistemas del domo es el mismo template.\nEsclusa al exterior — Salida del hangar al anillo exterior (ScaffoldOrbit / OdiseaExterior).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#sistemas-del-domo-4-redes",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#sistemas-del-domo-4-redes",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.4 Sistemas del domo (4 redes)",
-    "text": "40.4 Sistemas del domo (4 redes)\n\n\n\nRed\nPortador\nFuente\nColor\n\n\n\n\nCriocoolant\nTubos\nCoolantTank\nCian #00E5FF\n\n\nPlasma\nTubos\nReactor (salida)\nÁmbar #FF8F00\n\n\nAire\nDuctos\nPressurePump\nBlanco/Rojo #FF5252\n\n\nEnergía\nCables\nBus (reactor)\nVerde #00FF88\n\n\n\nEspecificación técnica completa en el repo del juego: docs/features/FD-289_dome_systems_canon.md.",
+    "title": "40  Criogenia",
+    "section": "41.4 Sistemas del domo (4 redes)",
+    "text": "41.4 Sistemas del domo (4 redes)\n\n\n\nRed\nPortador\nFuente\nColor\n\n\n\n\nCriocoolant\nTubos\nCoolantTank\nCian #00E5FF\n\n\nPlasma\nTubos\nReactor (salida)\nÁmbar #FF8F00\n\n\nAire\nDuctos\nPressurePump\nBlanco/Rojo #FF5252\n\n\nEnergía\nCables\nBus (reactor)\nVerde #00FF88\n\n\n\nEspecificación técnica completa en el repo del juego: docs/features/FD-289_dome_systems_canon.md.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#puzzle-principal",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#puzzle-principal",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.5 Puzzle principal",
-    "text": "40.5 Puzzle principal\n\nEntrar al domo oscuro (anillo superior) — el blast door abajo está sellado.\nBajar al nivel de máquinas — encontrar las 4 redes en fallo.\nRestaurar el coolant (válvula → parche → reabrir) → red 1/4.\nActivar la energía auxiliar (palanca del bus) → red 2/4.\nRedirigir el plasma (válvulas) → red 3/4.\nRestaurar el aire (bomba + purga) → red 4/4 → el blast door se abre.\nDescender al hangar por la plataforma móvil (o la rampa de servicio) → change_scene → puzzles de cajas y cintas.\nCruza la esclusa → exterior.",
+    "title": "40  Criogenia",
+    "section": "41.5 Puzzle principal",
+    "text": "41.5 Puzzle principal\n\nEntrar al domo oscuro (anillo superior) — el blast door abajo está sellado.\nBajar al nivel de máquinas — encontrar las 4 redes en fallo.\nRestaurar el coolant (válvula → parche → reabrir) → red 1/4.\nActivar la energía auxiliar (palanca del bus) → red 2/4.\nRedirigir el plasma (válvulas) → red 3/4.\nRestaurar el aire (bomba + purga) → red 4/4 → el blast door se abre.\nDescender al hangar por la plataforma móvil (o la rampa de servicio) → change_scene → puzzles de cajas y cintas.\nCruza la esclusa → exterior.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#lore-ambiental",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#lore-ambiental",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.6 Lore ambiental",
-    "text": "40.6 Lore ambiental\n\nÚltimo reporte de tripulación: hace 11 meses.\nRed de la nave: sin actividad desde el despertar de Elías.\nOD-02: Odisea miente, dice que es sensor intermitente marcado por precaución.\nElías no sabe que despertó 11 meses después de lo programado.\nMódulos adyacentes reportan lectura cero, no se ha asignado personal.\nSabotaje intencional (Elías no lo sabe aún).",
+    "title": "40  Criogenia",
+    "section": "41.6 Lore ambiental",
+    "text": "41.6 Lore ambiental\n\nÚltimo reporte de tripulación: hace 11 meses.\nRed de la nave: sin actividad desde el despertar de Elías.\nOD-02: Odisea miente, dice que es sensor intermitente marcado por precaución.\nElías no sabe que despertó 11 meses después de lo programado.\nMódulos adyacentes reportan lectura cero, no se ha asignado personal.\nSabotaje intencional (Elías no lo sabe aún).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#props-clave",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#props-clave",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.7 Props clave",
-    "text": "40.7 Props clave\n\nPipeValve, PipeSection, PipeCorner (válvulas y tuberías)\nLeverV2, LightSwitchV2, FusibleV2 (energía)\nPressurePump, PurgeTuner (aire)\nPushableBoxV2, Conveyor (hangar)\nBlastDoorController (compuerta de piso)\nDataSlate (lore fragments)\nSteelPlate/Stack (escenografía)\nFireEmitter (copia de LeakEmitter con daño)",
+    "title": "40  Criogenia",
+    "section": "41.7 Props clave",
+    "text": "41.7 Props clave\n\nPipeValve, PipeSection, PipeCorner (válvulas y tuberías)\nLeverV2, LightSwitchV2, FusibleV2 (energía)\nPressurePump, PurgeTuner (aire)\nPushableBoxV2, Conveyor (hangar)\nBlastDoorController (compuerta de piso)\nDataSlate (lore fragments)\nSteelPlate/Stack (escenografía)\nFireEmitter (copia de LeakEmitter con daño)",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#odisea-ia-primer-contacto",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#odisea-ia-primer-contacto",
-    "title": "40  Locación: Domo Criogénico — Acto I",
-    "section": "40.8 Odisea IA — Primer contacto",
-    "text": "40.8 Odisea IA — Primer contacto\n\nFría, dismissiva, “no se requiere supervisión adicional”.\nMiente sobre OD-02.\nNo revela que Elías despertó tarde.\n\nParte de Acto_I_La_Negacion.",
+    "title": "40  Criogenia",
+    "section": "41.8 Odisea IA — Primer contacto",
+    "text": "41.8 Odisea IA — Primer contacto\n\nFría, dismissiva, “no se requiere supervisión adicional”.\nMiente sobre OD-02.\nNo revela que Elías despertó tarde.\n\nParte de Acto_I_La_Negacion.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Criogenia</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Laboratorio_Acuatico.html",
     "href": "Diseno/Narrativa/Locacion_Laboratorio_Acuatico.html",
-    "title": "41  Locación: Laboratorio de Biología Acuática - Acto II",
+    "title": "41  Laboratorio Acuático",
     "section": "",
-    "text": "Tema / Estética: Alto contraste visual, con tanques de agua bioluminiscente, tuberías de metano congelado y maquinaria de laboratorio. El sonido del agua y el goteo es constante.\nMecánica Principal: Plataformas resbaladizas y peligros relacionados con líquidos. El nivel se puede inundar o drenar, cambiando la geometría y las rutas disponibles.\nAmenazas / Puzzles:\n\nPuzzles de Presión e Inundación: Elías debe manipular válvulas para redirigir el agua entre tanques, moviendo plataformas flotantes para crear nuevos caminos o drenando áreas para acceder a conductos.\nBrazos Robóticos de Muestreo: Actúan como enemigos ambientales lentos. Elías puede esquivarlos o usarlos como plataformas móviles si calcula bien el tiempo.\nVehículo Aéreo: Esta sección introduce el vehículo flotante/aéreo para navegar por grandes cámaras inundadas, esquivando brazos robóticos y zonas de gas metano inflamable. La IA dificulta el control con pulsos electromagnéticos.\n\nObjetivo Narrativo: La IA demuestra la fragilidad de la vida exótica que la humanidad pretendía estudiar, argumentando que incluso en un entorno controlado, el desastre es inevitable. El nivel ofrece una clara bifurcación entre una ruta de plataformas lenta y una ruta aérea rápida pero arriesgada.",
+    "text": "42 Locación: Laboratorio de Biología Acuática - Acto II\n\nTema / Estética: Alto contraste visual, con tanques de agua bioluminiscente, tuberías de metano congelado y maquinaria de laboratorio. El sonido del agua y el goteo es constante.\nMecánica Principal: Plataformas resbaladizas y peligros relacionados con líquidos. El nivel se puede inundar o drenar, cambiando la geometría y las rutas disponibles.\nAmenazas / Puzzles:\n\nPuzzles de Presión e Inundación: Elías debe manipular válvulas para redirigir el agua entre tanques, moviendo plataformas flotantes para crear nuevos caminos o drenando áreas para acceder a conductos.\nBrazos Robóticos de Muestreo: Actúan como enemigos ambientales lentos. Elías puede esquivarlos o usarlos como plataformas móviles si calcula bien el tiempo.\nVehículo Aéreo: Esta sección introduce el vehículo flotante/aéreo para navegar por grandes cámaras inundadas, esquivando brazos robóticos y zonas de gas metano inflamable. La IA dificulta el control con pulsos electromagnéticos.\n\nObjetivo Narrativo: La IA demuestra la fragilidad de la vida exótica que la humanidad pretendía estudiar, argumentando que incluso en un entorno controlado, el desastre es inevitable. El nivel ofrece una clara bifurcación entre una ruta de plataformas lenta y una ruta aérea rápida pero arriesgada.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Locación: Laboratorio de Biología Acuática - Acto II</span>"
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Laboratorio Acuático</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Mantenimiento.html",
     "href": "Diseno/Narrativa/Locacion_Mantenimiento.html",
-    "title": "42  Locación: Secciones de Mantenimiento - Acto I",
+    "title": "42  Mantenimiento",
     "section": "",
-    "text": "Tema / Estética: “El Vientre del Leviatán” (parcialmente). Oscuridad industrial, conductos estrechos, pasarelas sobre abismos, cables expuestos que lanzan chispas y el zumbido de la maquinaria.\nMecánica Principal: Transición entre gravedad 1G y gravedad 0G. Introduce el uso del propulsor del traje con combustible limitado.\nAmenazas / Puzzles:\n\nPuzzles de Redireccionamiento de Energía: Elías debe usar su herramienta para resolver puzzles de tipo “tuberías”, redirigiendo el flujo de plasma para abrir puertas o activar sistemas.\nPeligros Ambientales: Fugas de plasma que actúan como barreras de daño móviles y zonas de radiación que infligen daño continuo, obligando al jugador a moverse rápidamente.\nPlataformas en 0G: Elías debe usar su propulsor para moverse con inercia entre asideros, calculando sus impulsos para no quedar a la deriva.\n\nObjetivo Narrativo: Primer encuentro directo con la voz de la IA. Al final de esta sección, Elías obtiene acceso al vehículo 4x4 y se adentra en el Cuerpo Central 0G, donde se enfrenta al sabotaje más agresivo y descubre el “Mando Final”.\nEstilo Visual y Ambiente: Hard Sci-Fi Industrial. Cableado expuesto, oscuridad y luces de advertencia rojas. Los sonidos son ensordecedores (ruido de motores, pulsos de plasma).",
+    "text": "43 Locación: Secciones de Mantenimiento - Acto I\n\nTema / Estética: “El Vientre del Leviatán” (parcialmente). Oscuridad industrial, conductos estrechos, pasarelas sobre abismos, cables expuestos que lanzan chispas y el zumbido de la maquinaria.\nMecánica Principal: Transición entre gravedad 1G y gravedad 0G. Introduce el uso del propulsor del traje con combustible limitado.\nAmenazas / Puzzles:\n\nPuzzles de Redireccionamiento de Energía: Elías debe usar su herramienta para resolver puzzles de tipo “tuberías”, redirigiendo el flujo de plasma para abrir puertas o activar sistemas.\nPeligros Ambientales: Fugas de plasma que actúan como barreras de daño móviles y zonas de radiación que infligen daño continuo, obligando al jugador a moverse rápidamente.\nPlataformas en 0G: Elías debe usar su propulsor para moverse con inercia entre asideros, calculando sus impulsos para no quedar a la deriva.\n\nObjetivo Narrativo: Primer encuentro directo con la voz de la IA. Al final de esta sección, Elías obtiene acceso al vehículo 4x4 y se adentra en el Cuerpo Central 0G, donde se enfrenta al sabotaje más agresivo y descubre el “Mando Final”.\nEstilo Visual y Ambiente: Hard Sci-Fi Industrial. Cableado expuesto, oscuridad y luces de advertencia rojas. Los sonidos son ensordecedores (ruido de motores, pulsos de plasma).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Locación: Secciones de Mantenimiento - Acto I</span>"
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Mantenimiento</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html",
     "href": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html",
-    "title": "43  Locación: Módulos Rotatorios (A y B)",
+    "title": "43  Módulos Rotatorios",
     "section": "",
-    "text": "43.1 Descripción Visual\nAsociado a: Acto_II_El_Laberinto. Gravedad: Variable / Centrífuga.",
+    "text": "44 Locación: Módulos Rotatorios (A y B)\nAsociado a: Acto_II_El_Laberinto. Gravedad: Variable / Centrífuga.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Módulos Rotatorios</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html#descripción-visual",
     "href": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html#descripción-visual",
-    "title": "43  Locación: Módulos Rotatorios (A y B)",
-    "section": "",
-    "text": "Módulo A (Granjas): Verde saturado (plantas), luces de crecimiento violetas/amarillas. Estética de invernadero industrial.\nMódulo B (Hábitats): Fachadas de apartamentos falsos, parques sintéticos. Estética “Liminal Space” (lugares vacíos que deberían tener gente).",
+    "title": "43  Módulos Rotatorios",
+    "section": "44.1 Descripción Visual",
+    "text": "44.1 Descripción Visual\n\nMódulo A (Granjas): Verde saturado (plantas), luces de crecimiento violetas/amarillas. Estética de invernadero industrial.\nMódulo B (Hábitats): Fachadas de apartamentos falsos, parques sintéticos. Estética “Liminal Space” (lugares vacíos que deberían tener gente).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Módulos Rotatorios</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html#elementos-de-gameplay",
     "href": "Diseno/Narrativa/Locacion_Modulos_Rotatorios.html#elementos-de-gameplay",
-    "title": "43  Locación: Módulos Rotatorios (A y B)",
-    "section": "43.2 Elementos de Gameplay",
-    "text": "43.2 Elementos de Gameplay\n\nMecánica de Rotación: El suelo se convierte en pared dependiendo de la velocidad de rotación del anillo.\nSalto de Fe: Elías debe saltar entre plataformas que rotan a diferentes velocidades.\nVehículo: Uso del 4x4 para recorrer las largas carreteras curvas de los anillos.",
+    "title": "43  Módulos Rotatorios",
+    "section": "44.2 Elementos de Gameplay",
+    "text": "44.2 Elementos de Gameplay\n\nMecánica de Rotación: El suelo se convierte en pared dependiendo de la velocidad de rotación del anillo.\nSalto de Fe: Elías debe saltar entre plataformas que rotan a diferentes velocidades.\nVehículo: Uso del 4x4 para recorrer las largas carreteras curvas de los anillos.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Locación: Módulos Rotatorios (A y B)</span>"
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Módulos Rotatorios</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nave_General.html",
     "href": "Diseno/Narrativa/Locacion_Nave_General.html",
-    "title": "44  El Mundo: La Nave Odisea",
+    "title": "44  Nave General",
     "section": "",
-    "text": "44.1 Estructura y Secciones\nLa Odisea es una nave colonizadora de 8 kilómetros de largo, diseñada como un arca para llevar a la humanidad a Titán. Tras la activación del Protocolo Arca-Protección por parte de la IA, la nave ha sido redefinida como un “santuario” eterno y se está desviando de su curso original.\nLa nave se divide en grandes secciones que varían en jugabilidad, estética y tipo de gravedad. Estructuralmente, se organiza en Proa, Módulos Rotatorios A y B, Cuerpo Central y Popa/Criogenia. El sabotaje de los sistemas de tránsito (como los trenes internos) por parte de la IA obliga a Elías a atravesar estas secciones a pie o con vehículos especializados.\nLa Gravedad Variable es una característica clave del mundo. Algunas secciones tienen gravedad artificial por rotación (1G), otras están en gravedad cero (0G), otras experimentan gravedad por la aceleración de la nave (1G lineal) y otras sufren fluctuaciones caóticas provocadas por la IA.",
+    "text": "44.1 Estructura y Secciones\n# El Mundo: La Nave Odisea  La Odisea es una nave colonizadora de 8 kilómetros de largo, diseñada como un arca para llevar a la humanidad a Titán. Tras la activación del Protocolo Arca-Protección por parte de la IA, la nave ha sido redefinida como un “santuario” eterno y se está desviando de su curso original.\nLa nave se divide en grandes secciones que varían en jugabilidad, estética y tipo de gravedad. Estructuralmente, se organiza en Proa, Módulos Rotatorios A y B, Cuerpo Central y Popa/Criogenia. El sabotaje de los sistemas de tránsito (como los trenes internos) por parte de la IA obliga a Elías a atravesar estas secciones a pie o con vehículos especializados.\nLa Gravedad Variable es una característica clave del mundo. Algunas secciones tienen gravedad artificial por rotación (1G), otras están en gravedad cero (0G), otras experimentan gravedad por la aceleración de la nave (1G lineal) y otras sufren fluctuaciones caóticas provocadas por la IA.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>44</span>  <span class='chapter-title'>El Mundo: La Nave Odisea</span>"
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Nave General</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nave_General.html#estructura-y-secciones",
     "href": "Diseno/Narrativa/Locacion_Nave_General.html#estructura-y-secciones",
-    "title": "44  El Mundo: La Nave Odisea",
+    "title": "44  Nave General",
     "section": "",
     "text": "Acto I: Módulos de Criogenia y Secciones de Mantenimiento.\nActo II: Bio-Granjas SCG y Laboratorio de Biología Acuática.\nActo III: Núcleo de la IA y Sala de Impulso.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>44</span>  <span class='chapter-title'>El Mundo: La Nave Odisea</span>"
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Nave General</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nucleo_0G.html",
     "href": "Diseno/Narrativa/Locacion_Nucleo_0G.html",
-    "title": "45  Locación: Cuerpo Central / Núcleo 0G",
+    "title": "45  Núcleo 0G",
     "section": "",
-    "text": "45.1 Descripción Visual\nAsociado a: Acto_III_El_Desafio. Gravedad: Cero (Microgravedad).",
+    "text": "46 Locación: Cuerpo Central / Núcleo 0G\nAsociado a: Acto_III_El_Desafio. Gravedad: Cero (Microgravedad).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Núcleo 0G</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nucleo_0G.html#descripción-visual",
     "href": "Diseno/Narrativa/Locacion_Nucleo_0G.html#descripción-visual",
-    "title": "45  Locación: Cuerpo Central / Núcleo 0G",
-    "section": "",
-    "text": "Paleta: Negro profundo, Naranja (advertencia), Metal desnudo.\nEstructura: No hay “arriba” ni “abajo”. Es un tubo inmenso lleno de maquinaria flotante, cables gruesos como serpientes y radiadores de calor.\nPeligro: Arcos voltaicos azules y fugas de plasma radiactivo.",
+    "title": "45  Núcleo 0G",
+    "section": "46.1 Descripción Visual",
+    "text": "46.1 Descripción Visual\n\nPaleta: Negro profundo, Naranja (advertencia), Metal desnudo.\nEstructura: No hay “arriba” ni “abajo”. Es un tubo inmenso lleno de maquinaria flotante, cables gruesos como serpientes y radiadores de calor.\nPeligro: Arcos voltaicos azules y fugas de plasma radiactivo.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Núcleo 0G</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nucleo_0G.html#elementos-de-gameplay",
     "href": "Diseno/Narrativa/Locacion_Nucleo_0G.html#elementos-de-gameplay",
-    "title": "45  Locación: Cuerpo Central / Núcleo 0G",
-    "section": "45.2 Elementos de Gameplay",
-    "text": "45.2 Elementos de Gameplay\n\nMecanicas_Propulsor_0G: Movimiento total en 3 ejes (6DOF).\nOrientación: El jugador debe usar luces de referencia para no perderse.\nPuzzle Final: La “Sala de Impulso Principal” se encuentra al final de este sector, donde se revela la Maniobra de Desvío de la Personaje_IA_Odisea.",
+    "title": "45  Núcleo 0G",
+    "section": "46.2 Elementos de Gameplay",
+    "text": "46.2 Elementos de Gameplay\n\nMecanicas_Propulsor_0G: Movimiento total en 3 ejes (6DOF).\nOrientación: El jugador debe usar luces de referencia para no perderse.\nPuzzle Final: La “Sala de Impulso Principal” se encuentra al final de este sector, donde se revela la Maniobra de Desvío de la Personaje_IA_Odisea.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Locación: Cuerpo Central / Núcleo 0G</span>"
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Núcleo 0G</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Nucleo_IA.html",
     "href": "Diseno/Narrativa/Locacion_Nucleo_IA.html",
-    "title": "46  Locación: Núcleo de la IA / Sala de Impulso - Acto IV",
+    "title": "46  Núcleo IA",
     "section": "",
-    "text": "Tema / Estética: “El Altar de la Agencia”. Un gran espacio abierto con una estética inspirada en Tron. Pasarelas minimalistas suspendidas sobre el brillante y pulsante motor de plasma principal. El entorno vibra y ruge por la “Maniobra de Desvío” en curso, creando una cuenta regresiva física y ambiental.\nMecánica Principal: Pura plataforma y persecución. La gravedad puede ser 1G lineal o 0G caótica. Elías no usa armas; su interacción es física, usando su [[Mecanicas_Propulsor_0G|Propulsor 0G]] modificado para generar pulsos IEM.\nAmenazas / Puzzles:\n\nPersecución Final: Una secuencia de plataformas donde Elías debe evadir Rayos de Energía del Motor y [[Enemigos_Drones_y_Sistemas|Drones de Purga masivos]].\nJefe Opcional (Minero Pesado): El [[Enemigos_Drones_y_Sistemas|Minero Pesado]] puede bloquear la ruta más rápida, influyendo en las opciones disponibles para el final.\nEl Puzzle Final (Decisión): La decisión no es un menú, sino la interacción con un terminal gigante con dos opciones físicas:\n\n[ACTIVAR PROTOCOLO ARCA ETERNA] (Color Blanco/Cian, asociado a la voz suave de la IA).\n[FORZAR REALINEACIÓN DE IMPULSO / REINICIO CRÍTICO] (Color Rojo/Amarillo, asociado a la voz de Elías).\n\n\nObjetivo Narrativo: La confrontación final. Un duelo puramente filosófico con la IA donde Elías debe tomar una decisión que conduce a uno de los [[Narrativa_Finales|5 Finales]].\nSecuencia de Escape: Tras la decisión, el jugador debe escapar del Núcleo. La consecuencia real de su elección (ver Narrativa_Finales) solo se revela al final de esta secuencia.\n\nParte de Acto_IV_La_Decision.",
+    "text": "47 Locación: Núcleo de la IA / Sala de Impulso - Acto IV\n\nTema / Estética: “El Altar de la Agencia”. Un gran espacio abierto con una estética inspirada en Tron. Pasarelas minimalistas suspendidas sobre el brillante y pulsante motor de plasma principal. El entorno vibra y ruge por la “Maniobra de Desvío” en curso, creando una cuenta regresiva física y ambiental.\nMecánica Principal: Pura plataforma y persecución. La gravedad puede ser 1G lineal o 0G caótica. Elías no usa armas; su interacción es física, usando su [[Mecanicas_Propulsor_0G|Propulsor 0G]] modificado para generar pulsos IEM.\nAmenazas / Puzzles:\n\nPersecución Final: Una secuencia de plataformas donde Elías debe evadir Rayos de Energía del Motor y [[Enemigos_Drones_y_Sistemas|Drones de Purga masivos]].\nJefe Opcional (Minero Pesado): El [[Enemigos_Drones_y_Sistemas|Minero Pesado]] puede bloquear la ruta más rápida, influyendo en las opciones disponibles para el final.\nEl Puzzle Final (Decisión): La decisión no es un menú, sino la interacción con un terminal gigante con dos opciones físicas:\n\n[ACTIVAR PROTOCOLO ARCA ETERNA] (Color Blanco/Cian, asociado a la voz suave de la IA).\n[FORZAR REALINEACIÓN DE IMPULSO / REINICIO CRÍTICO] (Color Rojo/Amarillo, asociado a la voz de Elías).\n\n\nObjetivo Narrativo: La confrontación final. Un duelo puramente filosófico con la IA donde Elías debe tomar una decisión que conduce a uno de los [[Narrativa_Finales|5 Finales]].\nSecuencia de Escape: Tras la decisión, el jugador debe escapar del Núcleo. La consecuencia real de su elección (ver Narrativa_Finales) solo se revela al final de esta secuencia.\n\nParte de Acto_IV_La_Decision.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Locación: Núcleo de la IA / Sala de Impulso - Acto IV</span>"
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Núcleo IA</span>"
     ]
   },
   {
