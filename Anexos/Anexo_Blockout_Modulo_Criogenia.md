@@ -1,5 +1,10 @@
 # Anexo: Blockout del Módulo Criogenia
 
+> ⚠️ **SUPERSEDED (2026-09-01).** Ver [[Locacion_Criogenia]] (domo + hangar). Se conserva
+> por historial.
+
+---
+
 **Fecha**: Junio 2026  
 **Estado**: Pendiente de greybox  
 **Propósito**: Especificación dimensional para blockout en Godot

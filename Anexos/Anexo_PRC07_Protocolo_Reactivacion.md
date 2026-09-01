@@ -1,5 +1,13 @@
 # PRC-07 — Protocolo de Reactivación Post-Criogénica
 
+> ⚠️ **SUPERSEDED (2026-09-01).** Este protocolo describe la secuencia del módulo
+> criogénico **plano** (consola Sala A → gap → push box → lever → esclusa), un diseño
+> anterior. El canon actual es la restauración de las **4 redes del domo** + el descenso
+> al **hangar** como escena separada. Ver [[Locacion_Criogenia]] y
+> `docs/features/FD-289_dome_systems_canon.md` (repo del juego). Se conserva por historial.
+
+---
+
 **Fecha**: Junio 2026  
 **Estado**: Spec completa  
 **Propósito**: Secuencia guía para los primeros ~6-8 minutos del Vertical Slice

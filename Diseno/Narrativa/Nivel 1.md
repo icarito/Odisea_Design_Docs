@@ -1,17 +1,22 @@
-## Despertar en Criogenia (5-7 minutos aprox)  
+## Despertar en Criogenia (10-16 minutos aprox)  
 
 ![[acto1_negacion_portada.png]]
 
-Objetivo: Introducir **movimiento básico** (correr, saltar), interacción ambiental, primeros obstáculos. 
+> **Rediseño 2026-09**: el nivel transcurre en el **domo criogénico** (base del vertical
+> slice) y su **hangar** como escena separada. Ver [[Locacion_Criogenia]].
+
+Objetivo: Introducir **movimiento básico** (correr, saltar), interacción ambiental, el
+puzzle de sistemas del domo y los puzzles físicos del hangar. 
 
 Gameplay:
 
-- El jugador controla a Elías, despertando en la pod de criogenia. La nave es inmensa, fría, con niebla cian y luces parpadeantes.
-- Primeros desafíos: saltar plataformas estáticas y móviles para salir del área criogénica.
-- Introducir correas de transporte y túneles de viento para desplazamientos ágiles.
-- Obstáculos ambientales: fugas de plasma, unidades de diagnóstico (DDC) que patrullan pero no atacan directamente, generando tensión.
-- Interacción mínima con cajas para activar paneles o desbloquear rutas.
-- Final del nivel: llegar a los centros de comando, ver un ventanal gigante que muestra una nebulosa impresionante. La IA (Odisea) da respuestas evasivas, creando sensación de paranoia y amenaza silenciosa.
+- El jugador controla a Elías, despertando en la pod de criogenia dentro del **domo criogénico**: inmenso, frío, con niebla cian y luces parpadeantes.
+- Primeros desafíos: moverse por el anillo superior de criopods y bajar al nivel de máquinas.
+- Puzzle central: restaurar las **4 redes del domo** (coolant → energía → plasma → aire) para abrir el blast door.
+- Obstáculos ambientales: fugas de plasma, niebla cian densa, generando tensión sin combate.
+- Al restaurar los sistemas, el **blast door (compuerta de piso)** se abre → el jugador desciende a la **escena separada del hangar** (`change_scene`).
+- En el hangar: puzzles físicos con **cajas empujables** y **cintas transportadoras** para despejar la ruta a la esclusa.
+- Final del nivel: cruzar la esclusa y salir al anillo exterior; ver un ventanal gigante que muestra una nebulosa impresionante. La IA (Odisea) da respuestas evasivas, creando sensación de paranoia y amenaza silenciosa.
 
 ![[Whisk_a85333397bc0eafa8b745dfa89a771bbeg(1).jpeg]]
 

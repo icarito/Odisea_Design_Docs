@@ -11,19 +11,19 @@ La atmósfera de Criogenia se refuerza mediante el uso de **flipbook_particles**
 - **Niebla Criogénica**: Partículas flipbook que simulan gas cian denso.
 - **Fugas de Plasma/ Gas**: Obstáculos ambientales que el jugador evita o desactiva.
 
-## Puzzles y Mecánicas (actualizado junio 2026)
+## Puzzles y Mecánicas (actualizado 2026-09)
 * **Sin sigilo ni DDC en esta sección.** La tensión es ambiental, no de combate.
 * **Sin Cargol aún.** Se encuentra en la sección de Transporte, después de salir de Criogenia.
 * **Sin multi-tool.** Se obtiene después de la esclusa.
-* **Puzzle principal**: Activar energía auxiliar (gap → push box → lever → retorno).
-* **Plataformas básicas**: Salto de gap corto, rampa de escombros.
+* **Puzzle principal**: restaurar las 4 redes del domo (coolant → energía → plasma → aire) para abrir el blast door.
+* **Puzzles físicos del hangar**: cajas empujables (`PushableBoxV2`) y cintas transportadoras (`Conveyor`).
 * **Opcional**: Detener fugas de gas con PedestalButton.
 
-Ver [[Anexo_PRC07_Protocolo_Reactivacion]] para la secuencia paso a paso.
-Ver [[Anexo_Blockout_Modulo_Criogenia]] para las dimensiones y layout.
+Ver [[Locacion_Criogenia]] para la estructura del domo y el hangar.
+Ver `docs/features/FD-289_dome_systems_canon.md` (repo del juego) para la especificación técnica.
 
 ## Clímax del Módulo Criogenia
-Elías logra restaurar la energía auxiliar, desbloquea la puerta A-7 y cruza la esclusa hacia la sección rotatoria. Odisea no revela aún su agenda — solo se muestra burocrática y evasiva. La primera semilla de desconfianza queda plantada (OD-02).
+Elías logra restaurar las 4 redes del domo, abre el blast door y desciende al hangar. Cruza la esclusa hacia el anillo exterior. Odisea no revela aún su agenda — solo se muestra burocrática y evasiva. La primera semilla de desconfianza queda plantada (OD-02).
 
 ## Lore establecido en este módulo
 - Último reporte de tripulación: hace 11 meses.
