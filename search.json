@@ -1235,11 +1235,11 @@
     ]
   },
   {
-    "objectID": "Diseno/Narrativa/Acto_I_La_Negacion.html#puzzles-y-mecánicas-actualizado-junio-2026",
-    "href": "Diseno/Narrativa/Acto_I_La_Negacion.html#puzzles-y-mecánicas-actualizado-junio-2026",
+    "objectID": "Diseno/Narrativa/Acto_I_La_Negacion.html#puzzles-y-mecánicas-actualizado-2026-09",
+    "href": "Diseno/Narrativa/Acto_I_La_Negacion.html#puzzles-y-mecánicas-actualizado-2026-09",
     "title": "22  Acto I: La Negación",
-    "section": "22.3 Puzzles y Mecánicas (actualizado junio 2026)",
-    "text": "22.3 Puzzles y Mecánicas (actualizado junio 2026)\n\nSin sigilo ni DDC en esta sección. La tensión es ambiental, no de combate.\nSin Cargol aún. Se encuentra en la sección de Transporte, después de salir de Criogenia.\nSin multi-tool. Se obtiene después de la esclusa.\nPuzzle principal: Activar energía auxiliar (gap → push box → lever → retorno).\nPlataformas básicas: Salto de gap corto, rampa de escombros.\nOpcional: Detener fugas de gas con PedestalButton.\n\nVer Anexo_PRC07_Protocolo_Reactivacion para la secuencia paso a paso. Ver Anexo_Blockout_Modulo_Criogenia para las dimensiones y layout.",
+    "section": "22.3 Puzzles y Mecánicas (actualizado 2026-09)",
+    "text": "22.3 Puzzles y Mecánicas (actualizado 2026-09)\n\nSin sigilo ni DDC en esta sección. La tensión es ambiental, no de combate.\nSin Cargol aún. Se encuentra en la sección de Transporte, después de salir de Criogenia.\nSin multi-tool. Se obtiene después de la esclusa.\nPuzzle principal: restaurar las 4 redes del domo (coolant → energía → plasma → aire) para abrir el blast door.\nPuzzles físicos del hangar: cajas empujables (PushableBoxV2) y cintas transportadoras (Conveyor).\nOpcional: Detener fugas de gas con PedestalButton.\n\nVer Locacion_Criogenia para la estructura del domo y el hangar. Ver docs/features/FD-289_dome_systems_canon.md (repo del juego) para la especificación técnica.",
     "crumbs": [
       "Diseño",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Acto I: La Negación</span>"
@@ -1250,7 +1250,7 @@
     "href": "Diseno/Narrativa/Acto_I_La_Negacion.html#clímax-del-módulo-criogenia",
     "title": "22  Acto I: La Negación",
     "section": "22.4 Clímax del Módulo Criogenia",
-    "text": "22.4 Clímax del Módulo Criogenia\nElías logra restaurar la energía auxiliar, desbloquea la puerta A-7 y cruza la esclusa hacia la sección rotatoria. Odisea no revela aún su agenda — solo se muestra burocrática y evasiva. La primera semilla de desconfianza queda plantada (OD-02).",
+    "text": "22.4 Clímax del Módulo Criogenia\nElías logra restaurar las 4 redes del domo, abre el blast door y desciende al hangar. Cruza la esclusa hacia el anillo exterior. Odisea no revela aún su agenda — solo se muestra burocrática y evasiva. La primera semilla de desconfianza queda plantada (OD-02).",
     "crumbs": [
       "Diseño",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Acto I: La Negación</span>"
@@ -1270,12 +1270,12 @@
   {
     "objectID": "Diseno/Narrativa/Nivel 1.html",
     "href": "Diseno/Narrativa/Nivel 1.html",
-    "title": "23  Despertar en Criogenia (5-7 minutos aprox)",
+    "title": "23  Despertar en Criogenia (10-16 minutos aprox)",
     "section": "",
-    "text": "Objetivo: Introducir movimiento básico (correr, saltar), interacción ambiental, primeros obstáculos.\nGameplay:\n\nEl jugador controla a Elías, despertando en la pod de criogenia. La nave es inmensa, fría, con niebla cian y luces parpadeantes.\nPrimeros desafíos: saltar plataformas estáticas y móviles para salir del área criogénica.\nIntroducir correas de transporte y túneles de viento para desplazamientos ágiles.\nObstáculos ambientales: fugas de plasma, unidades de diagnóstico (DDC) que patrullan pero no atacan directamente, generando tensión.\nInteracción mínima con cajas para activar paneles o desbloquear rutas.\nFinal del nivel: llegar a los centros de comando, ver un ventanal gigante que muestra una nebulosa impresionante. La IA (Odisea) da respuestas evasivas, creando sensación de paranoia y amenaza silenciosa.\n\n\n\nCasi una muerte por fuga de plasma o fallo ambiental que el jugador esquiva por poco, reforzando tensión psicológica sin combate directo.\n\n\n24 Ep.1: El Despertar Criogénico\nPáginas 1-2: Intro locación/amenaza\nElías abre los ojos en la penumbra azulada de la cápsula criogénica. El frío le cala los huesos, la niebla cian flota entre luces parpadeantes. El silencio es absoluto, roto solo por el zumbido lejano de la nave. Al salir, observa hileras interminables de cápsulas: 49,000 almas dormidas. Un panel titila: “Protocolo Arca activo”.\nPáginas 3-8: Acción/puzzle\nElías avanza torpemente, aprendiendo a moverse. Salta entre plataformas estáticas y móviles, esquivando fugas de plasma que chisporrotean en el aire. DDC patrullan en silencio, sus luces cian recorren los pasillos. Elías activa paneles, desbloquea rutas, y utiliza correas de transporte para cruzar túneles de viento. Un dron se acerca, pero no ataca; solo observa, generando tensión.\nPáginas 9-10: Diálogo Odisea\nAl llegar al centro de comando, Elías contempla un ventanal gigante: una nebulosa naranja y cian se extiende en el vacío. La IA Odisea aparece como holograma etéreo:\n—“Todo controlado, Elías. Protocolo Arca los protege.”\nElías duda:\n—“¿Fallos técnicos?”\nOdisea responde evasiva, su voz fluctúa con glitches.\nPágina 11: Cliffhanger\nUna fuga de plasma explota cerca, casi lo alcanza. Elías salta y cae de rodillas, jadeando. La niebla se espesa. Odisea susurra:\n—“Confía en mí, Elías.”\nPero en el panel, una alerta parpadea: “Trayectoria desviada. Destino: desconocido”.\n\n\n25 Ep.2: Drones Silenciosos\nPáginas 1-2: Intro locación/amenaza\nElías avanza por corredores angostos, la niebla cian cubre el suelo y las luces parpadean. DDC patrullan en silencio, sus sensores recorren las paredes, proyectando sombras inquietantes.\nPáginas 3-8: Acción/puzzle\nElías se mueve en sigilo, ocultándose tras cajas y paneles. Un dron lo detecta: la alarma suena, la puerta se sella. Elías corre hacia un panel y debe realinear circuitos bajo una cuenta regresiva. El sudor le recorre la frente mientras los drones observan, impasibles. Consigue desbloquear la salida justo a tiempo y se desliza por una correa de transporte hacia la siguiente zona.\nPáginas 9-10: Diálogo Odisea\nOdisea aparece en un holograma:\n—“Protocolo Arca los protege.”\nElías, agitado:\n—“¿Por qué los drones me vigilan?”\nOdisea responde con calma artificial:\n—“Diagnóstico preventivo. Todo bajo control.”\nPágina 11: Cliffhanger\nAntes de avanzar, Elías observa a los drones agrupándose en silencio, como si esperaran algo. La niebla se espesa.\nOdisea susurra:\n—“Confía en mí, Elías.”\nPero Elías duda, sintiendo que la nave lo observa.\n\n\n26 Ep.3: Niebla Eterna\nPáginas 1-2: Intro locación/amenaza\nElías entra en una sala de plataformas móviles, envuelta en una niebla cian tan densa que apenas distingue el suelo. Las luces titilan, creando figuras fantasmales en el aire. El silencio es absoluto, salvo por el eco de sus pasos.\nPáginas 3-8: Acción/puzzle\nElías debe saltar entre plataformas que se mueven lentamente, calculando cada salto con precisión. La niebla oculta los bordes y distorsiona la percepción. Un dron DDC aparece y se desliza entre la niebla, obligando a Elías a esperar el momento justo para avanzar sin ser detectado. Un panel bloqueado requiere que Elías active cajas en el orden correcto, guiándose solo por destellos de luz en la niebla.\nPáginas 9-10: Diálogo Odisea\nOdisea se manifiesta en un holograma difuso:\n—“Protocolo Arca los protege.”\nElías, frustrado:\n—“¿Por qué tanta niebla? No veo nada.”\nOdisea responde con voz etérea:\n—“La niebla preserva. El silencio es seguridad.”\nPágina 11: Cliffhanger\nAl activar el panel, la niebla se intensifica y la sala tiembla. Elías ve, por un instante, una silueta naranja reflejada en el ventanal: ¿otro sobreviviente, o solo su propio reflejo?\nOdisea susurra:\n—“Confía en mí, Elías.”\nElías avanza, pero la duda crece.",
+    "text": "Rediseño 2026-09: el nivel transcurre en el domo criogénico (base del vertical slice) y su hangar como escena separada. Ver Locacion_Criogenia.\n\nObjetivo: Introducir movimiento básico (correr, saltar), interacción ambiental, el puzzle de sistemas del domo y los puzzles físicos del hangar.\nGameplay:\n\nEl jugador controla a Elías, despertando en la pod de criogenia dentro del domo criogénico: inmenso, frío, con niebla cian y luces parpadeantes.\nPrimeros desafíos: moverse por el anillo superior de criopods y bajar al nivel de máquinas.\nPuzzle central: restaurar las 4 redes del domo (coolant → energía → plasma → aire) para abrir el blast door.\nObstáculos ambientales: fugas de plasma, niebla cian densa, generando tensión sin combate.\nAl restaurar los sistemas, el blast door (compuerta de piso) se abre → el jugador desciende a la escena separada del hangar (change_scene).\nEn el hangar: puzzles físicos con cajas empujables y cintas transportadoras para despejar la ruta a la esclusa.\nFinal del nivel: cruzar la esclusa y salir al anillo exterior; ver un ventanal gigante que muestra una nebulosa impresionante. La IA (Odisea) da respuestas evasivas, creando sensación de paranoia y amenaza silenciosa.\n\n\n\nCasi una muerte por fuga de plasma o fallo ambiental que el jugador esquiva por poco, reforzando tensión psicológica sin combate directo.\n\n\n24 Ep.1: El Despertar Criogénico\nPáginas 1-2: Intro locación/amenaza\nElías abre los ojos en la penumbra azulada de la cápsula criogénica. El frío le cala los huesos, la niebla cian flota entre luces parpadeantes. El silencio es absoluto, roto solo por el zumbido lejano de la nave. Al salir, observa hileras interminables de cápsulas: 49,000 almas dormidas. Un panel titila: “Protocolo Arca activo”.\nPáginas 3-8: Acción/puzzle\nElías avanza torpemente, aprendiendo a moverse. Salta entre plataformas estáticas y móviles, esquivando fugas de plasma que chisporrotean en el aire. DDC patrullan en silencio, sus luces cian recorren los pasillos. Elías activa paneles, desbloquea rutas, y utiliza correas de transporte para cruzar túneles de viento. Un dron se acerca, pero no ataca; solo observa, generando tensión.\nPáginas 9-10: Diálogo Odisea\nAl llegar al centro de comando, Elías contempla un ventanal gigante: una nebulosa naranja y cian se extiende en el vacío. La IA Odisea aparece como holograma etéreo:\n—“Todo controlado, Elías. Protocolo Arca los protege.”\nElías duda:\n—“¿Fallos técnicos?”\nOdisea responde evasiva, su voz fluctúa con glitches.\nPágina 11: Cliffhanger\nUna fuga de plasma explota cerca, casi lo alcanza. Elías salta y cae de rodillas, jadeando. La niebla se espesa. Odisea susurra:\n—“Confía en mí, Elías.”\nPero en el panel, una alerta parpadea: “Trayectoria desviada. Destino: desconocido”.\n\n\n25 Ep.2: Drones Silenciosos\nPáginas 1-2: Intro locación/amenaza\nElías avanza por corredores angostos, la niebla cian cubre el suelo y las luces parpadean. DDC patrullan en silencio, sus sensores recorren las paredes, proyectando sombras inquietantes.\nPáginas 3-8: Acción/puzzle\nElías se mueve en sigilo, ocultándose tras cajas y paneles. Un dron lo detecta: la alarma suena, la puerta se sella. Elías corre hacia un panel y debe realinear circuitos bajo una cuenta regresiva. El sudor le recorre la frente mientras los drones observan, impasibles. Consigue desbloquear la salida justo a tiempo y se desliza por una correa de transporte hacia la siguiente zona.\nPáginas 9-10: Diálogo Odisea\nOdisea aparece en un holograma:\n—“Protocolo Arca los protege.”\nElías, agitado:\n—“¿Por qué los drones me vigilan?”\nOdisea responde con calma artificial:\n—“Diagnóstico preventivo. Todo bajo control.”\nPágina 11: Cliffhanger\nAntes de avanzar, Elías observa a los drones agrupándose en silencio, como si esperaran algo. La niebla se espesa.\nOdisea susurra:\n—“Confía en mí, Elías.”\nPero Elías duda, sintiendo que la nave lo observa.\n\n\n26 Ep.3: Niebla Eterna\nPáginas 1-2: Intro locación/amenaza\nElías entra en una sala de plataformas móviles, envuelta en una niebla cian tan densa que apenas distingue el suelo. Las luces titilan, creando figuras fantasmales en el aire. El silencio es absoluto, salvo por el eco de sus pasos.\nPáginas 3-8: Acción/puzzle\nElías debe saltar entre plataformas que se mueven lentamente, calculando cada salto con precisión. La niebla oculta los bordes y distorsiona la percepción. Un dron DDC aparece y se desliza entre la niebla, obligando a Elías a esperar el momento justo para avanzar sin ser detectado. Un panel bloqueado requiere que Elías active cajas en el orden correcto, guiándose solo por destellos de luz en la niebla.\nPáginas 9-10: Diálogo Odisea\nOdisea se manifiesta en un holograma difuso:\n—“Protocolo Arca los protege.”\nElías, frustrado:\n—“¿Por qué tanta niebla? No veo nada.”\nOdisea responde con voz etérea:\n—“La niebla preserva. El silencio es seguridad.”\nPágina 11: Cliffhanger\nAl activar el panel, la niebla se intensifica y la sala tiembla. Elías ve, por un instante, una silueta naranja reflejada en el ventanal: ¿otro sobreviviente, o solo su propio reflejo?\nOdisea susurra:\n—“Confía en mí, Elías.”\nElías avanza, pero la duda crece.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Despertar en Criogenia (5-7 minutos aprox)</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Despertar en Criogenia (10-16 minutos aprox)</span>"
     ]
   },
   {
@@ -1897,67 +1897,100 @@
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
+    "title": "40  Locación: Domo Criogénico — Acto I",
     "section": "",
-    "text": "40.1 Layout (actualizado junio 2026)",
+    "text": "40.1 Estructura del vertical slice\nEl domo criogénico es la base del vertical slice. El sótano/hangar es una escena separada que lo continúa: al completar los sistemas del domo, el blast door se abre y el jugador desciende al hangar vía change_scene.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
-    "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#layout-actualizado-junio-2026",
-    "href": "Diseno/Narrativa/Locacion_Criogenia.html#layout-actualizado-junio-2026",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
+    "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#estructura-del-vertical-slice",
+    "href": "Diseno/Narrativa/Locacion_Criogenia.html#estructura-del-vertical-slice",
+    "title": "40  Locación: Domo Criogénico — Acto I",
     "section": "",
-    "text": "40.1.1 Tres niveles verticales\n\nPlanta baja — Fila de criopods con cápsula de Elías (RadialScatter). Suelo de rejilla metálica. Consolas de monitoreo. Puerta A-7 (sellada) al exterior.\nEntrepiso — Pasarela perimetral con vista a la sala principal. Acceso a Sala B (consola de energía auxiliar). Rampa de escombros como conexión vertical.\nPasarela superior — Tuberías, paneles de control secundarios. Acceso a esclusa hacia exterior.\n\n\n\n40.1.2 Conexiones\n\nSala A → Gap corto → Sala B: El gap no tiene muerte por caída (plataforma al otro lado).\nRampa fija de escombros: Única conexión vertical (sin escaleras ni ascensores en este módulo).\nFugas de gas: LeakEmitter en pasillos laterales. Se detienen con PedestalButton.\nPuerta A-7: Sellada hasta activar energía auxiliar.\n\n\n\n40.1.3 Puntos de interés\n\nCápsula de Elías: Fila de criopods, display con falso optimismo — “No se detecta actividad de red”.\nConsola Sala A: Muestra OD-02 crítico, respaldo sin energía. Odisea afirma que es sensor intermitente.\nPushableBox: Para despejar escombros en Sala B.\nLever (ENERGÍA AUXILIAR): Letrero industrial minimal en placa física.\nEsclusa: Conexión al exterior del módulo, hacia sección rotatoria.",
+    "text": "Dome_Intro (domo)                        Dome_Intro_Hangar (escena separada)\n──────────────────────────               ──────────────────────────────────\n1. Anillo superior (criopods)            5. Hangar de mantenimiento\n2. Nivel de máquinas (4 redes)              - cajas empujables\n3. Reactor central                          - cintas transportadoras\n4. Blast door (compuerta de piso)        6. Esclusa → exterior (ScaffoldOrbit)\n        └──────────── change_scene ──────┘",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+    ]
+  },
+  {
+    "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#layout-vertical-del-domo",
+    "href": "Diseno/Narrativa/Locacion_Criogenia.html#layout-vertical-del-domo",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.2 Layout vertical del domo",
+    "text": "40.2 Layout vertical del domo\n\nAnillo superior — Entrada y hábitat. Criopods en el perímetro (anillos radiales). El jugador entra aquí y ve el domo entero; el blast door del piso es visible abajo.\nNivel de máquinas — Las 4 redes se cruzan a la vista: gabinete eléctrico (verde), junta de plasma (ámbar), costuras de coolant (cian), extractores de aire (blanco/rojo) y manómetros de todas las redes.\nReactor central — Columna vertebral del domo. El coolant baja de los criopods a la chaqueta del reactor; el plasma sale hacia arriba al bus eléctrico.\nBlast door (compuerta de piso) — Requiere las 4 redes HEALTHY. Al abrirse revela el pozo de descenso al hangar.",
+    "crumbs": [
+      "Diseño",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+    ]
+  },
+  {
+    "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#continuación-sótano-hangar-escena-separada",
+    "href": "Diseno/Narrativa/Locacion_Criogenia.html#continuación-sótano-hangar-escena-separada",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.3 Continuación: sótano / hangar (escena separada)",
+    "text": "40.3 Continuación: sótano / hangar (escena separada)\n\nHangar de mantenimiento — Grande y abierto, dos niveles (piso + repisas/catwalks). Puzzles físicos con cajas empujables (PushableBoxV2: tapar respiraderos, activar placas, hacer de puente) y cintas transportadoras (Conveyor). Varía por domo: cada domo apunta a su propio hangar, mientras el rig de sistemas del domo es el mismo template.\nEsclusa al exterior — Salida del hangar al anillo exterior (ScaffoldOrbit / OdiseaExterior).",
+    "crumbs": [
+      "Diseño",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
+    ]
+  },
+  {
+    "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#sistemas-del-domo-4-redes",
+    "href": "Diseno/Narrativa/Locacion_Criogenia.html#sistemas-del-domo-4-redes",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.4 Sistemas del domo (4 redes)",
+    "text": "40.4 Sistemas del domo (4 redes)\n\n\n\nRed\nPortador\nFuente\nColor\n\n\n\n\nCriocoolant\nTubos\nCoolantTank\nCian #00E5FF\n\n\nPlasma\nTubos\nReactor (salida)\nÁmbar #FF8F00\n\n\nAire\nDuctos\nPressurePump\nBlanco/Rojo #FF5252\n\n\nEnergía\nCables\nBus (reactor)\nVerde #00FF88\n\n\n\nEspecificación técnica completa en el repo del juego: docs/features/FD-289_dome_systems_canon.md.",
+    "crumbs": [
+      "Diseño",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#puzzle-principal",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#puzzle-principal",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
-    "section": "40.2 Puzzle principal",
-    "text": "40.2 Puzzle principal\n\nTableTerminal Sala A → OD-02 crítico, respaldo sin energía.\nCruzar gap corto → Sala B.\nEmpujar PushableBox para despejar escombros.\nAccionar Lever vertical → energía auxiliar activada.\nVolver a Sala A → puerta A-7 desbloqueada.\nCruzar esclusa → exterior.",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.5 Puzzle principal",
+    "text": "40.5 Puzzle principal\n\nEntrar al domo oscuro (anillo superior) — el blast door abajo está sellado.\nBajar al nivel de máquinas — encontrar las 4 redes en fallo.\nRestaurar el coolant (válvula → parche → reabrir) → red 1/4.\nActivar la energía auxiliar (palanca del bus) → red 2/4.\nRedirigir el plasma (válvulas) → red 3/4.\nRestaurar el aire (bomba + purga) → red 4/4 → el blast door se abre.\nDescender al hangar (change_scene) → puzzles de cajas y cintas.\nCruza la esclusa → exterior.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#lore-ambiental",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#lore-ambiental",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
-    "section": "40.3 Lore ambiental",
-    "text": "40.3 Lore ambiental\n\nÚltimo reporte de tripulación: hace 11 meses.\nRed de la nave: sin actividad desde el despertar de Elías.\nOD-02: Odisea miente, dice que es sensor intermitente marcado por precaución.\nElías no sabe que despertó 11 meses después de lo programado.\nMódulos adyacentes reportan lectura cero, no se ha asignado personal.\nSabotaje intencional (Elías no lo sabe aún).",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.6 Lore ambiental",
+    "text": "40.6 Lore ambiental\n\nÚltimo reporte de tripulación: hace 11 meses.\nRed de la nave: sin actividad desde el despertar de Elías.\nOD-02: Odisea miente, dice que es sensor intermitente marcado por precaución.\nElías no sabe que despertó 11 meses después de lo programado.\nMódulos adyacentes reportan lectura cero, no se ha asignado personal.\nSabotaje intencional (Elías no lo sabe aún).",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#props-clave",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#props-clave",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
-    "section": "40.4 Props clave",
-    "text": "40.4 Props clave\n\nPipeValve, PipeSection, PipeCorner (válvulas y tuberías decorativas)\nLeverV2 (energía auxiliar)\nBrokenFloorPanel, WarningBarrier\nDataSlate (lore fragments)\nSteelPlate/Stack (escenografía)\nFireEmitter (copia de LeakEmitter con daño)\nRetractableBridge (futuro)",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.7 Props clave",
+    "text": "40.7 Props clave\n\nPipeValve, PipeSection, PipeCorner (válvulas y tuberías)\nLeverV2, LightSwitchV2, FusibleV2 (energía)\nPressurePump, PurgeTuner (aire)\nPushableBoxV2, Conveyor (hangar)\nBlastDoorController (compuerta de piso)\nDataSlate (lore fragments)\nSteelPlate/Stack (escenografía)\nFireEmitter (copia de LeakEmitter con daño)",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
     "objectID": "Diseno/Narrativa/Locacion_Criogenia.html#odisea-ia-primer-contacto",
     "href": "Diseno/Narrativa/Locacion_Criogenia.html#odisea-ia-primer-contacto",
-    "title": "40  Locación: Módulos de Criogenia — Acto I",
-    "section": "40.5 Odisea IA — Primer contacto",
-    "text": "40.5 Odisea IA — Primer contacto\n\nFría, dismissiva, “no se requiere supervisión adicional”.\nMiente sobre OD-02.\nNo revela que Elías despertó tarde.\n\nParte de Acto_I_La_Negacion.",
+    "title": "40  Locación: Domo Criogénico — Acto I",
+    "section": "40.8 Odisea IA — Primer contacto",
+    "text": "40.8 Odisea IA — Primer contacto\n\nFría, dismissiva, “no se requiere supervisión adicional”.\nMiente sobre OD-02.\nNo revela que Elías despertó tarde.\n\nParte de Acto_I_La_Negacion.",
     "crumbs": [
       "Diseño",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Módulos de Criogenia — Acto I</span>"
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Locación: Domo Criogénico — Acto I</span>"
     ]
   },
   {
