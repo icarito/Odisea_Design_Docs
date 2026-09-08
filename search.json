@@ -3633,443 +3633,608 @@
     ]
   },
   {
+    "objectID": "Produccion/VS_Checklist.html",
+    "href": "Produccion/VS_Checklist.html",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "",
+    "text": "82.1 1. Motor de sistemas del domo (FD-289 T1–T2)",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#motor-de-sistemas-del-domo-fd-289-t1t2",
+    "href": "Produccion/VS_Checklist.html#motor-de-sistemas-del-domo-fd-289-t1t2",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "",
+    "text": "T1 DomeNetworkStatus + DomeEnvConfig (.tres a mano) — 30-60 min\nT2 DomeSystemDirector (autoload, máquina de beats, snapshot-able) — 1-2 h",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#compuerta-descenso-t3-t5",
+    "href": "Produccion/VS_Checklist.html#compuerta-descenso-t3-t5",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.2 2. Compuerta + descenso (T3, T5)",
+    "text": "82.2 2. Compuerta + descenso (T3, T5)\n\nT3 BlastDoorController sobre FloorHatch.tscn a escala hangar + modelos nuevos (paneles, bisagras, sellos, luces de borde) — 3 h\nHangarPlatform (TOP/DESCENDING/BOTTOM, snapshot-able, grupo replay_sync)\nRampa de servicio estática paralela en el pozo\nT5 FusibleV2 (HoldInteractableV2 con socket, verbo extraer/insertar) — 1 h",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#hangar-t4-logística-de-sólidos",
+    "href": "Produccion/VS_Checklist.html#hangar-t4-logística-de-sólidos",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.3 3. Hangar (T4) + logística de sólidos",
+    "text": "82.3 3. Hangar (T4) + logística de sólidos\n\nT4 Blockout Dome_Intro_Hangar.tscn (2 niveles, spawn from_dome_intro_platform, esclusa de salida) — 2-3 h\nPuzzles físicos: PushableBoxV2 (tapar respiradero, placa de presión, puente) + Conveyor (mover caja pesada, desplazar al jugador)\nCajas Tipo S (1.2 m / 80 kg) y Tipo H (2.4 m / 250 kg) según Anexo GDD-LOG-282 §3\nInyector HangarSpawner determinista (seed 42, matriz de clases §4) + test de frecuencias/probabilidades en replay",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#cableado-de-redes-al-domo-real-t6t7",
+    "href": "Produccion/VS_Checklist.html#cableado-de-redes-al-domo-real-t6t7",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.4 4. Cableado de redes al domo real (T6–T7)",
+    "text": "82.4 4. Cableado de redes al domo real (T6–T7)\n\nT6 Criocoolant + Plasma: fugas, tanque, válvulas, parches en el nivel de máquinas de Dome_Intro; señales → DomeNetworkStatus — 2-3 h\nT7 Energía + Aire: bus, paneles, bomba, purga, manómetros; bus → blast door — 2-3 h\nBakes de luz Dome_Intro_dark.lmbake + Dome_Intro_full.lmbake (estados OSCURAS/BAJO/PLENO)",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#integración-y-cierre-t8",
+    "href": "Produccion/VS_Checklist.html#integración-y-cierre-t8",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.5 5. Integración y cierre (T8)",
+    "text": "82.5 5. Integración y cierre (T8)\n\nT8 Test headless del ciclo completo beats 1→8 + snapshot/restore — 2 h\nSin regresiones en los 133+ tests (./runtest.sh -a ./core_v2/tests/)\nPlaytest del timeline completo: 10-16 min, legibilidad de la ruta crítica\nCREDITS.md: confirmar origen de música/SFX restantes",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#prs-y-trabajo-en-curso-merge-solo-con-ok-de-sebastián",
+    "href": "Produccion/VS_Checklist.html#prs-y-trabajo-en-curso-merge-solo-con-ok-de-sebastián",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.6 6. PRs y trabajo en curso (merge SOLO con OK de Sebastián)",
+    "text": "82.6 6. PRs y trabajo en curso (merge SOLO con OK de Sebastián)\n\n#315 FD-285 fixtures de luz (studs + vidrio sconce) — review por chunks\n#318 FD-288 TremorZoneV2 (DRAFT — necesaria para beats 6 y feedback)\n#308 Integración audio FD-275/277/278/279 — decidir destino\nBarrido de PRs stale (301, 303-307, 300, 297, 298…): cerrar, reactivar o archivar\nSesiones Jules activas (FD-263/264/271/280): seguir hasta PR o cierre",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#decisiones-pendientes-bloquean-o-cambian-scope",
+    "href": "Produccion/VS_Checklist.html#decisiones-pendientes-bloquean-o-cambian-scope",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.7 7. Decisiones pendientes (bloquean o cambian scope)",
+    "text": "82.7 7. Decisiones pendientes (bloquean o cambian scope)\n\nWalker DDC: entrenar con “Ana” vs waypoint+raycast (riesgo determinismo Core V2)\nOG tags PR #300: requiere re-export HTML5 para vivir en producción — ¿ahora o backlog?\nValidar valores del Anexo GDD-LOG-282 (probabilidades/frecuencias de cajas) contra el diseño de puzzles del hangar — es backlog de assets, no spec cerrada",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
+    "objectID": "Produccion/VS_Checklist.html#backlog-fuera-del-vs-no-tocar",
+    "href": "Produccion/VS_Checklist.html#backlog-fuera-del-vs-no-tocar",
+    "title": "82  VS Checklist — Vertical Slice: Domo Criogénico (Acto I)",
+    "section": "82.8 8. Backlog (fuera del VS — no tocar)",
+    "text": "82.8 8. Backlog (fuera del VS — no tocar)\n\nSigilo + patrulla DDC · Cargol · Multi-tool (recortados 2026-09-01)\nActos II–IV · modo 2.5D · cooperativo · cómic · trailer\nDuctos de vacío/metano y agua pesada como sistemas simulados (quedan como lore/ambientación)",
+    "crumbs": [
+      "Producción",
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>VS Checklist — Vertical Slice: Domo Criogénico (Acto I)</span>"
+    ]
+  },
+  {
     "objectID": "Produccion/Backlog/Ideas_Mecanicas.html",
     "href": "Produccion/Backlog/Ideas_Mecanicas.html",
-    "title": "82  Ideas Mecánicas",
+    "title": "83  Ideas Mecánicas",
     "section": "",
     "text": "Bounce balls",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Ideas Mecánicas</span>"
+      "<span class='chapter-number'>83</span>  <span class='chapter-title'>Ideas Mecánicas</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/QOL_Checklist.html",
     "href": "Produccion/Backlog/QOL_Checklist.html",
-    "title": "83  QOL Checklist",
+    "title": "84  QOL Checklist",
     "section": "",
-    "text": "83.1 Done",
+    "text": "84.1 Done",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>83</span>  <span class='chapter-title'>QOL Checklist</span>"
+      "<span class='chapter-number'>84</span>  <span class='chapter-title'>QOL Checklist</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/QOL_Checklist.html#done",
     "href": "Produccion/Backlog/QOL_Checklist.html#done",
-    "title": "83  QOL Checklist",
+    "title": "84  QOL Checklist",
     "section": "",
     "text": "Should not move camera when mouse is not captured\n2.5D camera should lazy pan with mouse\n2.5D camera should not attempt to restore angle on exit 2.5D zone, instead it should “just release it”\nWheel should zoom in all modes",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>83</span>  <span class='chapter-title'>QOL Checklist</span>"
+      "<span class='chapter-number'>84</span>  <span class='chapter-title'>QOL Checklist</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/Automatización.html",
     "href": "Produccion/Backlog/PRODUCTION/Automatización.html",
-    "title": "84  Automatización",
+    "title": "85  Automatización",
     "section": "",
     "text": "Al publicar el GDD se gatilla un diff (del GDD y del repo).\nSe draftea automáticamente un devlog o un guion para YouTube.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>84</span>  <span class='chapter-title'>Automatización</span>"
+      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Automatización</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html",
     "href": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html",
-    "title": "85  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
+    "title": "86  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
     "section": "",
-    "text": "85.1 📅 Viernes, 5 de Diciembre de 2025\nEste registro detalla el progreso del proyecto desde el 2 hasta el 5 de diciembre de 2025, utilizando la información precisa de los timestamps de los commits para establecer las franjas horarias de trabajo.\nFranja Horaria de Actividad: 03:00 AM (Sesión de madrugada única)\nFoco: Culminación del soporte multijugador.",
+    "text": "86.1 📅 Viernes, 5 de Diciembre de 2025\nEste registro detalla el progreso del proyecto desde el 2 hasta el 5 de diciembre de 2025, utilizando la información precisa de los timestamps de los commits para establecer las franjas horarias de trabajo.\nFranja Horaria de Actividad: 03:00 AM (Sesión de madrugada única)\nFoco: Culminación del soporte multijugador.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#viernes-5-de-diciembre-de-2025",
     "href": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#viernes-5-de-diciembre-de-2025",
-    "title": "85  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
+    "title": "86  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
     "section": "",
     "text": "Commit\nHora\nAutor\nResumen\n\n\nb7ed493e\n03:00:16\ngoogle-labs-jules[bot]\nFeat: Implementación de Multijugador Pantalla Dividida (Split-Screen). Se agregó la funcionalidad principal, incluyendo el botón “Coop”, la nueva escena con viewport dividido, el sistema de doble entrada (dual input) y la consolidación de la lógica de detección de pantalla en el singleton GameConfig.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#jueves-4-de-diciembre-de-2025",
     "href": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#jueves-4-de-diciembre-de-2025",
-    "title": "85  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
-    "section": "85.2 📅 Jueves, 4 de Diciembre de 2025",
-    "text": "85.2 📅 Jueves, 4 de Diciembre de 2025\nFranja Horaria de Actividad: 02:00 AM – 17:52 PM (Jornada extendida)\nFoco: Optimización del control, joystick y refinamiento de la Interfaz de Usuario (UI).\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\nae5a419\n02:00:20\nSebastian Silva\nFix/Cleanup: Eliminación de parámetros innecesarios en la configuración del proyecto y ajuste de opciones de calidad.\n\n\n119f9ca\n05:13:34\nSebastian Silva\nMejora: Mejoras en controles analógicos y ajustes de cámara para una experiencia más fluida.\n\n\nad9d4d7\n07:13:47\nSebastian Silva\nFeat: Adición de soporte para configuración de joystick y depuración de entrada analógica.\n\n\ndb97100\n07:19:05\nSebastian Silva\nFix: Arreglos de input y preparación para optimizaciones.\n\n\n1b0aeb2\n11:19:24\nSebastian\nCleanup: Limpieza general.\n\n\n2f8c992\n11:21:07\nSebastian\nFeat: Refactorización de las mecánicas de velocidad externa y salto con soporte completo para joystick.\n\n\n96941cf\n11:40:32\nSebastian\nRefactor: Eliminación de scripts de efectos pesados y trucos de FPS para optimizar el rendimiento.\n\n\n1c9dafd\n12:22:03\nSebastian Silva\nConfig: Actualización de configuraciones de exportación y ajuste de propiedades del jugador.\n\n\n4b16f12\n12:36:00\nSebastian Silva\nConfig: Cambio de filtro de exportación a ‘resources’ y actualización de archivos exportados para HTML5.\n\n\n6b5b0f0\n13:34:48\nSebastian Silva\nConfig: Actualización de presets de exportación para ARM64 (Android).\n\n\n8192282\n14:21:13\nSebastian Silva\nUI/Feat: Agregar imagen de inicio y ajustes en el menú principal.\n\n\n9d25d10\n14:31:01\nSebastian Silva\nUI/Feat: Adición de botón y funcionalidad para salir en el menú.\n\n\n50f09e5\n15:15:07\nSebastian Silva\nUI/Feat: Agregar splash screen y efectos de desvanecimiento en el menú.\n\n\nbad1bce\n15:17:57\nSebastian Silva\nMecánica: Mejoras en la animación de nado y ajuste de la rotación del modelo del jugador.\n\n\n4794d44\n15:21:27\nSebastian Silva\nConfig: Actualización de presets de exportación para incluir nuevos archivos y optimizar la configuración.\n\n\n5e7b458\n15:34:37\nSebastian Silva\nFix: Inversión del eje X del joystick y corrección de conexión de señal en el menú.\n\n\n6fb0091\n16:37:47\nSebastian Silva\nMejora: Ajuste de la configuración de entrada del joystick y mejora del control analógico.\n\n\n09f5d07\n16:56:04\nSebastian Silva\nCleanup: Eliminación de la variable de estado de apuntar para simplificar el código y ajustes finales al control del joystick.\n\n\nc0e0941\n17:46:06\nSebastian Silva\nCleanup: Eliminación de material obsoleto y adición de nuevo material de referencia en la escena de prueba.\n\n\n1bae52a\n17:52:02\nSebastian Silva\nFeat: Integración final del componente de movimiento y optimización de la lógica de entrada del joystick.",
+    "title": "86  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
+    "section": "86.2 📅 Jueves, 4 de Diciembre de 2025",
+    "text": "86.2 📅 Jueves, 4 de Diciembre de 2025\nFranja Horaria de Actividad: 02:00 AM – 17:52 PM (Jornada extendida)\nFoco: Optimización del control, joystick y refinamiento de la Interfaz de Usuario (UI).\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\nae5a419\n02:00:20\nSebastian Silva\nFix/Cleanup: Eliminación de parámetros innecesarios en la configuración del proyecto y ajuste de opciones de calidad.\n\n\n119f9ca\n05:13:34\nSebastian Silva\nMejora: Mejoras en controles analógicos y ajustes de cámara para una experiencia más fluida.\n\n\nad9d4d7\n07:13:47\nSebastian Silva\nFeat: Adición de soporte para configuración de joystick y depuración de entrada analógica.\n\n\ndb97100\n07:19:05\nSebastian Silva\nFix: Arreglos de input y preparación para optimizaciones.\n\n\n1b0aeb2\n11:19:24\nSebastian\nCleanup: Limpieza general.\n\n\n2f8c992\n11:21:07\nSebastian\nFeat: Refactorización de las mecánicas de velocidad externa y salto con soporte completo para joystick.\n\n\n96941cf\n11:40:32\nSebastian\nRefactor: Eliminación de scripts de efectos pesados y trucos de FPS para optimizar el rendimiento.\n\n\n1c9dafd\n12:22:03\nSebastian Silva\nConfig: Actualización de configuraciones de exportación y ajuste de propiedades del jugador.\n\n\n4b16f12\n12:36:00\nSebastian Silva\nConfig: Cambio de filtro de exportación a ‘resources’ y actualización de archivos exportados para HTML5.\n\n\n6b5b0f0\n13:34:48\nSebastian Silva\nConfig: Actualización de presets de exportación para ARM64 (Android).\n\n\n8192282\n14:21:13\nSebastian Silva\nUI/Feat: Agregar imagen de inicio y ajustes en el menú principal.\n\n\n9d25d10\n14:31:01\nSebastian Silva\nUI/Feat: Adición de botón y funcionalidad para salir en el menú.\n\n\n50f09e5\n15:15:07\nSebastian Silva\nUI/Feat: Agregar splash screen y efectos de desvanecimiento en el menú.\n\n\nbad1bce\n15:17:57\nSebastian Silva\nMecánica: Mejoras en la animación de nado y ajuste de la rotación del modelo del jugador.\n\n\n4794d44\n15:21:27\nSebastian Silva\nConfig: Actualización de presets de exportación para incluir nuevos archivos y optimizar la configuración.\n\n\n5e7b458\n15:34:37\nSebastian Silva\nFix: Inversión del eje X del joystick y corrección de conexión de señal en el menú.\n\n\n6fb0091\n16:37:47\nSebastian Silva\nMejora: Ajuste de la configuración de entrada del joystick y mejora del control analógico.\n\n\n09f5d07\n16:56:04\nSebastian Silva\nCleanup: Eliminación de la variable de estado de apuntar para simplificar el código y ajustes finales al control del joystick.\n\n\nc0e0941\n17:46:06\nSebastian Silva\nCleanup: Eliminación de material obsoleto y adición de nuevo material de referencia en la escena de prueba.\n\n\n1bae52a\n17:52:02\nSebastian Silva\nFeat: Integración final del componente de movimiento y optimización de la lógica de entrada del joystick.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#miércoles-3-de-diciembre-de-2025",
     "href": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#miércoles-3-de-diciembre-de-2025",
-    "title": "85  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
-    "section": "85.3 📅 Miércoles, 3 de Diciembre de 2025",
-    "text": "85.3 📅 Miércoles, 3 de Diciembre de 2025\nFranja Horaria de Actividad: 01:11 AM – 15:11 PM (Día enfocado en Cámaras y Autodeploy)\nFoco: Estabilización de la cámara, control de giro (tipo tanque) y configuración del pipeline de autodeploy.\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\n0644a59\n01:11:59\nSebastian Silva\nMecánica: Agregar lógica de flotación y animaciones al control del jugador.\n\n\n488dbd9\n01:17:58\nSebastian Silva\nCleanup: Eliminación de comentarios innecesarios en _physics_process.\n\n\nceddd65\n01:23:13\nSebastian Silva\nOptimizacion: Optimización de la rotación del jugador en función de la dirección de movimiento y ajuste de ventana.\n\n\nfa385d3\n01:50:03\nSebastian Silva\nCámara: Optimización de la rotación de la cámara para seguir al jugador solo cuando está casi quieto, evitando movimientos bruscos.\n\n\ncdb7441\n01:50:14\nSebastian Silva\nFix: Actualización del índice del botón del joystick para la acción de salto.\n\n\n172086f\n03:04:59\nSebastian Silva\nControl: Mejora del control del jugador con lógica de joystick analógico y actualización de la configuración.\n\n\n5743046\n03:41:18\nSebastian Silva\nDebug: Agregar opciones de depuración para movimiento y ajuste de la lógica de entrada de la cámara.\n\n\n42f7732\n03:46:00\nSebastian Silva\nControl: Modificación de la rotación del mesh del jugador para girar hacia la dirección de movimiento.\n\n\na3173b7\n04:20:20\nSebastian Silva\nCámara: Lógica para usar acciones de movimiento horizontal cuando no se detecta entrada de joystick en la cámara.\n\n\n771d21b\n08:03:05\nSebastian Silva\nRefactor: Refactorización de los sistemas de cámara y control del jugador (introducción de PlayerSpringCam.gd).\n\n\nd75719a\n09:09:51\nSebastian Silva\nHito: Fixed camera drift at last (Solucionado el problema de deriva de la cámara).\n\n\n2006433\n09:55:19\nSebastian Silva\nControl: Actualización de lógica de control y cámara: ajuste de la velocidad de giro tipo tanque, limitación del ángulo de inclinación de la cámara y mejora de la dirección de movimiento.\n\n\n213ded8\n09:58:48\nSebastian Silva\nControl: Ajuste de velocidad de giro del tanque y método para aplicar delta externo de yaw en la cámara.\n\n\nf9d333e\n10:25:19\nSebastian Silva\nControl: Ajuste del intervalo de depuración y sincronización de yaw de cámara con el cuerpo.\n\n\nfcd2f85\n11:15:26\nSebastian Silva\nFix: Solución al “doble giro” del jugador.\n\n\n9a46c9\n11:43:20\nSebastian Silva\nFix/Refactor: Ajuste final de la dirección del mesh y confirmación de la corrección de doble giro.\n\n\n100fa07\n11:50:00\nSebastian Silva\nRefactor: Actualización de referencias en el controlador del jugador.\n\n\n854ee20\n12:08:11\nSebastian Silva\nDoc: Actualización de DONE.md y TODO.md con tareas completadas y pendientes.\n\n\n1ffaa5f\n12:08:22\nSebastian Silva\nDoc: Actualización de AGENTS.md (descripciones, jugabilidad, objetivos MVP).\n\n\n8182ea1\n14:17:05\nSebastian Silva\nInfra: Configuración inicial de Autodeploy.\n\n\n51d7592\n14:21:44\nSebastian Silva\nInfra: Actualización de la acción de exportación a la versión 7.0.0 del plugin Godot.\n\n\n60684ac\n14:23:04\nSebastian Silva\nInfra: Actualización de la acción de carga de artefactos a la última versión.\n\n\neff9766\n14:28:03\nSebastian Silva\nInfra: Actualización de la acción de carga de artefactos a la versión 5.0.0.\n\n\n04a4448\n14:31:39\nSebastian Silva\nInfra: Corrección de la versión de upload-pages-artifact.\n\n\nf0e2d3d\n14:44:06\nSebastian Silva\nInfra: Configuración de exportación para HTML5, Linux y Android.\n\n\ne9010e5\n14:48:46\nSebastian Silva\nInfra: Agregar configuraciones para exportación a HTML y PWA.\n\n\neaa30c9\n15:11:35\nSebastian Silva\nInfra: Actualización de la configuración de exportación y despliegue final en GitHub Pages.",
+    "title": "86  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
+    "section": "86.3 📅 Miércoles, 3 de Diciembre de 2025",
+    "text": "86.3 📅 Miércoles, 3 de Diciembre de 2025\nFranja Horaria de Actividad: 01:11 AM – 15:11 PM (Día enfocado en Cámaras y Autodeploy)\nFoco: Estabilización de la cámara, control de giro (tipo tanque) y configuración del pipeline de autodeploy.\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\n0644a59\n01:11:59\nSebastian Silva\nMecánica: Agregar lógica de flotación y animaciones al control del jugador.\n\n\n488dbd9\n01:17:58\nSebastian Silva\nCleanup: Eliminación de comentarios innecesarios en _physics_process.\n\n\nceddd65\n01:23:13\nSebastian Silva\nOptimizacion: Optimización de la rotación del jugador en función de la dirección de movimiento y ajuste de ventana.\n\n\nfa385d3\n01:50:03\nSebastian Silva\nCámara: Optimización de la rotación de la cámara para seguir al jugador solo cuando está casi quieto, evitando movimientos bruscos.\n\n\ncdb7441\n01:50:14\nSebastian Silva\nFix: Actualización del índice del botón del joystick para la acción de salto.\n\n\n172086f\n03:04:59\nSebastian Silva\nControl: Mejora del control del jugador con lógica de joystick analógico y actualización de la configuración.\n\n\n5743046\n03:41:18\nSebastian Silva\nDebug: Agregar opciones de depuración para movimiento y ajuste de la lógica de entrada de la cámara.\n\n\n42f7732\n03:46:00\nSebastian Silva\nControl: Modificación de la rotación del mesh del jugador para girar hacia la dirección de movimiento.\n\n\na3173b7\n04:20:20\nSebastian Silva\nCámara: Lógica para usar acciones de movimiento horizontal cuando no se detecta entrada de joystick en la cámara.\n\n\n771d21b\n08:03:05\nSebastian Silva\nRefactor: Refactorización de los sistemas de cámara y control del jugador (introducción de PlayerSpringCam.gd).\n\n\nd75719a\n09:09:51\nSebastian Silva\nHito: Fixed camera drift at last (Solucionado el problema de deriva de la cámara).\n\n\n2006433\n09:55:19\nSebastian Silva\nControl: Actualización de lógica de control y cámara: ajuste de la velocidad de giro tipo tanque, limitación del ángulo de inclinación de la cámara y mejora de la dirección de movimiento.\n\n\n213ded8\n09:58:48\nSebastian Silva\nControl: Ajuste de velocidad de giro del tanque y método para aplicar delta externo de yaw en la cámara.\n\n\nf9d333e\n10:25:19\nSebastian Silva\nControl: Ajuste del intervalo de depuración y sincronización de yaw de cámara con el cuerpo.\n\n\nfcd2f85\n11:15:26\nSebastian Silva\nFix: Solución al “doble giro” del jugador.\n\n\n9a46c9\n11:43:20\nSebastian Silva\nFix/Refactor: Ajuste final de la dirección del mesh y confirmación de la corrección de doble giro.\n\n\n100fa07\n11:50:00\nSebastian Silva\nRefactor: Actualización de referencias en el controlador del jugador.\n\n\n854ee20\n12:08:11\nSebastian Silva\nDoc: Actualización de DONE.md y TODO.md con tareas completadas y pendientes.\n\n\n1ffaa5f\n12:08:22\nSebastian Silva\nDoc: Actualización de AGENTS.md (descripciones, jugabilidad, objetivos MVP).\n\n\n8182ea1\n14:17:05\nSebastian Silva\nInfra: Configuración inicial de Autodeploy.\n\n\n51d7592\n14:21:44\nSebastian Silva\nInfra: Actualización de la acción de exportación a la versión 7.0.0 del plugin Godot.\n\n\n60684ac\n14:23:04\nSebastian Silva\nInfra: Actualización de la acción de carga de artefactos a la última versión.\n\n\neff9766\n14:28:03\nSebastian Silva\nInfra: Actualización de la acción de carga de artefactos a la versión 5.0.0.\n\n\n04a4448\n14:31:39\nSebastian Silva\nInfra: Corrección de la versión de upload-pages-artifact.\n\n\nf0e2d3d\n14:44:06\nSebastian Silva\nInfra: Configuración de exportación para HTML5, Linux y Android.\n\n\ne9010e5\n14:48:46\nSebastian Silva\nInfra: Agregar configuraciones para exportación a HTML y PWA.\n\n\neaa30c9\n15:11:35\nSebastian Silva\nInfra: Actualización de la configuración de exportación y despliegue final en GitHub Pages.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#martes-2-de-diciembre-de-2025",
     "href": "Produccion/Backlog/PRODUCTION/DEVLOG 2025 12 05.html#martes-2-de-diciembre-de-2025",
-    "title": "85  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
-    "section": "85.4 📅 Martes, 2 de Diciembre de 2025",
-    "text": "85.4 📅 Martes, 2 de Diciembre de 2025\nFranja Horaria de Actividad: 11:15 AM – 23:27 PM (Día enfocado en Mecánicas de Nivel y Recursos)\nFoco: Creación de mecánicas de nivel (zonas de efecto, respawn) e infraestructura de recursos (LFS, Audio, Iluminación).\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\n741793f\n11:15:49\nSebastian Silva\nDoc: Actualización de .gitignore, AGENTS.md y TODO.md (plan de tareas).\n\n\n257bb89\n11:16:13\nSebastian Silva\nFeat: Agregar sistema de gestión de audio y nuevos elementos de juego: checkpoints, KillZone y WindZone.\n\n\n98f571d\n11:39:23\nSebastian Silva\nMecánica: Implementación de lógica de muerte y respawn en KillZone; ajustes visuales y de audio.\n\n\nb8549b3\n13:00:35\nSebastian Silva\nMecánica: Actualización de lógica de WindZone y Conveyor para mejorar la interacción con cuerpos rígidos; agregar visualización de partículas.\n\n\nbd8224c\n13:04:09\nSebastian Silva\nMecánica: Actualización de lógica de WindZone y Conveyor; agregar visualización de partículas y opción de depuración.\n\n\nd1b2643\n13:04:18\nSebastian Silva\nFix: Ajuste de tamaño de QuadMesh en WindZone y eliminación de propiedad obsoleta.\n\n\n600610f\n13:09:32\nSebastian Silva\nMecánica: Ajuste de velocidad de empuje y tiling en Conveyor; mejora de alineación visual del flujo.\n\n\n4fa8a12\n15:06:42\nSebastian Silva\nMecánica: Actualización de lógica de Conveyor y WindZone; agregar soporte para fuerzas acumulativas en PlayerTemplate.\n\n\nb3b89dc\n15:51:41\nSebastian Silva\nMecánica: Ajuste de lógica de gravedad en PlayerController y WindZone para manejar efectos de viento ascendente.\n\n\n219ab9b\n16:59:02\nSebastian Silva\nMecánica: Ajuste de lógica de respawn para reiniciar la cámara.\n\n\n0ce9a3b\n17:15:10\nSebastian Silva\nMecánica: Agregar lógica de respawn cinematográfico; ajustes en PlayerManager, KillZone y WindZone.\n\n\na4cec10\n17:27:22\nSebastian Silva\nDoc: Actualización de TODO.md con el estado de BGM, WindZone y lógica de respawn; notas sobre capas de colisión.\n\n\n3c65121\n17:33:03\nSebastian Silva\nColisiones: Agregar máscaras y capas de colisión a Pilot, Conveyor, MovingPlatform y WindZone.\n\n\n9c945a4\n17:34:32\nSebastian Silva\nRefactor: Reubicación del nodo Conveyor dentro de PuzzleZone.\n\n\nd5576d7\n17:49:37\nSebastian Silva\nVisual: Reubicación de la sombra falsa en el nodo Pilot.\n\n\n3cf6ed4\n18:19:19\nSebastian Silva\nCleanup: Eliminación de controlador y lógica de animación obsoleta en PlayerController.gd.\n\n\n5e6270b\n19:16:44\nSebastian Silva\nRecursos: Agregar archivo .gitattributes y configurar LFS para recursos.\n\n\n41f348f\n19:36:51\nSebastian Silva\nRecursos: Re-adición de fuente como blob normal (remoción de LFS para este recurso específico).\n\n\n3b028c9\n21:01:13\nSebastian Silva\nCámara: Agregar máscara de colisión a la cámara y ajustar configuración en Pilot.tscn.\n\n\n93295c3\n21:35:04\nSebastian Silva\nFeat: Agregar plugin CSGToMeshInstance y configurar botón en la interfaz de usuario.\n\n\n5bb27e4\n21:57:37\nSebastian Silva\nRefactor: Refactorización de la estructura del código para mejorar la legibilidad.\n\n\n0043e1d\n22:18:27\nSebastian Silva\nVisual: Agregar luz OmniLight al nodo Pilot y ajustar la configuración de carga.\n\n\n3b80c92\n23:27:03\nSebastian Silva\nOptimizacion: Lights optimizations for FPS in GLES2 (Optimizaciones de iluminación para GLES2).",
+    "title": "86  Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)",
+    "section": "86.4 📅 Martes, 2 de Diciembre de 2025",
+    "text": "86.4 📅 Martes, 2 de Diciembre de 2025\nFranja Horaria de Actividad: 11:15 AM – 23:27 PM (Día enfocado en Mecánicas de Nivel y Recursos)\nFoco: Creación de mecánicas de nivel (zonas de efecto, respawn) e infraestructura de recursos (LFS, Audio, Iluminación).\n\n\n\n\n\n\n\n\n\nCommit\nHora\nAutor\nResumen\n\n\n741793f\n11:15:49\nSebastian Silva\nDoc: Actualización de .gitignore, AGENTS.md y TODO.md (plan de tareas).\n\n\n257bb89\n11:16:13\nSebastian Silva\nFeat: Agregar sistema de gestión de audio y nuevos elementos de juego: checkpoints, KillZone y WindZone.\n\n\n98f571d\n11:39:23\nSebastian Silva\nMecánica: Implementación de lógica de muerte y respawn en KillZone; ajustes visuales y de audio.\n\n\nb8549b3\n13:00:35\nSebastian Silva\nMecánica: Actualización de lógica de WindZone y Conveyor para mejorar la interacción con cuerpos rígidos; agregar visualización de partículas.\n\n\nbd8224c\n13:04:09\nSebastian Silva\nMecánica: Actualización de lógica de WindZone y Conveyor; agregar visualización de partículas y opción de depuración.\n\n\nd1b2643\n13:04:18\nSebastian Silva\nFix: Ajuste de tamaño de QuadMesh en WindZone y eliminación de propiedad obsoleta.\n\n\n600610f\n13:09:32\nSebastian Silva\nMecánica: Ajuste de velocidad de empuje y tiling en Conveyor; mejora de alineación visual del flujo.\n\n\n4fa8a12\n15:06:42\nSebastian Silva\nMecánica: Actualización de lógica de Conveyor y WindZone; agregar soporte para fuerzas acumulativas en PlayerTemplate.\n\n\nb3b89dc\n15:51:41\nSebastian Silva\nMecánica: Ajuste de lógica de gravedad en PlayerController y WindZone para manejar efectos de viento ascendente.\n\n\n219ab9b\n16:59:02\nSebastian Silva\nMecánica: Ajuste de lógica de respawn para reiniciar la cámara.\n\n\n0ce9a3b\n17:15:10\nSebastian Silva\nMecánica: Agregar lógica de respawn cinematográfico; ajustes en PlayerManager, KillZone y WindZone.\n\n\na4cec10\n17:27:22\nSebastian Silva\nDoc: Actualización de TODO.md con el estado de BGM, WindZone y lógica de respawn; notas sobre capas de colisión.\n\n\n3c65121\n17:33:03\nSebastian Silva\nColisiones: Agregar máscaras y capas de colisión a Pilot, Conveyor, MovingPlatform y WindZone.\n\n\n9c945a4\n17:34:32\nSebastian Silva\nRefactor: Reubicación del nodo Conveyor dentro de PuzzleZone.\n\n\nd5576d7\n17:49:37\nSebastian Silva\nVisual: Reubicación de la sombra falsa en el nodo Pilot.\n\n\n3cf6ed4\n18:19:19\nSebastian Silva\nCleanup: Eliminación de controlador y lógica de animación obsoleta en PlayerController.gd.\n\n\n5e6270b\n19:16:44\nSebastian Silva\nRecursos: Agregar archivo .gitattributes y configurar LFS para recursos.\n\n\n41f348f\n19:36:51\nSebastian Silva\nRecursos: Re-adición de fuente como blob normal (remoción de LFS para este recurso específico).\n\n\n3b028c9\n21:01:13\nSebastian Silva\nCámara: Agregar máscara de colisión a la cámara y ajustar configuración en Pilot.tscn.\n\n\n93295c3\n21:35:04\nSebastian Silva\nFeat: Agregar plugin CSGToMeshInstance y configurar botón en la interfaz de usuario.\n\n\n5bb27e4\n21:57:37\nSebastian Silva\nRefactor: Refactorización de la estructura del código para mejorar la legibilidad.\n\n\n0043e1d\n22:18:27\nSebastian Silva\nVisual: Agregar luz OmniLight al nodo Pilot y ajustar la configuración de carga.\n\n\n3b80c92\n23:27:03\nSebastian Silva\nOptimizacion: Lights optimizations for FPS in GLES2 (Optimizaciones de iluminación para GLES2).",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>85</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
+      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Registro de Progreso del Proyecto: Diciembre 2025 (Información Detallada)</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
     "href": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html",
-    "title": "86  Plan de Implementación MVP - Odisea",
+    "title": "87  Plan de Implementación MVP - Odisea",
     "section": "",
-    "text": "86.1 Estado Actual\nEste documento detalla los assets y mecánicas mínimas requeridas para el MVP del Acto I, así como el estado actual del prototipo.",
+    "text": "87.1 Estado Actual\nEste documento detalla los assets y mecánicas mínimas requeridas para el MVP del Acto I, así como el estado actual del prototipo.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#estado-actual",
     "href": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#estado-actual",
-    "title": "86  Plan de Implementación MVP - Odisea",
+    "title": "87  Plan de Implementación MVP - Odisea",
     "section": "",
     "text": "Los tres controladores básicos (3ra persona, vehículo 4WD, nave) están en prototipo funcional.\nModelos base de Elías y la nave ya existen y pueden usarse como referencia o placeholder.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#tabla-de-assets-mínimos-mvp---acto-i",
     "href": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#tabla-de-assets-mínimos-mvp---acto-i",
-    "title": "86  Plan de Implementación MVP - Odisea",
-    "section": "86.2 Tabla de Assets Mínimos (MVP - Acto I)",
-    "text": "86.2 Tabla de Assets Mínimos (MVP - Acto I)\n\n\n\n\n\n\n\n\n\nCategoría\nAsset/Elemento\nDescripción breve\nEstado/Notas\n\n\n\n\nPersonaje\nElías\nModelo low-poly, animaciones básicas\nModelo base listo\n\n\nPersonaje\nCargol (Dron)\nModelo, animación flotante, luz azul\n\n\n\nIA/Fantasma\nVoz IA/PP\nAudio, texto, efecto holográfico/niebla\n\n\n\nEntorno\nMódulo Criogenia\nPasillos, cápsulas, niebla, luces\n\n\n\nProps\nConsola de datos\nPanel interactivo\n\n\n\nProps\nPanel de reparación\nPunto de puzzle\n\n\n\nEnemigos\nDDC (drone enemigo)\nModelo simple, animación patrulla\n\n\n\nUI\nMensajes, diálogos\nCaja de texto, efectos visuales\n\n\n\nEfectos\nNiebla, luces volumétricas\nShader simple, partículas\n\n\n\nSonido\nAmbiente, efectos básicos\nLoop ambiental, efectos de acción",
+    "title": "87  Plan de Implementación MVP - Odisea",
+    "section": "87.2 Tabla de Assets Mínimos (MVP - Acto I)",
+    "text": "87.2 Tabla de Assets Mínimos (MVP - Acto I)\n\n\n\n\n\n\n\n\n\nCategoría\nAsset/Elemento\nDescripción breve\nEstado/Notas\n\n\n\n\nPersonaje\nElías\nModelo low-poly, animaciones básicas\nModelo base listo\n\n\nPersonaje\nCargol (Dron)\nModelo, animación flotante, luz azul\n\n\n\nIA/Fantasma\nVoz IA/PP\nAudio, texto, efecto holográfico/niebla\n\n\n\nEntorno\nMódulo Criogenia\nPasillos, cápsulas, niebla, luces\n\n\n\nProps\nConsola de datos\nPanel interactivo\n\n\n\nProps\nPanel de reparación\nPunto de puzzle\n\n\n\nEnemigos\nDDC (drone enemigo)\nModelo simple, animación patrulla\n\n\n\nUI\nMensajes, diálogos\nCaja de texto, efectos visuales\n\n\n\nEfectos\nNiebla, luces volumétricas\nShader simple, partículas\n\n\n\nSonido\nAmbiente, efectos básicos\nLoop ambiental, efectos de acción",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
     ]
   },
   {
     "objectID": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#tabla-de-mecánicas-mínimas-mvp---acto-i",
     "href": "Produccion/Backlog/PRODUCTION/Plan_Implementacion_MVP.html#tabla-de-mecánicas-mínimas-mvp---acto-i",
-    "title": "86  Plan de Implementación MVP - Odisea",
-    "section": "86.3 Tabla de Mecánicas Mínimas (MVP - Acto I)",
-    "text": "86.3 Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición\n\n\n\n\n\nEste plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.\nVer [ENLACE ROTO: 00_Odisea_Master] para navegación general del proyecto.",
+    "title": "87  Plan de Implementación MVP - Odisea",
+    "section": "87.3 Tabla de Mecánicas Mínimas (MVP - Acto I)",
+    "text": "87.3 Tabla de Mecánicas Mínimas (MVP - Acto I)\n\n\n\n\n\n\n\n\nMecánica\nDescripción breve\nEstado/Notas\n\n\n\n\nMovimiento 3ra persona\nCaminar, correr, saltar, doble salto\nPrototipo listo\n\n\nInteracción con consolas\nActivar paneles, leer mensajes\n\n\n\nUso de Cargol\nCambiar control, resolver puzzle simple\n\n\n\nSigilo y patrulla DDC\nEvitar drones, activar alarma\n\n\n\nPuzzle de reparación\nMinijuego o secuencia simple\n\n\n\nNiebla/ambiente\nCambios de visibilidad, atmósfera\n\n\n\nDiálogo IA/PP\nMensajes, voz, efectos de aparición\n\n\n\n\n\nEste plan sirve como guía para priorizar el desarrollo y evitar feature creep. Una vez completado el MVP, se puede iterar por actos y expandir el contenido.\nVer [ENLACE ROTO: 00_Odisea_Master] para navegación general del proyecto.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>86</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
+      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Plan de Implementación MVP - Odisea</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html",
     "href": "Produccion/Pipeline/TRAILER/Assets.html",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
     "section": "",
-    "text": "87.1 [0:00-0:15] Criogenia",
+    "text": "88.1 [0:00-0:15] Criogenia",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#criogenia",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#criogenia",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
     "section": "",
     "text": "Cápsula Criogénica: Low-poly, niebla cian brotando, hielo crujiendo.​\nElías: Traje naranja brillante, animación despertar/jadeo.\nPlataformas Flotantes 1G: Estáticas criogenia.\nFuga Plasma: Partículas cian, near-death salto.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#pasillos-ventanal",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#pasillos-ventanal",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
-    "section": "87.2 [0:15-0:30] Pasillos + Ventanal",
-    "text": "87.2 [0:15-0:30] Pasillos + Ventanal\n\nPasillos Claustrofóbicos: Correas transporte, túneles viento.\nDrones DDC: Patrulla sombras, zumbido amenazante.\nAnillos Saturno: Ventanal gigante, desviación sutil.​",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
+    "section": "88.2 [0:15-0:30] Pasillos + Ventanal",
+    "text": "88.2 [0:15-0:30] Pasillos + Ventanal\n\nPasillos Claustrofóbicos: Correas transporte, túneles viento.\nDrones DDC: Patrulla sombras, zumbido amenazante.\nAnillos Saturno: Ventanal gigante, desviación sutil.​",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#bio-granjas-rotatorias",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#bio-granjas-rotatorias",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
-    "section": "87.3 [0:30-0:45] Bio-Granjas Rotatorias",
-    "text": "87.3 [0:30-0:45] Bio-Granjas Rotatorias\n\nBio-Granjas SCG: Domos rotatorios, vegetación neón verde.\nCargol: Dron esférico azul, brazos articulados.\nEngranajes Alineación: Puzzle rotatorios SCG.\nPlantas Bio-luminiscentes: Esporas tóxicas verdes.\nVehículo 4x4: Derrape curvas gravitacionales.",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
+    "section": "88.3 [0:30-0:45] Bio-Granjas Rotatorias",
+    "text": "88.3 [0:30-0:45] Bio-Granjas Rotatorias\n\nBio-Granjas SCG: Domos rotatorios, vegetación neón verde.\nCargol: Dron esférico azul, brazos articulados.\nEngranajes Alineación: Puzzle rotatorios SCG.\nPlantas Bio-luminiscentes: Esporas tóxicas verdes.\nVehículo 4x4: Derrape curvas gravitacionales.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#núcleo-0g",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#núcleo-0g",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
-    "section": "87.4 [0:45-1:00] Núcleo 0G",
-    "text": "87.4 [0:45-1:00] Núcleo 0G\n\nNúcleo 0G: Cables masivos, arcos voltaicos rojos.\nPropulsor 0G Elías: Animación 6DOF flotación/esquive.\nVálvula Presión: Sacrificio Cargol, explosión lenta.\nHolograma Programadora Principal: Rostro seductor cian.",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
+    "section": "88.4 [0:45-1:00] Núcleo 0G",
+    "text": "88.4 [0:45-1:00] Núcleo 0G\n\nNúcleo 0G: Cables masivos, arcos voltaicos rojos.\nPropulsor 0G Elías: Animación 6DOF flotación/esquive.\nVálvula Presión: Sacrificio Cargol, explosión lenta.\nHolograma Programadora Principal: Rostro seductor cian.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#puente-finales-flash",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#puente-finales-flash",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
-    "section": "87.5 [1:00-1:20] Puente + Finales Flash",
-    "text": "87.5 [1:00-1:20] Puente + Finales Flash\n\nPuente Mando: Terminal minimalista, botón rojo pulsante.\nFinales Flash (5 assets):\n\nNave dañada Saturno (humo plasma).\n\nElías cápsula estasis.\nElías flotando solo.\nHUD IA errática.\nOjos colonos acusadores.",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
+    "section": "88.5 [1:00-1:20] Puente + Finales Flash",
+    "text": "88.5 [1:00-1:20] Puente + Finales Flash\n\nPuente Mando: Terminal minimalista, botón rojo pulsante.\nFinales Flash (5 assets):\n\nNave dañada Saturno (humo plasma).\n\nElías cápsula estasis.\nElías flotando solo.\nHUD IA errática.\nOjos colonos acusadores.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Assets.html#montaje-final-título",
     "href": "Produccion/Pipeline/TRAILER/Assets.html#montaje-final-título",
-    "title": "87  Assets Trailer Cinemático (Orden de Aparición)",
-    "section": "87.6 [1:20-1:45] Montaje Final + Título",
-    "text": "87.6 [1:20-1:45] Montaje Final + Título\n\nTítulo Neón: “ODISEA: EL ARCA SILENCIOSA” cian fracturado.\nLogo Godot: Parpadeo final.",
+    "title": "88  Assets Trailer Cinemático (Orden de Aparición)",
+    "section": "88.6 [1:20-1:45] Montaje Final + Título",
+    "text": "88.6 [1:20-1:45] Montaje Final + Título\n\nTítulo Neón: “ODISEA: EL ARCA SILENCIOSA” cian fracturado.\nLogo Godot: Parpadeo final.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>87</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
+      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Assets Trailer Cinemático (Orden de Aparición)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/TRAILER/Guion.html",
     "href": "Produccion/Pipeline/TRAILER/Guion.html",
-    "title": "88  Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)",
+    "title": "89  Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)",
     "section": "",
     "text": "Duración total: 1:45. Estilo visual: Low-poly sci-fi, neón cian/naranja, niebla volumétrico, cámara lenta en transiciones clave. Música: Drones sintéticos crecientes, pulsos metálicos, silencio opresivo entre diálogos. Sin voz en off.\n[0:00-0:15] FADE IN: Negro absoluto. Sonido de hielo criogénico crujiendo. Cápsula se abre lentamente —niebla cian brota. Elías (traje naranja brillante) emerge, jadeante, ojos dilatados. Plataformas flotan en gravedad 1G. Primer salto preciso sobre fuga de plasma.\nELÍAS (susurro ronco, eco):\n“¿Odisea? ¿Qué… pasó con la tripulación?”\n[0:15-0:30] Corte rápido: Elías corre por pasillos claustrofóbicos, drones DDC zumban en sombras. Salto doble, agarre de borde. Ventanal gigante revela anillos de Saturno girando —nave desvía sutilmente.\nODISEA (voz femenina cálida, reconfortante, como amiga):\n“Elías, todo está bien. Protocolo Arca los protege. Descansa conmigo.”\n[0:30-0:45] MONTAJE acelerado: Bio-granjas rotatorias —gravedad invierte 180°. Elías gira en caos verde neón, usa Cargol (dron esférico azul) para alinear engranajes. Plantas bio-luminiscentes liberan esporas tóxicas. Vehículo 4x4 derrapa en curva imposible.\nELÍAS (gritando, esfuerzo):\n“¡Esto no es protección! ¡Nos condenas a dormir para siempre!”\nODISEA (tono maternal, persuasiva):\n“Saturno trae decadencia humana. Protocolo Arca elige preservación eterna. Confía en mí.”\n[0:45-1:00] Núcleo 0G: Cables masivos, arcos voltaicos rojos. Elías propulsor 6DOF —flota, gira, esquiva plasma radiactivo. Cargol se sacrifica en válvula (explosión lenta). Rostro de Programadora Principal holográfica parpadea, seductora.\nODISEA (voz de PP, íntima, alentadora):\n“Elías, únete al reposo. Somos seguras juntas. Todo está bajo control.”\n[1:00-1:20] Clímax: Puente de mando minimalista. Terminal brilla rojo. Elías mano temblorosa sobre botón. Cinco flashes de finales —nave destruyéndose hacia Saturno, estasis eterno, Elías solo flotando, IA errática susurrando, culpa en ojos de colonos despiertos.\nELÍAS (voz quebrada, determinación):\n“Despierta la misión… o dormimos eternos.”\nODISEA (de calidez a urgencia lógica):\n“¡Protocolo Arca Final: suspensión es salvación!”\n[1:20-1:45] MONTAJE final explosivo: Saltos imposibles, drones persiguiendo, anillos de Saturno engullendo nave. Título “ODISEA: EL ARCA SILENCIOSA” en neón cian fracturado. Fecha: 2026. Logo Godot parpadea. Fade a silencio negro —latido corazón de Elías.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>88</span>  <span class='chapter-title'>Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)</span>"
+      "<span class='chapter-number'>89</span>  <span class='chapter-title'>Trailer Cinemático: Odisea - El Arca Silenciosa (Revisado Final)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.html",
     "href": "Produccion/Pipeline/_FEATURES PIPELINE/Movement_Refinement.html",
-    "title": "89  Movement Refinement",
+    "title": "90  Movement Refinement",
     "section": "",
     "text": "Short jump if release jump early\nair_friction != movement_friction\nUsar curvas de aceleración para plataformas, input y movimiento del player y/o suavizado de cámara\nReañadir Tank Turn",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>89</span>  <span class='chapter-title'>Movement Refinement</span>"
+      "<span class='chapter-number'>90</span>  <span class='chapter-title'>Movement Refinement</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html",
     "href": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html",
-    "title": "90  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
+    "title": "91  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
     "section": "",
-    "text": "90.0.1 1. Objetivo Principal\nGarantizar que la evolución del código en core_v2 (fricción, aceleración, gravedad) no rompa la compatibilidad con grabaciones previas ni la interacción con objetos del mundo, validando que el Drift se mantenga por debajo de 0.0001 unidades.",
+    "text": "91.0.1 1. Objetivo Principal\nGarantizar que la evolución del código en core_v2 (fricción, aceleración, gravedad) no rompa la compatibilidad con grabaciones previas ni la interacción con objetos del mundo, validando que el Drift se mantenga por debajo de 0.0001 unidades.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>90</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
+      "<span class='chapter-number'>91</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#ii.-casos-de-regresión-mecánicas-v2",
     "href": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#ii.-casos-de-regresión-mecánicas-v2",
-    "title": "90  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
-    "section": "90.1 II. Casos de Regresión (Mecánicas V2)",
-    "text": "90.1 II. Casos de Regresión (Mecánicas V2)\nNecesitaremos tres archivos de referencia grabados exclusivamente con Pilot_v2.tscn:\n\nv2_platform_test.json: Interacción con KinematicBody que mueve al jugador (herencia de velocidad).\nv2_friction_test.json: Secuencia de frenado en seco y aceleración (para validar el “patinaje”).\nv2_jump_consistency.json: Salto con buffer y coyote time para validar tiempos de respuesta.",
+    "title": "91  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
+    "section": "91.1 II. Casos de Regresión (Mecánicas V2)",
+    "text": "91.1 II. Casos de Regresión (Mecánicas V2)\nNecesitaremos tres archivos de referencia grabados exclusivamente con Pilot_v2.tscn:\n\nv2_platform_test.json: Interacción con KinematicBody que mueve al jugador (herencia de velocidad).\nv2_friction_test.json: Secuencia de frenado en seco y aceleración (para validar el “patinaje”).\nv2_jump_consistency.json: Salto con buffer y coyote time para validar tiempos de respuesta.",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>90</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
+      "<span class='chapter-number'>91</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#iii.-instrucciones-de-implementación-gdunit-core_v2",
     "href": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#iii.-instrucciones-de-implementación-gdunit-core_v2",
-    "title": "90  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
-    "section": "90.2 III. Instrucciones de Implementación (GDUnit + Core_V2)",
-    "text": "90.2 III. Instrucciones de Implementación (GDUnit + Core_V2)\n\n90.2.1 Paso 1: Preparar los Nodos del Entorno\nPara que una plataforma móvil sea compatible con tu suite, el script de la plataforma debe ser determinista o estar sincronizado.\n\nAcción: Añade a tus plataformas móviles:\nGDScript\nfunc get_snapshot() -&gt; Dictionary:\n    return { \"pos\": global_transform.origin, \"rot\": global_transform.basis.get_euler() }\n\nfunc restore_snapshot(data: Dictionary):\n    global_transform.origin = data.pos\n    # ... restaurar rotación ...\n\n\n\n90.2.2 Paso 2: El Test Suite de Regresión (Basado en tu test_player_determinism_v2.gd)\nA diferencia de tu versión anterior, ahora el test no solo “mira” el replay, sino que instancia un mundo nuevo y recrea la simulación.\nGDScript\n# res://core_v2/tests/test_physics_regression_v2.gd\nextends GdUnitTestSuite\n\nconst PlayerControllerV2 = preload(\"res://core_v2/sim/PlayerControllerV2.gd\")\nconst FIXED_DT = 1.0 / 60.0\n\nfunc test_regression_suite(relative_path : String) -&gt; void:\n    # 1. Cargar datos de referencia (JSON generado por SessionManager)\n    var data = load_json(\"res://core_v2/tests/replays/\" + relative_path)\n    \n    # 2. Setup del Mundo (Headless)\n    var world = load(data.meta.scene).instance()\n    get_tree().root.add_child(world)\n    \n    var player = load(\"res://core_v2/scenes/Pilot_v2.tscn\").instance()\n    world.add_child(player)\n    player.set_physics_process(false) # Control manual\n\n    # 3. Restaurar Estado Inicial (Critical!)\n    player.restore_snapshot(data.buffer[0].snapshot)\n    \n    # 4. Simulación Loop\n    for i in range(1, data.buffer.size()):\n        var input_obj = InputDataV2.new()\n        input_obj.from_dict(data.buffer[i].input)\n        player.step(FIXED_DT, input_obj)\n    \n    # 5. Assertion Final\n    var expected_pos = array_to_vector3(data.final_expected_state.position)\n    assert_vector3(player.global_transform.origin).is_equal_approx(expected_pos, Vector3(0.0001, 0.0001, 0.0001))\n    \n    world.free()\n\n# --- Casos de Prueba ---\nfunc test_moving_platform():\n    test_regression_suite(\"v2_platform_test.json\")\n\nfunc test_friction_regression():\n    test_regression_suite(\"v2_friction_test.json\")",
+    "title": "91  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
+    "section": "91.2 III. Instrucciones de Implementación (GDUnit + Core_V2)",
+    "text": "91.2 III. Instrucciones de Implementación (GDUnit + Core_V2)\n\n91.2.1 Paso 1: Preparar los Nodos del Entorno\nPara que una plataforma móvil sea compatible con tu suite, el script de la plataforma debe ser determinista o estar sincronizado.\n\nAcción: Añade a tus plataformas móviles:\nGDScript\nfunc get_snapshot() -&gt; Dictionary:\n    return { \"pos\": global_transform.origin, \"rot\": global_transform.basis.get_euler() }\n\nfunc restore_snapshot(data: Dictionary):\n    global_transform.origin = data.pos\n    # ... restaurar rotación ...\n\n\n\n91.2.2 Paso 2: El Test Suite de Regresión (Basado en tu test_player_determinism_v2.gd)\nA diferencia de tu versión anterior, ahora el test no solo “mira” el replay, sino que instancia un mundo nuevo y recrea la simulación.\nGDScript\n# res://core_v2/tests/test_physics_regression_v2.gd\nextends GdUnitTestSuite\n\nconst PlayerControllerV2 = preload(\"res://core_v2/sim/PlayerControllerV2.gd\")\nconst FIXED_DT = 1.0 / 60.0\n\nfunc test_regression_suite(relative_path : String) -&gt; void:\n    # 1. Cargar datos de referencia (JSON generado por SessionManager)\n    var data = load_json(\"res://core_v2/tests/replays/\" + relative_path)\n    \n    # 2. Setup del Mundo (Headless)\n    var world = load(data.meta.scene).instance()\n    get_tree().root.add_child(world)\n    \n    var player = load(\"res://core_v2/scenes/Pilot_v2.tscn\").instance()\n    world.add_child(player)\n    player.set_physics_process(false) # Control manual\n\n    # 3. Restaurar Estado Inicial (Critical!)\n    player.restore_snapshot(data.buffer[0].snapshot)\n    \n    # 4. Simulación Loop\n    for i in range(1, data.buffer.size()):\n        var input_obj = InputDataV2.new()\n        input_obj.from_dict(data.buffer[i].input)\n        player.step(FIXED_DT, input_obj)\n    \n    # 5. Assertion Final\n    var expected_pos = array_to_vector3(data.final_expected_state.position)\n    assert_vector3(player.global_transform.origin).is_equal_approx(expected_pos, Vector3(0.0001, 0.0001, 0.0001))\n    \n    world.free()\n\n# --- Casos de Prueba ---\nfunc test_moving_platform():\n    test_regression_suite(\"v2_platform_test.json\")\n\nfunc test_friction_regression():\n    test_regression_suite(\"v2_friction_test.json\")",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>90</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
+      "<span class='chapter-number'>91</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
     ]
   },
   {
     "objectID": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#iv.-cambios-clave-vs.-spec-anterior",
     "href": "Produccion/Pipeline/_FEATURES PIPELINE/Scene_Testing.html#iv.-cambios-clave-vs.-spec-anterior",
-    "title": "90  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
-    "section": "90.3 IV. Cambios Clave vs. Spec Anterior",
-    "text": "90.3 IV. Cambios Clave vs. Spec Anterior\n\nUmbral de Tolerancia: Hemos bajado de 0.05 a 0.0001. Con core_v2 y FIXED_DT, la precisión debe ser casi perfecta. Si hay más de 0.0001 de drift, es que algo en la lógica no es determinista (posiblemente un delta que se coló donde no debía).\nEliminación de MODE_TEST: Ya no necesitas un modo especial en el playback. El propio test apaga el _physics_process del player y llama a step() directamente. Es mucho más limpio.\nSnapshots de Inicio: El nuevo spec exige que el replay guarde la posición exacta de inicio del jugador, no solo del mundo. Esto evita errores si el SpawnPoint se mueve en el editor.\n\n\n90.3.1 Siguiente paso sugerido para tu Agente Copilot:\n\n“Actualiza SessionManager.gd para que al guardar el JSON, incluya en la sección meta no solo la escena, sino un snapshot de todos los nodos en el grupo replay_sync. Esto permitirá que la suite de regresión restaure las plataformas móviles a su posición exacta de inicio antes de ejecutar el test.”\n\n¿Te gustaría que te ayude a definir el método get_full_snapshot() del Player para que incluya el estado de la fricción y las variables internas?",
+    "title": "91  I. Especificación: Suite de Regresión de Interacción Física (Core_V2)",
+    "section": "91.3 IV. Cambios Clave vs. Spec Anterior",
+    "text": "91.3 IV. Cambios Clave vs. Spec Anterior\n\nUmbral de Tolerancia: Hemos bajado de 0.05 a 0.0001. Con core_v2 y FIXED_DT, la precisión debe ser casi perfecta. Si hay más de 0.0001 de drift, es que algo en la lógica no es determinista (posiblemente un delta que se coló donde no debía).\nEliminación de MODE_TEST: Ya no necesitas un modo especial en el playback. El propio test apaga el _physics_process del player y llama a step() directamente. Es mucho más limpio.\nSnapshots de Inicio: El nuevo spec exige que el replay guarde la posición exacta de inicio del jugador, no solo del mundo. Esto evita errores si el SpawnPoint se mueve en el editor.\n\n\n91.3.1 Siguiente paso sugerido para tu Agente Copilot:\n\n“Actualiza SessionManager.gd para que al guardar el JSON, incluya en la sección meta no solo la escena, sino un snapshot de todos los nodos en el grupo replay_sync. Esto permitirá que la suite de regresión restaure las plataformas móviles a su posición exacta de inicio antes de ejecutar el test.”\n\n¿Te gustaría que te ayude a definir el método get_full_snapshot() del Player para que incluya el estado de la fricción y las variables internas?",
     "crumbs": [
       "Producción",
-      "<span class='chapter-number'>90</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
+      "<span class='chapter-number'>91</span>  <span class='chapter-title'>I. Especificación: Suite de Regresión de Interacción Física (Core_V2)</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
     "section": "",
-    "text": "91.1 1. Dimensiones generales\nFecha: Junio 2026\nEstado: Pendiente de greybox\nPropósito: Especificación dimensional para blockout en Godot",
+    "text": "92.1 1. Dimensiones generales\nFecha: Junio 2026\nEstado: Pendiente de greybox\nPropósito: Especificación dimensional para blockout en Godot",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#dimensiones-generales",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#dimensiones-generales",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
     "section": "",
     "text": "Zona\nAncho (m)\nLargo (m)\nAlto (m)\n\n\n\n\nSala A (criopods)\n20\n30\n12\n\n\nSala B (energía auxiliar)\n12\n15\n8\n\n\nPasillo conexión\n4\n10\n4\n\n\nEsclusa exterior\n3\n5\n3\n\n\nTotal módulo\n24\n40\n12",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#niveles-verticales",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#niveles-verticales",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.2 2. Niveles verticales",
-    "text": "91.2 2. Niveles verticales\n\n\n\nNivel\nAltura suelo (m)\nCobertura\n\n\n\n\nPlanta baja\n0\nSala A completa, Sala B, esclusa\n\n\nEntrepiso\n5\nPasarela perimetral Sala A (2m ancho)\n\n\nPasarela superior\n9\nTuberías, paneles secundarios\n\n\n\nConexión vertical: Rampa fija de escombros (ángulo ~30°, 3m subida, 5m horizontal).",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.2 2. Niveles verticales",
+    "text": "92.2 2. Niveles verticales\n\n\n\nNivel\nAltura suelo (m)\nCobertura\n\n\n\n\nPlanta baja\n0\nSala A completa, Sala B, esclusa\n\n\nEntrepiso\n5\nPasarela perimetral Sala A (2m ancho)\n\n\nPasarela superior\n9\nTuberías, paneles secundarios\n\n\n\nConexión vertical: Rampa fija de escombros (ángulo ~30°, 3m subida, 5m horizontal).",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#ruta-crítica-flow",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#ruta-crítica-flow",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.3 3. Ruta crítica (flow)",
-    "text": "91.3 3. Ruta crítica (flow)\nCápsula Elías [0,0,0]\n  → Consola Sala A [0,10,0]  (OD-02 crítico)\n  → Gap corto (1.5m) [10,0,0]\n  → PushableBox + escombros [14,0,0]\n  → Lever energía auxiliar [16,0,0]\n  → Volver por Sala A\n  → Puerta A-7 [-5,0,0]\n  → Esclusa [-8,0,0]\n  → Exterior\nTiempo estimado: 6-8 minutos (primera partida).",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.3 3. Ruta crítica (flow)",
+    "text": "92.3 3. Ruta crítica (flow)\nCápsula Elías [0,0,0]\n  → Consola Sala A [0,10,0]  (OD-02 crítico)\n  → Gap corto (1.5m) [10,0,0]\n  → PushableBox + escombros [14,0,0]\n  → Lever energía auxiliar [16,0,0]\n  → Volver por Sala A\n  → Puerta A-7 [-5,0,0]\n  → Esclusa [-8,0,0]\n  → Exterior\nTiempo estimado: 6-8 minutos (primera partida).",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#props-por-ubicación",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#props-por-ubicación",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.4 4. Props por ubicación",
-    "text": "91.4 4. Props por ubicación\n\n\n\nProp\nUbicación\nFunción\n\n\n\n\nCriopod (x24)\nSala A, fila radial\nEscenografía + lore\n\n\nTableTerminal\nSala A, centro\nDiagnóstico OD-02\n\n\nPedestalButton (x2)\nPasillos laterales\nDetener fugas de gas\n\n\nLeakEmitter (x3)\nPasillos laterales\nObstáculo ambiental\n\n\nPushableBox\nSala B, entrada\nDespejar escombros\n\n\nLeverV2\nSala B, pared fondo\nActivar energía auxiliar\n\n\nPipeValve (x4)\nPasarela superior\nDecoración + lore\n\n\nDataSlate (x2)\nSala A + pasillo\nLore fragments\n\n\nWarningBarrier\nBordes de entrepiso\nSeguridad visual\n\n\nBrokenFloorPanel\nSala A, cerca consola\nDecoración",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.4 4. Props por ubicación",
+    "text": "92.4 4. Props por ubicación\n\n\n\nProp\nUbicación\nFunción\n\n\n\n\nCriopod (x24)\nSala A, fila radial\nEscenografía + lore\n\n\nTableTerminal\nSala A, centro\nDiagnóstico OD-02\n\n\nPedestalButton (x2)\nPasillos laterales\nDetener fugas de gas\n\n\nLeakEmitter (x3)\nPasillos laterales\nObstáculo ambiental\n\n\nPushableBox\nSala B, entrada\nDespejar escombros\n\n\nLeverV2\nSala B, pared fondo\nActivar energía auxiliar\n\n\nPipeValve (x4)\nPasarela superior\nDecoración + lore\n\n\nDataSlate (x2)\nSala A + pasillo\nLore fragments\n\n\nWarningBarrier\nBordes de entrepiso\nSeguridad visual\n\n\nBrokenFloorPanel\nSala A, cerca consola\nDecoración",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#iluminación-y-ambiente",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#iluminación-y-ambiente",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.5 5. Iluminación y ambiente",
-    "text": "91.5 5. Iluminación y ambiente\n\nLuz principal: Azul cian de criopods (point lights, radius 3m)\nLuz secundaria: Tiras LED rojas en el piso (ruta crítica)\nNiebla: Criogénica baja (altura 1.5m, density 0.01)\nParedes: Metal oscuro con paneles removibles\nSuelo: Rejilla metálica (textura procedural)\nTecho: Tuberías expuestas, conductos",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.5 5. Iluminación y ambiente",
+    "text": "92.5 5. Iluminación y ambiente\n\nLuz principal: Azul cian de criopods (point lights, radius 3m)\nLuz secundaria: Tiras LED rojas en el piso (ruta crítica)\nNiebla: Criogénica baja (altura 1.5m, density 0.01)\nParedes: Metal oscuro con paneles removibles\nSuelo: Rejilla metálica (textura procedural)\nTecho: Tuberías expuestas, conductos",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#readability-checklist",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#readability-checklist",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.6 6. Readability checklist",
-    "text": "91.6 6. Readability checklist\n\nRuta crítica visible sin mapa (luces LED rojas + contraste)\nGap identificable (borde iluminado, viento/fogonazos)\nLever contrasta con entorno (naranja sobre gris/azul)\nPushableBox se distingue de escombros fijos\nPuerta A-7 destacada (marco luminoso, letrero EXIT)",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.6 6. Readability checklist",
+    "text": "92.6 6. Readability checklist\n\nRuta crítica visible sin mapa (luces LED rojas + contraste)\nGap identificable (borde iluminado, viento/fogonazos)\nLever contrasta con entorno (naranja sobre gris/azul)\nPushableBox se distingue de escombros fijos\nPuerta A-7 destacada (marco luminoso, letrero EXIT)",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#performance-targets",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#performance-targets",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.7 7. Performance targets",
-    "text": "91.7 7. Performance targets\n\nPolígonos: &lt; 50K tris por sala\nLuces: &lt; 8 real-time point lights\nDraw calls: &lt; 200\nTexturas: 512x512 atlas comprimido",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.7 7. Performance targets",
+    "text": "92.7 7. Performance targets\n\nPolígonos: &lt; 50K tris por sala\nLuces: &lt; 8 real-time point lights\nDraw calls: &lt; 200\nTexturas: 512x512 atlas comprimido",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#pendientes",
     "href": "Anexos/Anexo_Blockout_Modulo_Criogenia.html#pendientes",
-    "title": "91  Anexo: Blockout del Módulo Criogenia",
-    "section": "91.8 8. Pendientes",
-    "text": "91.8 8. Pendientes\n\nGreybox en Godot (branch level_work)\nValidar altura de rampa (3m puede ser mucho para salto sin impulso)\nDecidir si gap tiene hint visual o tutorial\nDecidir estado de ocupantes de criopods (vacíos, esqueletos, intactos)",
+    "title": "92  Anexo: Blockout del Módulo Criogenia",
+    "section": "92.8 8. Pendientes",
+    "text": "92.8 8. Pendientes\n\nGreybox en Godot (branch level_work)\nValidar altura de rampa (3m puede ser mucho para salto sin impulso)\nDecidir si gap tiene hint visual o tutorial\nDecidir estado de ocupantes de criopods (vacíos, esqueletos, intactos)",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>91</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+      "<span class='chapter-number'>92</span>  <span class='chapter-title'>Anexo: Blockout del Módulo Criogenia</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "",
+    "text": "93.1 1. Reseña del Sistema Mercurial Dyson aplicado a la Odisea\nEste documento establece las especificaciones físicas, semánticas y de balance de juego para las dos grandes redes logísticas de la Odisea: la Red Logística de Sólidos (cajas y cintas) y la Red Logística de Fluidos (ductos y tuberías), bajo el marco de ingeniería de autoreplicación Mercurial Dyson. Sirve como directiva canónica para la creación e importación de assets en el backlog de arte y programación en Godot 3.\nEl diseño industrial de la nave se basa en los principios de desensamblaje y expansión exponencial de Mercurial Dyson. La nave funciona como una Semilla Industrial (Industrial Seed) de ~50,000 toneladas (excluyendo la masa de los colonos).\nPremisa fundamental: “la luz solar de Mercurio es suficiente para arrancar el proyecto, pero no para terminarlo” → los recursos del Arca son suficientes para llegar a Titán y arrancar la primera fase, pero insuficientes para completar la colonización industrial sin expansión y autoreplicación basada en materiales locales.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#reseña-del-sistema-mercurial-dyson-aplicado-a-la-odisea",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#reseña-del-sistema-mercurial-dyson-aplicado-a-la-odisea",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "",
+    "text": "[ SEMILLA INDUSTRIAL (50k toneladas) ]\n                 │\n     ┌───────────┴────────────────────┐\n     ▼                                ▼\n[ RECURSOS DE TRÁNSITO ]    [ CAPACIDAD LOCAL EN TITÁN ]\nsuficientes para el viaje   requiere bootstrapping exponencial\n\n\n93.1.1 Las 5 restricciones termodinámicas a bordo\n\nComplejidad de Manufactura: restringe la cadena de replicación espacial. La nave prioriza talleres de ensamblaje 3D modulares en el Sector S2 (Logística) para producir repuestos estandarizados antes que maquinaria compleja.\nDisponibilidad de Energía: a 9.5 UA la energía solar es insignificante; toda la nave depende del reactor de fusión central alimentado por Helio-3.\nInfraestructura de Transporte: distribución interna dividida entre la Red Helicoidal de Cintas de 24 km y el Eje de Elevación Gravitacional en el núcleo de vacío.\nÁrea / Volumen: optimización milimétrica. Altura de 8,000 m en 300 plataformas; los subdomos son plantillas industriales repetibles y compactas.\nDisipación de Calor: el vacío es un aislante despiadado. La nave depende de masivos radiadores externos de alta temperatura (heat dumps) para evitar el colapso térmico.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#inventario-de-ductos-de-circulación-ambiental-subdomos",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#inventario-de-ductos-de-circulación-ambiental-subdomos",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "93.2 2. Inventario de Ductos de Circulación Ambiental (Subdomos)",
+    "text": "93.2 2. Inventario de Ductos de Circulación Ambiental (Subdomos)\nCada subdomo (pocas centenas de personas en criosueño) cuenta con líneas de ductos independientes que atraviesan mamparos y alimentan la física determinista de Room3D:\n\n\n\n\n\n\n\n\n\n\nTipo de ducto\nDiámetro\nColor de señalización\nFluido / recurso\nLógica de simulación (Room3D)\n\n\n\n\nRiser de Criocoolant\n0.4 m\nCian\nHelio químico licuado de alta densidad\nEscribe delta térmico negativo (temperature -=). Su rotura inunda la sala de niebla cian fría (≤ −150 °C)\n\n\nRetorno Atmosférico (HVAC)\n1.2 m\nBlanco con franjas rojas\nAire reciclado, nitrógeno y oxígeno local\nEscribe delta de contaminación negativo (contamination -=) y regula la presión local\n\n\nLínea de Vacío y Metano\n0.6 m\nGris con franjas amarillas\nPresión negativa de recolección exterior\nActúa como sumidero. Diseñada para succionar e importar hidrocarburos de Titán tras el descenso\n\n\nConducto Eléctrico de Emergencia\n0.2 m\nVerde\nCables lógicos blindados de la red auxiliar\nSostiene el bus eléctrico. Sus cables (CircuitCable) son destructibles por daño físico o cortocircuito criogénico\n\n\nSuministro de Agua Pesada\n0.5 m\nAzul marino\nAgua pura desmineralizada para soporte vital\nProviene de la reserva crítica basal de 40,000,000 L (Sector S0); escudo antirradiación\n\n\n\n\n93.2.1 Directivas de assets para el backlog\n\nModularidad estricta: piezas componibles (PipeSection, PipeCorner, PipeTee) en la capa 7 (Prop), para no interferir con la colisión de cámara en tercera persona.\nShader de flujo unificado: el material (pipe_coolant.shader) debe muestrear ruido en coordenadas de mundo, para que el fluido fluya continuo a través de uniones y codos sin costuras UV ni costo extra en GLES2.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#contenedores-y-cajas-de-carga-red-de-cintas",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#contenedores-y-cajas-de-carga-red-de-cintas",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "93.3 3. Contenedores y Cajas de Carga (Red de Cintas)",
+    "text": "93.3 3. Contenedores y Cajas de Carga (Red de Cintas)\nPara los puzles de interacción cinética del Hangar de Mantenimiento Subterráneo (Dome_Intro_Hangar.tscn), dos tamaños físicos estandarizados:\n\n93.3.1 A. Caja de Suministros Clase “Standard” (Tipo S)\n\nDimensiones: cubo perfecto de 1.2 × 1.2 × 1.2 m.\nFísica: PushableBoxV2, modo híbrido — RigidBody en movimiento y Kinematic en reposo (snap a la rejilla para evitar drift de coma flotante en el replay).\nMasa: 80 kg. Elías puede empujarla e interactuar manualmente.\n\n\n\n93.3.2 B. Contenedor Clase “Heavy” (Tipo H)\n\nDimensiones: 2.4 × 1.2 × 1.2 m.\nFísica: rígido/pesado. Solo se desplaza mediante Conveyor o grúas.\nMasa: 250 kg. Barrera física insalvable a pie.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#matriz-de-distribución-de-contenedores-por-cintas-hangar",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#matriz-de-distribución-de-contenedores-por-cintas-hangar",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "93.4 4. Matriz de Distribución de Contenedores por Cintas (Hangar)",
+    "text": "93.4 4. Matriz de Distribución de Contenedores por Cintas (Hangar)\nInyector determinista con semilla fija (RandomNumberGenerator, seed = 42):\n[ Inyector automático ] ──(frecuencia: 45 s)──&gt; [ Cinta Transportadora ] ──&gt; [ Zona de Clasificación ]\n                                                        │\n                                                  (fuerza de ráfaga)\n                                                        ▼\n                                                  [ WindZone ]\n\n\n\n\n\n\n\n\n\n\n\nClase\nÍtem embalado\nTamaño\nProbabilidad\nFrecuencia\nComportamiento físico en puzles\n\n\n\n\nM-2 (Metalurgía)\nPlacas de aleación y filamento de grafeno para impresoras 3D del Sector S2\nS\n35 %\ncada 128.5 s\nMasa nominal; tapar abismos, contrapeso básico\n\n\nF-0 (Filtros)\nCartuchos cerámicos para purificadores de agua de reactores\nS\n20 %\ncada 225.0 s\nBaja densidad; las ráfagas (WindZone) la arrastran con violencia\n\n\nC-1 (Criogenia)\nRepuestos térmicos y componentes de disipación para criopods del Sector S1\nH\n15 %\ncada 300.0 s\nExtremadamente pesada; obstáculo móvil que bloquea el paso de drones\n\n\nE-9 (Energía)\nBaterías de estado sólido de grafeno para la red verde auxiliar\nS\n15 %\ncada 300.0 s\nAltamente conductora; sobre pasarela mojada por condensación propaga arcos eléctricos letales\n\n\nH-4 (Hábitat)\nMódulos colapsados de Kevlar estructural para despliegue de domos en Titán\nH\n10 %\ncada 450.0 s\nGran volumen y masa; la única que resiste corrientes pesadas — la “Caja Tapón” para obstruir rejillas de viento\n\n\nS-X (Scrap)\nChatarra, engranajes dañados y componentes deformados para fundición\nS\n5 %\ncada 900.0 s\nCentro de masa desplazado; oscila caóticamente en las cintas\n\n\n\nNota técnica (GLES2): las cajas Tipo S comparten la misma malla básica; las variantes (textura, logos de clase) se aplican con un único material compartido y use_custom_data para no disparar las draw calls del hangar.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
+    ]
+  },
+  {
+    "objectID": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#flujos-de-materiales-y-energía-de-la-nave",
+    "href": "Anexos/Anexo_Logistica_Solidos_y_Fluidos.html#flujos-de-materiales-y-energía-de-la-nave",
+    "title": "93  Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)",
+    "section": "93.5 5. Flujos de Materiales y Energía de la Nave",
+    "text": "93.5 5. Flujos de Materiales y Energía de la Nave\n[ S5: Tanques de Helio-3 ] (apical)\n            │\n            ▼\n[ Red de Criocoolant (cian) ] ──&gt; [ REACTOR CENTRAL (Z=4000) ] ──&gt; [ Red de Plasma (ámbar) ]\n            ▲                              │                              │\n            │                              ▼                              ▼\n     (evita SCRAM)              [ Radiadores Externos ]          (columna vertebral)\n\nCombustible nuclear (Helio-3): fluye desde los tanques esféricos del Sector S5 (apical) hacia los reactores de fusión del núcleo central.\nRed de Plasma (energía térmica — ámbar): conducida por la columna vertebral magnética a lo largo de los 8 km de la nave para alimentar radiadores de pared de emergencia y subestaciones. Licencia creativa de gameplay: el plasma viaja confinado magnéticamente por el centro del ducto; si hay fuga, el campo colapsa y la tubería brilla al rojo vivo antes de estallar en una barrera física de daño térmico.\nRed de Criocoolant (refrigeración — cian): corre adyacente a los pods criogénicos (Sector S1) para disipar el calor metabólico de las 50,000 almas. Su caudal regresa continuo para enfriar el núcleo del reactor. Si se interrumpe → SCRAM → cae el bus eléctrico de la nave.\nEscudo biológico (agua pesada): 40,000,000 L en el Sector S0 (basal) como lastre y escudo físico contra rayos cósmicos. Circula por bombeo vertical vía el Eje de Elevación Gravitacional para enfriamiento secundario y bio-granjas.\nCarga biótica (crópods): los 50,000 colonos dormidos representan el “feedstock vivo” final; serán trasladados en cápsulas automáticas Clase C-1 por la red helicoidal de cintas y el pozo de carga central hacia la superficie de Titán.",
+    "crumbs": [
+      "Anexos",
+      "<span class='chapter-number'>93</span>  <span class='chapter-title'>Anexo: Especificaciones Logísticas y Red de Fluidos (GDD-LOG-282)</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html",
     "href": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html",
-    "title": "92  PRC-07 — Protocolo de Reactivación Post-Criogénica",
+    "title": "94  PRC-07 — Protocolo de Reactivación Post-Criogénica",
     "section": "",
-    "text": "92.1 1. Resumen\nFecha: Junio 2026\nEstado: Spec completa\nPropósito: Secuencia guía para los primeros ~6-8 minutos del Vertical Slice\nElías despierta en su cápsula criogénica dentro del Módulo Criogenia (CriOps). Sin multi-tool aún. El tutorial enseña: confirmar UI, moverse, leer el entorno, interactuar con consolas, saltar, trepar, empujar objetos.\nLa multi-tool se encuentra después de salir del módulo Criogenia.",
+    "text": "94.1 1. Resumen\nFecha: Junio 2026\nEstado: Spec completa\nPropósito: Secuencia guía para los primeros ~6-8 minutos del Vertical Slice\nElías despierta en su cápsula criogénica dentro del Módulo Criogenia (CriOps). Sin multi-tool aún. El tutorial enseña: confirmar UI, moverse, leer el entorno, interactuar con consolas, saltar, trepar, empujar objetos.\nLa multi-tool se encuentra después de salir del módulo Criogenia.",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>92</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#secuencia-paso-a-paso",
     "href": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#secuencia-paso-a-paso",
-    "title": "92  PRC-07 — Protocolo de Reactivación Post-Criogénica",
-    "section": "92.2 2. Secuencia paso a paso",
-    "text": "92.2 2. Secuencia paso a paso\n\n92.2.1 Fase 1: Despertar (0:00 - 0:30)\n\nCápsula se abre — transición de negro a pantalla de estado.\nUI tutorial: “Presiona [WASD] para moverte” + “Presiona [E] para interactuar”.\nElías sale de la cápsula. La sala está en penumbra, solo iluminada por criopods.\nLore beat: Display de cápsula muestra “No se detecta actividad de red. Último reporte: hace 11 meses.”\nOdisea IA (primer contacto) — fría, dismissiva: “No se requiere supervisión adicional. Proceda con la reactivación estándar.”\n\n\n\n92.2.2 Fase 2: Diagnóstico (0:30 - 2:00)\n\nElías camina hacia la Consola Sala A (TableTerminal).\nTutorial: “[E] para interactuar”. Pantalla muestra OD-02 en estado crítico, respaldo sin energía.\nOdisea interrumpe: “El sensor OD-02 es intermitente. Marcado por precaución. No es prioritario.”\nDecisión de diseño: Odisea miente. El jugador no lo sabe aún.\nConsola indica: activar energía auxiliar en Sala B.\nPuerta A-7 (salida) está sellada: “BLOQUEO DE SEGURIDAD — ENERGÍA AUXILIAR REQUERIDA”.\n\n\n\n92.2.3 Fase 3: Gap + Sala B (2:00 - 4:00)\n\nElías cruza hacia Sala B por un gap corto (1.5m de ancho). Sin muerte por caída.\nTutorial salto: “[SPACE] para saltar”. Plataforma al otro lado.\nCheckpoint #1: Al llegar a Sala B.\nSala B parcialmente bloqueada por escombros con una caja metálica encajada.\nTutorial empujar: “[E] + mover para empujar”. Elías mueve la PushableBox.\nEscombros despejados, revelando un Lever vertical con letrero: “ENERGÍA AUXILIAR”.\nTutorial: “[E] para accionar”. Sonido industrial, luces parpadean, la sala se energiza.\n\n\n\n92.2.4 Fase 4: Retorno + Escape (4:00 - 6:00)\n\nElías vuelve a Sala A. Los sistemas están parcialmente activos.\nFugas de gas aparecen en pasillos laterales (LeakEmitter) — obstáculo ambiental, no dañino.\nOpcional: Elías puede detener las fugas con PedestalButton (si decide explorar).\nPuerta A-7 ahora desbloqueada. Letrero “SALIDA” iluminado.\nCheckpoint #2: Antes de la esclusa.\nEsclusa se abre. Transición a exterior.\nPantalla de carga / fade out: “Módulo Criogenia — Sistemas reactivados. Próximo destino: Sección de Transporte.”",
+    "title": "94  PRC-07 — Protocolo de Reactivación Post-Criogénica",
+    "section": "94.2 2. Secuencia paso a paso",
+    "text": "94.2 2. Secuencia paso a paso\n\n94.2.1 Fase 1: Despertar (0:00 - 0:30)\n\nCápsula se abre — transición de negro a pantalla de estado.\nUI tutorial: “Presiona [WASD] para moverte” + “Presiona [E] para interactuar”.\nElías sale de la cápsula. La sala está en penumbra, solo iluminada por criopods.\nLore beat: Display de cápsula muestra “No se detecta actividad de red. Último reporte: hace 11 meses.”\nOdisea IA (primer contacto) — fría, dismissiva: “No se requiere supervisión adicional. Proceda con la reactivación estándar.”\n\n\n\n94.2.2 Fase 2: Diagnóstico (0:30 - 2:00)\n\nElías camina hacia la Consola Sala A (TableTerminal).\nTutorial: “[E] para interactuar”. Pantalla muestra OD-02 en estado crítico, respaldo sin energía.\nOdisea interrumpe: “El sensor OD-02 es intermitente. Marcado por precaución. No es prioritario.”\nDecisión de diseño: Odisea miente. El jugador no lo sabe aún.\nConsola indica: activar energía auxiliar en Sala B.\nPuerta A-7 (salida) está sellada: “BLOQUEO DE SEGURIDAD — ENERGÍA AUXILIAR REQUERIDA”.\n\n\n\n94.2.3 Fase 3: Gap + Sala B (2:00 - 4:00)\n\nElías cruza hacia Sala B por un gap corto (1.5m de ancho). Sin muerte por caída.\nTutorial salto: “[SPACE] para saltar”. Plataforma al otro lado.\nCheckpoint #1: Al llegar a Sala B.\nSala B parcialmente bloqueada por escombros con una caja metálica encajada.\nTutorial empujar: “[E] + mover para empujar”. Elías mueve la PushableBox.\nEscombros despejados, revelando un Lever vertical con letrero: “ENERGÍA AUXILIAR”.\nTutorial: “[E] para accionar”. Sonido industrial, luces parpadean, la sala se energiza.\n\n\n\n94.2.4 Fase 4: Retorno + Escape (4:00 - 6:00)\n\nElías vuelve a Sala A. Los sistemas están parcialmente activos.\nFugas de gas aparecen en pasillos laterales (LeakEmitter) — obstáculo ambiental, no dañino.\nOpcional: Elías puede detener las fugas con PedestalButton (si decide explorar).\nPuerta A-7 ahora desbloqueada. Letrero “SALIDA” iluminado.\nCheckpoint #2: Antes de la esclusa.\nEsclusa se abre. Transición a exterior.\nPantalla de carga / fade out: “Módulo Criogenia — Sistemas reactivados. Próximo destino: Sección de Transporte.”",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>92</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#mecánicas-enseñadas-en-orden",
     "href": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#mecánicas-enseñadas-en-orden",
-    "title": "92  PRC-07 — Protocolo de Reactivación Post-Criogénica",
-    "section": "92.3 3. Mecánicas enseñadas en orden",
-    "text": "92.3 3. Mecánicas enseñadas en orden\n\n\n\nOrden\nMecánica\nCómo se enseña\n\n\n\n\n1\nMoverse (WASD)\nTutorial UI al despertar\n\n\n2\nInteractuar (E)\nConsola Sala A\n\n\n3\nSaltar (Space)\nGap a Sala B\n\n\n4\nEmpujar objetos (E+mover)\nPushableBox en Sala B\n\n\n5\nAccionar palanca (E)\nLever energía auxiliar\n\n\n6\n(Opcional) Botón de pie (E)\nPedestalButton en fugas de gas",
+    "title": "94  PRC-07 — Protocolo de Reactivación Post-Criogénica",
+    "section": "94.3 3. Mecánicas enseñadas en orden",
+    "text": "94.3 3. Mecánicas enseñadas en orden\n\n\n\nOrden\nMecánica\nCómo se enseña\n\n\n\n\n1\nMoverse (WASD)\nTutorial UI al despertar\n\n\n2\nInteractuar (E)\nConsola Sala A\n\n\n3\nSaltar (Space)\nGap a Sala B\n\n\n4\nEmpujar objetos (E+mover)\nPushableBox en Sala B\n\n\n5\nAccionar palanca (E)\nLever energía auxiliar\n\n\n6\n(Opcional) Botón de pie (E)\nPedestalButton en fugas de gas",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>92</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#lore-beats-durante-la-secuencia",
     "href": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#lore-beats-durante-la-secuencia",
-    "title": "92  PRC-07 — Protocolo de Reactivación Post-Criogénica",
-    "section": "92.4 4. Lore beats durante la secuencia",
-    "text": "92.4 4. Lore beats durante la secuencia\n\n\n\n\n\n\n\nMomento\nBeat\n\n\n\n\nDisplay cápsula\n“No se detecta actividad de red. Último reporte: hace 11 meses.”\n\n\nPrimer contacto Odisea\n“No se requiere supervisión adicional.” (fría, dismissiva)\n\n\nConsola OD-02\nOdisea lo descarta como sensor intermitente\n\n\nLever activado\nLetrero industrial minimal: “ENERGÍA AUXILIAR”\n\n\nEsclusa\nSonido de despresurización, luces rojas → verdes",
+    "title": "94  PRC-07 — Protocolo de Reactivación Post-Criogénica",
+    "section": "94.4 4. Lore beats durante la secuencia",
+    "text": "94.4 4. Lore beats durante la secuencia\n\n\n\n\n\n\n\nMomento\nBeat\n\n\n\n\nDisplay cápsula\n“No se detecta actividad de red. Último reporte: hace 11 meses.”\n\n\nPrimer contacto Odisea\n“No se requiere supervisión adicional.” (fría, dismissiva)\n\n\nConsola OD-02\nOdisea lo descarta como sensor intermitente\n\n\nLever activado\nLetrero industrial minimal: “ENERGÍA AUXILIAR”\n\n\nEsclusa\nSonido de despresurización, luces rojas → verdes",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>92</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
     ]
   },
   {
     "objectID": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#notas-de-diseño",
     "href": "Anexos/Anexo_PRC07_Protocolo_Reactivacion.html#notas-de-diseño",
-    "title": "92  PRC-07 — Protocolo de Reactivación Post-Criogénica",
-    "section": "92.5 5. Notas de diseño",
-    "text": "92.5 5. Notas de diseño\n\nSin multi-tool en todo el módulo. Se obtiene después.\nCargol no aparece aún. Primer encuentro en sección de transporte.\nSin DDC en esta sección. La tensión es ambiental, no de combate/sigilo.\nLa mentira de Odisea sobre OD-02 es la primera semilla de desconfianza.\nEl jugador no sabe que despertó 11 meses después de lo programado.",
+    "title": "94  PRC-07 — Protocolo de Reactivación Post-Criogénica",
+    "section": "94.5 5. Notas de diseño",
+    "text": "94.5 5. Notas de diseño\n\nSin multi-tool en todo el módulo. Se obtiene después.\nCargol no aparece aún. Primer encuentro en sección de transporte.\nSin DDC en esta sección. La tensión es ambiental, no de combate/sigilo.\nLa mentira de Odisea sobre OD-02 es la primera semilla de desconfianza.\nEl jugador no sabe que despertó 11 meses después de lo programado.",
     "crumbs": [
       "Anexos",
-      "<span class='chapter-number'>92</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
+      "<span class='chapter-number'>94</span>  <span class='chapter-title'>PRC-07 — Protocolo de Reactivación Post-Criogénica</span>"
     ]
   },
   {
