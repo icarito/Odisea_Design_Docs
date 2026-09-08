@@ -6,7 +6,7 @@ relacionado: [Acto_I_La_Negacion, Mecanicas_Controlador_Elias]
 
 # Locación: Domo Criogénico — Acto I
 
-*   **Tema / Estética**: "El Sepulcro Criogénico". Un domo inmenso y oscuro: claustrofobia industrial, tuberías expuestas, la columna del reactor brillando tenue en el centro y miles de cápsulas criogénicas dispuestas en anillos concéntricos.
+*   **Tema / Estética**: "El Sepulcro Criogénico". Un domo inmenso y oscuro: claustrofobia industrial, tuberías expuestas, la columna de la Subestación de Distribución brillando tenue en el centro y miles de cápsulas criogénicas dispuestas en anillos concéntricos.
 *   **Mecánica Principal**: [[Mecanicas_Controlador_Elias|Gravedad 1G]] constante. Puzzle de sistemas (4 redes interconectadas) en el domo + puzzles físicos en el hangar.
 *   **Departamento**: CriOps (Cryogenic Operations).
 
@@ -33,8 +33,7 @@ Dome_Intro (domo)                        Dome_Intro_Hangar (escena separada)
 2. **Nivel de máquinas** — Las 4 redes se cruzan a la vista: gabinete eléctrico (verde),
    junta de plasma (ámbar), costuras de coolant (cian), extractores de aire (blanco/rojo)
    y manómetros de todas las redes.
-3. **Reactor central** — Columna vertebral del domo. El coolant baja de los criopods a la
-   chaqueta del reactor; el plasma sale hacia arriba al bus eléctrico.
+3. **Subestación de Distribución Térmica y Eléctrica** — Columna vertebral del domo. **No es el reactor**: la planta de fusión vive en el núcleo profundo (Z=4,000 m); la subestación regula localmente coolant/energía/plasma/aire que llegan por arterias. El coolant baja de los criopods a los intercambiadores; la energía sale hacia arriba al bus eléctrico. Ver `Subdomo_Autosuficiente.md`.
 4. **Blast door (compuerta de piso)** — Requiere las 4 redes HEALTHY. Al abrirse revela el
    pozo de descenso: una **plataforma móvil de carga** (ruta cinemática) y una **rampa de
    servicio** (ruta peatonal).
@@ -56,7 +55,7 @@ Dome_Intro (domo)                        Dome_Intro_Hangar (escena separada)
 | **Criocoolant** | Tubos | `CoolantTank` | Cian `#00E5FF` |
 | **Plasma** | Tubos | Reactor (salida) | Ámbar `#FF8F00` |
 | **Aire** | Ductos | `PressurePump` | Blanco/Rojo `#FF5252` |
-| **Energía** | Cables | Bus (reactor) | Verde `#00FF88` |
+| **Energía** | Cables | Bus (subestación) | Verde `#00FF88` |
 
 Especificación técnica completa en el repo del juego: `docs/features/FD-289_dome_systems_canon.md`.
 

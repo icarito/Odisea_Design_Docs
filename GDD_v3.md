@@ -103,12 +103,12 @@ Elías restaura las 4 redes, el blast door se abre, desciende al hangar, resuelv
 ## 6. Entorno — Domo Criogénico (Departamento CriOps)
 
 **Ubicación:** Popa de la nave.
-**Estética:** "El Sepulcro Criogénico" — domo inmenso y oscuro, claustrofobia industrial, miles de criopods en anillos concéntricos alrededor de la columna del reactor, niebla cian, metal industrial. El traje naranja de Elías como único punto cálido.
+**Estética:** "El Sepulcro Criogénico" — domo inmenso y oscuro, claustrofobia industrial, miles de criopods en anillos concéntricos alrededor de la Subestación de Distribución, niebla cian, metal industrial. El traje naranja de Elías como único punto cálido.
 
 **Estructura vertical (canon FD-289):**
 1. **Anillo superior** — entrada + criopods; se ve el domo entero y el blast door abajo
 2. **Nivel de máquinas** — las 4 redes se cruzan a la vista (cian/ámbar/blanco-rojo/verde)
-3. **Reactor central** — consume coolant y produce plasma; SCRAM si falta refrigeración
+3. **Subestación de Distribución Térmica y Eléctrica** — columna central del domo; regula coolant/energía/plasma/aire que llegan por arterias desde el reactor principal (núcleo profundo, Z=4,000 m — ver `Diseno/Narrativa/Subdomo_Autosuficiente.md`); SCRAM local si falta refrigeración
 4. **Blast door** — trampilla de piso (no corredera vertical); su luz de borde es el semáforo de progreso (rojo → ámbar → verde)
 5. **Hangar de mantenimiento** (escena separada, `change_scene`) — cajas empujables + cintas transportadoras
 6. **Esclusa exterior** — única frontera presurizado→vacío
@@ -123,7 +123,7 @@ Todas son sistemas de la nave reprogramados por la IA, no enemigos "vivos". **En
 
 | Amenaza | Comportamiento | Notas |
 |---------|---------------|-------|
-| SCRAM del reactor | Sin coolant → bus cae → domo a oscuras | Presión del timeline, no daña |
+| SCRAM de la subestación | Sin coolant → bus cae → domo a oscuras | Presión del timeline, no daña |
 | Fugas (coolant/plasma/gas) | Niebla ciega, chorro térmico, arcos eléctricos (cajas E-9 mojadas) | Se reparan con el vocabulario de máquinas |
 | Blowout de presión | Apaga extractores, humo, visibilidad reducida | `TremorZoneV2` + `WindTunnelV2` |
 | DDC | Patrulla, detecta, sella zona | Backlog post-slice (resto del Acto I) |
