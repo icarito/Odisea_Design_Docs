@@ -1,6 +1,9 @@
 # VS Checklist — Vertical Slice: Domo Criogénico (Acto I)
 
-> **Fecha:** 2026-09-08 · **Dueño:** Sebastián + Odiseo
+> ⚠️ **DEPRECATED como tracker (2026-09-08):** el tracking vivo del VS vive ahora en
+> **icarito/Odisea#319** (y la visión post-VS en #320). Este archivo queda como
+> snapshot histórico del arranque; no actualizar más aquí. El canon de diseño sigue
+> en el vault (FD-289, Narrativa/, Anexos/).
 > **Fuente canónica:** FD-289 (repo Odisea) · cambios de diseño 2026-09-01 ·
 > Anexo_Logistica_Solidos_y_Fluidos (GDD-LOG-282)
 > **Cómo se usa:** los ítems se marcan `[x]` con fecha al cerrar. Lo que emerge durante
